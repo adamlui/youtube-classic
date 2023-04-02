@@ -1,0 +1,40 @@
+name: Sync greasemonkey to adamlui/userscripts/youtube-classic
+
+on:
+  push:
+    branches: [ master, main ]
+    paths:
+      - 'greasemonkey/**'
+
+jobs:
+  build:
+    if: github.event.commits[0].committer.username != 'auto-sync-bot'
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout adamlui/youtube-classic
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.REPO_SYNC_PAT }}
+          repository: adamlui/youtube-classic
+          path: adamlui/youtube-classic
+
+      - name: Checkout adamlui/userscripts
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.REPO_SYNC_PAT }}
+          repository: adamlui/userscripts
+          path: adamlui/userscripts
+
+      - name: Sync adamlui/youtube-classic/greasemonkey to adamlui/userscripts/youtube-classic
+        run: rsync -av --delete ${{ github.workspace }}/adamlui/youtube-classic/greasemonkey/ ${{ github.workspace }}/adamlui/userscripts/youtube-classic/
+
+      - name: Push to adamlui/userscripts
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          push_options: '--force'
+          add_options: '--all'
+          commit_user_email: auto-sync@ytclassic.com
+          commit_message: '${{ github.event.head_commit.message }} ↞ [auto-sync from `adamlui/youtube-classic`]'
+          file_pattern: 'youtube-classic/*'
+          repository: adamlui/userscripts
