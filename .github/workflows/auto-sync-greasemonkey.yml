@@ -1,4 +1,4 @@
-name: Sync greasemonkey to (adamlui/userscripts/chatgpt || adamlui/chatgpt-userscripts) /chatgpt-auto-refresh
+name: Sync greasemonkey to adamlui/userscripts/youtube-classic
 
 on:
   push:
@@ -12,12 +12,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: Checkout adamlui/chatgpt-auto-refresh
+      - name: Checkout adamlui/youtube-classic
         uses: actions/checkout@v2
         with:
           token: ${{ secrets.REPO_SYNC_PAT }}
-          repository: adamlui/chatgpt-auto-refresh
-          path: adamlui/chatgpt-auto-refresh
+          repository: adamlui/youtube-classic
+          path: adamlui/youtube-classic
 
       - name: Checkout adamlui/userscripts
         uses: actions/checkout@v2
@@ -26,48 +26,28 @@ jobs:
           repository: adamlui/userscripts
           path: adamlui/userscripts
 
-      - name: Checkout adamlui/chatgpt-userscripts
-        uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.REPO_SYNC_PAT }}
-          repository: adamlui/chatgpt-userscripts
-          path: adamlui/chatgpt-userscripts
-
       - name: Copy greasemonkey/README.md to root directory
-        run: cp -f ${{ github.workspace }}/adamlui/chatgpt-auto-refresh/greasemonkey/README.md ${{ github.workspace }}/adamlui/chatgpt-auto-refresh/README.md
+        run: cp -f ${{ github.workspace }}/adamlui/youtube-classic/greasemonkey/README.md ${{ github.workspace }}/adamlui/youtube-classic/README.md
 
-      - name: Sync adamlui/chatgpt-auto-refresh/greasemonkey to adamlui/userscripts/chatgpt/chatgpt-auto-refresh
-        run: rsync -av --delete ${{ github.workspace }}/adamlui/chatgpt-auto-refresh/greasemonkey/ ${{ github.workspace }}/adamlui/userscripts/chatgpt/chatgpt-auto-refresh/
+      - name: Sync adamlui/youtube-classic/greasemonkey to adamlui/userscripts/youtube-classic
+        run: rsync -av --delete ${{ github.workspace }}/adamlui/youtube-classic/greasemonkey/ ${{ github.workspace }}/adamlui/userscripts/youtube-classic/
 
-      - name: Sync adamlui/chatgpt-auto-refresh/greasemonkey to adamlui/chatgpt-userscripts/chatgpt-auto-refresh
-        run: rsync -av --delete ${{ github.workspace }}/adamlui/chatgpt-auto-refresh/greasemonkey/ ${{ github.workspace }}/adamlui/chatgpt-userscripts/chatgpt-auto-refresh/
-
-      - name: Push to adamlui/chatgpt-auto-refresh
+      - name: Push to adamlui/youtube-classic
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           push_options: '--force'
           add_options: '--all'
-          commit_user_email: auto-sync@adamlui.com
-          commit_message: '${{ github.event.head_commit.message }} ↞ [auto-sync from `adamlui/chatgpt-auto-refresh/greasemonkey`]'
+          commit_user_email: auto-sync@ytclassic.com
+          commit_message: '${{ github.event.head_commit.message }} ↞ [auto-sync from `adamlui/youtube-classic/greasemonkey`]'
           file_pattern: '*'
-          repository: adamlui/chatgpt-auto-refresh
+          repository: adamlui/youtube-classic
 
       - name: Push to adamlui/userscripts
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           push_options: '--force'
           add_options: '--all'
-          commit_user_email: auto-sync@adamlui.com
-          commit_message: '${{ github.event.head_commit.message }} ↞ [auto-sync from `adamlui/chatgpt-auto-refresh`]'
-          file_pattern: 'chatgpt/chatgpt-auto-refresh/*'
+          commit_user_email: auto-sync@ytclassic.com
+          commit_message: '${{ github.event.head_commit.message }} ↞ [auto-sync from `adamlui/youtube-classic`]'
+          file_pattern: 'youtube-classic/*'
           repository: adamlui/userscripts
-
-      - name: Push to adamlui/chatgpt-userscripts
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          push_options: '--force'
-          add_options: '--all'
-          commit_user_email: auto-sync@adamlui.com
-          commit_message: '${{ github.event.head_commit.message }} ↞ [auto-sync from `adamlui/chatgpt-auto-refresh`]'
-          file_pattern: 'chatgpt-auto-refresh/*'
-          repository: adamlui/chatgpt-userscripts
