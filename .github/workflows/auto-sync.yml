@@ -1,10 +1,10 @@
-name: Sync README.md to (greasemonkey) && adamlui/userscripts/youtube-classic
+name: Sync /greasemonkey/ to adamlui/userscripts/youtube-classic/
 
 on:
   push:
     branches: [ master, main ]
     paths:
-      - 'README.md'
+      - '**'
 
 jobs:
   build:
@@ -26,11 +26,16 @@ jobs:
           repository: adamlui/userscripts
           path: adamlui/userscripts
 
-      - name: Copy README.md to greasemonkey directory
-        run: cp -f ${{ github.workspace }}/adamlui/youtube-classic/README.md ${{ github.workspace }}/adamlui/youtube-classic/greasemonkey/README.md
+      - name: Sync README.md between directories
+        run: |
+          if [ "$(stat -c %y "${{ github.workspace }}/adamlui/youtube-classic/README.md")" > "$(stat -c %y "${{ github.workspace }}/adamlui/youtube-classic/greasemonkey/README.md")" ]; then
+            cp -f "${{ github.workspace }}/adamlui/youtube-classic/README.md" "${{ github.workspace }}/adamlui/youtube-classic/greasemonkey/README.md"
+          elif [ "$(stat -c %y "${{ github.workspace }}/adamlui/youtube-classic/greasemonkey/README.md")" > "$(stat -c %y "${{ github.workspace }}/adamlui/youtube-classic/README.md")" ]; then
+            cp -f "${{ github.workspace }}/adamlui/youtube-classic/greasemonkey/README.md" "${{ github.workspace }}/adamlui/youtube-classic/README.md"
+          fi
 
-      - name: Sync adamlui/youtube-classic/greasemonkey to adamlui/userscripts/youtube-classic
-        run: rsync -av --delete ${{ github.workspace }}/adamlui/youtube-classic/greasemonkey/ ${{ github.workspace }}/adamlui/userscripts/youtube-classic/
+      - name: Sync /greasemonkey/ to adamlui/userscripts/youtube-classic/
+        run: rsync -avh --delete ${{ github.workspace }}/adamlui/youtube-classic/greasemonkey/ ${{ github.workspace }}/adamlui/userscripts/youtube-classic/
 
       - name: Push to adamlui/youtube-classic
         uses: stefanzweifel/git-auto-commit-action@v4
@@ -39,7 +44,7 @@ jobs:
           add_options: '--all'
           commit_user_email: auto-sync@ytclassic.com
           commit_message: '${{ github.event.head_commit.message }} ↞ [auto-sync from `adamlui/youtube-classic`]'
-          file_pattern: 'greasemonkey/*'
+          file_pattern: '*'
           repository: adamlui/youtube-classic
 
       - name: Push to adamlui/userscripts
