@@ -35,7 +35,7 @@ jobs:
           fi
 
       - name: Sync /greasemonkey/ to adamlui/userscripts/youtube-classic/
-        run: rsync -avh --delete ${{ github.workspace }}/adamlui/youtube-classic/greasemonkey/ ${{ github.workspace }}/adamlui/userscripts/youtube-classic/
+        run: rsync -avhr --delete ${{ github.workspace }}/adamlui/youtube-classic/greasemonkey/ ${{ github.workspace }}/adamlui/userscripts/youtube-classic/
 
       - name: Push to adamlui/youtube-classic
         uses: stefanzweifel/git-auto-commit-action@v4
@@ -44,7 +44,7 @@ jobs:
           add_options: '--all'
           commit_user_email: auto-sync@ytclassic.com
           commit_message: '${{ github.event.head_commit.message }} ↞ [auto-sync from `adamlui/youtube-classic`]'
-          file_pattern: '*'
+          file_pattern: '**'
           repository: adamlui/youtube-classic
 
       - name: Push to adamlui/userscripts
@@ -54,5 +54,5 @@ jobs:
           add_options: '--all'
           commit_user_email: auto-sync@ytclassic.com
           commit_message: '${{ github.event.head_commit.message }} ↞ [auto-sync from `adamlui/youtube-classic`]'
-          file_pattern: 'youtube-classic/*'
+          file_pattern: 'youtube-classic/**'
           repository: adamlui/userscripts
