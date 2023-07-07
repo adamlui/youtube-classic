@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    if: github.event.commits[0].committer.username != 'auto-sync-bot'
+    if: github.event.commits[0].committer.username != 'kudo-sync-bot'
     runs-on: ubuntu-latest
     steps:
 
@@ -42,7 +42,7 @@ jobs:
         with:
           push_options: '--force'
           add_options: '--all'
-          commit_user_email: auto-sync@ytclassic.com
+          commit_user_email: auto-sync@kudoai.com
           commit_message: '${{ github.event.head_commit.message }} ↞ [auto-sync from `adamlui/youtube-classic`]'
           file_pattern: '**'
           repository: adamlui/youtube-classic
@@ -52,7 +52,7 @@ jobs:
         with:
           push_options: '--force'
           add_options: '--all'
-          commit_user_email: auto-sync@ytclassic.com
+          commit_user_email: auto-sync@kudoai.com
           commit_message: '${{ github.event.head_commit.message }} ↞ [auto-sync from `adamlui/youtube-classic`]'
           file_pattern: 'youtube-classic/**'
           repository: adamlui/userscripts
