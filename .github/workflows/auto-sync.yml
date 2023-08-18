@@ -18,6 +18,7 @@ jobs:
           token: ${{ secrets.REPO_SYNC_PAT }}
           repository: adamlui/youtube-classic
           path: adamlui/youtube-classic
+          fetch-depth: 2
 
       - name: Checkout adamlui/userscripts
         uses: actions/checkout@v2
@@ -26,16 +27,28 @@ jobs:
           repository: adamlui/userscripts
           path: adamlui/userscripts
 
-      - name: Sync README.md between directories
+      - name: Sync docs between root & /greasemonkey
         run: |
-          if [ "$(stat -c %y "${{ github.workspace }}/adamlui/youtube-classic/README.md")" > "$(stat -c %y "${{ github.workspace }}/adamlui/youtube-classic/greasemonkey/README.md")" ]; then
-            cp -f "${{ github.workspace }}/adamlui/youtube-classic/README.md" "${{ github.workspace }}/adamlui/youtube-classic/greasemonkey/README.md"
-          elif [ "$(stat -c %y "${{ github.workspace }}/adamlui/youtube-classic/greasemonkey/README.md")" > "$(stat -c %y "${{ github.workspace }}/adamlui/youtube-classic/README.md")" ]; then
-            cp -f "${{ github.workspace }}/adamlui/youtube-classic/greasemonkey/README.md" "${{ github.workspace }}/adamlui/youtube-classic/README.md"
-          fi
+          shopt -s globstar
+          cd ${{ github.workspace }}/adamlui/youtube-classic
+          for file in docs/**/*.md; do
+            relative_path=${file#"docs/"}
+            root_doc="${{ github.workspace }}/adamlui/youtube-classic/docs/$relative_path"
+            gm_doc="${{ github.workspace }}/adamlui/youtube-classic/greasemonkey/docs/$relative_path"
+            root_modified=$(git log -1 --format="%ct" -- "$root_doc")
+            gm_modified=$(git log -1 --format="%ct" -- "$gm_doc")
+            if (( root_modified > gm_modified )); then
+              cp -f "$root_doc" "$gm_doc"
+            else
+              cp -f "$gm_doc" "$root_doc"
+            fi
+          done
 
       - name: Sync /greasemonkey/ to adamlui/userscripts/youtube-classic/
-        run: rsync -avhr --delete ${{ github.workspace }}/adamlui/youtube-classic/greasemonkey/ ${{ github.workspace }}/adamlui/userscripts/youtube-classic/
+        run: |
+          rsync -avhr --delete \
+            ${{ github.workspace }}/adamlui/youtube-classic/greasemonkey/ \
+            ${{ github.workspace }}/adamlui/userscripts/youtube-classic/
 
       - name: Push to adamlui/youtube-classic
         uses: stefanzweifel/git-auto-commit-action@v4
