@@ -1,6 +1,5 @@
 module.exports = {
     'extends': ['eslint:recommended'],
-    'ignorePatterns': ['**/*.md'],
     'rules': {
         'indent': 'off', 'no-unexpected-multiline': 'off', // allow whitespace anywhere
         'quotes': ['error', 'single', { 'avoidEscape': true, 'allowTemplateLiterals': true }], // enforce single quotes for string literals
@@ -12,6 +11,5 @@ module.exports = {
         'no-useless-escape': 'off' // allow all escape chars cause ESLint sucks at detecting truly useless ones
     },
     'parserOptions': { 'ecmaVersion': 2022, 'sourceType': 'script' },
-    'overrides': [{ 'files': ['**/lib*/**.js'], 'parserOptions': { 'sourceType': 'module' }}],
     'env': { 'browser': true, 'node': true, 'es6': true, 'greasemonkey': true }
 };
