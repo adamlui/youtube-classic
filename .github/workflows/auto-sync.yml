@@ -3,7 +3,7 @@ name: Sync /greasemonkey/ to adamlui/userscripts/youtube-classic/
 on:
   push:
     branches: main
-    paths: '**'
+    paths: "**"
 
 jobs:
   build:
@@ -57,19 +57,19 @@ jobs:
       - name: Push to adamlui/youtube-classic
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          push_options: '--force'
-          add_options: '--all'
+          push_options: --force
+          add_options: --all
           commit_user_email: auto-sync@kudoai.com
-          commit_message: '${{ github.event.head_commit.message }} ↞ [auto-sync from `adamlui/youtube-classic`]'
-          file_pattern: '**'
+          commit_message: "${{ github.event.head_commit.message }} ↞ [auto-sync from `adamlui/youtube-classic`]"
+          file_pattern: "**"
           repository: adamlui/youtube-classic
 
       - name: Push to adamlui/userscripts
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          push_options: '--force'
-          add_options: '--all'
+          push_options: --force
+          add_options: --all
           commit_user_email: auto-sync@kudoai.com
-          commit_message: '${{ github.event.head_commit.message }} ↞ [auto-sync from `adamlui/youtube-classic`]'
-          file_pattern: 'youtube-classic/**'
+          commit_message: "${{ github.event.head_commit.message }} ↞ [auto-sync from `adamlui/youtube-classic`]"
+          file_pattern: "youtube-classic/**"
           repository: adamlui/userscripts
