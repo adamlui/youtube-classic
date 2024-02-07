@@ -1,9 +1,10 @@
 {
   "devDependencies": {
     "eslint": "^8.56.0",
+    "eslint-plugin-yml": "^1.12.2",
     "husky": "^9.0.10"
   },
   "scripts": {
-    "lint": "eslint . --cache"
+    "lint": "eslint . --ext js,yml --cache"
   }
 }

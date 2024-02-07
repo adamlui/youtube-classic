@@ -11,5 +11,6 @@ module.exports = {
         'no-useless-escape': 'off' // allow all escape chars cause ESLint sucks at detecting truly useless ones
     },
     'parserOptions': { 'ecmaVersion': 2022, 'sourceType': 'script' },
+    'overrides': [{ 'files': ['**/*.yml'], 'extends': ['plugin:yml/standard'] }],
     'env': { 'browser': true, 'node': true, 'es6': true, 'greasemonkey': true }
 };
