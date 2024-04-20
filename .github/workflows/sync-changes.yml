@@ -2,8 +2,8 @@ name: Sync /greasemonkey/ to adamlui/userscripts/youtube-classic/
 
 on:
   push:
-    branches: main
-    paths: "**"
+    branches: [main]
+    paths: ["**"]
 
 jobs:
   build:
