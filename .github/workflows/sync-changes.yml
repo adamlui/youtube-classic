@@ -9,6 +9,12 @@ jobs:
   build:
     if: (github.repository == 'adamlui/youtube-classic') && (github.event.commits[0].committer.username != 'kudo-sync-bot')
     runs-on: ubuntu-latest
+    env:
+      GIT_AUTHOR_NAME: ${{ github.event.commits[0].author.name }}
+      GIT_AUTHOR_EMAIL: ${{ github.event.commits[0].author.email }}
+      GIT_COMMITTER_NAME: kudo-sync-bot
+      GIT_COMMITTER_EMAIL: auto-sync@kudoai.com
+
     steps:
 
       - name: Checkout adamlui/youtube-classic
@@ -78,8 +84,6 @@ jobs:
       - name: Push changes to adamlui/youtube-classic
         run: |
           cd ${{ github.workspace }}/adamlui/youtube-classic
-          git config --global user.name "kudo-sync-bot"
-          git config --global user.email "auto-sync@kudoai.com"
           git add .
           git commit -n -m "ESCAPED_MSG ↞ [auto-sync from \`${{ steps.sync_docs.outputs.sync_src }}\`]" || true
           git push
@@ -87,8 +91,6 @@ jobs:
       - name: Push changes to adamlui/userscripts
         run: |
           cd ${{ github.workspace }}/adamlui/userscripts
-          git config --global user.name "kudo-sync-bot"
-          git config --global user.email "auto-sync@kudoai.com"
           git add .
           git commit -n -m "ESCAPED_MSG ↞ [auto-sync from \`adamlui/youtube-classic\`]" || true
           git push
