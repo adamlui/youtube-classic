@@ -1,4 +1,4 @@
-name: Sync /greasemonkey/ to adamlui/userscripts/youtube-classic/
+name: Sync greasemonkey/* to adamlui/userscripts/youtube-classic/
 
 on:
   push:
@@ -69,7 +69,7 @@ jobs:
           # Store sync src for commit msg in self-push step
           echo "sync_src=$sync_src" >> $GITHUB_OUTPUT
 
-      - name: Sync /greasemonkey/ to adamlui/userscripts/youtube-classic/
+      - name: Sync greasemonkey/* to adamlui/userscripts/youtube-classic/
         run: |
           rsync -avhr --delete \
             ${{ github.workspace }}/adamlui/youtube-classic/greasemonkey/ \
