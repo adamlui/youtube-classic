@@ -1,4 +1,4 @@
-name: Sync greasemonkey/* to adamlui/userscripts/youtube-classic/
+name: Sync greasemonkey/ to adamlui/userscripts/youtube-classic/
 
 on:
   push:
@@ -29,7 +29,7 @@ jobs:
           repository: adamlui/userscripts
           path: adamlui/userscripts
 
-      - name: Sync docs between root & /greasemonkey
+      - name: Sync docs/ between root & /greasemonkey
         id: sync_docs
         run: |
           shopt -s globstar
@@ -66,7 +66,7 @@ jobs:
           # Store sync src for commit msg in self-push step
           echo "sync_src=$sync_src" >> $GITHUB_OUTPUT
 
-      - name: Sync greasemonkey/* to adamlui/userscripts/youtube-classic/
+      - name: Sync greasemonkey/ to adamlui/userscripts/youtube-classic/
         run: |
           rsync -avhr --delete \
             ${{ github.workspace }}/adamlui/youtube-classic/greasemonkey/ \
