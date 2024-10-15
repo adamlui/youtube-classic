@@ -29,7 +29,7 @@ jobs:
           repository: adamlui/userscripts
           path: adamlui/userscripts
 
-      - name: Sync docs/ between root & /greasemonkey
+      - name: Sync docs between root & /greasemonkey
         run: |
           shopt -s globstar
           cd ${{ github.workspace }}/adamlui/youtube-classic
