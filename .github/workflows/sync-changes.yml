@@ -63,7 +63,7 @@ jobs:
           done
 
           # Expose sync src for commit msg in self-push step
-          echo "sync_src=$sync_src" >> $GITHUB_ENV
+          echo "SYNC_SRC=$sync_src" >> $GITHUB_ENV
 
       - name: Sync greasemonkey/ to adamlui/userscripts/youtube-classic/
         run: |
@@ -91,7 +91,7 @@ jobs:
         run: |
           cd ${{ github.workspace }}/adamlui/youtube-classic
           git add .
-          git commit -n -m "ESCAPED_MSG ↞ [auto-sync from \`${{ env.sync_src }}\`]" || true
+          git commit -n -m "ESCAPED_MSG ↞ [auto-sync from \`${{ env.SYNC_SRC }}\`]" || true
           git push
 
       - name: Push changes to adamlui/userscripts
