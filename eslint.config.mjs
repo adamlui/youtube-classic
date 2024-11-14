@@ -2,14 +2,16 @@ import js from '@eslint/js'
 import globals from 'globals'
 import json from '@eslint/json'
 import markdown from '@eslint/markdown'
+import * as regexp from 'eslint-plugin-regexp'
 import eslintPluginYml from 'eslint-plugin-yml'
 
 export default [
     {
         files: ['**/*.js', '**/*.mjs'],
         languageOptions: { ecmaVersion: 'latest', sourceType: 'script', globals: { ...globals.browser, ...globals.greasemonkey }},
+        plugins: { regexp },
         rules: {
-            ...js.configs.recommended.rules,
+            ...js.configs.recommended.rules, ...regexp.configs['flat/recommended'].rules,
             'indent': 'off', 'no-unexpected-multiline': 'off', 'key-spacing': 'off', // allow whitespace anywhere
             'quotes': ['error', 'single'], // enforce single quotes for string literals
             'comma-dangle': ['error', 'never'], // enforce no trailing commas in arrays or objects
