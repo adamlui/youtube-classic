@@ -91,6 +91,7 @@ jobs:
           git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
 
       - name: Push changes to adamlui/youtube-classic
+        if: env.SYNC_SRC
         run: |
           cd ${{ github.workspace }}/adamlui/youtube-classic
           git add .
