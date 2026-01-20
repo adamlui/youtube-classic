@@ -9,7 +9,7 @@
 ![Support: Chrome/Firefox/Edge/Safari/Opera](https://img.shields.io/badge/Support-Chrome/Firefox/Edge/Safari/Opera-989898.svg?style=for-the-badge)
 [![CodeFactor grade](https://img.shields.io/codefactor/grade/github/adamlui/youtube-classic?label=Code%20Quality&style=for-the-badge)](https://www.codefactor.io/repository/github/adamlui/youtube-classic)
 <a href="https://github.com/awesome-scripts/awesome-userscripts#youtube">
-    <img src="https://img.shields.io/badge/Mentioned_in-Awesome-cca8c4?logo=awesomelists&logoColor=white&labelColor=464646&style=for-the-badge"></a>
+    <img src="https://img.shields.io/badge/Mentioned_in-Awesome-af68ff?logo=awesomelists&logoColor=white&labelColor=464646&style=for-the-badge"></a>
 <a href="https://www.jsdelivr.com/package/gh/adamlui/youtube-classic?tab=stats">
     <img src="https://img.shields.io/jsdelivr/gh/hm/adamlui/youtube-classic?logo=jsdelivr&logoColor=white&color=2bbbd8&labelColor=464646&style=for-the-badge"></a>
 
