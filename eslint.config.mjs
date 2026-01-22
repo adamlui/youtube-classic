@@ -14,7 +14,7 @@ export default [
             ecmaVersion: 'latest', sourceType: 'script',
             globals: {
                 ...globals.browser, ...globals.greasemonkey, app: 'writable', chatgpt: 'readonly', css: 'readonly',
-                dom: 'readonly'
+                dom: 'readonly', env: 'writable'
             }
         },
         plugins: { 'import': importPlugin, 'js-styles': stylisticJS, regexp },
