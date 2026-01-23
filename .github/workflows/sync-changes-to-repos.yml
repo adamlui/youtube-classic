@@ -17,14 +17,14 @@ jobs:
     steps:
 
       - name: Checkout adamlui/youtube-classic
-        uses: actions/checkout@v6.0.1
+        uses: actions/checkout@v6.0.2
         with:
           token: ${{ secrets.REPO_SYNC_PAT }}
           path: adamlui/youtube-classic
           fetch-depth: 2
 
       - name: Checkout adamlui/userscripts
-        uses: actions/checkout@v6.0.1
+        uses: actions/checkout@v6.0.2
         with:
           token: ${{ secrets.REPO_SYNC_PAT }}
           repository: adamlui/userscripts
