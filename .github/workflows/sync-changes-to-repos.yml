@@ -68,7 +68,7 @@ jobs:
 
       - name: Sync greasemonkey/ to adamlui/userscripts/youtube-classic/
         run: |
-          rsync -avhr --delete \
+          rsync -avhc --delete \
             ${{ github.workspace }}/adamlui/youtube-classic/greasemonkey/ \
             ${{ github.workspace }}/adamlui/userscripts/youtube-classic/
 
