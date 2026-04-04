@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    if: (github.repository == 'adamlui/youtube-classic') && (github.event.commits[0].committer.username != 'kudo-sync-bot')
+    if: (github.repository == 'adamlui/youtube-classic') && !contains(github.event.head_commit.message, '[auto-sync]')
     runs-on: ubuntu-24.04
     permissions:
       contents: read
@@ -96,13 +96,13 @@ jobs:
         if: env.SYNC_SRC
         run: |
           cd ${{ github.workspace }}/adamlui/youtube-classic
-          git add .
-          git commit -n -m "$ESCAPED_MSG ↞ [auto-sync from $SYNC_SRC/]" || true
+          git add . && git commit -n -m "$ESCAPED_MSG ↞ [auto-sync from $SYNC_SRC/]" || true
+          git pull --rebase 
           git push
 
       - name: Push changes to adamlui/userscripts
         run: |
           cd ${{ github.workspace }}/adamlui/userscripts
-          git add .
-          git commit -n -m "$ESCAPED_MSG ↞ [auto-sync from https://github.com/adamlui/youtube-classic]" || true
+          git add . && git commit -n -m "$ESCAPED_MSG ↞ [auto-sync from https://github.com/adamlui/youtube-classic]" || true
+          git pull --rebase 
           git push
