@@ -69,7 +69,7 @@ jobs:
           # Expose sync src for commit msg in self-push step
           echo "SYNC_SRC=$sync_src" >> $GITHUB_ENV
 
-      - name: Sync greasemonkey/ to adamlui/userscripts/youtube-classic/
+      - name: Sync /greasemonkey to adamlui/userscripts/youtube-classic/
         run: |
           rsync -avhc --delete \
             ${{ github.workspace }}/adamlui/youtube-classic/greasemonkey/ \
