@@ -1,4 +1,4 @@
-name: Sync greasemonkey/ to adamlui/userscripts/youtube-classic/
+name: Sync /greasemonkey to adamlui/userscripts/youtube-classic/
 
 on:
   push:
@@ -6,6 +6,7 @@ on:
     paths: ["**", "!.*", "!package*.json", "!eslint.config*"]
 
 jobs:
+
   build:
     if: (github.repository == 'adamlui/youtube-classic') && !contains(github.event.head_commit.message, '[auto-sync')
     runs-on: ubuntu-24.04
@@ -30,7 +31,7 @@ jobs:
           repository: adamlui/userscripts
           path: adamlui/userscripts
 
-      - name: Sync docs between root & /greasemonkey
+      - name: Sync docs between /root & /greasemonkey
         run: |
           shopt -s globstar
           cd ${{ github.workspace }}/adamlui/youtube-classic
@@ -43,10 +44,11 @@ jobs:
           done
           if (( root_license_modified > gm_license_modified )) ; then
             if [[ "$root_license_content" != "$gm_license_content" ]] ; then
-              cp -f "LICENSE.md" "greasemonkey/LICENSE.md" ; sync_src="root" ; fi
+              cp -f "LICENSE.md" "greasemonkey/LICENSE.md" ; sync_src="/root" ; fi
           elif (( gm_license_modified > root_license_modified )) ; then
             if [[ "$gm_license_content" != "$root_license_content" ]] ; then
-              cp -f "greasemonkey/LICENSE.md" "LICENSE.md" ; sync_src="greasemonkey" ; fi ; fi
+              cp -f "greasemonkey/LICENSE.md" "LICENSE.md" ; sync_src="/greasemonkey" ; fi
+          fi
 
           # Sync other docs
           for file in docs/**/*.md ; do
@@ -57,10 +59,11 @@ jobs:
             done
             if (( root_doc_modified > gm_doc_modified )) ; then
               if [[ "$root_doc_content" != "$gm_doc_content" ]] ; then
-                cp -f "$root_doc_path" "$gm_doc_path" ; sync_src="root" ; fi
+                cp -f "$root_doc_path" "$gm_doc_path" ; sync_src="/root" ; fi
             elif (( gm_doc_modified > root_doc_modified )) ; then
               if [[ "$gm_doc_content" != "$root_doc_content" ]] ; then
-                cp -f "$gm_doc_path" "$root_doc_path" ; sync_src="greasemonkey" ; fi ; fi
+                cp -f "$gm_doc_path" "$root_doc_path" ; sync_src="/greasemonkey" ; fi
+            fi
           done
 
           # Expose sync src for commit msg in self-push step
@@ -96,13 +99,14 @@ jobs:
         if: env.SYNC_SRC
         run: |
           cd ${{ github.workspace }}/adamlui/youtube-classic
-          git add . && git commit -n -m "$ESCAPED_MSG ↞ [auto-sync from $SYNC_SRC/]" || true
+          git add . && git commit -n -m "$ESCAPED_MSG ↞ [auto-sync from $SYNC_SRC]" || true
           git pull --rebase 
           git push
 
       - name: Push changes to adamlui/userscripts
         run: |
           cd ${{ github.workspace }}/adamlui/userscripts
-          git add . && git commit -n -m "$ESCAPED_MSG ↞ [auto-sync from https://github.com/adamlui/youtube-classic]" || true
+          git add . && git commit -n -m \
+            "$ESCAPED_MSG ↞ [auto-sync from https://github.com/adamlui/youtube-classic]" || true
           git pull --rebase 
           git push
