@@ -2,7 +2,6 @@ name: Lint pushes/PRs
 on: [push, pull_request]
 
 jobs:
-
   eslint:
     name: ESLint
     runs-on: ubuntu-24.04

@@ -6,7 +6,6 @@ on:
     paths: ["**", "!.*", "!package*.json", "!eslint.config*"]
 
 jobs:
-
   build:
     if: (github.repository == 'adamlui/youtube-classic') && !contains(github.event.head_commit.message, '[auto-sync')
     runs-on: ubuntu-24.04
