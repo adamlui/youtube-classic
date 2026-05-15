@@ -1,0 +1,26 @@
+{
+  "block": {
+    "ad": {
+      "masthead": "div#masthead-ad", // https://imgur.com/a/kOWzh3O
+      "renderer": "ytd-ad-slot-renderer, [class*=\"ads-renderer\"]"
+    },
+    "ai": {
+      "askBtn": "yt-button-view-model:has(path[d^=\"M480-80q0-83-31.5-156T363\"])",
+      "askSection": {
+        "homepage": "ytd-rich-section-renderer:has(yt-talk-to-recs-view-model)",
+        "videoPage": "yt-video-description-youchat-section-view-model"
+      },
+      "summary": "div#header[class*=expandable-metadata]:has(path[d*=M480-80q0-83])"
+    },
+    "playables": {
+      "shelf": "ytd-rich-section-renderer:has(a[href*=\"/playables/\"])"
+    },
+    "shorts": {
+      "navEntry": "a#endpoint[title=Shorts]",
+      "shelf": {
+        "homepage": "ytd-rich-section-renderer:has(a[href*=\"/shorts/\"])", // https://imgur.com/a/LMdO92M
+        "results": "grid-shelf-view-model:has(a[href*=\"/shorts/\"])" // https://imgur.com/a/vVzoEfH
+      }
+    }
+  }
+}
