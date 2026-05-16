@@ -15,7 +15,7 @@ export default [
             globals: {
                 ...globals.browser, ...globals.greasemonkey, app: 'writable', chatgpt: 'readonly', css: 'readonly',
                 dom: 'readonly', env: 'writable', feedback: 'readonly', JSON5: 'readonly', settings: 'writable',
-                sync: 'readonly', toolbarMenu: 'readonly', xhr: 'readonly'
+                styles: 'readonly', sync: 'readonly', toolbarMenu: 'readonly', xhr: 'readonly'
             }
         },
         plugins: { 'import': importPlugin, 'js-styles': stylisticJS, regexp },
