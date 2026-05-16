@@ -392,7 +392,7 @@
                         yt-image-banner-view-model, /* channel banner */
                         div.ytPageHeaderViewModelBackground, /* playlist sidebar */
                         yt-content-preview-image-view-model, /* playlist sidebar thumb */
-                        :where(div#sponsor-button, div.ytPageHeaderViewModelHeadline) button,
+                        :where(div#sponsor-button, div#purchase-button, div.ytPageHeaderViewModelHeadline) button,
                         :where(div#buttons.ytd-masthead, div#action-buttons, yt-flexible-actions-view-model) :is(
                             button, a[class*=Button]),
                         yt-video-metadata-carousel-view-model,
