@@ -17,7 +17,8 @@
     "lint": "eslint . --cache",
     "lint:all": "eslint .",
     "lint:fix": "eslint . --fix --cache",
-    "lint:fix-all": "eslint . --fix"
+    "lint:fix-all": "eslint . --fix",
+    "translate": "translate-messages"
   },
   "devDependencies": {
     "@eslint/json": "^1.2.0",
