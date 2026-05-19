@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "Okuyisidala ku-YouTube" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Ibuyisela i-YouTube emklamweni wayo wakudala (ngaphambi kwawo wonke amakhona ayindilinga nokungathandwa okufihliwe) + iqondisa kabusha izikhangiso zezithonjana ze-YouTube Shorts + amabhlogo"
+  },
+  "mode_restoreDislikes": { "message": "Buyisela Okungakuthandi" },
+  "mode_unroundCorners": { "message": "Amakhona Azungezile" },
+  "mode_disableShorts": { "message": "Qondisa Kabusha Izikhindi" },
+  "mode_shortsBlock": { "message": "Fihla Izikhindi" },
+  "mode_playablesBlock": { "message": "Fihla Izinto Zokudlala" },
+  "mode_adBlock": { "message": "Vimba Izikhangiso" },
+  "mode_aiBlock": { "message": "Vimba Izinto ze-AI" },
+  "mode_reduceAnimations": { "message": "Nciphisa Izithombe" },
+  "mode_idlePrevention": { "message": "Ukuvimbela Ubudlabha" },
+  "mode_notifDisabled": { "message": "Izaziso Zemodi" },
+  "helptip_restoreDislikes": {
+    "message": "Bonisa izibalo zokungathandi usebenzisa idatha Yokungathandi ye-YouTube ebuyayo"
+  },
+  "helptip_unroundCorners": { "message": "Vula amakhona azungeze izakhi ze-UI" },
+  "helptip_disableShorts": { "message": "Qondisa kabusha ama-Shorts kumdlali obanzi wakudala" },
+  "helptip_shortsBlock": { "message": "Fihla Izikhindi ukuze zingabonakali ekhasini lasekhaya + emiphumeleni" },
+  "helptip_playablesBlock": { "message": "Fihla izinto zokudlala ukuze zingaveli ekhasini lasekhaya" },
+  "helptip_adBlock": { "message": "Fihla izithonjana zezikhangiso ezilungiselelweni zekhasi eliyisiqalo" },
+  "helptip_aiBlock": { "message": "Fihla izakhi ze-AI emakhasini asekhaya + evidiyo" },
+  "helptip_reduceAnimations": { "message": "Nciphisa ama-animation e-UI" },
+  "helptip_idlePrevention": { "message": "Vimbela ithebhu ukuba ingalali" },
+  "helptip_notifDisabled": { "message": "Bonisa izaziso lapho uguqula imodi/amasethingi" },
+  "state_on": { "message": "ivuliwe" },
+  "state_off": { "message": "ivaliwe" }
+}

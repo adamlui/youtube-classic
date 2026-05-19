@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube Классикалык" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Анын классикалык дизайн YouTube артка (бардык тегерек бурчтары & жашыруун жактырбай чейин) + YouTube Shorts + блоктору эскиз жарнамаларды багыттайт"
+  },
+  "mode_restoreDislikes": { "message": "Жакпагандарды калыбына келтирүү" },
+  "mode_unroundCorners": { "message": "Тегерек бурчтар" },
+  "mode_disableShorts": { "message": "Шортторду багыттоо" },
+  "mode_shortsBlock": { "message": "Шортторду жашыруу" },
+  "mode_playablesBlock": { "message": "Ойноткучтарды жашыруу" },
+  "mode_adBlock": { "message": "Жарнамаларды бөгөттөө" },
+  "mode_aiBlock": { "message": "AI элементтерин бөгөттөө" },
+  "mode_reduceAnimations": { "message": "Анимацияны кыскартуу" },
+  "mode_idlePrevention": { "message": "Боштук профилактикасы" },
+  "mode_notifDisabled": { "message": "Режим эскертүүлөрү" },
+  "helptip_restoreDislikes": {
+    "message": "Return YouTube жакпаган маалыматтарды колдонуу менен жакпаган сандарды көрсөтүү"
+  },
+  "helptip_unroundCorners": { "message": "Undo-type" },
+  "helptip_disableShorts": { "message": "Шортторду классикалык кең плеерге багыттоо" },
+  "helptip_shortsBlock": { "message": "Шортторду башкы бетте көрсөтүүдөн жашыруу + натыйжалар" },
+  "helptip_playablesBlock": { "message": "Ойноткучтарды башкы бетте көрсөтүүдөн жашыруу" },
+  "helptip_adBlock": { "message": "Башкы беттеги макеттерден жарнактын эскиздерин жашыруу" },
+  "helptip_aiBlock": { "message": "Башкы беттеги + видео беттердеги AI элементтерин жашыруу" },
+  "helptip_reduceAnimations": { "message": "Undo-type" },
+  "helptip_idlePrevention": { "message": "Уйкуга кетүү өтмөгүн алдын алуу" },
+  "helptip_notifDisabled": { "message": "Режимди/параметрлерди күйгүзүүдө эскертүүлөрдү көрсөтүү" },
+  "state_on": { "message": "күйгүзүлгөн" },
+  "state_off": { "message": "өчүрүү" }
+}

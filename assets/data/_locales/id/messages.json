@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Mengembalikan YouTube ke desain klasiknya (sebelum semua sudut membulat & ketidaksukaan tersembunyi) + mengalihkan YouTube Shorts + memblokir iklan thumbnail"
+  },
+  "mode_restoreDislikes": { "message": "Pulihkan Tidak Suka" },
+  "mode_unroundCorners": { "message": "Unround Corners" },
+  "mode_disableShorts": { "message": "Mengalihkan Celana Pendek" },
+  "mode_shortsBlock": { "message": "Sembunyikan Celana Pendek" },
+  "mode_playablesBlock": { "message": "Sembunyikan Pemutaran" },
+  "mode_adBlock": { "message": "Blokir Iklan" },
+  "mode_aiBlock": { "message": "Blokir Elemen AI" },
+  "mode_reduceAnimations": { "message": "Kurangi Animasi" },
+  "mode_idlePrevention": { "message": "Pencegahan Idle" },
+  "mode_notifDisabled": { "message": "Pemberitahuan Mode" },
+  "helptip_restoreDislikes": { "message": "Tampilkan jumlah yang tidak suka menggunakan data Return YouTube Dislike" },
+  "helptip_unroundCorners": { "message": "Lepaskan sudut di sekitar elemen UI" },
+  "helptip_disableShorts": { "message": "Alihkan Celana Pendek ke pemain lebar klasik" },
+  "helptip_shortsBlock": { "message": "Sembunyikan Celana Pendek agar tidak muncul di beranda + hasil" },
+  "helptip_playablesBlock": { "message": "Sembunyikan Playable agar tidak muncul di beranda" },
+  "helptip_adBlock": { "message": "Sembunyikan gambar mini iklan dari tata letak beranda" },
+  "helptip_aiBlock": { "message": "Sembunyikan elemen AI dari halaman beranda + video" },
+  "helptip_reduceAnimations": { "message": "Kurangi animasi UI" },
+  "helptip_idlePrevention": { "message": "Cegah tab agar tidak tertidur" },
+  "helptip_notifDisabled": { "message": "Tampilkan pemberitahuan saat mengaktifkan mode/pengaturan" },
+  "state_on": { "message": "pada" },
+  "state_off": { "message": "mati" }
+}

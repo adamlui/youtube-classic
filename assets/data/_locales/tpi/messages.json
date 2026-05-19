@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Yu ken tanim YouTube i go bek long ol piksa bilong en (long olgeta hap bilong en na ol samting yu no laikim) + yu ken redirect YouTube Shorts + ol liklik nius"
+  },
+  "mode_restoreDislikes": { "message": "Kisim bek ol samting yu no laikim" },
+  "mode_unroundCorners": { "message": "Ol samting i no stap long ol kona" },
+  "mode_disableShorts": { "message": "Redirect Shorts" },
+  "mode_shortsBlock": { "message": "Hait long ol liklik hap" },
+  "mode_playablesBlock": { "message": "Hait long ol samting bilong pilai" },
+  "mode_adBlock": { "message": "Blokim ol reklam" },
+  "mode_aiBlock": { "message": "Ol samting i stap long en" },
+  "mode_reduceAnimations": { "message": "Ol piksa bilong animation" },
+  "mode_idlePrevention": { "message": "Ol samting bilong abrusim bagarap" },
+  "mode_notifDisabled": { "message": "Modus Toksave" },
+  "helptip_restoreDislikes": { "message": "Yu ken lukim ol video long YouTube na yu ken lukim ol video long YouTube" },
+  "helptip_unroundCorners": { "message": "Ol samting i stap klostu long ol samting bilong UI" },
+  "helptip_disableShorts": { "message": "Redirect Shorts long ol man bilong mekim wok long ol ples bilong ol" },
+  "helptip_shortsBlock": { "message": "Painim ol liklik hap long pes bilong yu + ol samting yu kisim" },
+  "helptip_playablesBlock": { "message": "Ol samting bilong pilai i stap hait long pes bilong yu" },
+  "helptip_adBlock": { "message": "Painim ol liklik hap bilong pes bilong yu long pes bilong yu" },
+  "helptip_aiBlock": { "message": "Ol samting bilong AI i stap hait long haus + video pes" },
+  "helptip_reduceAnimations": { "message": "Redukim ol samting bilong mekim wok long en" },
+  "helptip_idlePrevention": { "message": "Taim yu slip, yu no ken slip" },
+  "helptip_notifDisabled": { "message": "Toksave taim yu senisim mode/sait" },
+  "state_on": { "message": "long" },
+  "state_off": { "message": "i go" }
+}

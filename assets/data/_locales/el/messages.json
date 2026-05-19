@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Επαναφέρει το YouTube στον κλασικό σχεδιασμό του (πριν από όλες τις στρογγυλεμένες γωνίες και τις κρυφές αντιπάθειες) + ανακατευθύνει το YouTube Shorts + αποκλείει τις διαφημίσεις μικρογραφιών"
+  },
+  "mode_restoreDislikes": { "message": "Επαναφορά αντιπαθειών" },
+  "mode_unroundCorners": { "message": "Unround Γωνίες" },
+  "mode_disableShorts": { "message": "Ανακατεύθυνση σορτς" },
+  "mode_shortsBlock": { "message": "Απόκρυψη σορτς" },
+  "mode_playablesBlock": { "message": "Απόκρυψη Παιχνιδιών" },
+  "mode_adBlock": { "message": "Αποκλεισμός διαφημίσεων" },
+  "mode_aiBlock": { "message": "Αποκλεισμός στοιχείων τεχνητής νοημοσύνης" },
+  "mode_reduceAnimations": { "message": "Μείωση κινούμενων εικόνων" },
+  "mode_idlePrevention": { "message": "Πρόληψη αδράνειας" },
+  "mode_notifDisabled": { "message": "Ειδοποιήσεις λειτουργίας" },
+  "helptip_restoreDislikes": {
+    "message": "Εμφάνιση αριθμών dislike χρησιμοποιώντας τα δεδομένα Return YouTube Dislike"
+  },
+  "helptip_unroundCorners": { "message": "Ξετυλίξτε τις γωνίες γύρω από τα στοιχεία διεπαφής χρήστη" },
+  "helptip_disableShorts": { "message": "Ανακατεύθυνση σορτς σε κλασικό φαρδύ player" },
+  "helptip_shortsBlock": { "message": "Απόκρυψη σορτς από την εμφάνιση στην αρχική σελίδα + αποτελέσματα" },
+  "helptip_playablesBlock": { "message": "Απόκρυψη Παιχνιδιών από την εμφάνιση στην αρχική σελίδα" },
+  "helptip_adBlock": { "message": "Απόκρυψη μικρογραφιών διαφημίσεων από τις διατάξεις της αρχικής σελίδας" },
+  "helptip_aiBlock": { "message": "Απόκρυψη στοιχείων AI από τις σελίδες Home + Video" },
+  "helptip_reduceAnimations": { "message": "Μείωση κινούμενων γραφικών περιβάλλοντος χρήστη" },
+  "helptip_idlePrevention": { "message": "Αποτρέψτε τον ύπνο της καρτέλας" },
+  "helptip_notifDisabled": { "message": "Εμφάνιση ειδοποιήσεων κατά την εναλλαγή λειτουργίας/ρυθμίσεων" },
+  "state_on": { "message": "στις" },
+  "state_off": { "message": "off" }
+}

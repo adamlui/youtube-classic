@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "یوتیوب کلاسیک" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "یوتیوب را به طراحی کلاسیک خود (قبل از تمام گوشه‌های گرد و دیسلایک‌های پنهان) برمی‌گرداند + ویدیوهای کوتاه یوتیوب را ریدایرکت می‌کند + تبلیغات بندانگشتی را مسدود می‌کند"
+  },
+  "mode_restoreDislikes": { "message": "بازگرداندن دیسلایک‌ها" },
+  "mode_unroundCorners": { "message": "گوشه‌های گرد نشده" },
+  "mode_disableShorts": { "message": "شورت‌های ریدایرکت" },
+  "mode_shortsBlock": { "message": "شلوارک‌ها را پنهان کنید" },
+  "mode_playablesBlock": { "message": "مخفی کردن بازی‌های قابل پخش" },
+  "mode_adBlock": { "message": "مسدود کردن تبلیغات" },
+  "mode_aiBlock": { "message": "عناصر هوش مصنوعی را مسدود کنید" },
+  "mode_reduceAnimations": { "message": "کاهش انیمیشن‌ها" },
+  "mode_idlePrevention": { "message": "پیشگیری از بیکاری" },
+  "mode_notifDisabled": { "message": "اعلان‌های حالت" },
+  "helptip_restoreDislikes": { "message": "نمایش تعداد دیسلایک‌ها با استفاده از برگرداندن داده‌های دیسلایک یوتیوب" },
+  "helptip_unroundCorners": { "message": "گوشه‌های گرد اطراف عناصر رابط کاربری را باز کنید" },
+  "helptip_disableShorts": { "message": "شورت‌ها را به بازیکن کناری کلاسیک هدایت کنید" },
+  "helptip_shortsBlock": { "message": "نمایش شورت‌ها در صفحه اصلی + نتایج را مخفی کنید" },
+  "helptip_playablesBlock": { "message": "نمایش فایل‌های قابل پخش در صفحه اصلی را مخفی کنید" },
+  "helptip_adBlock": { "message": "پنهان کردن تصاویر کوچک تبلیغات از طرح‌بندی صفحه اصلی" },
+  "helptip_aiBlock": { "message": "عناصر هوش مصنوعی را از صفحات اصلی + ویدیو مخفی کنید" },
+  "helptip_reduceAnimations": { "message": "کاهش انیمیشن‌های رابط کاربری" },
+  "helptip_idlePrevention": { "message": "جلوگیری از به خواب رفتن تب" },
+  "helptip_notifDisabled": { "message": "نمایش اعلان‌ها هنگام تغییر حالت/تنظیمات" },
+  "state_on": { "message": "روی" },
+  "state_off": { "message": "خاموش" }
+}

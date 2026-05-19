@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Toe liliu YouTube i lona mamanu masani (i luma o tulimanu faataamilo uma & le fiafia natia) + redirects YouTube Shorts + poloka faasalalauga thumbnail"
+  },
+  "mode_restoreDislikes": { "message": "Toefuataiina o mea e lē fiafia i ai" },
+  "mode_unroundCorners": { "message": "O le a le mea e tupu i le lalolagi?" },
+  "mode_disableShorts": { "message": "Faʻamaumauga o le Redirect Shorts" },
+  "mode_shortsBlock": { "message": "Puipuiga o le Puipuiga" },
+  "mode_playablesBlock": { "message": "Taʻalo Taʻaloga Taʻalo" },
+  "mode_adBlock": { "message": "Faʻamaumauga o le poloka" },
+  "mode_aiBlock": { "message": "Poloka elemene AI" },
+  "mode_reduceAnimations": { "message": "Faʻaititia o meaola" },
+  "mode_idlePrevention": { "message": "Puipuiga o le tagata lava ia" },
+  "mode_notifDisabled": { "message": "Faasilasilaga o le auala" },
+  "helptip_restoreDislikes": {
+    "message": "Faʻaalia numera le fiafia e faʻaaoga ai le toe faʻafoʻi YouTube Dislike Data"
+  },
+  "helptip_unroundCorners": { "message": "Unround tulimanu faataamilo UI elemene" },
+  "helptip_disableShorts": { "message": "Redirect Shorts i le tagata taalo lautele masani" },
+  "helptip_shortsBlock": { "message": "Hide Shorts mai le aliali mai i le itulau autu + iʻuga" },
+  "helptip_playablesBlock": { "message": "Hide Playables mai le aliali mai i le itulau i le fale" },
+  "helptip_adBlock": { "message": "Hide ad thumbnails mai homepage layouts" },
+  "helptip_aiBlock": { "message": "Hide AI elemene mai le fale + itulau vitio" },
+  "helptip_reduceAnimations": { "message": "Faʻaititia UI animations" },
+  "helptip_idlePrevention": { "message": "Aloese mai le moe" },
+  "helptip_notifDisabled": { "message": "Faaali atu faasilasilaga pe a toggling faiga/faatulagaga" },
+  "state_on": { "message": "i luga o" },
+  "state_off": { "message": "alu ese" }
+}

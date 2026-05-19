@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Umsetur YouTube til sítt klassiska design (frá øllum rundaðum hornum og skjaldum ólíkum) + leiðir YouTube Shorts + blokkar miniatursannlýsingar"
+  },
+  "mode_restoreDislikes": { "message": "Endurtaka ikki dámar" },
+  "mode_unroundCorners": { "message": "Umhvørvisstovan" },
+  "mode_disableShorts": { "message": "Redirect Shorts" },
+  "mode_shortsBlock": { "message": "Fjal kort" },
+  "mode_playablesBlock": { "message": "Dylja spælibreytir" },
+  "mode_adBlock": { "message": "Blokkað reklamur" },
+  "mode_aiBlock": { "message": "Blokkað AI-elementar" },
+  "mode_reduceAnimations": { "message": "Minka um animatiónir" },
+  "mode_idlePrevention": { "message": "Loyniliga fyribyrging" },
+  "mode_notifDisabled": { "message": "Modus kunningar" },
+  "helptip_restoreDislikes": { "message": "Sýn ikki líkar tøl við at brúka YouTube Dislike data" },
+  "helptip_unroundCorners": { "message": "Órundað horn um UI-elementar" },
+  "helptip_disableShorts": { "message": "Redirect Shorts til ein klassiskan breiðleikara" },
+  "helptip_shortsBlock": { "message": "Fylg stuttum frá at koma á heimasíðuna + úrslit" },
+  "helptip_playablesBlock": { "message": "Fylg Playables frá at síggja á heimasíðuni" },
+  "helptip_adBlock": { "message": "Fylg reklamumyndir frá heimastovnum" },
+  "helptip_aiBlock": { "message": "Fylg AI-elementum frá heim + video síðum" },
+  "helptip_reduceAnimations": { "message": "Minka um UI-animeringar" },
+  "helptip_idlePrevention": { "message": "At sleppa undan at sova" },
+  "helptip_notifDisabled": { "message": "Vís boð, tá ið tú skiftir stillingar/stillingar" },
+  "state_on": { "message": "á" },
+  "state_off": { "message": "av" }
+}

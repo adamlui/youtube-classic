@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Przywraca YouTube klasyczny wygląd (przed wszystkimi zaokrąglonymi rogami i ukrytymi niechęciami) + przekierowuje YouTube Shorts + blokuje reklamy miniatur"
+  },
+  "mode_restoreDislikes": { "message": "Przywróć nielubiane" },
+  "mode_unroundCorners": { "message": "Nieokrągłe narożniki" },
+  "mode_disableShorts": { "message": "Przekieruj spodenki" },
+  "mode_shortsBlock": { "message": "Ukryj spodenki" },
+  "mode_playablesBlock": { "message": "Ukryj elementy do odtwarzania" },
+  "mode_adBlock": { "message": "Zablokuj reklamy" },
+  "mode_aiBlock": { "message": "Zablokuj elementy AI" },
+  "mode_reduceAnimations": { "message": "Zmniejsz liczbę animacji" },
+  "mode_idlePrevention": { "message": "Zapobieganie bezczynności" },
+  "mode_notifDisabled": { "message": "Powiadomienia o trybie" },
+  "helptip_restoreDislikes": { "message": "Pokaż nielubiane liczby za pomocą funkcji Zwróć dane YouTube Nielubiane" },
+  "helptip_unroundCorners": { "message": "Niezaokrąglone narożniki wokół elementów interfejsu użytkownika" },
+  "helptip_disableShorts": { "message": "Przekieruj Shortsy do klasycznego szerokiego gracza" },
+  "helptip_shortsBlock": { "message": "Ukryj Shortsy przed pojawieniem się na stronie głównej + wyniki" },
+  "helptip_playablesBlock": { "message": "Ukryj elementy do odtwarzania przed wyświetleniem na stronie głównej" },
+  "helptip_adBlock": { "message": "Ukryj miniatury reklam w układach strony głównej" },
+  "helptip_aiBlock": { "message": "Ukryj elementy sztucznej inteligencji z domu + strony wideo" },
+  "helptip_reduceAnimations": { "message": "Zmniejsz liczbę animacji interfejsu użytkownika" },
+  "helptip_idlePrevention": { "message": "Zapobiegaj zaśnięciu tabulatora" },
+  "helptip_notifDisabled": { "message": "Pokaż powiadomienia podczas przełączania trybu/ustawień" },
+  "state_on": { "message": "dnia" },
+  "state_off": { "message": "wył." }
+}

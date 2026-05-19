@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "YouTube ຄລາສສິກ" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "ຟື້ນຟູ YouTube ກັບການອອກແບບຄລາສສິກຂອງມັນ (ກ່ອນທຸກມຸມມອງຮອບ & ຄວາມບໍ່ມັກທີ່ເຊື່ອງໄວ້) + redirects YouTube Shorts + ບລັອກໂຄສະນາ thumbnail"
+  },
+  "mode_restoreDislikes": { "message": "ຟື້ນຟູຄວາມບໍ່ມັກ" },
+  "mode_unroundCorners": { "message": "ມຸມມອງສ້ອມ" },
+  "mode_disableShorts": { "message": "REDIRECT SHORT" },
+  "mode_shortsBlock": { "message": "ເຊື່ອງເສື້ອຍືດ" },
+  "mode_playablesBlock": { "message": "ເຊື່ອງຄວາມສາມາດໃນການຫຼິ້ນ" },
+  "mode_adBlock": { "message": "ບລັອກ Ads" },
+  "mode_aiBlock": { "message": "ບລັອກອົງປະກອບ AI" },
+  "mode_reduceAnimations": { "message": "ຫຼຸດຜ່ອນການເຄື່ອນໄຫວ" },
+  "mode_idlePrevention": { "message": "ການປ້ອງກັນການບໍ່ມີບ່ອນຢູ່" },
+  "mode_notifDisabled": { "message": "ການແຈ້ງເຕືອນໂໝດ" },
+  "helptip_restoreDislikes": { "message": "ສະແດງການນັບທີ່ບໍ່ມັກໂດຍໃຊ້ Return YouTube Dislike data" },
+  "helptip_unroundCorners": { "message": "ມຸມ unround ອ້ອມຮອບອົງປະກອບ UI" },
+  "helptip_disableShorts": { "message": "Redirect Shorts ກັບຜູ້ນກວ້າງຄລາສສິກ" },
+  "helptip_shortsBlock": { "message": "ເຊື່ອງ Shorts ຈາກການປະກົດຕົວໃນ ຫນ້າ ທໍາ ອິດ + ຜົນໄດ້ຮັບ" },
+  "helptip_playablesBlock": { "message": "ເຊື່ອງ Playables ຈາກການປະກົດຢູ່ໃນຫນ້າທໍາອິດ" },
+  "helptip_adBlock": { "message": "ເຊື່ອງຮູບຂະໜາດນ້ອຍຂອງໂຄສະນາຈາກແຜນຜັງໜ້າຫຼັກ" },
+  "helptip_aiBlock": { "message": "ເຊື່ອງອົງປະກອບ AI ຈາກ ຫນ້າ ເຮືອນ + ວິດີໂອ" },
+  "helptip_reduceAnimations": { "message": "ຫຼຸດຜ່ອນການເຄື່ອນໄຫວ UI" },
+  "helptip_idlePrevention": { "message": "ປ້ອງກັນ tab ຈາກການຕົກນອນ" },
+  "helptip_notifDisabled": { "message": "ສະແດງການແຈ້ງເຕືອນເມື່ອປິດໂໝດ/ການຕັ້ງຄ່າ" },
+  "state_on": { "message": "ເປີດ" },
+  "state_off": { "message": "ປິດ" }
+}

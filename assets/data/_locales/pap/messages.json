@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "Clasico di Youtube" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Transforma YouTube a su diseño clásico (ante todas las canales redondas y disgustos oculto) + redireccionan YouTube Shorts + block thumbnail ads"
+  },
+  "mode_restoreDislikes": { "message": "Recuperando dislikes" },
+  "mode_unroundCorners": { "message": "Rin Tin Tin Corner" },
+  "mode_disableShorts": { "message": "Redireccion Shorts" },
+  "mode_shortsBlock": { "message": "Skonde kòrtiku" },
+  "mode_playablesBlock": { "message": "Hidratacion Playables" },
+  "mode_adBlock": { "message": "Blok Adnan" },
+  "mode_aiBlock": { "message": "Ingrediente blocante" },
+  "mode_reduceAnimations": { "message": "Reduce Animacion" },
+  "mode_idlePrevention": { "message": "Prevencion Idle" },
+  "mode_notifDisabled": { "message": "Notifikashon di modo" },
+  "helptip_restoreDislikes": { "message": "Cómo Recuperar Un Archivo Con Youtube Dislike" },
+  "helptip_unroundCorners": { "message": "Rin Tin Tin on UI Elements" },
+  "helptip_disableShorts": { "message": "Redireccion a Gran Jugador Clásico" },
+  "helptip_shortsBlock": { "message": "Página principal Ensayos Aprendiendo En Casa + Resultados" },
+  "helptip_playablesBlock": { "message": "Home Lokal Pèrmit di bakuná ta aparesé riba kaya" },
+  "helptip_adBlock": { "message": "Hidratacion Para Pintar Páginas Web" },
+  "helptip_aiBlock": { "message": "Home › Contenido + Video Páginas" },
+  "helptip_reduceAnimations": { "message": "Reduce Animacion" },
+  "helptip_idlePrevention": { "message": "Prevencion Para Dormir" },
+  "helptip_notifDisabled": { "message": "Ver Informe Ampliado de Modalidad E Instalacion Sl" },
+  "state_on": { "message": "riba" },
+  "state_off": { "message": "for di" }
+}

@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube ကိုဂန္ထဝင်" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "YouTube ကို ၎ င်း ၏ ဂန္ဒီဇိုင်းကိုပြန်ပြောင်း (အားလုံးပတ်ပတ်လည်ထောင့် & ဝှက်ထားသောမကြိုက်ခင်) + YouTube ကို Shorts + ပိတ်ပင်တားဆီးမှု thumbnail ကိုကြော်ငြာ redirects"
+  },
+  "mode_restoreDislikes": { "message": "မနှစ်သက်သောအရာများကို ပြန်လည်သိမ်းဆည်းပါ" },
+  "mode_unroundCorners": { "message": "ထောင့်မှန်စွန်းများ" },
+  "mode_disableShorts": { "message": "တိုတောင်းမှုများကိုပြန်လည်ညွှန်ကြားပါ" },
+  "mode_shortsBlock": { "message": "အတိုအထွာများကို ဝှက်ပါ" },
+  "mode_playablesBlock": { "message": "ဖွင့်လို့ရနိုင်သောအရာများကို ဝှက်ပါ" },
+  "mode_adBlock": { "message": "ကြော်ငြာများကို ပိတ်ဆို့ပါ" },
+  "mode_aiBlock": { "message": "AI ဒြပ်စင်များကိုပိတ်ဆို့ပါ" },
+  "mode_reduceAnimations": { "message": "အန်နီမေးရှင်းများကို လျှော့ချပါ" },
+  "mode_idlePrevention": { "message": "အလုပ်မလုပ်သော ကြိုတင်ကာကွယ်မှု" },
+  "mode_notifDisabled": { "message": "မုဒ်အသိပေးချက်များ" },
+  "helptip_restoreDislikes": {
+    "message": "Return YouTube ကို အသုံးပြု ၍ မနှစ်သက်သော အရေအတွက်ကို ပြသပါ ဒေတာကို မနှစ်သက်ပါ"
+  },
+  "helptip_unroundCorners": { "message": "UI ဒြပ်စင်များအနီးအနားရှိထောင့်များကိုဖြုတ်ပါ" },
+  "helptip_disableShorts": { "message": "ဂန္ထဝင်ကျယ်ပြန့်သောကစားသမားသို့ Shorts ကိုပြန်လည်ညွှန်ကြားသည်" },
+  "helptip_shortsBlock": { "message": "ပင်မစာမျက်နှာ + ရလဒ်များတွင်ပေါ်လာမှ Shorts Hide" },
+  "helptip_playablesBlock": { "message": "နေအိမ်စာမျက်နှာပေါ်တွင်ပေါ်လာခြင်းမှ Playable ဖုံးကွယ်" },
+  "helptip_adBlock": { "message": "ပင်မစာမျက်နှာ အပြင်အဆင်များမှ ကြော်ငြာပုံသဏ္ဌာန်များကို ဖုံးကွယ်ပါ" },
+  "helptip_aiBlock": { "message": "AI ဒြပ်စင်များကိုအိမ်မှဖုံးကွယ်ပါ + ဗီဒီယိုစာမျက်နှာများ" },
+  "helptip_reduceAnimations": { "message": "UI သက်ဝင်လှုပ်ရှားမှုများကို လျှော့ချပါ" },
+  "helptip_idlePrevention": { "message": "တိပ်ခွေအိပ်စက်ခြင်းမှကာကွယ်ပါ" },
+  "helptip_notifDisabled": { "message": "မုဒ်/ဆက်တင်များကို ပြောင်းလဲချိန်တွင် အသိပေးချက်များကို ပြသပါ" },
+  "state_on": { "message": "ပေါ်" },
+  "state_off": { "message": "ပိတ်" }
+}

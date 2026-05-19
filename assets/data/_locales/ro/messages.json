@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Revine YouTube la designul său clasic (înainte de toate colțurile rotunjite și neplăcerile ascunse) + redirecționează YouTube Shorts + blochează anunțurile în miniatură"
+  },
+  "mode_restoreDislikes": { "message": "Restabiliți dezaprobările" },
+  "mode_unroundCorners": { "message": "Colțuri rotunjite" },
+  "mode_disableShorts": { "message": "Redirecționează pantaloni scurți" },
+  "mode_shortsBlock": { "message": "Ascunde pantaloni scurți" },
+  "mode_playablesBlock": { "message": "Ascundere elemente redate" },
+  "mode_adBlock": { "message": "Blocați anunțurile" },
+  "mode_aiBlock": { "message": "Blochează elementele AI" },
+  "mode_reduceAnimations": { "message": "Reduceți animațiile" },
+  "mode_idlePrevention": { "message": "Prevenirea mersului în gol" },
+  "mode_notifDisabled": { "message": "Notificări mod" },
+  "helptip_restoreDislikes": {
+    "message": "Afișați numărul de dezaprobări utilizând Returnarea datelor de dezaprobare YouTube"
+  },
+  "helptip_unroundCorners": { "message": "Colțuri rotunjite în jurul elementelor UI" },
+  "helptip_disableShorts": { "message": "Redirecționați pantaloni scurți către jucătorul larg clasic" },
+  "helptip_shortsBlock": { "message": "Ascundeți scurții de la afișarea în pagina de pornire + rezultate" },
+  "helptip_playablesBlock": { "message": "Ascundeți elementele redabile pentru a nu apărea în pagina de pornire" },
+  "helptip_adBlock": { "message": "Ascundeți miniaturile anunțurilor din machetele paginii de pornire" },
+  "helptip_aiBlock": { "message": "Ascunde elementele AI de pe paginile de pornire + video" },
+  "helptip_reduceAnimations": { "message": "Reduceți animațiile UI" },
+  "helptip_idlePrevention": { "message": "Împiedică Tab să adoarmă" },
+  "helptip_notifDisabled": { "message": "Afișați notificările atunci când comutați modul/setările" },
+  "state_on": { "message": "pornit" },
+  "state_off": { "message": "oprit" }
+}

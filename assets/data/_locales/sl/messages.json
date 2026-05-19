@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "YouTubu povrne klasično obliko (pred vsemi zaobljenimi vogali in skritimi nevšečnostmi) + preusmeri YouTubove kratke hlače + blokira sličice oglasov"
+  },
+  "mode_restoreDislikes": { "message": "Obnovi nevšečnosti" },
+  "mode_unroundCorners": { "message": "Zaobljeni vogali" },
+  "mode_disableShorts": { "message": "Preusmeri kratke hlače" },
+  "mode_shortsBlock": { "message": "Skrij kratke hlače" },
+  "mode_playablesBlock": { "message": "Skrij predvajalnike" },
+  "mode_adBlock": { "message": "Blokiraj oglase" },
+  "mode_aiBlock": { "message": "Blokiraj elemente umetne inteligence" },
+  "mode_reduceAnimations": { "message": "Zmanjšaj animacije" },
+  "mode_idlePrevention": { "message": "Preprečevanje prostega teka" },
+  "mode_notifDisabled": { "message": "Obvestila o načinu" },
+  "helptip_restoreDislikes": {
+    "message": "Pokaži število nevšečnosti z uporabo podatkov o vrnitvi v YouTube Nevšečnosti"
+  },
+  "helptip_unroundCorners": { "message": "Zaobljeni vogali okoli elementov uporabniškega vmesnika" },
+  "helptip_disableShorts": { "message": "Preusmeri kratke hlače na klasičnega širokega igralca" },
+  "helptip_shortsBlock": { "message": "Skrij kratke hlače, da se ne prikažejo na domači strani + rezultati" },
+  "helptip_playablesBlock": { "message": "Skrij predvajalnike pred prikazovanjem na domači strani" },
+  "helptip_adBlock": { "message": "Skrij sličice oglasa iz postavitev domače strani" },
+  "helptip_aiBlock": { "message": "Skrij elemente umetne inteligence od doma + video strani" },
+  "helptip_reduceAnimations": { "message": "Zmanjšajte animacije uporabniškega vmesnika" },
+  "helptip_idlePrevention": { "message": "Preprečite, da bi zavihek zaspal" },
+  "helptip_notifDisabled": { "message": "Prikaži obvestila pri preklopu načina/nastavitev" },
+  "state_on": { "message": "na" },
+  "state_off": { "message": "popusta" }
+}

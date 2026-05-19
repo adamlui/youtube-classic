@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Ku soo celi YouTube naqshadeeda caadiga ah (ka hor dhammaan geesaha wareegsan & nacaybka qarsoon) + dib-u-cusbooneysiinta YouTube Shorts + waxay xannibtaa xayeysiisyada thumbnail"
+  },
+  "mode_restoreDislikes": { "message": "Soo Celinta Diidmada" },
+  "mode_unroundCorners": { "message": "Corners Unround" },
+  "mode_disableShorts": { "message": "Dib u soo celi Gaaban" },
+  "mode_shortsBlock": { "message": "Qari Goos Goos goos ah" },
+  "mode_playablesBlock": { "message": "Qari Playables" },
+  "mode_adBlock": { "message": "Xayeysiisyada Xannibaadda" },
+  "mode_aiBlock": { "message": "Xannib waxyaabaha AI" },
+  "mode_reduceAnimations": { "message": "Iska yaree Xayawaanka" },
+  "mode_idlePrevention": { "message": "Ka Hortagga Caadiga ah" },
+  "mode_notifDisabled": { "message": "Ogeysiisyada Mode" },
+  "helptip_restoreDislikes": {
+    "message": "Muuji tirooyinka nacaybka ah adoo adeegsanaya Xogta Soo Celinta YouTube Dislike"
+  },
+  "helptip_unroundCorners": { "message": "Meelaha geeska ah ee ku wareegsan walxaha UI" },
+  "helptip_disableShorts": { "message": "Ku wareeji Shorts ciyaaryahan weyn classic" },
+  "helptip_shortsBlock": { "message": "Qari Shorts si ay u muuqdaan in page Home + natiijooyinka" },
+  "helptip_playablesBlock": { "message": "Qari Playables si ay u muuqdaan in page Home" },
+  "helptip_adBlock": { "message": "Qari thumbnails xayeysiis ah oo ka socda qaababka bogga guriga" },
+  "helptip_aiBlock": { "message": "Qari walxaha AI ee guriga + bogagga fiidiyowga" },
+  "helptip_reduceAnimations": { "message": "Iska yaree animations UI" },
+  "helptip_idlePrevention": { "message": "Ka Hortagga Taabashada Hurdada" },
+  "helptip_notifDisabled": { "message": "Muuji ogeysiisyada marka qaabka toggling/dejinta" },
+  "state_on": { "message": "on" },
+  "state_off": { "message": "off" }
+}

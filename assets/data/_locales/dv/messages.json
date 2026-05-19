@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "ޔޫޓިއުބް ކްލާސިކް އެވެ" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "ޔޫޓިއުބް އޭގެ ކްލާސިކް ޑިޒައިންއަށް ރިވަރޓްކުރުން (ހުރިހާ ވަށައިގެންވާ ކަނެއް & ފޮރުވިފައިވާ ޑިސްލައިކްސްގެ ކުރިން) + ޔޫޓިއުބް ޝޯޓްސް ރީޑައިރެކްޓްކުރުން + ތަމްބްނެއިލް އިޝްތިހާރުތައް ބްލޮކްކުރުން"
+  },
+  "mode_restoreDislikes": { "message": "ޑިސްލައިކްސް ރިސްޓޯރ ކުރުން" },
+  "mode_unroundCorners": { "message": "އަންރައުންޑް ކޯނަރސް" },
+  "mode_disableShorts": { "message": "ރީޑައިރެކްޓް ޝޯޓްސް" },
+  "mode_shortsBlock": { "message": "ހައިޑް ޝޯޓްސް" },
+  "mode_playablesBlock": { "message": "ޕްލޭއެބަލްސް ފޮރުވުން" },
+  "mode_adBlock": { "message": "ބްލޮކް އެޑްސް" },
+  "mode_aiBlock": { "message": "އެއައި އެލިމެންޓްސް ބްލޮކްކުރުން" },
+  "mode_reduceAnimations": { "message": "އެނިމޭޝަންސް މަދުކުރުން" },
+  "mode_idlePrevention": { "message": "އައިޑަލް ޕްރިވެންޝަން" },
+  "mode_notifDisabled": { "message": "މޯޑް ނޮޓިފިކޭޝަންސް" },
+  "helptip_restoreDislikes": {
+    "message": "ރިޓަރން ޔޫޓިއުބް ޑިސްލައިކް ޑޭޓާ ބޭނުންކޮށްގެން ޑިސްލައިކް ކައުންޓްތައް ދައްކާށެވެ"
+  },
+  "helptip_unroundCorners": { "message": "ޔޫއައި އެލިމެންޓްތަކުގެ ވަށައިގެންވާ ކަންކޮޅުތައް ވަށާލާށެވެ" },
+  "helptip_disableShorts": { "message": "ޝޯޓްސް ކްލާސިކް ވައިޑް ކުޅުންތެރިއަކަށް ރީޑައިރެކްޓް ކުރާށެވެ" },
+  "helptip_shortsBlock": { "message": "ހޯމް ޕޭޖް + ނަތީޖާގައި ނުފެންނަ ގޮތަށް ޝޯޓްސް ފޮރުވުން" },
+  "helptip_playablesBlock": { "message": "ހޯމް ޕޭޖުގައި ނުފެންނަ ގޮތަށް ޕްލޭއެބަލްސް ފޮރުވުން" },
+  "helptip_adBlock": { "message": "ހޯމްޕޭޖް ލޭއައުޓްތަކުން އިޝްތިހާރު ތަމްބްނެއިލްތައް ފޮރުވުން" },
+  "helptip_aiBlock": { "message": "ގޭގައި + ވީޑިއޯ ޕޭޖްތަކުން އެއައި އެލިމެންޓްތައް ފޮރުވުން" },
+  "helptip_reduceAnimations": { "message": "ޔޫއައި އެނިމޭޝަންތައް މަދުކުރުން" },
+  "helptip_idlePrevention": { "message": "ޓެބް ނިދި އައުން ހުއްޓުވުން" },
+  "helptip_notifDisabled": { "message": "މޯޑް/ސެޓިންގސް ޓޮގްލް ކުރާއިރު ނޮޓިފިކޭޝަންތައް ދައްކާށެވެ" },
+  "state_on": { "message": "މަތީގައި" },
+  "state_off": { "message": "އޮފް" }
+}

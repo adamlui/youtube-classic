@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Atjauno YouTube klasisko dizainu (pirms visi noapaļotie stūri un slēptie nepatīk) + novirza YouTube šortus + bloķē sīktēlu reklāmas"
+  },
+  "mode_restoreDislikes": { "message": "Atjaunot atzīmes \"Patīk\"" },
+  "mode_unroundCorners": { "message": "Neapaļi stūri" },
+  "mode_disableShorts": { "message": "Novirzīt īsfilmas" },
+  "mode_shortsBlock": { "message": "Paslēpt šortus" },
+  "mode_playablesBlock": { "message": "Paslēpt rotaļu priekšmetus" },
+  "mode_adBlock": { "message": "Bloķēt reklāmas" },
+  "mode_aiBlock": { "message": "Bloķēt AI elementus" },
+  "mode_reduceAnimations": { "message": "Samazināt animāciju skaitu" },
+  "mode_idlePrevention": { "message": "Novēršana dīkstāvē" },
+  "mode_notifDisabled": { "message": "Režīma paziņojumi" },
+  "helptip_restoreDislikes": { "message": "Rādīt nepatīkamo skaitu, izmantojot atgriešanas YouTube nepatīkamos datus" },
+  "helptip_unroundCorners": { "message": "Noapaļojiet stūrus ap lietotāja interfeisa elementiem" },
+  "helptip_disableShorts": { "message": "Novirzīt šortus uz klasisku plašu atskaņotāju" },
+  "helptip_shortsBlock": { "message": "Paslēpt īsos sarakstus, lai tie netiktu parādīti sākumlapā + rezultātos" },
+  "helptip_playablesBlock": { "message": "Paslēpt atskaņojamos materiālus, lai tie netiktu parādīti sākumlapā" },
+  "helptip_adBlock": { "message": "Paslēpt reklāmu sīktēlus sākumlapas izkārtojumos" },
+  "helptip_aiBlock": { "message": "Paslēpt MI elementus no sākumlapas + video lapām" },
+  "helptip_reduceAnimations": { "message": "Samazināt lietotāja interfeisa animācijas" },
+  "helptip_idlePrevention": { "message": "Novērsiet cilnes aizmigšanu" },
+  "helptip_notifDisabled": { "message": "Rādīt paziņojumus, pārslēdzot režīmu/iestatījumus" },
+  "state_on": { "message": "ieslēgts" },
+  "state_off": { "message": "izslēgts" }
+}

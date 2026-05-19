@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube Klasikoa" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "YouTube bere diseinu klasikora leheneratzen du (izkin biribildu eta gustuko ezkutu guztiak baino lehen) + YouTube Shorts birbideratzen ditu + miniaturazko iragarkiak blokeatzen ditu"
+  },
+  "mode_restoreDislikes": { "message": "Berreskuratu gustuko ez direnak" },
+  "mode_unroundCorners": { "message": "Izkinak biribildu gabe" },
+  "mode_disableShorts": { "message": "Birbideratu laburrak" },
+  "mode_shortsBlock": { "message": "Ezkutatu galtza motzak" },
+  "mode_playablesBlock": { "message": "Ezkutatu jokagarriak" },
+  "mode_adBlock": { "message": "Blokeatu iragarkiak" },
+  "mode_aiBlock": { "message": "Blokeatu AI elementuak" },
+  "mode_reduceAnimations": { "message": "Murriztu animazioak" },
+  "mode_idlePrevention": { "message": "Inaktiboen prebentzioa" },
+  "mode_notifDisabled": { "message": "Moduaren jakinarazpenak" },
+  "helptip_restoreDislikes": {
+    "message": "Erakutsi gustuko ez direnen kopuruak Return YouTube-ko gustuko ez direnen datuak erabiliz"
+  },
+  "helptip_unroundCorners": { "message": "UI elementuen inguruko izkinak desbiribildu" },
+  "helptip_disableShorts": { "message": "Birbideratu shorts jokalari klasiko zabalera" },
+  "helptip_shortsBlock": { "message": "Ezkutatu film laburrak hasierako orrialdean eta emaitzetan agertzea eragozteko" },
+  "helptip_playablesBlock": { "message": "Ezkutatu Jokagarriak hasierako orrialdean agertzea saihesteko" },
+  "helptip_adBlock": { "message": "Ezkutatu iragarkien miniaturak hasierako orriaren diseinuetatik" },
+  "helptip_aiBlock": { "message": "Ezkutatu IA elementuak hasierako orrialdeetatik eta bideo orrialdeetatik" },
+  "helptip_reduceAnimations": { "message": "Murriztu UI animazioak" },
+  "helptip_idlePrevention": { "message": "Saihestu fitxa lokartzea" },
+  "helptip_notifDisabled": { "message": "Erakutsi jakinarazpenak modua/ezarpenak txandakatzean" },
+  "state_on": { "message": "piztuta" },
+  "state_off": { "message": "itzalita" }
+}

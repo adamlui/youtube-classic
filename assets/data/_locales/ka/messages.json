@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Დააბრუნებს YouTube-ს მის კლასიკურ დიზაინზე (ყველა მომრგვალებული კუთხის წინ და დამალული არ მოსწონს) + გადაამისამართებს YouTube-ის შორტებს + ბლოკავს მინიატურულ რეკლამებს"
+  },
+  "mode_restoreDislikes": { "message": "Აღადგინეთ არმოწონებები" },
+  "mode_unroundCorners": { "message": "Შემოუერთდით კუთხეებს" },
+  "mode_disableShorts": { "message": "Შორტების გადამისამართება" },
+  "mode_shortsBlock": { "message": "Შორტების დამალვა" },
+  "mode_playablesBlock": { "message": "Დასაკრავი ფაილების დამალვა" },
+  "mode_adBlock": { "message": "Რეკლამების დაბლოკვა" },
+  "mode_aiBlock": { "message": "AI ელემენტების დაბლოკვა" },
+  "mode_reduceAnimations": { "message": "Ანიმაციების შემცირება" },
+  "mode_idlePrevention": { "message": "Უმოქმედო პრევენცია" },
+  "mode_notifDisabled": { "message": "Რეჟიმის გაფრთხილებები" },
+  "helptip_restoreDislikes": {
+    "message": "Დისლაიქის რაოდენობების ჩვენება Return YouTube-ის დისლაიქის მონაცემების გამოყენებით"
+  },
+  "helptip_unroundCorners": { "message": "Შემოუერთდით კუთხეებს UI ელემენტების ირგვლივ" },
+  "helptip_disableShorts": { "message": "Შორტების კლასიკურ ფართო მოთამაშეზე გადამისამართება" },
+  "helptip_shortsBlock": { "message": "Შორტების დამალვა მთავარ გვერდზე გამოჩენისგან + შედეგები" },
+  "helptip_playablesBlock": { "message": "Დასაკრავი საშუალებების მთავარ გვერდზე გამოჩენისგან დამალვა" },
+  "helptip_adBlock": { "message": "Მთავარი გვერდის განლაგებიდან დამალეთ რეკლამის მინიატურები" },
+  "helptip_aiBlock": { "message": "Დამალეთ ხელოვნური ინტელექტის ელემენტები სახლიდან გაუსვლელად + ვიდეო გვერდები" },
+  "helptip_reduceAnimations": { "message": "Შეამცირეთ UI ანიმაციები" },
+  "helptip_idlePrevention": { "message": "Თავიდან აიცილეთ ჩანართის დაძინება" },
+  "helptip_notifDisabled": { "message": "Გაფრთხილებების ჩვენება რეჟიმის/პარამეტრების გადართვისას" },
+  "state_on": { "message": "on" },
+  "state_off": { "message": "გამორთული" }
+}

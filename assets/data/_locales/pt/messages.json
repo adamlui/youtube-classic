@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Reverte o YouTube para o seu design clássico (antes de todos os cantos arredondados e desgostos ocultos) + redireciona o YouTube Shorts + bloqueia anúncios em miniatura"
+  },
+  "mode_restoreDislikes": { "message": "Restaurar desgostos" },
+  "mode_unroundCorners": { "message": "Cantos não arredondados" },
+  "mode_disableShorts": { "message": "Redirecionar calções" },
+  "mode_shortsBlock": { "message": "Esconder calções" },
+  "mode_playablesBlock": { "message": "Esconder Jogáveis" },
+  "mode_adBlock": { "message": "Bloquear anúncios" },
+  "mode_aiBlock": { "message": "Bloquear elementos de IA" },
+  "mode_reduceAnimations": { "message": "Reduzir Animações" },
+  "mode_idlePrevention": { "message": "Prevenção de ociosidade" },
+  "mode_notifDisabled": { "message": "Notificações de modo" },
+  "helptip_restoreDislikes": { "message": "Mostrar contagens de não curtidas usando o Return YouTube Dislike data" },
+  "helptip_unroundCorners": { "message": "Cantos redondos em torno dos elementos da interface do usuário" },
+  "helptip_disableShorts": { "message": "Redirecionar Shorts para o player amplo clássico" },
+  "helptip_shortsBlock": { "message": "Ocultar Shorts de aparecer na página inicial + resultados" },
+  "helptip_playablesBlock": { "message": "Ocultar Playables de aparecer na página inicial" },
+  "helptip_adBlock": { "message": "Ocultar miniaturas de anúncios dos layouts da página inicial" },
+  "helptip_aiBlock": { "message": "Ocultar elementos de IA da página inicial + páginas de vídeo" },
+  "helptip_reduceAnimations": { "message": "Reduzir animações da interface do usuário" },
+  "helptip_idlePrevention": { "message": "Impedir que o Tab adormeça" },
+  "helptip_notifDisabled": { "message": "Mostrar notificações ao alternar modo/configurações" },
+  "state_on": { "message": "ligado" },
+  "state_off": { "message": "desligado" }
+}

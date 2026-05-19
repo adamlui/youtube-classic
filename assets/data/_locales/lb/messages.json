@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "Ik ben heel benieuwd naar jouw mening laat het me" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Konvertéiert YouTube zu sengem klasseschen Design (virun all de gerundeten Ecken & verstoppten Dislikes) + redirects YouTube Shorts + blockéiert Thumbnail Annoncen"
+  },
+  "mode_restoreDislikes": { "message": "Likes zerécksetzen" },
+  "mode_unroundCorners": { "message": "CAA -" },
+  "mode_disableShorts": { "message": "Ik ben heel benieuwd naar jouw mening laat het me weten in de comments" },
+  "mode_shortsBlock": { "message": "Shorts verstoppen" },
+  "mode_playablesBlock": { "message": "Playables verstoppen" },
+  "mode_adBlock": { "message": "Annoncen blockéieren" },
+  "mode_aiBlock": { "message": "Ik ben heel benieuwd naar jouw mening laat het me weten in de comments" },
+  "mode_reduceAnimations": { "message": "Animatiounen reduzéieren" },
+  "mode_idlePrevention": { "message": "Ik ben heel benieuwd naar jouw mening laat het me weten in de" },
+  "mode_notifDisabled": { "message": "Modus-Noriichten" },
+  "helptip_restoreDislikes": { "message": "Weis net wéi zielen mat Retour YouTube Net gefält Daten" },
+  "helptip_unroundCorners": { "message": "Onëmganklech Ecke ronderëm UI-Elementer" },
+  "helptip_disableShorts": { "message": "Redirect Shorts op klassesch breet Spiller" },
+  "helptip_shortsBlock": { "message": "Verstoppt Shorts fir op der Homepage + Resultater ze erschéngen" },
+  "helptip_playablesBlock": { "message": "Verstoppt Playables fir op der Homepage ze erschéngen" },
+  "helptip_adBlock": { "message": "Verstoppt Annoncen Thumbnails vun Homepage Layouten" },
+  "helptip_aiBlock": { "message": "Verstoppt AI Elementer vun doheem + Video Säiten" },
+  "helptip_reduceAnimations": { "message": "Reduzéieren UI Animatiounen" },
+  "helptip_idlePrevention": { "message": "Prevent Tab aus dem Schlaf" },
+  "helptip_notifDisabled": { "message": "Notifikatiounen uweisen wann Dir Modus/Astellunge wiesselt" },
+  "state_on": { "message": "op" },
+  "state_off": { "message": "aus" }
+}

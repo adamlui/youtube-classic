@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Վերադարձնում է YouTube - ն իր դասական դիզայնին (բոլոր կլորացված անկյուններից և թաքնված հավանումներից առաջ) + վերահղում YouTube Shorts + արգելափակում է մանրապատկերների գովազդը"
+  },
+  "mode_restoreDislikes": { "message": "Վերականգնել հավանումները" },
+  "mode_unroundCorners": { "message": "Շրջապատել անկյունները" },
+  "mode_disableShorts": { "message": "Վերահղել շորտերը" },
+  "mode_shortsBlock": { "message": "Թաքցնել շորտերը" },
+  "mode_playablesBlock": { "message": "Թաքցնել նվագարկիչները" },
+  "mode_adBlock": { "message": "Արգելափակել գովազդը" },
+  "mode_aiBlock": { "message": "Արգելափակել AI տարրերը" },
+  "mode_reduceAnimations": { "message": "Կրճատել անիմացիաները" },
+  "mode_idlePrevention": { "message": "Պարապուրդի կանխարգելում" },
+  "mode_notifDisabled": { "message": "Ծանուցումներ ռեժիմի մասին" },
+  "helptip_restoreDislikes": {
+    "message": "Ցույց տալ չհավանած թվերը ՝ օգտագործելով Վերադարձնել YouTube - ի չհավանած տվյալները"
+  },
+  "helptip_unroundCorners": { "message": "Շրջապատեք անկյունները UI տարրերի շուրջը" },
+  "helptip_disableShorts": { "message": "Վերահղել շորտերը դասական լայն խաղացողի" },
+  "helptip_shortsBlock": { "message": "Թաքցնել շորտերը գլխավոր էջում հայտնվելու համար + արդյունքներ" },
+  "helptip_playablesBlock": { "message": "Թաքցնել նվագարկիչները գլխավոր էջում հայտնվելու հնարավորությունից" },
+  "helptip_adBlock": { "message": "Թաքցնել գովազդի մանրապատկերները գլխավոր էջի դասավորություններից" },
+  "helptip_aiBlock": { "message": "Թաքցնել AI - ի տարրերը տնից + վիդեո էջեր" },
+  "helptip_reduceAnimations": { "message": "Կրճատել UI անիմացիաները" },
+  "helptip_idlePrevention": { "message": "Թույլ չտալ, որ ներդիրը քնի" },
+  "helptip_notifDisabled": { "message": "Ցույց տալ ծանուցումները, երբ փոխվում է ռեժիմը/կարգավորումները" },
+  "state_on": { "message": "միացված" },
+  "state_off": { "message": "անջատված է" }
+}

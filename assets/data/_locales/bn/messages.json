@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "ইউটিউবকে তার ক্লাসিক ডিজাইনে ফিরিয়ে দেয় (সমস্ত গোলাকার কোণ এবং লুকানো অপছন্দের আগে) + YouTube শর্টস + থাম্বনেইল বিজ্ঞাপনগুলিকে পুনঃনির্দেশ করে"
+  },
+  "mode_restoreDislikes": { "message": "অপছন্দগুলি পুনরুদ্ধার করুন" },
+  "mode_unroundCorners": { "message": "গোলাকার কোণ" },
+  "mode_disableShorts": { "message": "রিডাইরেক্ট শর্টস" },
+  "mode_shortsBlock": { "message": "শর্টস লুকান" },
+  "mode_playablesBlock": { "message": "Playables লুকান" },
+  "mode_adBlock": { "message": "বিজ্ঞাপন ব্লক করুন" },
+  "mode_aiBlock": { "message": "AI মৌলগুলিকে ব্লক করুন" },
+  "mode_reduceAnimations": { "message": "অ্যানিমেশন হ্রাস করুন" },
+  "mode_idlePrevention": { "message": "নিষ্ক্রিয় প্রতিরোধ" },
+  "mode_notifDisabled": { "message": "মোড বিজ্ঞপ্তি" },
+  "helptip_restoreDislikes": { "message": "রিটার্ন YouTube ডিসলাইক ডেটা ব্যবহার করে অপছন্দ গণনা দেখান" },
+  "helptip_unroundCorners": { "message": "UI উপাদানের চারপাশে কোণগুলি ঘুরিয়ে দিন" },
+  "helptip_disableShorts": { "message": "ক্লাসিক ওয়াইড প্লেয়ারে শর্টস পুনঃনির্দেশ করুন" },
+  "helptip_shortsBlock": { "message": "হোম পেজ + ফলাফলগুলিতে উপস্থিত হওয়া থেকে শর্টসগুলি লুকান" },
+  "helptip_playablesBlock": { "message": "হোম পেজে প্রদর্শিত হওয়া থেকে প্লেবলগুলি লুকান" },
+  "helptip_adBlock": { "message": "হোমপেজ লেআউট থেকে বিজ্ঞাপন থাম্বনেইলগুলি লুকান" },
+  "helptip_aiBlock": { "message": "হোম + ভিডিও পৃষ্ঠাগুলি থেকে AI উপাদানগুলি লুকান" },
+  "helptip_reduceAnimations": { "message": "UI অ্যানিমেশন হ্রাস করুন" },
+  "helptip_idlePrevention": { "message": "ট্যাবটি ঘুমিয়ে পড়া থেকে বিরত রাখুন" },
+  "helptip_notifDisabled": { "message": "মোড/সেটিংস টগল করার সময় বিজ্ঞপ্তিগুলি দেখান" },
+  "state_on": { "message": "চালু" },
+  "state_off": { "message": "বন্ধ" }
+}

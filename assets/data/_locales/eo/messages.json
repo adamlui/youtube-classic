@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Revertas YouTube al ĝia klasika dezajno (antaŭ ĉiuj rondetaj anguloj & kaŝaj abomenoj) + redirektas YouTube Shorts + blokas bildikonanoncojn"
+  },
+  "mode_restoreDislikes": { "message": "Restarigi malŝatojn" },
+  "mode_unroundCorners": { "message": "Ĉirkaŭaj anguloj" },
+  "mode_disableShorts": { "message": "Redirekti pantaloneton" },
+  "mode_shortsBlock": { "message": "Kaŝi pantaloneton" },
+  "mode_playablesBlock": { "message": "Kaŝi ludilojn" },
+  "mode_adBlock": { "message": "Bloki anoncojn" },
+  "mode_aiBlock": { "message": "Bloki AI Elementojn" },
+  "mode_reduceAnimations": { "message": "Redukti animaciojn" },
+  "mode_idlePrevention": { "message": "Maldiligenta Preventado" },
+  "mode_notifDisabled": { "message": "Modusaj sciigoj" },
+  "helptip_restoreDislikes": { "message": "Show dislike counts using Return YouTube Dislike data" },
+  "helptip_unroundCorners": { "message": "Ĉirkaŭaj anguloj ĉirkaŭ UI-elementoj" },
+  "helptip_disableShorts": { "message": "Redirect Shorts to classic wide player" },
+  "helptip_shortsBlock": { "message": "Kaŝi Shorts de aperanta en hejmpaĝo + rezultoj" },
+  "helptip_playablesBlock": { "message": "Kaŝi ludilojn de apero en hejmpaĝo" },
+  "helptip_adBlock": { "message": "Kaŝi anoncajn bildetojn de hejmpaĝaj aranĝoj" },
+  "helptip_aiBlock": { "message": "Kaŝi AI-elementojn de hejmo + video-paĝoj" },
+  "helptip_reduceAnimations": { "message": "Redukti UI-animaciojn" },
+  "helptip_idlePrevention": { "message": "Malhelpi klapeton endormiĝi" },
+  "helptip_notifDisabled": { "message": "Montri sciigojn kiam oni ŝanĝas moduson/agordon" },
+  "state_on": { "message": "sur" },
+  "state_off": { "message": "malŝalti" }
+}

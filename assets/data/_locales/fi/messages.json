@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Palauttaa YouTuben klassiseen muotoiluunsa (ennen kaikkia pyöristettyjä kulmia ja piilotettuja inhoamisia) + ohjaa YouTube-shortsit + estää pikkukuvamainokset"
+  },
+  "mode_restoreDislikes": { "message": "Palauta inhoamiset" },
+  "mode_unroundCorners": { "message": "Unround Corners" },
+  "mode_disableShorts": { "message": "Ohjaa shortsit uudelleen" },
+  "mode_shortsBlock": { "message": "Piilota shortsit" },
+  "mode_playablesBlock": { "message": "Piilota soittopöydät" },
+  "mode_adBlock": { "message": "Estä mainokset" },
+  "mode_aiBlock": { "message": "Estä tekoälyelementit" },
+  "mode_reduceAnimations": { "message": "Vähennä animaatioita" },
+  "mode_idlePrevention": { "message": "Joutokäynnin estäminen" },
+  "mode_notifDisabled": { "message": "Tilailmoitukset" },
+  "helptip_restoreDislikes": { "message": "Näytä inhoamisten määrät käyttämällä Palauta YouTube-inhoamiset -tietoja" },
+  "helptip_unroundCorners": { "message": "Kiertämättömät kulmat käyttöliittymän elementtien ympärillä" },
+  "helptip_disableShorts": { "message": "Ohjaa shortsit klassiseen leveään soittimeen" },
+  "helptip_shortsBlock": { "message": "Piilota shortsit etusivulta + tulokset" },
+  "helptip_playablesBlock": { "message": "Piilota pelattavat näytöltä kotisivulla" },
+  "helptip_adBlock": { "message": "Piilota mainoksen pikkukuvat kotisivun asetteluista" },
+  "helptip_aiBlock": { "message": "Piilota tekoälyelementit etusivulta + videosivuilta" },
+  "helptip_reduceAnimations": { "message": "Vähennä käyttöliittymäanimaatioita" },
+  "helptip_idlePrevention": { "message": "Estä välilehden nukahtaminen" },
+  "helptip_notifDisabled": { "message": "Näytä ilmoitukset vaihdettaessa tilaa/asetuksia" },
+  "state_on": { "message": "päällä" },
+  "state_off": { "message": "pois" }
+}

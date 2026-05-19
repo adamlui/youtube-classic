@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Reverte YouTube ao seu deseño clásico (antes de todos os cantos redondeados e disgustos ocultos) + redireccións YouTube Shorts + bloques anuncios de miniaturas"
+  },
+  "mode_restoreDislikes": { "message": "Restaurar os desgustos" },
+  "mode_unroundCorners": { "message": "Cantos Unredondados" },
+  "mode_disableShorts": { "message": "Redireccionar os pantalóns curtos" },
+  "mode_shortsBlock": { "message": "Acochar os pantalóns curtos" },
+  "mode_playablesBlock": { "message": "Acochar os reprodutores" },
+  "mode_adBlock": { "message": "Bloquear anuncios" },
+  "mode_aiBlock": { "message": "Bloquear elementos IA" },
+  "mode_reduceAnimations": { "message": "Reducir as animacións" },
+  "mode_idlePrevention": { "message": "Prevención ociosa" },
+  "mode_notifDisabled": { "message": "Notificacións de modo" },
+  "helptip_restoreDislikes": {
+    "message": "Mostrar as contas de desagrado usando Devolver os datos de desagrado de YouTube"
+  },
+  "helptip_unroundCorners": { "message": "Cantos arredondados ao redor de elementos de UI" },
+  "helptip_disableShorts": { "message": "Redireccionar Shorts a xogador clásico de ancho" },
+  "helptip_shortsBlock": { "message": "Ocultar Shorts de aparecer na páxina de inicio + resultados" },
+  "helptip_playablesBlock": { "message": "Ocultar Playables de aparecer na páxina de inicio" },
+  "helptip_adBlock": { "message": "Acochar as miniaturas de anuncios das disposicións da páxina de inicio" },
+  "helptip_aiBlock": { "message": "Ocultar elementos de IA de home + páginas de vídeo" },
+  "helptip_reduceAnimations": { "message": "Reducir as animacións da interface de usuario" },
+  "helptip_idlePrevention": { "message": "Evita que a pestana quede durmida" },
+  "helptip_notifDisabled": { "message": "Mostrar as notificacións ao axustar o modo/axustes" },
+  "state_on": { "message": "encendido" },
+  "state_off": { "message": "apagado" }
+}

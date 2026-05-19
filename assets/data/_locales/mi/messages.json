@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Tahuri YouTube ki tona hoahoa tawhito (i mua i nga kokonga katoa huri noa me te kore e pai) + redirects YouTube Shorts + poraka whakatairanga thumbnail"
+  },
+  "mode_restoreDislikes": { "message": "Whakahoutia nga mea e kore e pai" },
+  "mode_unroundCorners": { "message": "Kohikohi Kohikohinga" },
+  "mode_disableShorts": { "message": "Whakaaturanga Whakaaturanga" },
+  "mode_shortsBlock": { "message": "Hide Shorts" },
+  "mode_playablesBlock": { "message": "Hide Playables" },
+  "mode_adBlock": { "message": "Te aukati i nga panui" },
+  "mode_aiBlock": { "message": "Te aukati i nga waahanga AI" },
+  "mode_reduceAnimations": { "message": "Te whakaiti i ngā kararehe" },
+  "mode_idlePrevention": { "message": "Te aukati i te tuakiri" },
+  "mode_notifDisabled": { "message": "Ngā tohu aratau" },
+  "helptip_restoreDislikes": {
+    "message": "Whakaatuhia nga kaute kino ma te whakamahi i nga raraunga Whakahoki YouTube Dislike"
+  },
+  "helptip_unroundCorners": { "message": "Ko nga kokonga porowhita e karapoti ana i nga waahanga UI" },
+  "helptip_disableShorts": { "message": "Redirect Shorts ki te kaitākaro whānui tawhito" },
+  "helptip_shortsBlock": { "message": "Hide Shorts i puta i roto i te whārangi kāinga + hua" },
+  "helptip_playablesBlock": { "message": "Hide Playables i te putanga i roto i te whārangi kāinga" },
+  "helptip_adBlock": { "message": "Hide ad thumbnails i te whakatakotoranga whārangi kāinga" },
+  "helptip_aiBlock": { "message": "Hokona nga waahanga AI mai i te kaainga + nga whaarangi ataata" },
+  "helptip_reduceAnimations": { "message": "Whakaitihia nga Whakaahua UI" },
+  "helptip_idlePrevention": { "message": "Te ārai i te pātene o te moe" },
+  "helptip_notifDisabled": { "message": "Whakaatu whakamōhio ina toggling aratau/tautuhinga" },
+  "state_on": { "message": "i runga i" },
+  "state_off": { "message": "haere atu" }
+}

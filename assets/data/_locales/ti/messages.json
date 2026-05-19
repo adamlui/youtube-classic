@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "ዩቲዩብ ክላሲክ" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "ንዩቲዩብ ናብ ክላሲካዊ ንድፊኡ (ቅድሚ ኩሉ ዝተኸተለ ኩርናዕ & ዝተሓባበረ ዘይምርድዳእ) + ንዩቲዩብ ሾርትስ + ኣፕልቲካዊ ኣፕልቲካዊ ኣፕልቲካዊ ኣፕልቲካዊ ኣፕልቲካዊ ኣፕልቲካዊ ኣፕልቲካዊ ኣፕልቲካዊ ኣፕልቲካዊ ኣ"
+  },
+  "mode_restoreDislikes": { "message": "ንዘይምፍላጥካ ምምላስ" },
+  "mode_unroundCorners": { "message": "ዕምባባታት" },
+  "mode_disableShorts": { "message": "ቐጺሉ ዘሎ ቐጺሉ" },
+  "mode_shortsBlock": { "message": "ጸጉሪ ዕሽሽ" },
+  "mode_playablesBlock": { "message": "ተጻወቲ ይሕብኡ" },
+  "mode_adBlock": { "message": "ኣቃውማታት ዕጽዋ" },
+  "mode_aiBlock": { "message": "ኣቑሑት AI ይዓግቱ" },
+  "mode_reduceAnimations": { "message": "ኣኒሜሽን ምጉዳል" },
+  "mode_idlePrevention": { "message": "ዘይጥዑይ መከላኸሊ" },
+  "mode_notifDisabled": { "message": "ናይ ሞድ ኣፍልጦታት" },
+  "helptip_restoreDislikes": { "message": "ናይ YouTube Dislike ዳታ ብምጥቃም ናይ ዘይምፍላጥ ቆጸራታት ኣርኢ" },
+  "helptip_unroundCorners": { "message": "ኣብ ዙርያ ኣሃዝ UI እተኸተለ ኩርናዕ" },
+  "helptip_disableShorts": { "message": "ናብ ክላሲካዊ ሰፊሕ ተጻዋታይ ቀይር" },
+  "helptip_shortsBlock": { "message": "ኣብ ናይ ገዛ ገጽ + ውጽኢት ካብ ምርኣይ Shorts ሕብእ" },
+  "helptip_playablesBlock": { "message": "ኣብ ገጽ ገዛ ካብ ምውጻእ Playables ይሕብእ" },
+  "helptip_adBlock": { "message": "ካብ ናይ ገጽ ኣቃውማታት ኣቃውማታት ኣቃውማ" },
+  "helptip_aiBlock": { "message": "Home + ቪድዮታት" },
+  "helptip_reduceAnimations": { "message": "ናይ ኣኒሜሽን ኣኒሜሽን ኣጉዲእካ" },
+  "helptip_idlePrevention": { "message": "ካብ ድቃስ ርሓቕ" },
+  "helptip_notifDisabled": { "message": "ናይ ቶግሊንግ ሞድ/ኣቀማምጣ ምስ እትገብር ኣፍልጦታት ኣርኢ" },
+  "state_on": { "message": "ኣብ" },
+  "state_off": { "message": "ወጺእካ" }
+}

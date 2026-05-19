@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "YouTube Сонгодог" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "YouTube-г сонгодог загвартай нь эргүүлдэг (бүх дугуй булангуудаас өмнө & далд дургүйцэхээс өмнө) + YouTube боомт + блок зурвасын сурталчилгааг дахин чиглүүлдэг"
+  },
+  "mode_restoreDislikes": { "message": "Зөрчилгүйг сэргээх" },
+  "mode_unroundCorners": { "message": "Балартаагүй булан" },
+  "mode_disableShorts": { "message": "Богино шортыг дахин чиглүүлэх" },
+  "mode_shortsBlock": { "message": "Шортуудыг нуух" },
+  "mode_playablesBlock": { "message": "Тоглуулах хэрэгслийг нуух" },
+  "mode_adBlock": { "message": "Зар сурталчилгаа хаах" },
+  "mode_aiBlock": { "message": "AI элементүүдийг блоклох" },
+  "mode_reduceAnimations": { "message": "Хөдөлгөөнт байдлыг багасгах" },
+  "mode_idlePrevention": { "message": "Сул урьдчилан сэргийлэх" },
+  "mode_notifDisabled": { "message": "Горимын мэдэгдэл" },
+  "helptip_restoreDislikes": { "message": "Return YouTube Dislike дата ашиглан тооллого зөрөхийг харуул" },
+  "helptip_unroundCorners": { "message": "UI элементүүдийн эргэн тойронд" },
+  "helptip_disableShorts": { "message": "Сонгодог өргөн тоглогч руу шортыг дахин чиглүүлэх" },
+  "helptip_shortsBlock": { "message": "Нүүр хуудас + үр дүн дээр гарч ирэхаас шортуудыг нуух" },
+  "helptip_playablesBlock": { "message": "Тоглогчдыг нүүр хуудсанд харуулахаас нуух" },
+  "helptip_adBlock": { "message": "НҮҮР ХУУДАСИЙН БАЙГУУЛАЛТаас зар сурталчилгааны өнгөц зургийг нуух" },
+  "helptip_aiBlock": { "message": "Нүүр + видео хуудсуудаас AI элементүүдийг нуух" },
+  "helptip_reduceAnimations": { "message": "UI анимацийг багасгах" },
+  "helptip_idlePrevention": { "message": "Табыг унтахаас сэргийлэх" },
+  "helptip_notifDisabled": { "message": "Зориулалтын горим/тохиргоог оруулах үед мэдэгдлүүдийг харуулах" },
+  "state_on": { "message": "on" },
+  "state_off": { "message": "унтраах" }
+}

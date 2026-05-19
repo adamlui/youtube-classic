@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Taastab YouTube 'i klassikalise disaini (enne kõiki ümardatud nurki ja varjatud mittemeeldimisi) + suunab YouTube' i lühikesed püksid + blokeerib pisipildireklaamid"
+  },
+  "mode_restoreDislikes": { "message": "Taasta mittemeeldimised" },
+  "mode_unroundCorners": { "message": "Maandamata nurgad" },
+  "mode_disableShorts": { "message": "Lühikesed ümbersuunamispü" },
+  "mode_shortsBlock": { "message": "Peida lühikesed püksid" },
+  "mode_playablesBlock": { "message": "Peida esitatavad esitusviisid" },
+  "mode_adBlock": { "message": "Blokeeri reklaamid" },
+  "mode_aiBlock": { "message": "Tehisintellekti elementide blokeerimine" },
+  "mode_reduceAnimations": { "message": "Vähenda animatsioone" },
+  "mode_idlePrevention": { "message": "Tühikäigu vältimine" },
+  "mode_notifDisabled": { "message": "Režiimi teavitused" },
+  "helptip_restoreDislikes": {
+    "message": "Näita mittemeeldimiste arvu, kasutades Tagasta YouTube 'i mittemeeldimiste andmeid"
+  },
+  "helptip_unroundCorners": { "message": "Unround nurgad kasutajaliidese elementide ümber" },
+  "helptip_disableShorts": { "message": "Lühikesed püksid klassikalisse laia mängijasse ümbersuun" },
+  "helptip_shortsBlock": { "message": "Peida lühikesed püksid avalehel kuvamise eest + tulemused" },
+  "helptip_playablesBlock": { "message": "Peida esitatavad esitusviisid avalehel kuvamise eest" },
+  "helptip_adBlock": { "message": "Peida reklaami pisipildid avalehe paigutustest" },
+  "helptip_aiBlock": { "message": "Peida tehisintellekti elemendid avalehelt + videoleht" },
+  "helptip_reduceAnimations": { "message": "Vähenda kasutajaliidese animatsioone" },
+  "helptip_idlePrevention": { "message": "Vältige vahelehe uinumist" },
+  "helptip_notifDisabled": { "message": "Kuva teated režiimi/seadete vahetamisel" },
+  "state_on": { "message": "sees" },
+  "state_off": { "message": "väljas" }
+}

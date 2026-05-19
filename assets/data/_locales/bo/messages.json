@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "Youtube སྒྲིག་འཇུག་བྱས་ཚད ། ཐེངས་10 ལས་ཉུང་བ ། ཐོན་" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "YouTube སྒྲིག་འཇུག་བྱས་ཚད ། ཐེངས་10 ལས་ཉུང་བ ། ཐོན་རིམ་5.7.1 ནང་དུ་ཚོད་ལྟ་བྱས་ཟིན ། ཟླ 6 སྔོན་ལ་གསར་བཅོས་བྱས །"
+  },
+  "mode_restoreDislikes": { "message": "མ་དགའ་བ་སླར་གསོ་བྱེད་པ" },
+  "mode_unroundCorners": { "message": "ཕྱོགས་བཞིར་ཡོད་པའི་ཟུར་ཁ །" },
+  "mode_disableShorts": { "message": "མདོར་བསྡུས །" },
+  "mode_shortsBlock": { "message": "མདོར་བསྡུས་སྦས་པ" },
+  "mode_playablesBlock": { "message": "སྙིགས་སྣོད་དུ་སྦས་པ" },
+  "mode_adBlock": { "message": "སྦྲག་གསལ་བསྒྲགས །" },
+  "mode_aiBlock": { "message": "རྒྱུ་དངོས་བཀག་སྡོམ་བྱེད་པ" },
+  "mode_reduceAnimations": { "message": "Animation སྒྲིག་འཇུག་བྱས་ཚད ། ཐེངས་10 ལས་ཉུང་བ ། ཐོན་རིམ་5.7.1" },
+  "mode_idlePrevention": { "message": "སྔོན་འགོག་བཅོས །" },
+  "mode_notifDisabled": { "message": "བཟོ་རྣམ་བརྡ་སྤྲོད་" },
+  "helptip_restoreDislikes": { "message": "Return YouTube dislike data ལག་ལེན་འཐབ་སྟེ་dislike counts སྟོན་པ" },
+  "helptip_unroundCorners": { "message": "UI འདྲ་ཕབ །" },
+  "helptip_disableShorts": { "message": "Reirect Shorts to Classic Wide Player" },
+  "helptip_shortsBlock": { "message": "ཤོག་ངོས་གཙོ་བོ་+ གྲུབ་འབྲས་ནང་མངོན་པར་མ་འཇུག་པའི་མདོར་བསྡུས །" },
+  "helptip_playablesBlock": { "message": "ཁྱིམ་གྱི་ཤོག་ངོས་ནང་མངོན་མི་ཐུབ་པའི་རྩེད་རིགས་སྦས་པ" },
+  "helptip_adBlock": { "message": "ཤོག་ངོས་གཙོ་བོ་གི་འཆར་གཞི་ལས་ཆུང་ཆུང་དག་སྦས་པ" },
+  "helptip_aiBlock": { "message": "ཁྱིམ་ནས་AI འདྲ་ཕབ ། + བརྙན་ཟླའི་ཤོག་ངོས །" },
+  "helptip_reduceAnimations": { "message": "སེམས་ཁྲལ་ཉུང་དུ་གཏོང་།" },
+  "helptip_idlePrevention": { "message": "གཉིད་དུ་སོང་༔\\ རྨི་ལམ་དུ་རླག་སོང་༔" },
+  "helptip_notifDisabled": { "message": "Toggling Mode/Settings" },
+  "state_on": { "message": "སྟེང་" },
+  "state_off": { "message": "ཕྱིར་འཐེན" }
+}

@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Ripristina YouTube al suo design classico (prima di tutti gli angoli arrotondati e le antipatie nascoste) + reindirizza YouTube Shorts + blocca gli annunci in miniatura"
+  },
+  "mode_restoreDislikes": { "message": "Ripristina antipatie" },
+  "mode_unroundCorners": { "message": "Angoli non arrotondati" },
+  "mode_disableShorts": { "message": "Reindirizza pantaloncini" },
+  "mode_shortsBlock": { "message": "Nascondi pantaloncini" },
+  "mode_playablesBlock": { "message": "Nascondi elementi riproducibili" },
+  "mode_adBlock": { "message": "Blocca annunci" },
+  "mode_aiBlock": { "message": "Blocca elementi AI" },
+  "mode_reduceAnimations": { "message": "Riduci animazioni" },
+  "mode_idlePrevention": { "message": "Idle Prevention" },
+  "mode_notifDisabled": { "message": "Notifiche di modalità" },
+  "helptip_restoreDislikes": {
+    "message": "Mostra conteggi antipatie utilizzando i dati Restituisci antipatie di YouTube"
+  },
+  "helptip_unroundCorners": { "message": "Srotola gli angoli intorno agli elementi dell'interfaccia utente" },
+  "helptip_disableShorts": { "message": "Reindirizza i pantaloncini al classico wide player" },
+  "helptip_shortsBlock": { "message": "Nascondi i pantaloncini dalla visualizzazione nella home page + risultati" },
+  "helptip_playablesBlock": { "message": "Nascondi i Riproducibili dalla visualizzazione nella home page" },
+  "helptip_adBlock": { "message": "Nascondi le miniature degli annunci dai layout della home page" },
+  "helptip_aiBlock": { "message": "Nascondi gli elementi AI dalle pagine home + video" },
+  "helptip_reduceAnimations": { "message": "Riduci le animazioni dell'interfaccia utente" },
+  "helptip_idlePrevention": { "message": "Impedire che TAB si addormenti" },
+  "helptip_notifDisabled": { "message": "Mostra notifiche quando si attiva/disattiva la modalità/le impostazioni" },
+  "state_on": { "message": "il" },
+  "state_off": { "message": "off" }
+}

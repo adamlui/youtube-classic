@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "YouTube បុរាណ" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "បង្វិលគេហទំព័រ YouTube ទៅរចនាប័ទ្មបុរាណរបស់ខ្លួន (មុនពេលទាំងអស់ជ្រុងជុំ & ការមិនចូលចិត្តដែលបានលាក់) + ប្ដូរទិស YouTube ខ្លី + ប្លុកការផ្សាយពាណិជ្ជកម្មខ្នាតតូច"
+  },
+  "mode_restoreDislikes": { "message": "ស្តារការមិនចូលចិត្តឡើងវិញ" },
+  "mode_unroundCorners": { "message": "ជ្រុងមូល" },
+  "mode_disableShorts": { "message": "ប្ដូរ ទិស ខោខ្លី" },
+  "mode_shortsBlock": { "message": "លាក់ខោខ្លី" },
+  "mode_playablesBlock": { "message": "លាក់លទ្ធភាពលេង" },
+  "mode_adBlock": { "message": "ទប់ស្កាត់ការផ្សាយពាណិជ្ជកម្ម" },
+  "mode_aiBlock": { "message": "ទប់ស្កាត់ធាតុ AI" },
+  "mode_reduceAnimations": { "message": "កាត់ បន្ថយ ចលនា" },
+  "mode_idlePrevention": { "message": "ការការពារភាពទំនេរ" },
+  "mode_notifDisabled": { "message": "ការជូនដំណឹងអំពីម៉ូដ" },
+  "helptip_restoreDislikes": { "message": "បង្ហាញការរាប់មិនចូលចិត្តដោយប្រើការត្រឡប់ទិន្នន័យមិនចូលចិត្ត YouTube" },
+  "helptip_unroundCorners": { "message": "ជ្រុង មូល ជុំវិញ ធាតុ UI" },
+  "helptip_disableShorts": { "message": "ប្ដូរ ទិស ខោខ្លី ទៅ កម្មវិធី ចាក់ ធំ ចាស់" },
+  "helptip_shortsBlock": { "message": "លាក់សង្ខេបពីការលេចឡើងនៅក្នុងទំព័រដើម + លទ្ធផល" },
+  "helptip_playablesBlock": { "message": "លាក់កម្មវិធីចាក់ពីការលេចឡើងនៅក្នុងទំព័រដើម" },
+  "helptip_adBlock": { "message": "លាក់រូបភាពតូចៗនៃការផ្សាយពាណិជ្ជកម្មពីប្លង់ទំព័រដើម" },
+  "helptip_aiBlock": { "message": "លាក់ធាតុ AI ពីទំព័រដើម + វីដេអូ" },
+  "helptip_reduceAnimations": { "message": "កាត់ បន្ថយ ចលនា UI" },
+  "helptip_idlePrevention": { "message": "ការពារថេបពីការដេកលក់" },
+  "helptip_notifDisabled": { "message": "បង្ហាញការជូនដំណឹងនៅពេលម៉ូដ/ការកំណត់បិទបើក" },
+  "state_on": { "message": "ស្តីពី" },
+  "state_off": { "message": "បិទ" }
+}

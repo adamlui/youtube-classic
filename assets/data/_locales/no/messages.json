@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Tilbakestiller YouTube til det klassiske designet (før alle de avrundede hjørnene og skjulte mislikingene) + omdirigerer YouTube Shorts + blokkerer miniatyrannonser"
+  },
+  "mode_restoreDislikes": { "message": "Gjenopprett misliker" },
+  "mode_unroundCorners": { "message": "Avrundede hjørner" },
+  "mode_disableShorts": { "message": "Omdiriger shorts" },
+  "mode_shortsBlock": { "message": "Skjul shorts" },
+  "mode_playablesBlock": { "message": "Skjul spillbare elementer" },
+  "mode_adBlock": { "message": "Blokker annonser" },
+  "mode_aiBlock": { "message": "Blokker AI-elementer" },
+  "mode_reduceAnimations": { "message": "Reduser animasjoner" },
+  "mode_idlePrevention": { "message": "Tomgangsforebygging" },
+  "mode_notifDisabled": { "message": "Modusvarsler" },
+  "helptip_restoreDislikes": { "message": "Vis antall misliker ved hjelp av Return YouTube Misliker-data" },
+  "helptip_unroundCorners": { "message": "Avrunde hjørner rundt UI-elementer" },
+  "helptip_disableShorts": { "message": "Omdiriger Shorts til klassisk wide-player" },
+  "helptip_shortsBlock": { "message": "Skjul Shorts fra å vises på hjemmesiden + resultater" },
+  "helptip_playablesBlock": { "message": "Skjul spillbare elementer fra startsiden" },
+  "helptip_adBlock": { "message": "Skjul annonseminiatyrbilder fra startsideoppsett" },
+  "helptip_aiBlock": { "message": "Skjul AI-elementer fra start- og videosider" },
+  "helptip_reduceAnimations": { "message": "Reduser UI-animasjoner" },
+  "helptip_idlePrevention": { "message": "Forhindre at fanen sovner" },
+  "helptip_notifDisabled": { "message": "Vis varsler når du veksler mellom modus/innstillinger" },
+  "state_on": { "message": "på" },
+  "state_off": { "message": "av" }
+}

@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Возвращает YouTube к классическому дизайну (до всех закругленных углов и скрытых антипатий) + перенаправляет шорты YouTube + блокирует эскизную рекламу"
+  },
+  "mode_restoreDislikes": { "message": "Восстановить антипатии" },
+  "mode_unroundCorners": { "message": "Округлить углы" },
+  "mode_disableShorts": { "message": "Перенаправить шорты" },
+  "mode_shortsBlock": { "message": "Скрыть шорты" },
+  "mode_playablesBlock": { "message": "Скрыть воспроизводимые файлы" },
+  "mode_adBlock": { "message": "Блокировать рекламу" },
+  "mode_aiBlock": { "message": "Блокировать элементы ИИ" },
+  "mode_reduceAnimations": { "message": "Уменьшить анимацию" },
+  "mode_idlePrevention": { "message": "Предотвращение простоя" },
+  "mode_notifDisabled": { "message": "Уведомления о режиме" },
+  "helptip_restoreDislikes": {
+    "message": "Показать количество отметок «не нравится» с помощью Return YouTube Dislike data"
+  },
+  "helptip_unroundCorners": { "message": "Развернутые углы вокруг элементов пользовательского интерфейса" },
+  "helptip_disableShorts": { "message": "Перенаправить шорты на классический широкий плеер" },
+  "helptip_shortsBlock": { "message": "Скрыть шорты от появления на главной странице + результаты" },
+  "helptip_playablesBlock": { "message": "Скрыть отображение воспроизводимых объектов на главной странице" },
+  "helptip_adBlock": { "message": "Скрыть миниатюры объявлений из макетов главной страницы" },
+  "helptip_aiBlock": { "message": "Скрыть элементы ИИ на главной + видеостраницах" },
+  "helptip_reduceAnimations": { "message": "Уменьшить анимацию пользовательского интерфейса" },
+  "helptip_idlePrevention": { "message": "Предотвращение засыпания вкладки" },
+  "helptip_notifDisabled": { "message": "Показывать уведомления при переключении режима/настроек" },
+  "state_on": { "message": "на" },
+  "state_off": { "message": "выкл" }
+}

@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "Klasik YouTube" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Konvèti YouTube nan konsepsyon klasik li yo (anvan tout kwen awondi ak dislikes kache) + redireksyon YouTube Shorts + blòk ti anons"
+  },
+  "mode_restoreDislikes": { "message": "Restore Degoutans yo" },
+  "mode_unroundCorners": { "message": "Kwen ki pa wonn" },
+  "mode_disableShorts": { "message": "Bout pantalon redireksyon" },
+  "mode_shortsBlock": { "message": "Kache pantalon" },
+  "mode_playablesBlock": { "message": "Kache Playables" },
+  "mode_adBlock": { "message": "Ajoute blòk" },
+  "mode_aiBlock": { "message": "Bloke Eleman AI" },
+  "mode_reduceAnimations": { "message": "Diminye Animasyon" },
+  "mode_idlePrevention": { "message": "Prevansyon Idle" },
+  "mode_notifDisabled": { "message": "Notifikasyon Mòd" },
+  "helptip_restoreDislikes": { "message": "Montre kont rayisab lè l sèvi avèk retounen YouTube done rayisab" },
+  "helptip_unroundCorners": { "message": "Kwen ki pa wonn alantou eleman UI yo" },
+  "helptip_disableShorts": { "message": "Redireksyon Bout pantalon pou jwè lajè klasik" },
+  "helptip_shortsBlock": { "message": "Kache Bout pantalon yo pou yo pa parèt nan paj dakèy + rezilta yo" },
+  "helptip_playablesBlock": { "message": "Kache Playables pou pa parèt sou paj dakèy la" },
+  "helptip_adBlock": { "message": "Kache ti kliche anons nan plan paj dakèy yo" },
+  "helptip_aiBlock": { "message": "Kache eleman AI nan kay + paj videyo" },
+  "helptip_reduceAnimations": { "message": "Diminye animasyon UI" },
+  "helptip_idlePrevention": { "message": "Anpeche tab soti nan tonbe nan dòmi" },
+  "helptip_notifDisabled": { "message": "Montre notifikasyon lè toggling mòd/anviwònman" },
+  "state_on": { "message": "sou" },
+  "state_off": { "message": "koupe" }
+}

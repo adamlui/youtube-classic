@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "YouTube'u klasik tasarımına geri döndürür (tüm yuvarlatılmış köşelerden ve gizli beğenmediklerinden önce) + YouTube Shorts'u yeniden yönlendirir + küçük resim reklamları engeller"
+  },
+  "mode_restoreDislikes": { "message": "Beğenmeyenleri Geri Yükle" },
+  "mode_unroundCorners": { "message": "Düz Olmayan Köşeler" },
+  "mode_disableShorts": { "message": "Yönlendirme Şortları" },
+  "mode_shortsBlock": { "message": "Şortları Gizle" },
+  "mode_playablesBlock": { "message": "Oynanabilirleri Gizle" },
+  "mode_adBlock": { "message": "Reklamları engelle" },
+  "mode_aiBlock": { "message": "Yapay Zeka Öğelerini Engelle" },
+  "mode_reduceAnimations": { "message": "Animasyonları Azaltın" },
+  "mode_idlePrevention": { "message": "Boşta Önleme" },
+  "mode_notifDisabled": { "message": "Mod Bildirimleri" },
+  "helptip_restoreDislikes": { "message": "Return YouTube Beğenmeme verilerini kullanarak beğenmeme sayılarını göster" },
+  "helptip_unroundCorners": { "message": "Kullanıcı arayüzü öğelerinin etrafındaki düz olmayan köşeler" },
+  "helptip_disableShorts": { "message": "Şortları klasik geniş oynatıcıya yönlendir" },
+  "helptip_shortsBlock": { "message": "Kısaların ana sayfada görünmesini gizle + sonuçlar" },
+  "helptip_playablesBlock": { "message": "Oynatılabilirlerin ana sayfada görünmesini gizle" },
+  "helptip_adBlock": { "message": "Ana sayfa düzenlerinden reklam küçük resimlerini gizle" },
+  "helptip_aiBlock": { "message": "Yapay zeka öğelerini ana sayfadan + video sayfalarından gizle" },
+  "helptip_reduceAnimations": { "message": "UI animasyonlarını azaltın" },
+  "helptip_idlePrevention": { "message": "Sekmenin uykuya dalmasını önleyin" },
+  "helptip_notifDisabled": { "message": "Mod/ayarlar arasında geçiş yaparken bildirimleri göster" },
+  "state_on": { "message": "açık" },
+  "state_off": { "message": "kapalı" }
+}

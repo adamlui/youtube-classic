@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Kubwezeretsa YouTube kapangidwe ake tingachipeze powerenga (pamaso ngodya zonse ozungulira & zobisika sakonda) + redirects YouTube waufupi + midadada thumbnail malonda"
+  },
+  "mode_restoreDislikes": { "message": "Kubwezeretsa Zosakondweretsa" },
+  "mode_unroundCorners": { "message": "Makona Osazunguliridwa" },
+  "mode_disableShorts": { "message": "Kubwezeretsanso Shorts" },
+  "mode_shortsBlock": { "message": "Kubisa Shorts" },
+  "mode_playablesBlock": { "message": "Kubisa Playables" },
+  "mode_adBlock": { "message": "Zotsatsa Zotsatsa" },
+  "mode_aiBlock": { "message": "Kuletsa AI Zinthu" },
+  "mode_reduceAnimations": { "message": "Kuchepetsa Zojambula" },
+  "mode_idlePrevention": { "message": "Chitetezo Chosasangalatsa" },
+  "mode_notifDisabled": { "message": "Mode Zidziwitso" },
+  "helptip_restoreDislikes": {
+    "message": "Onetsani manambala osakonda pogwiritsa ntchito Bwererani YouTube Sakonda deta"
+  },
+  "helptip_unroundCorners": { "message": "Osazunguliridwa ngodya kuzungulira UI zinthu" },
+  "helptip_disableShorts": { "message": "Redirect Shorts kuti tingachipeze powerenga lonse wosewera mpira" },
+  "helptip_shortsBlock": { "message": "Kubisa zazifupi kuti zisawonekere patsamba loyamba + zotsatira" },
+  "helptip_playablesBlock": { "message": "Kubisa Playables kuonekera pa tsamba lofikira" },
+  "helptip_adBlock": { "message": "Kubisa malonda thumbnails ku masanjidwe a tsamba lakunyumba" },
+  "helptip_aiBlock": { "message": "Bisani zinthu za AI kunyumba + masamba a kanema" },
+  "helptip_reduceAnimations": { "message": "Chepetsani makanema ojambula a UI" },
+  "helptip_idlePrevention": { "message": "Pewani tabu kuti isagone" },
+  "helptip_notifDisabled": { "message": "Onetsani zidziwitso pamene toggling mode/zoikamo" },
+  "state_on": { "message": "pa" },
+  "state_off": { "message": "m 'munsi" }
+}

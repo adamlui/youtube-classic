@@ -1,0 +1,33 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "E busetsa YouTube mo sebopegong sa yone sa bogologolo (pele ga dikhutlo tsotlhe tse di dikologileng le dilo tse di sa ratweng tse di fitlhegileng) + e kaela gape YouTube Shorts + diphasalatso tsa thumbnail"
+  },
+  "mode_restoreDislikes": { "message": "Tsosolosa Dilo tse O sa di Rateng" },
+  "mode_unroundCorners": { "message": "DIKHUTLANA TSE DIKGOLO" },
+  "mode_disableShorts": { "message": "Dikhutshwane tse di Rulagantsweng Gape" },
+  "mode_shortsBlock": { "message": "Hide Shorts" },
+  "mode_playablesBlock": { "message": "Go Fitlha Dilo tse di Tshamekang" },
+  "mode_adBlock": { "message": "Diphasalatso tsa Block" },
+  "mode_aiBlock": { "message": "Block AI Elements" },
+  "mode_reduceAnimations": { "message": "Fokotsa Ditshwantsho" },
+  "mode_idlePrevention": { "message": "Thibelo ya Boitimokanyo" },
+  "mode_notifDisabled": { "message": "Dikitsiso tsa Mode" },
+  "helptip_restoreDislikes": {
+    "message": "Bontsha dipalo tse di sa rateng o dirisa tshedimosetso ya Return YouTube Dislike"
+  },
+  "helptip_unroundCorners": { "message": "Go dikologa dikhutlo go dikologa dikarolo tsa UI" },
+  "helptip_disableShorts": { "message": "Rulaganya Dikhutshwane mo setshameking se segolo sa bogologolo" },
+  "helptip_shortsBlock": { "message": "Hide Shorts gore e seka ya tlhaga mo tsebeng ya kwa gae + dipholo" },
+  "helptip_playablesBlock": {
+    "message": "Go fitlha Dilo tsa go Tshameka gore di seka tsa tlhaga mo tsebeng ya kwa gae"
+  },
+  "helptip_adBlock": { "message": "Go fitlha ditshwantsho tsa diphasalatso mo dipopegong tsa tsebe ya kwa gae" },
+  "helptip_aiBlock": { "message": "Go fitlha dilo tsa AI mo ditsebeng tsa gae + tsa bidio" },
+  "helptip_reduceAnimations": { "message": "Fokotsa ditshwantsho tsa UI" },
+  "helptip_idlePrevention": { "message": "E thibela tab gore e seka ya robala" },
+  "helptip_notifDisabled": { "message": "Bontsha dikitsiso fa o toggling mode/settings" },
+  "state_on": { "message": "on" },
+  "state_off": { "message": "off" }
+}

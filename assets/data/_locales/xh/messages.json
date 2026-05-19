@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "I-YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Ubuyisela iYouTube kwindlela eyakhiwe ngayo (ngaphambi kokuba zonke iikona ezijikelezileyo nezinto ezingazithandiyo ezifihlakeleyo) + uqondisa kwakhona ii-YouTube Shorts + iintengiso zeebhloko"
+  },
+  "mode_restoreDislikes": { "message": "Buyisela Izinto Ezingazithandiyo" },
+  "mode_unroundCorners": { "message": "Jikeleza Iikona" },
+  "mode_disableShorts": { "message": "Qondisa kwakhona ii-Shorts" },
+  "mode_shortsBlock": { "message": "Fihla Iimfutshane" },
+  "mode_playablesBlock": { "message": "Fihla Izinto Zokudlala" },
+  "mode_adBlock": { "message": "Vala Iintengiso" },
+  "mode_aiBlock": { "message": "Vala Izinto zeAI" },
+  "mode_reduceAnimations": { "message": "Nciphisa Oopopayi" },
+  "mode_idlePrevention": { "message": "Uthintelo Olungaqengqelekiyo" },
+  "mode_notifDisabled": { "message": "Imiyalezo Yemowudi" },
+  "helptip_restoreDislikes": {
+    "message": "Bonisa izibalo ezingathandiyo usebenzisa inkcazelo ethi Buyisa U-YouTube Dislike"
+  },
+  "helptip_unroundCorners": { "message": "Jikeleza iikona ezijikeleze izinto ze-UI" },
+  "helptip_disableShorts": { "message": "Dlulisela ii-Shorts kumdlali weklasikhi obanzi" },
+  "helptip_shortsBlock": { "message": "Fihla iiShorts ukuze zingabonakali kwiphepha lokuqala neziphumo" },
+  "helptip_playablesBlock": { "message": "Fihla izinto zokudlala ukuze zingabonakali kwiphepha lokuqala" },
+  "helptip_adBlock": { "message": "Fihla imifanekiso yesikhangiso kwiphepha lokuqala" },
+  "helptip_aiBlock": { "message": "Fihla izinto zeAI kumaphepha asekhaya nakwiividiyo" },
+  "helptip_reduceAnimations": { "message": "Nciphisa oopopayi be-UI" },
+  "helptip_idlePrevention": { "message": "Ukuthintela ithebhu ukuba ingalali" },
+  "helptip_notifDisabled": { "message": "Bonisa imiyalezo xa uguqula imowudi/iisetingi" },
+  "state_on": { "message": "ivuliwe" },
+  "state_off": { "message": "ivaliwe" }
+}

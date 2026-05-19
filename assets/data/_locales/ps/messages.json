@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "د یوټیوب کلاسیک" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "YouTube خپل کلاسیک ډیزاین ته اړوي (مخکې له ټولو ګرد کونجونو او پټ نه خوښوي) + د یوټیوب شارټس + بلاکونو تمبیل اعلانونه بیا تنظیموي"
+  },
+  "mode_restoreDislikes": { "message": "نه خوښونې بحال کړئ" },
+  "mode_unroundCorners": { "message": "بې شاوخوا کونجونه" },
+  "mode_disableShorts": { "message": "شارټس بېرته وګرځوئ" },
+  "mode_shortsBlock": { "message": "شارټونه پټ کړئ" },
+  "mode_playablesBlock": { "message": "غږونې جدولونه پټ کړه" },
+  "mode_adBlock": { "message": "بلاک اعلانونه" },
+  "mode_aiBlock": { "message": "د AI بلاک عناصر" },
+  "mode_reduceAnimations": { "message": "حرکتونه کم کړئ" },
+  "mode_idlePrevention": { "message": "د بې مينځني مخنیوي" },
+  "mode_notifDisabled": { "message": "د حالت خبرتیاوې" },
+  "helptip_restoreDislikes": {
+    "message": "د بیرته راستنیدونکي یوټیوب نه خوښیدونکي ډاټا په کارولو سره د نه لایکلو شمیرنه وښایاست"
+  },
+  "helptip_unroundCorners": { "message": "د UI عناصر شاوخوا ګوټ ګوټ" },
+  "helptip_disableShorts": { "message": "شارټس کلاسیک پراخه لوبغاړي ته لارښوونه وکړئ" },
+  "helptip_shortsBlock": { "message": "شارټس د کور پاڼې + پایلو کې د څرګندیدو څخه پټ کړئ" },
+  "helptip_playablesBlock": { "message": "Playables په کور پاڼه کې د څرګندیدو څخه پټ کړئ" },
+  "helptip_adBlock": { "message": "د کور پاڼې ترتیباتو څخه د اعلان بټه نوکي پټ کړئ" },
+  "helptip_aiBlock": { "message": "د کور + ویډیو پاڼو څخه د AI عناصر پټ کړئ" },
+  "helptip_reduceAnimations": { "message": "د UI حرکتونه کم کړئ" },
+  "helptip_idlePrevention": { "message": "ټب د ویده کیدو مخه ونیسئ" },
+  "helptip_notifDisabled": { "message": "خبرتیاوې وښایاست کله چې حالت/تنظیمات تنظیم کړئ" },
+  "state_on": { "message": "په" },
+  "state_off": { "message": "بند" }
+}

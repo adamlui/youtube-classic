@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Повертає YouTube до класичного дизайну (перед усіма закругленими кутами та прихованими відхиленнями) + перенаправляє шорти YouTube + блокує мініатюрні оголошення"
+  },
+  "mode_restoreDislikes": { "message": "Відновити відхилення" },
+  "mode_unroundCorners": { "message": "Розкруглити кути" },
+  "mode_disableShorts": { "message": "Перенаправлення шортів" },
+  "mode_shortsBlock": { "message": "Сховати шорти" },
+  "mode_playablesBlock": { "message": "Приховати відтворювані файли" },
+  "mode_adBlock": { "message": "Блокувати рекламу" },
+  "mode_aiBlock": { "message": "Блокувати елементи ШІ" },
+  "mode_reduceAnimations": { "message": "Зменшити анімацію" },
+  "mode_idlePrevention": { "message": "Запобігання простою" },
+  "mode_notifDisabled": { "message": "Сповіщення про режим" },
+  "helptip_restoreDislikes": {
+    "message": "Показати кількість не подобається, використовуючи Повернути дані про не подобається YouTube"
+  },
+  "helptip_unroundCorners": { "message": "Розкручені кути навколо елементів інтерфейсу користувача" },
+  "helptip_disableShorts": { "message": "Перенаправити шорти на класичний широкий плеєр" },
+  "helptip_shortsBlock": { "message": "Приховати шорти від появи на домашній сторінці + результати" },
+  "helptip_playablesBlock": { "message": "Приховати відтворювані файли від відображення на домашній сторінці" },
+  "helptip_adBlock": { "message": "Приховати мініатюри оголошень у макетах домашньої сторінки" },
+  "helptip_aiBlock": { "message": "Приховати елементи ШІ з домашньої сторінки + сторінки відео" },
+  "helptip_reduceAnimations": { "message": "Зменшити анімацію інтерфейсу" },
+  "helptip_idlePrevention": { "message": "Запобігти засипанню вкладки" },
+  "helptip_notifDisabled": { "message": "Показувати сповіщення при перемиканні режиму/налаштувань" },
+  "state_on": { "message": "на" },
+  "state_off": { "message": "вимкнено" }
+}

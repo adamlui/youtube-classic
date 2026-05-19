@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "Bisanzwe" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": { "message": "Kuri Bisanzwe Ihangagishusho (Mbere Byose i Cyiburungushuye & Birahishe) + +" },
+  "mode_restoreDislikes": { "message": "< B B" },
+  "mode_unroundCorners": { "message": "Undo-type" },
+  "mode_disableShorts": { "message": "< B B" },
+  "mode_shortsBlock": { "message": "Guhisha Amahinanzira" },
+  "mode_playablesBlock": { "message": "Guhisha" },
+  "mode_adBlock": { "message": "Amatangazo yahagaritswe" },
+  "mode_aiBlock": { "message": "< B B" },
+  "mode_reduceAnimations": { "message": "Iyega" },
+  "mode_idlePrevention": { "message": "< Uburemere UTSINDAGIYE" },
+  "mode_notifDisabled": { "message": "< B B" },
+  "helptip_restoreDislikes": { "message": "Ikoresha Ibyatanzwe" },
+  "helptip_unroundCorners": { "message": "Ibintu" },
+  "helptip_disableShorts": { "message": "Kuri Bisanzwe" },
+  "helptip_shortsBlock": {
+    "message": "Home Amakuru Amakuru Mashya Ibimenyetso simusiga byagaragaye ku mbuga nkoranyambaga"
+  },
+  "helptip_playablesBlock": { "message": "Bivuye in Home Ipaji" },
+  "helptip_adBlock": { "message": "Bivuye Imigaragarire" },
+  "helptip_aiBlock": { "message": "Ibintu Kuva: Home + Videwo... Amapaji" },
+  "helptip_reduceAnimations": { "message": "Iyega" },
+  "helptip_idlePrevention": { "message": "Isunika Kuva:" },
+  "helptip_notifDisabled": { "message": "Ibimenyetso Ryari: Ubwoko Amagenamiterere" },
+  "state_on": { "message": "ku" },
+  "state_off": { "message": "bidakora" }
+}

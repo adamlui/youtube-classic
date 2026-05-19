@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "ཡུ་ཊུ་བཱིལ་ནང་ལུ་ རང་ལུགས་ཀྱི་" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "YouTubeའདི་ རང་ལུགས་ཀྱི་བཟོ་རྣམ་ལུ་ལོག་གཏང་ (ཟུར་དང་སྦ་བཞག་མི་དགའ་སྟོན་ཚུ་མ་འབྱུང་པའི་ཧེ་མ་) + YouTube shorts + block thumbnail ads"
+  },
+  "mode_restoreDislikes": { "message": "མ་དགའཝ་ཚུ་སླར་གསོ་འབད་" },
+  "mode_unroundCorners": { "message": "ཟུར་ཟུར་གྱི་ཟུར་" },
+  "mode_disableShorts": { "message": "ཟུར་ཐུང་ཚུ་ ལོག་ལྟབ་གཏང་།" },
+  "mode_shortsBlock": { "message": "ཟུར་ཐུང་ཚུ་སྦ་བཞག" },
+  "mode_playablesBlock": { "message": "རྩེདམོ་གསེབ་ཚུ་སྦ་བཞག་ནི།" },
+  "mode_adBlock": { "message": "སྒོ་བསྡམས་ཡོད་པའི་བརྡ་དོན་ཚུ།" },
+  "mode_aiBlock": { "message": "ཨེལེམཊི་ཚུ་བཀག་སྡོམ་འབད་" },
+  "mode_reduceAnimations": { "message": "བརྙན་ཟློག་ཚུ་ མར་ཕབ་འབད་" },
+  "mode_idlePrevention": { "message": "སྔོན་འགོག་འབད་" },
+  "mode_notifDisabled": { "message": "ཐབས་ལམ་བརྡ་ཚུ།" },
+  "helptip_restoreDislikes": { "message": "Return YouTube dislike data ལག་ལེན་འཐབ་ཐོག་ལས་ dislike countsསྟོན་" },
+  "helptip_unroundCorners": { "message": "UI གི་ཡན་ལག་ཚུ་བསྐོར་ར་རྐྱབ་ཡོད་པའི་ཟུར་ཁ་ཚུ་" },
+  "helptip_disableShorts": { "message": "ཀྲུང་གོ་བོད་ཀྱི་དྲ་བ།" },
+  "helptip_shortsBlock": { "message": "འོག་གི་ཤོག་ལེབ་ཚུ་ནང་ འོག་གི་ཤོག་ལེབ་ཚུ་མཐོང་ནི་ལས་སྦ་བཞག་ནི།" },
+  "helptip_playablesBlock": { "message": "རྩེདམོ་རྩེ་སའི་ཤོག་ལེབ་ནང་ རྩེད་རིགས་ཚུ་མཐོང་ནི་ལས་སྦ་བཞག་" },
+  "helptip_adBlock": { "message": "Homepage layouts ལས་བརྡ་དོན་བརྡ་དོན་ཆུང་ཆུང་ཚུ་སྦ་བཞག" },
+  "helptip_aiBlock": { "message": "ཁྱིམ་ནང་ལས་ AI འདྲ་ཕབ། + བརྙན་ཟློག་གི་ཤོག་ལེབ་ཚུ་སྦ་བཞག་" },
+  "helptip_reduceAnimations": { "message": "སེམས་ཅན་ཚུ་ མར་ཕབ་འབད་" },
+  "helptip_idlePrevention": { "message": "གཉིད་ལོག་འགྱོ་ནི་ལས་ བཀག་ཐབས་འབད་" },
+  "helptip_notifDisabled": { "message": "Toggling Mode/Settings" },
+  "state_on": { "message": "འདི་ནང་ལུ་" },
+  "state_off": { "message": "ཡར་ལོ།" }
+}

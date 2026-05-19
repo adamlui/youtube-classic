@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Yn dychwelyd YouTube i'w ddyluniad clasurol (cyn yr holl gorneli crwn a chas bethau cudd) + yn ailgyfeirio YouTube Shorts + blociau hysbysebion mân - luniau"
+  },
+  "mode_restoreDislikes": { "message": "Adfer Hoffterau" },
+  "mode_unroundCorners": { "message": "Corneli dad - grwn" },
+  "mode_disableShorts": { "message": "Ailgyfeirio Shorts" },
+  "mode_shortsBlock": { "message": "Cuddio Byrddau" },
+  "mode_playablesBlock": { "message": "Cuddio Llefydd Chwarae" },
+  "mode_adBlock": { "message": "Hysbysebion Bloc" },
+  "mode_aiBlock": { "message": "Elfennau AI Bloc" },
+  "mode_reduceAnimations": { "message": "Lleihau Animeiddiadau" },
+  "mode_idlePrevention": { "message": "Atal Segur" },
+  "mode_notifDisabled": { "message": "Hysbysiadau Modd" },
+  "helptip_restoreDislikes": {
+    "message": "Dangos cyfrif ddim yn hoffi gan ddefnyddio Dychwelwch YouTube Anghytuno data"
+  },
+  "helptip_unroundCorners": { "message": "Corneli dad - grwn o amgylch elfennau UI" },
+  "helptip_disableShorts": { "message": "Ailgyfeirio Siorts at chwaraewr eang clasurol" },
+  "helptip_shortsBlock": { "message": "Cuddio Byrddau rhag ymddangos yn y dudalen hafan + canlyniadau" },
+  "helptip_playablesBlock": { "message": "Cuddio eitemau chwarae rhag ymddangos ar y dudalen gartref" },
+  "helptip_adBlock": { "message": "Cuddio lluniau cryno o'r dudalen hafan" },
+  "helptip_aiBlock": { "message": "Cuddio elfennau AI o dudalennau cartref + fideo" },
+  "helptip_reduceAnimations": { "message": "Lleihau animeiddiadau rhyngwyneb" },
+  "helptip_idlePrevention": { "message": "Atal tab rhag syrthio i gysgu" },
+  "helptip_notifDisabled": { "message": "Dangos hysbysiadau wrth toglo modd/gosodiadau" },
+  "state_on": { "message": "ar" },
+  "state_off": { "message": "diffodd" }
+}

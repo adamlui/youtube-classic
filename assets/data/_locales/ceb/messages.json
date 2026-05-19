@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "Klasikong YouTube" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Gibalik ang YouTube sa klasiko nga laraw niini (sa wala pa ang tanan nga mga bilog nga kanto & gitago nga dili gusto) + pag-redirect sa YouTube Shorts + mga bloke sa mga thumbnail ad"
+  },
+  "mode_restoreDislikes": { "message": "Ibalik ang Dili Gusto" },
+  "mode_unroundCorners": { "message": "Unround Corners" },
+  "mode_disableShorts": { "message": "I-redirect ang Mga Shorts" },
+  "mode_shortsBlock": { "message": "Itago ang Shorts" },
+  "mode_playablesBlock": { "message": "Itago ang mga Playable" },
+  "mode_adBlock": { "message": "I-block ang mga Ad" },
+  "mode_aiBlock": { "message": "I-block ang mga Elemento sa AI" },
+  "mode_reduceAnimations": { "message": "Pagminus sa mga Animasyon" },
+  "mode_idlePrevention": { "message": "Paglikay sa Idle" },
+  "mode_notifDisabled": { "message": "Mga Notipikasyon sa Mode" },
+  "helptip_restoreDislikes": {
+    "message": "Ipakita ang dili gusto nga pag-ihap gamit ang Return YouTube Dili gusto nga datos"
+  },
+  "helptip_unroundCorners": { "message": "Wala 'y lingin nga mga kanto sa palibot sa mga elemento sa UI" },
+  "helptip_disableShorts": { "message": "Pag-redirect sa Shorts sa klasiko nga lapad nga magdudula" },
+  "helptip_shortsBlock": { "message": "Itago ang Mga Shorts gikan sa pagpakita sa home page + mga sangputanan" },
+  "helptip_playablesBlock": { "message": "Itago ang mga Playable gikan sa pagpakita sa home page" },
+  "helptip_adBlock": { "message": "Itago ang mga thumbnail sa ad gikan sa mga layout sa home page" },
+  "helptip_aiBlock": { "message": "Itago ang mga elemento sa AI gikan sa balay + mga panid sa video" },
+  "helptip_reduceAnimations": { "message": "Pagminus sa mga animasyon sa UI" },
+  "helptip_idlePrevention": { "message": "Pugngan ang tab gikan sa pagkatulog" },
+  "helptip_notifDisabled": { "message": "Ipakita ang mga pahibalo sa diha nga toggling mode/setting" },
+  "state_on": { "message": "sa on" },
+  "state_off": { "message": "off" }
+}

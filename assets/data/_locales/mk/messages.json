@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Го враќа YouTube во својот класичен дизајн (пред сите заоблени агли и скриени недопаѓања) + пренасочува YouTube Shorts + блокира реклами со сликички"
+  },
+  "mode_restoreDislikes": { "message": "Враќање на „Не ми се допаѓа“" },
+  "mode_unroundCorners": { "message": "Отпуштете ги аглите" },
+  "mode_disableShorts": { "message": "Кратенки за пренасочување" },
+  "mode_shortsBlock": { "message": "Сокриј кратки панталони" },
+  "mode_playablesBlock": { "message": "Сокриј игралишта" },
+  "mode_adBlock": { "message": "Блокирај реклами" },
+  "mode_aiBlock": { "message": "Блокирај елементи на ВИ" },
+  "mode_reduceAnimations": { "message": "Намали ги анимациите" },
+  "mode_idlePrevention": { "message": "Превенција на неактивност" },
+  "mode_notifDisabled": { "message": "Известувања за режимот" },
+  "helptip_restoreDislikes": {
+    "message": "Прикажи ги броевите на недопаѓања со помош на податоците за повратна содржина на"
+  },
+  "helptip_unroundCorners": { "message": "Отпуштете ги аглите околу елементите на корисничкиот интерфејс" },
+  "helptip_disableShorts": { "message": "Пренасочете кратки филмови на класичен широк плеер" },
+  "helptip_shortsBlock": { "message": "Сокриј кратки панталони од прикажување на почетната страница + резултати" },
+  "helptip_playablesBlock": { "message": "Сокријте ги играчките од прикажување на почетната страница" },
+  "helptip_adBlock": { "message": "Сокриј сликички од реклами од распоредот на почетната страница" },
+  "helptip_aiBlock": { "message": "Сокриј елементи на вештачка интелигенција од почетните страници + видео" },
+  "helptip_reduceAnimations": { "message": "Намалете ги анимациите на корисничкиот интерфејс" },
+  "helptip_idlePrevention": { "message": "Спречете заспивање на јазичето" },
+  "helptip_notifDisabled": { "message": "Прикажи известувања кога се префрлаат режимот/поставките" },
+  "state_on": { "message": "на" },
+  "state_off": { "message": "исклучено" }
+}

@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Vráti YouTube do jeho klasického dizajnu (pred všetkými zaoblenými rohmi a skrytými nepríjemnosťami) + presmeruje YouTube Shorts + blokuje miniatúry reklám"
+  },
+  "mode_restoreDislikes": { "message": "Obnoviť nepáči" },
+  "mode_unroundCorners": { "message": "Neobrobené rohy" },
+  "mode_disableShorts": { "message": "Šortky na presmerovanie" },
+  "mode_shortsBlock": { "message": "Skryť šortky" },
+  "mode_playablesBlock": { "message": "Skryť hracie predmety" },
+  "mode_adBlock": { "message": "Blokovať reklamy" },
+  "mode_aiBlock": { "message": "Blokovať prvky AI" },
+  "mode_reduceAnimations": { "message": "Znížiť animácie" },
+  "mode_idlePrevention": { "message": "Prevencia nečinnosti" },
+  "mode_notifDisabled": { "message": "Upozornenia režimu" },
+  "helptip_restoreDislikes": { "message": "Zobraziť počty nepáči sa pomocou údajov Návrat YouTube Nepáči sa" },
+  "helptip_unroundCorners": { "message": "Neobrobené rohy okolo prvkov používateľského rozhrania" },
+  "helptip_disableShorts": { "message": "Presmerujte šortky na klasického širokého hráča" },
+  "helptip_shortsBlock": { "message": "Skryť šortky pred zobrazením na domovskej stránke + výsledky" },
+  "helptip_playablesBlock": { "message": "Skryť prehrávanie pred zobrazením na domovskej stránke" },
+  "helptip_adBlock": { "message": "Skryť miniatúry reklám z rozložení domovskej stránky" },
+  "helptip_aiBlock": { "message": "Skryť prvky umelej inteligencie zo stránok domov + videa" },
+  "helptip_reduceAnimations": { "message": "Znížiť animácie používateľského rozhrania" },
+  "helptip_idlePrevention": { "message": "Zabráňte tomu, aby karta zaspala" },
+  "helptip_notifDisabled": { "message": "Zobraziť upozornenia pri prepínaní režimu/nastavení" },
+  "state_on": { "message": "na" },
+  "state_off": { "message": "vypnuté" }
+}

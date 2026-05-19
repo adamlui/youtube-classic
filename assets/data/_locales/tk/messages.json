@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "Klassik Youtube" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "YouTube 'y klassik dizaynyna öwürýär (häzir ähli töweregli köşeler we gizlin ýigrençler) + YouTube Shorts + bloklary kiçijik reklamalary redirect edýär"
+  },
+  "mode_restoreDislikes": { "message": "Gowy görmeýänleri gaýtar" },
+  "mode_unroundCorners": { "message": "Öňki köşeler" },
+  "mode_disableShorts": { "message": "Gysgalanyş Gysgalanyş" },
+  "mode_shortsBlock": { "message": "Gysgaçlary gizle" },
+  "mode_playablesBlock": { "message": "Oynanýanlary Gizle" },
+  "mode_adBlock": { "message": "Reklamalary blokla" },
+  "mode_aiBlock": { "message": "Elementleri blokla" },
+  "mode_reduceAnimations": { "message": "Animasiýalary azaltmak" },
+  "mode_idlePrevention": { "message": "Ýagşylykdan gaça durmak" },
+  "mode_notifDisabled": { "message": "Mod bildirişleri" },
+  "helptip_restoreDislikes": { "message": "YouTube-da gaýdyp gelýän maglumaty ulanmak bilen ýigrenýän sanlary görkez" },
+  "helptip_unroundCorners": { "message": "UI elementleriniň daş-töweregindäki köşeler" },
+  "helptip_disableShorts": { "message": "Klassik giň oýnaýjy üçin gysgaça görkezme" },
+  "helptip_shortsBlock": { "message": "Öý sahypasynda görünmeýän gysgaçalary gizle + netijeler" },
+  "helptip_playablesBlock": { "message": "Oýunlary öý sahypasynda görünmezden gizle" },
+  "helptip_adBlock": { "message": "Baş sahypa düzümlerinden reklama kiçijiklerini gizle" },
+  "helptip_aiBlock": { "message": "Öýden AI elementlerini gizle + video sahypalary" },
+  "helptip_reduceAnimations": { "message": "Animasiýalary azaltmak" },
+  "helptip_idlePrevention": { "message": "Uykmaýşyňy sakla" },
+  "helptip_notifDisabled": { "message": "Mod/Settings toggling wagty habarlamalary görkez" },
+  "state_on": { "message": "bu" },
+  "state_off": { "message": "çyk" }
+}

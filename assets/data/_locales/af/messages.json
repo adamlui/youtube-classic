@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Keer YouTube terug na sy klassieke ontwerp (voor al die afgeronde hoeke en verborge afkeure) + lei YouTube Shorts + blokke miniatuuradvertensies"
+  },
+  "mode_restoreDislikes": { "message": "Herstel Hou Nie Van" },
+  "mode_unroundCorners": { "message": "Onvoltooide Hoeke" },
+  "mode_disableShorts": { "message": "Herlei Kortbroek" },
+  "mode_shortsBlock": { "message": "Steek weg Kortbroek" },
+  "mode_playablesBlock": { "message": "Versteek Speelbare" },
+  "mode_adBlock": { "message": "Blok advertensies" },
+  "mode_aiBlock": { "message": "Blok AI-elemente" },
+  "mode_reduceAnimations": { "message": "Verminder animasies" },
+  "mode_idlePrevention": { "message": "Lae Voorkoming" },
+  "mode_notifDisabled": { "message": "Modus Kennisgewings" },
+  "helptip_restoreDislikes": {
+    "message": "Wys hou nie van tellings met behulp van Terugkeer YouTube Hou nie van data nie"
+  },
+  "helptip_unroundCorners": { "message": "Onvoltooide hoeke rondom UI-elemente" },
+  "helptip_disableShorts": { "message": "Herlei Kortpaaie na klassieke wye speler" },
+  "helptip_shortsBlock": { "message": "Versteek kortbroek om in tuisblad + resultate te verskyn" },
+  "helptip_playablesBlock": { "message": "Versteek speelbare toestelle om in tuisblad te verskyn" },
+  "helptip_adBlock": { "message": "Versteek advertensie duimnaels van tuisbladuitlegte" },
+  "helptip_aiBlock": { "message": "Versteek AI-elemente van tuis + video bladsye" },
+  "helptip_reduceAnimations": { "message": "Verminder UI-animasies" },
+  "helptip_idlePrevention": { "message": "Voorkom dat die oortjie nie aan die slaap raak nie" },
+  "helptip_notifDisabled": { "message": "Vertoon kennisgewings wanneer wisselmodus/instellings" },
+  "state_on": { "message": "op" },
+  "state_off": { "message": "af" }
+}

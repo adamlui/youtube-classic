@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "You Tubeus Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Reverts YouTube ad facto designam klasika (ante alla rounded corners & hidden dislikes) + redirects ad tabularibus YouTube shorts + blocks thumbnail ad"
+  },
+  "mode_restoreDislikes": { "message": "Disficere" },
+  "mode_unroundCorners": { "message": "Unround Corners" },
+  "mode_disableShorts": { "message": "REGISTRARIA" },
+  "mode_shortsBlock": { "message": "Shorts Enidere" },
+  "mode_playablesBlock": { "message": "Apparatus playables" },
+  "mode_adBlock": { "message": "Block Ads" },
+  "mode_aiBlock": { "message": "Elementia AI Block" },
+  "mode_reduceAnimations": { "message": "Animationes Reduce" },
+  "mode_idlePrevention": { "message": "Prevention delle" },
+  "mode_notifDisabled": { "message": "Modus Notificationes" },
+  "helptip_restoreDislikes": { "message": "Cumque dislike cantibus repositum YouTube dislike tabularibus" },
+  "helptip_unroundCorners": { "message": "Unround corners circa UI elementos" },
+  "helptip_disableShorts": { "message": "Redirectre Shorts to classic wide player" },
+  "helptip_shortsBlock": { "message": "Confidere Shorts in home page + resultes" },
+  "helptip_playablesBlock": { "message": "Playables in opera page" },
+  "helptip_adBlock": { "message": "Afe ad thumbnailibus ad thumbnail tensis homepage" },
+  "helptip_aiBlock": { "message": "Hide AI singa in home + video pages" },
+  "helptip_reduceAnimations": { "message": "Higra animationes UI" },
+  "helptip_idlePrevention": { "message": "Paucitur tabus ad futremus" },
+  "helptip_notifDisabled": { "message": "Notificationes quod toggling mode/settings" },
+  "state_on": { "message": "on" },
+  "state_off": { "message": "off" }
+}

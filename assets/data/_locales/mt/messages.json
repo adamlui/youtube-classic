@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Tirritorna YouTube għad-disinn klassiku tagħha (qabel il-kantunieri ttundjati kollha u dislike moħbija) + tidderieġi mill-ġdid YouTube Shorts + timblokka r-reklami ta' mini"
+  },
+  "mode_restoreDislikes": { "message": "Irrestawra d-Dislikes" },
+  "mode_unroundCorners": { "message": "Kantunieri Mingħajr Ċaqliq" },
+  "mode_disableShorts": { "message": "Irridirezzjona x-xorzijiet" },
+  "mode_shortsBlock": { "message": "Aħbi x-xorzijiet" },
+  "mode_playablesBlock": { "message": "Aħbi l-oġġetti tal-logħob" },
+  "mode_adBlock": { "message": "Imblokka r-Reklami" },
+  "mode_aiBlock": { "message": "Imblokka l-Elementi AI" },
+  "mode_reduceAnimations": { "message": "Naqqas l-Animazzjonijiet" },
+  "mode_idlePrevention": { "message": "Prevenzjoni tal-Idle" },
+  "mode_notifDisabled": { "message": "Notifiki tal-Modalità" },
+  "helptip_restoreDislikes": { "message": "Uri l-għadd li ma tħobbx billi tuża d-dejta li ma tħobbx tirritorna fuq" },
+  "helptip_unroundCorners": { "message": "Ħoll il-kantunieri madwar l-elementi tal-IU" },
+  "helptip_disableShorts": { "message": "Irridirezzjona x-xorts għal-logħob wiesa' klassiku" },
+  "helptip_shortsBlock": { "message": "Aħbi x-xorzijiet milli jidhru fil-paġna ewlenija + ir-riżultati" },
+  "helptip_playablesBlock": { "message": "Aħbi l-oġġetti tal-logħob milli jidhru fil-paġna ewlenija" },
+  "helptip_adBlock": { "message": "Aħbi d-dettalji tar-reklami mit-tqassim tal-paġna ewlenija" },
+  "helptip_aiBlock": { "message": "Aħbi l-elementi tal-IA mid-dar + il-paġni tal-vidjow" },
+  "helptip_reduceAnimations": { "message": "Naqqas l-animazzjonijiet tal-UI" },
+  "helptip_idlePrevention": { "message": "Ipprevjeni t-tab milli torqod" },
+  "helptip_notifDisabled": { "message": "Uri n-notifiki meta tibdel il-modalità/is-settings" },
+  "state_on": { "message": "mixgħula" },
+  "state_off": { "message": "mitfija" }
+}

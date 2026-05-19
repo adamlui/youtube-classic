@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Chuyển YouTube về thiết kế cổ điển của nó (trước tất cả các góc bo tròn và không thích ẩn) + chuyển hướng YouTube Shorts + chặn quảng cáo hình thu nhỏ"
+  },
+  "mode_restoreDislikes": { "message": "Khôi phục lượt không thích" },
+  "mode_unroundCorners": { "message": "Góc không tròn" },
+  "mode_disableShorts": { "message": "Chuyển hướng quần short" },
+  "mode_shortsBlock": { "message": "Ẩn quần short" },
+  "mode_playablesBlock": { "message": "Ẩn đồ chơi" },
+  "mode_adBlock": { "message": "Chặn quảng cáo" },
+  "mode_aiBlock": { "message": "Chặn các yếu tố AI" },
+  "mode_reduceAnimations": { "message": "Giảm hoạt ảnh" },
+  "mode_idlePrevention": { "message": "Ngăn chặn nhàn rỗi" },
+  "mode_notifDisabled": { "message": "Thông báo chế độ" },
+  "helptip_restoreDislikes": {
+    "message": "Hiển thị số lượt không thích bằng cách sử dụng Trả lại dữ liệu YouTube Không thích"
+  },
+  "helptip_unroundCorners": { "message": "Gỡ các góc xung quanh các yếu tố giao diện người dùng" },
+  "helptip_disableShorts": { "message": "Chuyển hướng quần short sang người chơi rộng cổ điển" },
+  "helptip_shortsBlock": { "message": "Ẩn quần short không xuất hiện trong trang chủ + kết quả" },
+  "helptip_playablesBlock": { "message": "Ẩn các mục có thể phát không xuất hiện trên trang chủ" },
+  "helptip_adBlock": { "message": "Ẩn hình thu nhỏ quảng cáo khỏi bố cục trang chủ" },
+  "helptip_aiBlock": { "message": "Ẩn các yếu tố AI khỏi trang chủ + trang video" },
+  "helptip_reduceAnimations": { "message": "Giảm hoạt ảnh UI" },
+  "helptip_idlePrevention": { "message": "Ngăn chặn tab rơi vào giấc ngủ" },
+  "helptip_notifDisabled": { "message": "Hiển thị thông báo khi chuyển đổi chế độ/cài đặt" },
+  "state_on": { "message": "vào" },
+  "state_off": { "message": "tắt" }
+}

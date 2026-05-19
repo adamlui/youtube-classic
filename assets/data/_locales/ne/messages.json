@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "YouTube लाई यसको क्लासिक डिजाइनमा फर्काउँछ (सबै गोलाकार कुनाहरू र लुकेका मन नपराउनु अघि) + YouTube सर्टहरू + थम्बनेल विज्ञापनहरू रोक्दछ"
+  },
+  "mode_restoreDislikes": { "message": "मन नपराउनेहरू पुनर्स्थापित गर्नुहोस्" },
+  "mode_unroundCorners": { "message": "अनराउन्ड कुनाहरू" },
+  "mode_disableShorts": { "message": "सर्टहरू पुनर्निर्देशित गर्नुहोस्" },
+  "mode_shortsBlock": { "message": "सर्टहरू लुकाउनुहोस्" },
+  "mode_playablesBlock": { "message": "प्लेएबलहरू लुकाउनुहोस्" },
+  "mode_adBlock": { "message": "विज्ञापनहरू रोक्नुहोस्" },
+  "mode_aiBlock": { "message": "ब्लक AI तत्वहरू" },
+  "mode_reduceAnimations": { "message": "एनिमेसनहरू कम गर्नुहोस्" },
+  "mode_idlePrevention": { "message": "निष्क्रिय रोकथाम" },
+  "mode_notifDisabled": { "message": "मोड सूचनाहरू" },
+  "helptip_restoreDislikes": { "message": "रिटर्न युट्युब डिसलाइक डेटा प्रयोग गरेर डिसलाइक गणनाहरू देखाउनुहोस्" },
+  "helptip_unroundCorners": { "message": "UI तत्वहरूको वरिपरि कुनाहरू घुमाउनुहोस्" },
+  "helptip_disableShorts": { "message": "सर्टहरूलाई क्लासिक वाइड प्लेयरमा रिडाइरेक्ट गर्नुहोस्" },
+  "helptip_shortsBlock": { "message": "गृह पृष्ठ + परिणामहरूमा देखा पर्नबाट सर्टहरू लुकाउनुहोस्" },
+  "helptip_playablesBlock": { "message": "प्लेएबलहरू गृह पृष्ठमा देखा पर्नबाट लुकाउनुहोस्" },
+  "helptip_adBlock": { "message": "गृहपृष्ठ लेआउटबाट विज्ञापन थम्बनेलहरू लुकाउनुहोस्" },
+  "helptip_aiBlock": { "message": "घर + भिडियो पृष्ठहरूबाट AI तत्वहरू लुकाउनुहोस्" },
+  "helptip_reduceAnimations": { "message": "UI एनिमेसनहरू घटाउनुहोस्" },
+  "helptip_idlePrevention": { "message": "ट्याबलाई सुत्नबाट रोक्नुहोस्" },
+  "helptip_notifDisabled": { "message": "टगल मोड/सेटिङहरू गर्दा सूचनाहरू देखाउनुहोस्" },
+  "state_on": { "message": "खोल्नुहोस्" },
+  "state_off": { "message": "बन्द" }
+}

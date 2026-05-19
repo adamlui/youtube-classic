@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Revierte YouTube a su diseño clásico (antes de todas las esquinas redondeadas y los disgustos ocultos) + redirige YouTube Shorts + bloquea los anuncios en miniatura"
+  },
+  "mode_restoreDislikes": { "message": "Restaurar disgustos" },
+  "mode_unroundCorners": { "message": "Esquinas sin redondear" },
+  "mode_disableShorts": { "message": "Redirigir pantalones cortos" },
+  "mode_shortsBlock": { "message": "Ocultar pantalones cortos" },
+  "mode_playablesBlock": { "message": "Ocultar jugables" },
+  "mode_adBlock": { "message": "Bloquear anuncios" },
+  "mode_aiBlock": { "message": "Bloquear elementos de IA" },
+  "mode_reduceAnimations": { "message": "Reducir animaciones" },
+  "mode_idlePrevention": { "message": "Prevención de ralentí" },
+  "mode_notifDisabled": { "message": "Notificaciones de modo" },
+  "helptip_restoreDislikes": { "message": "Mostrar recuentos de disgustos utilizando Devolver datos de disgustos de" },
+  "helptip_unroundCorners": { "message": "Esquinas sin redondear alrededor de los elementos de la interfaz" },
+  "helptip_disableShorts": { "message": "Redirigir pantalones cortos a reproductor ancho clásico" },
+  "helptip_shortsBlock": {
+    "message": "Ocultar pantalones cortos para que no aparezcan en la página de inicio + resultados"
+  },
+  "helptip_playablesBlock": { "message": "Ocultar reproducciones para que no aparezcan en la página de inicio" },
+  "helptip_adBlock": { "message": "Ocultar miniaturas de anuncios de los diseños de la página de inicio" },
+  "helptip_aiBlock": { "message": "Ocultar elementos de IA de las páginas de inicio + vídeo" },
+  "helptip_reduceAnimations": { "message": "Reduce las animaciones de la interfaz de usuario" },
+  "helptip_idlePrevention": { "message": "Evitar que la pestaña se duerma" },
+  "helptip_notifDisabled": { "message": "Mostrar notificaciones cuando se alterna el modo/configuración" },
+  "state_on": { "message": "en" },
+  "state_off": { "message": "desactivado" }
+}

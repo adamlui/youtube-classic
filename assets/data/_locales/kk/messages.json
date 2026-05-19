@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "YouTube-ті классикалық дизайнға қайтарады (барлық дөңгелек бұрыштар мен жасырын ұнамсыздықтар алдында) + YouTube Shorts + блоктарын нобай жарнамаларына бағыттайды"
+  },
+  "mode_restoreDislikes": { "message": "Ұнамайтындарды қалпына келтіру" },
+  "mode_unroundCorners": { "message": "Айнала бұрыштар" },
+  "mode_disableShorts": { "message": "Шорттарды қайта бағыттау" },
+  "mode_shortsBlock": { "message": "Шорттарды жасыру" },
+  "mode_playablesBlock": { "message": "Ойнатылатындарды жасыру" },
+  "mode_adBlock": { "message": "Жарнамаларды блоктау" },
+  "mode_aiBlock": { "message": "ЖИ элементтерін блоктау" },
+  "mode_reduceAnimations": { "message": "Анимацияларды азайту" },
+  "mode_idlePrevention": { "message": "Бос орындардың алдын алу" },
+  "mode_notifDisabled": { "message": "Режим хабарландырулары" },
+  "helptip_restoreDislikes": { "message": "Return YouTube ұнамайтын деректерді пайдаланып, ұнамайтын сандарды көрсету" },
+  "helptip_unroundCorners": { "message": "UI элементтерінің айналасындағы дөңгелек бұрыштар" },
+  "helptip_disableShorts": { "message": "Шорттарды классикалық кең ойнатқышқа бағыттау" },
+  "helptip_shortsBlock": { "message": "Шорттарды басты бетте көрінуден жасыру + нәтижелер" },
+  "helptip_playablesBlock": { "message": "Ойнатылатындарды басты бетте пайда болудан жасыру" },
+  "helptip_adBlock": { "message": "Жарнамалық нобайларды басты бет орналасуларынан жасыру" },
+  "helptip_aiBlock": { "message": "Басты + бейне беттерінен AI элементтерін жасырыңыз" },
+  "helptip_reduceAnimations": { "message": "UI анимацияларын азайту" },
+  "helptip_idlePrevention": { "message": "Қойындының ұйқыға кетуіне жол бермеу" },
+  "helptip_notifDisabled": { "message": "Режімді/параметрлерді ауыстыру кезінде хабарландыруларды көрсету" },
+  "state_on": { "message": "қосулы" },
+  "state_off": { "message": "өшіру" }
+}

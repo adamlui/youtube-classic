@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "YouTube-ро ба тарроҳии классикии худ бармегардонад (пеш аз ҳама кунҷҳои мудаввар ва нохунакҳои пинҳонӣ) + YouTube Shorts + block ads thumbnail"
+  },
+  "mode_restoreDislikes": { "message": "Барқарор кардани норозигиҳо" },
+  "mode_unroundCorners": { "message": "Undo-type" },
+  "mode_disableShorts": { "message": "Ð  Ð ° Ð ¼ Ð ¾ Ð" },
+  "mode_shortsBlock": { "message": "Пинҳон кардани тугмаҳо" },
+  "mode_playablesBlock": { "message": "Пинҳон кардани бозиҳо" },
+  "mode_adBlock": { "message": "I-lock ang Mga Ad" },
+  "mode_aiBlock": { "message": "Қатъ кардани элементҳои AI" },
+  "mode_reduceAnimations": { "message": "Кам кардани аниматсияҳо" },
+  "mode_idlePrevention": { "message": "Пешгирии илтиёмї" },
+  "mode_notifDisabled": { "message": "Огоҳинома дар бораи ҳолат" },
+  "helptip_restoreDislikes": { "message": "Ipakita ang mga hindi kagustuhan gamit ang Return YouTube Dislike data" },
+  "helptip_unroundCorners": { "message": "Кунҷҳои гирдгардиш дар атрофи унсурҳои UI" },
+  "helptip_disableShorts": { "message": "Name" },
+  "helptip_shortsBlock": { "message": "Itago ang Mga Shortcut mula sa pagpapakita sa home page + mga resulta" },
+  "helptip_playablesBlock": { "message": "Itago ang mga Playable mula sa pagpapakita sa home page" },
+  "helptip_adBlock": { "message": "Itago ang mga thumbnail ng ad mula sa mga layunin ng homepage" },
+  "helptip_aiBlock": { "message": "Itago ang mga elemento ng AI mula sa home + mga pahina ng video" },
+  "helptip_reduceAnimations": { "message": "Паст кардани аниматсияҳои UI" },
+  "helptip_idlePrevention": { "message": "Предупреждать вкладку на вкл" },
+  "helptip_notifDisabled": { "message": "Намоиши огоҳиномаҳо ҳангоми гузаштан аз режим/танзимот" },
+  "state_on": { "message": "фаъол" },
+  "state_off": { "message": "ғайри фаъол" }
+}

@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Isebtar i yellan ddaw-a sɛan aseɣwen ɣer Youtube (uqbel meṛṛa n tɣawsiwin yettwassnen & tuffra n tuffra) + reffirects YouTube Shorts + blocks thumbnail ads"
+  },
+  "mode_restoreDislikes": { "message": "Rnu tuccḍiwin" },
+  "mode_unroundCorners": { "message": "Anwalt Anwalt Corners" },
+  "mode_disableShorts": { "message": "Snifel tizegziwin" },
+  "mode_shortsBlock": { "message": "Ffren isefra" },
+  "mode_playablesBlock": { "message": "Ffren iferdisen" },
+  "mode_adBlock": { "message": "Isebtar i yellan ddaw-a sɛan aseɣ" },
+  "mode_aiBlock": { "message": "Snulfu iγewwaṛen n AI" },
+  "mode_reduceAnimations": { "message": "Snifel isefka" },
+  "mode_idlePrevention": { "message": "Talɣut n uɣelluy" },
+  "mode_notifDisabled": { "message": "Iγewwaṛen n uγewwaṛ" },
+  "helptip_restoreDislikes": { "message": "Sken isefka n tuqqna s useqdec n tuqqna n tuqqna YouTube" },
+  "helptip_unroundCorners": { "message": "Tags relatifs à \"UI items\"" },
+  "helptip_disableShorts": { "message": "Tags relatifs à \"classic wide player\"" },
+  "helptip_shortsBlock": { "message": "Ffren iferdisen seg uḍebsi n uxxam + iferdisen" },
+  "helptip_playablesBlock": { "message": "Ffren iferdisen seg usuffeɣ deg usmel n uxxam" },
+  "helptip_adBlock": { "message": "Ffren ifuyla n yiɣewwaren n usenfaṛ n usenfaṛ n usenfaṛ" },
+  "helptip_aiBlock": { "message": "Ffeḍ isefka n AI seg uxxam + isefka n tvidyutin" },
+  "helptip_reduceAnimations": { "message": "Snifel iwenniten" },
+  "helptip_idlePrevention": { "message": "Seḥbes tab seg yiḍes" },
+  "helptip_notifDisabled": { "message": "Sken isallen melmi ara d-sbedden isenfaren/isenfaren" },
+  "state_on": { "message": "ɣef" },
+  "state_off": { "message": "ffeɣ" }
+}

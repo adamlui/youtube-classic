@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Rétablit YouTube dans son design classique (avant tous les coins arrondis et les aversions cachées) + redirige les publicités YouTube Shorts + blocs miniatures"
+  },
+  "mode_restoreDislikes": { "message": "Restaurer les aversions" },
+  "mode_unroundCorners": { "message": "Unround Corners" },
+  "mode_disableShorts": { "message": "Short Redirect" },
+  "mode_shortsBlock": { "message": "Cacher les shorts" },
+  "mode_playablesBlock": { "message": "Masquer les jouables" },
+  "mode_adBlock": { "message": "Bloquer les annonces" },
+  "mode_aiBlock": { "message": "Bloquer les éléments de l'IA" },
+  "mode_reduceAnimations": { "message": "Réduire les animations" },
+  "mode_idlePrevention": { "message": "Prévention du ralenti" },
+  "mode_notifDisabled": { "message": "Notifications de mode" },
+  "helptip_restoreDislikes": { "message": "Afficher le nombre de dislike à l'aide des données Return YouTube Dislike" },
+  "helptip_unroundCorners": { "message": "Coins non arrondis autour des éléments de l'interface utilisateur" },
+  "helptip_disableShorts": { "message": "Rediriger les shorts vers le joueur large classique" },
+  "helptip_shortsBlock": { "message": "Masquer les Shorts d'apparaître dans la page d'accueil + résultats" },
+  "helptip_playablesBlock": { "message": "Masquer l'affichage des Playables dans la page d'accueil" },
+  "helptip_adBlock": { "message": "Masquer les miniatures d'annonces dans les mises en page de la page d'accueil" },
+  "helptip_aiBlock": { "message": "Masquer les éléments d'IA des pages d'accueil + vidéo" },
+  "helptip_reduceAnimations": { "message": "Réduire les animations de l'interface utilisateur" },
+  "helptip_idlePrevention": { "message": "Empêcher la languette de s'endormir" },
+  "helptip_notifDisabled": { "message": "Afficher les notifications lors du basculement du mode/des paramètres" },
+  "state_on": { "message": "le" },
+  "state_off": { "message": "off" }
+}

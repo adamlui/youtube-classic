@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "ਯੂਟਿਊਬ ਕਲਾਸਿਕ" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "ਯੂਟਿubeਬ ਨੂੰ ਇਸਦੇ ਕਲਾਸਿਕ ਡਿਜ਼ਾਈਨ ਵਿੱਚ ਵਾਪਸ ਲਿਆਉਂਦਾ ਹੈ (ਸਾਰੇ ਗੋਲ ਕੋਨੇ ਅਤੇ ਲੁਕੇ ਹੋਏ ਨਾਪਸੰਦਾਂ ਤੋਂ ਪਹਿਲਾਂ) + ਯੂਟਿ Shortsਬ ਸ਼ੌਰਟਸ + ਥੰਬਨੇਲ ਇਸ਼ਤਿਹਾਰਾਂ ਨੂੰ ਮੁੜ ਨਿਰਦੇਸ਼ਤ ਕਰਦਾ ਹੈ"
+  },
+  "mode_restoreDislikes": { "message": "ਨਾਪਸੰਦ ਰੀ-ਸਟੋਰ ਕਰੋ" },
+  "mode_unroundCorners": { "message": "ਅਣ- ਗਰਾਊਂਡ ਕੋਨੇ" },
+  "mode_disableShorts": { "message": "ਸ਼ਾਰਟਸ ਰੀਡਾਇਰੈਕਟ ਕਰੋ" },
+  "mode_shortsBlock": { "message": "ਸ਼ਾਰਟਸ ਓਹਲੇ" },
+  "mode_playablesBlock": { "message": "ਚੱਲਣਯੋਗ ਓਹਲੇ" },
+  "mode_adBlock": { "message": "ਵਿਗਿਆਪਨ ਬਲਾਕ ਕਰੋ" },
+  "mode_aiBlock": { "message": "ਬਲਾਕ ਏਆਈ ਐਲੀਮੈਂਟਸ" },
+  "mode_reduceAnimations": { "message": "ਐਨੀਮੇਸ਼ਨ ਘਟਾਓ" },
+  "mode_idlePrevention": { "message": "ਵਿਹਲਾ ਰੋਕਥਾਮ" },
+  "mode_notifDisabled": { "message": "ਮੋਡ ਨੋਟੀਫਿਕੇਸ਼ਨ" },
+  "helptip_restoreDislikes": { "message": "ਰਿਟਰਨ ਯੂਟਿ Disਬ ਡਿਸਲਾਈਕ ਡੇਟਾ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਨਾਪਸੰਦ ਗਿਣਤੀ ਦਿਖਾਓ" },
+  "helptip_unroundCorners": { "message": "UI ਤੱਤਾਂ ਦੇ ਆਲੇ-ਦੁਆਲੇ ਕੋਨੇ ਅਨ-ਗਰਾਊਂਡ ਕਰੋ" },
+  "helptip_disableShorts": { "message": "ਸ਼ਾਰਟਸ ਨੂੰ ਕਲਾਸਿਕ ਵਾਈਡ ਪਲੇਅਰ ਵਿੱਚ ਰੀਡਾਇਰੈਕਟ ਕਰੋ" },
+  "helptip_shortsBlock": { "message": "ਹੋਮ ਪੇਜ + ਨਤੀਜਿਆਂ ਵਿੱਚ ਦਿਖਾਈ ਦੇਣ ਤੋਂ ਸ਼ਾਰਟਸ ਨੂੰ ਲੁਕਾਓ" },
+  "helptip_playablesBlock": { "message": "ਪਲੇਅਬੈੱਲ ਮੁੱਖ ਪੇਜ਼ ਵਿੱਚ ਵੇਖਣ ਤੋਂ ਓਹਲੇ" },
+  "helptip_adBlock": { "message": "ਹੋਮਪੇਜ ਲੇਆਉਟ ਤੋਂ ਵਿਗਿਆਪਨ ਥੰਮਨੇਲ ਲੁਕਾਓ" },
+  "helptip_aiBlock": { "message": "ਘਰ ਤੋਂ ਏਆਈ ਤੱਤ ਲੁਕਾਓ + ਵੀਡੀਓ ਪੰਨੇ" },
+  "helptip_reduceAnimations": { "message": "UI ਐਨੀਮੇਸ਼ਨ ਘਟਾਓ" },
+  "helptip_idlePrevention": { "message": "ਟੈਬ ਨੂੰ ਸੁੱਤੇ ਪੈਣ ਤੋਂ ਰੋਕੋ" },
+  "helptip_notifDisabled": { "message": "ਜਦੋਂ ਟੌਗਲਿੰਗ ਮੋਡ/ਸੈਟਿੰਗ ਹੋਵੇ ਤਾਂ ਨੋਟੀਫਿਕੇਸ਼ਨ ਵੇਖੋ" },
+  "state_on": { "message": "ਚਾਲੂ" },
+  "state_off": { "message": "ਬੰਦ" }
+}

@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "የዩቲዩብ ክላሲክ" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "ዩቲዩብን ወደ ክላሲክ ዲዛይን (ከሁሉም ክብ ማዕዘኖች እና የተደበቁ አሻንጉሊቶች በፊት) + የYouTube Shorts + የጣት ማስታወቂያዎችን ያግዳል"
+  },
+  "mode_restoreDislikes": { "message": "ውድቀቶችን እንደገና ያስጀምሩ" },
+  "mode_unroundCorners": { "message": "Unround የማዕዘን" },
+  "mode_disableShorts": { "message": "አጫጭር ነገሮችን ያስተካክሉ" },
+  "mode_shortsBlock": { "message": "ጫጫታዎችን ደብቅ" },
+  "mode_playablesBlock": { "message": "Playables ደብቅ" },
+  "mode_adBlock": { "message": "ማስታወቂያዎችን አግድ" },
+  "mode_aiBlock": { "message": "የአይኤ ንጥረ ነገሮችን አግድ" },
+  "mode_reduceAnimations": { "message": "አኒሜሽኖችን ይቀንሱ" },
+  "mode_idlePrevention": { "message": "ተገቢ ያልሆነ መከላከል" },
+  "mode_notifDisabled": { "message": "ሁነታ ማሳወቂያዎች" },
+  "helptip_restoreDislikes": { "message": "ተመላሽ የዩቲዩብ የማይወዱ መረጃዎችን በመጠቀም የማይወዱ ቆጠራዎችን ያሳዩ" },
+  "helptip_unroundCorners": { "message": "UI ንጥረ ነገሮች ዙሪያ Unround ማዕዘኖች" },
+  "helptip_disableShorts": { "message": "ወደ ክላሲክ ሰፊ ተጫዋች አጫጭር ቀይር" },
+  "helptip_shortsBlock": { "message": "በመነሻ ገጽ ላይ ከመታየት Shorts ደብቅ + ውጤቶች" },
+  "helptip_playablesBlock": { "message": "በመነሻ ገጽ ላይ ከመታየት Playables ይደብቁ" },
+  "helptip_adBlock": { "message": "ከማስታወቂያ ጣቶች ከ መነሻ ገጽ አቀማመጦች ይደብቁ" },
+  "helptip_aiBlock": { "message": "የ AI ንጥረ ነገሮችን ከቤት ደብቅ + የቪዲዮ ገጾች" },
+  "helptip_reduceAnimations": { "message": "UI እነማዎችን ይቀንሱ" },
+  "helptip_idlePrevention": { "message": "ከመተኛት ትርን ይከላከሉ" },
+  "helptip_notifDisabled": { "message": "Tggling ሁነታ/ቅንብሮች ጊዜ ማሳወቂያዎች አሳይ" },
+  "state_on": { "message": "ላይ" },
+  "state_off": { "message": "ማጥፋት" }
+}

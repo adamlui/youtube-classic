@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "מחזיר את YouTube לעיצוב הקלאסי שלו (לפני כל הפינות המעוגלות ושנאות נסתרות) + מפנה מחדש מודעות תמונה ממוזערת של YouTube Shorts + Block"
+  },
+  "mode_restoreDislikes": { "message": "שחזר 'לא אהבתי'" },
+  "mode_unroundCorners": { "message": "פינות לא עגולות" },
+  "mode_disableShorts": { "message": "הפניה מחדש של מכנסיים קצרים" },
+  "mode_shortsBlock": { "message": "הסתר מכנסיים קצרים" },
+  "mode_playablesBlock": { "message": "הסתר כלי משחק" },
+  "mode_adBlock": { "message": "חסימת מודעות" },
+  "mode_aiBlock": { "message": "חסום אלמנטים של בינה מלאכותית" },
+  "mode_reduceAnimations": { "message": "צמצום האנימציות" },
+  "mode_idlePrevention": { "message": "מניעת סרק" },
+  "mode_notifDisabled": { "message": "התראות מצב" },
+  "helptip_restoreDislikes": { "message": "הצג ספירות 'לא אהבתי' באמצעות נתוני 'חזור' של YouTube 'לא" },
+  "helptip_unroundCorners": { "message": "פינות לא מעוגלות סביב אלמנטים בממשק המשתמש" },
+  "helptip_disableShorts": { "message": "הפניה מחדש של מכנסיים קצרים לשחקן רחב קלאסי" },
+  "helptip_shortsBlock": { "message": "הסתר מכנסיים קצרים מהופעה בדף הבית + תוצאות" },
+  "helptip_playablesBlock": { "message": "הסתרת הפלייבלים מהופעה בדף הבית" },
+  "helptip_adBlock": { "message": "הסתר תמונות ממוזערות של מודעות מפריסות דף הבית" },
+  "helptip_aiBlock": { "message": "הסתרת אלמנטים של בינה מלאכותית מהבית + דפי וידאו" },
+  "helptip_reduceAnimations": { "message": "צמצום הנפשות ממשק המשתמש" },
+  "helptip_idlePrevention": { "message": "מנע מהלשונית להירדם" },
+  "helptip_notifDisabled": { "message": "הצג התראות בעת החלפת מצב/הגדרות" },
+  "state_on": { "message": "ב -" },
+  "state_off": { "message": "כבוי" }
+}

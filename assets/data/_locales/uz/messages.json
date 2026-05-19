@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube Klassik" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "YouTube’ni klassik dizayniga qaytaradi (barcha yumaloq burchaklar va yashirin yoqtirmasliklardan oldin) + YouTube Shorts’ni yo‘naltiradi + eskiz reklamalarini bloklaydi"
+  },
+  "mode_restoreDislikes": { "message": "Yoqtirmasliklarni tiklash" },
+  "mode_unroundCorners": { "message": "Burchaklarni aylanma yo'llar bilan o'zgartirish" },
+  "mode_disableShorts": { "message": "Yo'naltiruvchi qisqa metrajli filmlar" },
+  "mode_shortsBlock": { "message": "Shortilarni yashirish" },
+  "mode_playablesBlock": { "message": "O'ynaladiganlarni yashirish" },
+  "mode_adBlock": { "message": "Reklamalarni bloklash" },
+  "mode_aiBlock": { "message": "Blok AI elementlari" },
+  "mode_reduceAnimations": { "message": "Animatsiyalarni kamaytirish" },
+  "mode_idlePrevention": { "message": "Bo'sh ishlarning oldini olish" },
+  "mode_notifDisabled": { "message": "Rejim bildirishnomalari" },
+  "helptip_restoreDislikes": {
+    "message": "YouTube yoqtirmaslik ma'lumotlarini qaytarish orqali yoqtirmasliklar sonini ko'rsatish"
+  },
+  "helptip_unroundCorners": { "message": "UI elementlari atrofidagi burchaklarni aylantiring" },
+  "helptip_disableShorts": { "message": "Shortslarni klassik keng pleyerga yo'naltirish" },
+  "helptip_shortsBlock": { "message": "Qisqa videolarning bosh sahifada va natijalarda ko'rinishini yashirish" },
+  "helptip_playablesBlock": { "message": "Ijro etiladigan fayllarni bosh sahifada ko'rinishini yashirish" },
+  "helptip_adBlock": { "message": "Bosh sahifa maketlaridan reklama eskizlarini yashirish" },
+  "helptip_aiBlock": { "message": "Bosh sahifa + video sahifalaridan AI elementlarini yashirish" },
+  "helptip_reduceAnimations": { "message": "UI animatsiyalarini kamaytirish" },
+  "helptip_idlePrevention": { "message": "Tabning uxlab qolishiga yo'l qo'ymang" },
+  "helptip_notifDisabled": { "message": "Rejim/sozlamalarni almashtirishda bildirishnomalarni ko'rsatish" },
+  "state_on": { "message": "yoqilgan" },
+  "state_off": { "message": "o'chirilgan" }
+}

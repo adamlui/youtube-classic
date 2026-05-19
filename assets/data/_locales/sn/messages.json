@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Inodzosera YouTube kune yayo yakasarudzika dhizaini (pamberi pemakona ese akakomberedzwa & akavanzika asingadi) + inodzoreredza YouTube Shorts + inodzivirira thumbnail kushambadza"
+  },
+  "mode_restoreDislikes": { "message": "Dzorera Zvausingadi" },
+  "mode_unroundCorners": { "message": "Kutenderedza makona" },
+  "mode_disableShorts": { "message": "Taura nesu" },
+  "mode_shortsBlock": { "message": "Kuvanza Shorts" },
+  "mode_playablesBlock": { "message": "Kuvanza Playables" },
+  "mode_adBlock": { "message": "Taura nesu" },
+  "mode_aiBlock": { "message": "Chivhariso AI Elements" },
+  "mode_reduceAnimations": { "message": "Deredza Mifananidzo" },
+  "mode_idlePrevention": { "message": "Kushanda Kudzivirira" },
+  "mode_notifDisabled": { "message": "Mode Notifications" },
+  "helptip_restoreDislikes": { "message": "Ratidza kusafarira kuverenga uchishandisa Return YouTube Dislike data" },
+  "helptip_unroundCorners": { "message": "Kutenderedza makona akapoteredza zvinhu zveUI" },
+  "helptip_disableShorts": { "message": "Dzorera Shorts kune classic wide player" },
+  "helptip_shortsBlock": { "message": "Hide Shorts kubva pakuonekwa mumusha peji + migumisiro" },
+  "helptip_playablesBlock": { "message": "Hide Playables kubva kuonekwa mumusha peji" },
+  "helptip_adBlock": { "message": "Kuvanza ad thumbnails kubva Homepage layouts" },
+  "helptip_aiBlock": { "message": "Kuvanza AI zvinhu kubva kumba + mavhidhiyo mapeji" },
+  "helptip_reduceAnimations": { "message": "Deredza UI mifananidzo" },
+  "helptip_idlePrevention": { "message": "Dzivisa tab kubva pakurara" },
+  "helptip_notifDisabled": { "message": "Ratidza zviziviso kana toggling muoti/marongero" },
+  "state_on": { "message": "pamusoro" },
+  "state_off": { "message": "kure" }
+}

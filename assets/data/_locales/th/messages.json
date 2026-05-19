@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "เปลี่ยน YouTube เป็นดีไซน์คลาสสิก (ก่อนมุมโค้งมนทั้งหมดและไม่ชอบที่ซ่อนอยู่) + เปลี่ยนเส้นทาง YouTube Short + บล็อกโฆษณาขนาดย่อ"
+  },
+  "mode_restoreDislikes": { "message": "คืนค่าสิ่งที่ไม่ชอบ" },
+  "mode_unroundCorners": { "message": "Unround Corners" },
+  "mode_disableShorts": { "message": "เปลี่ยนเส้นทางกางเกงขาสั้น" },
+  "mode_shortsBlock": { "message": "ซ่อนกางเกงขาสั้น" },
+  "mode_playablesBlock": { "message": "ซ่อนสิ่งที่เล่นได้" },
+  "mode_adBlock": { "message": "บล็อคโฆษณา" },
+  "mode_aiBlock": { "message": "บล็อกองค์ประกอบ AI" },
+  "mode_reduceAnimations": { "message": "ลดแอนิเมชัน" },
+  "mode_idlePrevention": { "message": "การป้องกันการเดินเบา" },
+  "mode_notifDisabled": { "message": "การแจ้งเตือนโหมด" },
+  "helptip_restoreDislikes": { "message": "แสดงจำนวนการไม่ชอบโดยใช้ข้อมูลการไม่ชอบของ YouTube ที่ส่งคืน" },
+  "helptip_unroundCorners": { "message": "มุม Unround รอบองค์ประกอบ UI" },
+  "helptip_disableShorts": { "message": "เปลี่ยนเส้นทางกางเกงขาสั้นเป็นผู้เล่นระดับกว้างแบบคลาสสิก" },
+  "helptip_shortsBlock": { "message": "ซ่อนกางเกงขาสั้นไม่ให้ปรากฏในหน้าแรก + ผลลัพธ์" },
+  "helptip_playablesBlock": { "message": "ซ่อนสิ่งที่เล่นได้ไม่ให้ปรากฏในหน้าหลัก" },
+  "helptip_adBlock": { "message": "ซ่อนภาพขนาดย่อของโฆษณาจากเลย์เอาต์ของหน้าแรก" },
+  "helptip_aiBlock": { "message": "ซ่อนองค์ประกอบ AI จากหน้าหลัก + วิดีโอ" },
+  "helptip_reduceAnimations": { "message": "ลดภาพเคลื่อนไหว UI" },
+  "helptip_idlePrevention": { "message": "ป้องกันไม่ให้แท็บหลับ" },
+  "helptip_notifDisabled": { "message": "แสดงการแจ้งเตือนเมื่อสลับโหมด/การตั้งค่า" },
+  "state_on": { "message": "เปิด" },
+  "state_off": { "message": "ลด" }
+}

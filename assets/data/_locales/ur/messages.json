@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "YouTube کو اس کے کلاسک ڈیزائن پر واپس لاتا ہے (تمام گول کونے اور پوشیدہ ناپسندیدگی سے پہلے) + YouTube شارٹس کو ری ڈائریکٹ کرتا ہے + تھمب نیل اشتہارات کو روکتا ہے"
+  },
+  "mode_restoreDislikes": { "message": "ناپسندیدگی بحال کریں" },
+  "mode_unroundCorners": { "message": "بغیر راؤنڈ والے کونے" },
+  "mode_disableShorts": { "message": "شارٹس ری ڈائریکٹ کریں" },
+  "mode_shortsBlock": { "message": "شارٹس چھپائیں" },
+  "mode_playablesBlock": { "message": "پلے ایبلز چھپائیں" },
+  "mode_adBlock": { "message": "اشتہارات بلاک کریں" },
+  "mode_aiBlock": { "message": "AI عناصر کو بلاک کریں" },
+  "mode_reduceAnimations": { "message": "حرکت پذیریوں کو کم کریں" },
+  "mode_idlePrevention": { "message": "بیکار کی روک تھام" },
+  "mode_notifDisabled": { "message": "موڈ نوٹیفکیشنز" },
+  "helptip_restoreDislikes": {
+    "message": "YouTube کو واپس کریں ڈیٹا کو ناپسند کریں کا استعمال کرتے ہوئے ناپسندیدگی کی تعداد دکھائیں"
+  },
+  "helptip_unroundCorners": { "message": "UI عناصر کے ارد گرد کونے کھولیں" },
+  "helptip_disableShorts": { "message": "شارٹس کو کلاسیکی وسیع کھلاڑی پر ری ڈائریکٹ کریں" },
+  "helptip_shortsBlock": { "message": "شارٹس کو ہوم پیج + نتائج میں ظاہر ہونے سے چھپائیں" },
+  "helptip_playablesBlock": { "message": "پلے ایبلز کو ہوم پیج پر ظاہر ہونے سے چھپائیں" },
+  "helptip_adBlock": { "message": "ہوم پیج کی ترتیب سے اشتہار کے تھمب نیل چھپائیں" },
+  "helptip_aiBlock": { "message": "ہوم + ویڈیو صفحات سے AI عناصر چھپائیں" },
+  "helptip_reduceAnimations": { "message": "UI حرکت پذیریوں کو کم کریں" },
+  "helptip_idlePrevention": { "message": "ٹیب کو سونے سے روکیں" },
+  "helptip_notifDisabled": { "message": "ٹوگلنگ موڈ/سیٹنگز کے دوران اطلاعات دکھائیں" },
+  "state_on": { "message": "پر" },
+  "state_off": { "message": "آف" }
+}

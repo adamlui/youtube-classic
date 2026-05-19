@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "YouTube ક્લાસિક" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "YouTube ને તેની ક્લાસિક ડિઝાઇન પર ફેરવે છે (બધા ગોળાકાર ખૂણાઓ અને છુપાયેલા નાપસંદ પહેલાં) + YouTube શોર્ટ્સ + બ્લૉક થંબનેલ જાહેરાતોને રીડાયરેક્ટ કરે છે"
+  },
+  "mode_restoreDislikes": { "message": "નાપસંદો પુનઃસ્થાપિત કરો" },
+  "mode_unroundCorners": { "message": "ગોળાકાર ખૂણાઓ" },
+  "mode_disableShorts": { "message": "શોર્ટ્સ રીડાયરેક્ટ કરો" },
+  "mode_shortsBlock": { "message": "શોર્ટ્સ છુપાવો" },
+  "mode_playablesBlock": { "message": "વગાડવા યોગ્ય વસ્તુઓ છુપાવો" },
+  "mode_adBlock": { "message": "બ્લોક જાહેરાતો" },
+  "mode_aiBlock": { "message": "બ્લોક એઆઈ એલિમેન્ટ્સ" },
+  "mode_reduceAnimations": { "message": "એનિમેશન ઘટાડે છે" },
+  "mode_idlePrevention": { "message": "નિષ્ક્રિય નિવારણ" },
+  "mode_notifDisabled": { "message": "મોડ સૂચનાઓ" },
+  "helptip_restoreDislikes": { "message": "રીટર્ન YouTube ના નાપસંદ ડેટાનો ઉપયોગ કરીને નાપસંદ ગણતરીઓ બતાવો" },
+  "helptip_unroundCorners": { "message": "UI તત્વોની આસપાસ ખૂણાઓ ખોલો" },
+  "helptip_disableShorts": { "message": "ક્લાસિક વાઈડ પ્લેયરમાં શોર્ટ્સ રીડાયરેક્ટ કરો" },
+  "helptip_shortsBlock": { "message": "હોમ પેજ + પરિણામોમાં દેખાતા શોર્ટ્સ છુપાવો" },
+  "helptip_playablesBlock": { "message": "હોમ પેજમાં દેખાતા પ્લેબલ્સને છુપાવો" },
+  "helptip_adBlock": { "message": "હોમપેજ લેઆઉટમાંથી જાહેરાત થંબનેલ્સ છુપાવો" },
+  "helptip_aiBlock": { "message": "હોમ + વિડિઓ પૃષ્ઠોમાંથી AI તત્વો છુપાવો" },
+  "helptip_reduceAnimations": { "message": "UI એનિમેશન ઘટાડો" },
+  "helptip_idlePrevention": { "message": "ટેબને નિદ્રાધીન થવાથી અટકાવો" },
+  "helptip_notifDisabled": { "message": "જ્યારે ટોગલિંગ મોડ/સેટિંગ્સ હોય ત્યારે સૂચનાઓ બતાવો" },
+  "state_on": { "message": "ચાલુ" },
+  "state_off": { "message": "બંધ" }
+}

@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "YouTube को अपने क्लासिक डिज़ाइन पर वापस लाता है (सभी गोल कोनों और छिपे हुए नापसंद से पहले) + YouTube शॉर्ट्स को रीडायरेक्ट करता है + थंबनेल विज्ञापनों को ब्लॉक करता है"
+  },
+  "mode_restoreDislikes": { "message": "नापसंद को पुनर्स्थापित करें" },
+  "mode_unroundCorners": { "message": "अनराउंड कॉर्नर" },
+  "mode_disableShorts": { "message": "शॉर्ट्स रीडायरेक्ट करें" },
+  "mode_shortsBlock": { "message": "शॉर्ट्स छिपाएँ" },
+  "mode_playablesBlock": { "message": "बजाने लायक चीज़ें छिपाएँ" },
+  "mode_adBlock": { "message": "ब्लॉक विज्ञापन" },
+  "mode_aiBlock": { "message": "एआई तत्वों को ब्लॉक करें" },
+  "mode_reduceAnimations": { "message": "एनिमेशन कम करें" },
+  "mode_idlePrevention": { "message": "निष्क्रिय रोकथाम" },
+  "mode_notifDisabled": { "message": "मोड नोटिफ़िकेशन" },
+  "helptip_restoreDislikes": { "message": "रिटर्न YouTube डिसलाइक डेटा का उपयोग करके डिसलाइक काउंट दिखाएं" },
+  "helptip_unroundCorners": { "message": "UI एलिमेंट्स के चारों ओर अनराउंड कॉर्नर" },
+  "helptip_disableShorts": { "message": "शॉर्ट्स को क्लासिक वाइड प्लेयर पर रीडायरेक्ट करें" },
+  "helptip_shortsBlock": { "message": "शॉर्ट्स को होम पेज + परिणामों में दिखाई देने से छिपाएँ" },
+  "helptip_playablesBlock": { "message": "प्लेबल्स को होम पेज पर दिखाई देने से छिपाएँ" },
+  "helptip_adBlock": { "message": "होमपेज लेआउट से विज्ञापन थंबनेल छिपाएँ" },
+  "helptip_aiBlock": { "message": "घर + वीडियो पेज से AI एलिमेंट छिपाएँ" },
+  "helptip_reduceAnimations": { "message": "UI एनिमेशन कम करें" },
+  "helptip_idlePrevention": { "message": "टैब को सो जाने से रोकें" },
+  "helptip_notifDisabled": { "message": "टॉगलिंग मोड/सेटिंग के दौरान नोटिफ़िकेशन दिखाएँ" },
+  "state_on": { "message": "चालू" },
+  "state_off": { "message": "बंद" }
+}

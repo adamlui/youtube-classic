@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Zet YouTube terug naar zijn klassieke ontwerp (vóór alle afgeronde hoeken en verborgen antipathieën) + stuurt YouTube-shorts om + blokkeert miniatuuradvertenties"
+  },
+  "mode_restoreDislikes": { "message": "Dislikes herstellen" },
+  "mode_unroundCorners": { "message": "Ongeronde hoeken" },
+  "mode_disableShorts": { "message": "Korte broeken omleiden" },
+  "mode_shortsBlock": { "message": "Shorts verbergen" },
+  "mode_playablesBlock": { "message": "Playables verbergen" },
+  "mode_adBlock": { "message": "Blokkeer advertenties" },
+  "mode_aiBlock": { "message": "Blokkeer AI-elementen" },
+  "mode_reduceAnimations": { "message": "Animaties verminderen" },
+  "mode_idlePrevention": { "message": "Inactiviteitspreventie" },
+  "mode_notifDisabled": { "message": "Modusmeldingen" },
+  "helptip_restoreDislikes": { "message": "Toon dislike-tellingen met behulp van Return YouTube Dislike-gegevens" },
+  "helptip_unroundCorners": { "message": "Afgeronde hoeken rond UI-elementen" },
+  "helptip_disableShorts": { "message": "Verwijs shorts door naar de klassieke brede speler" },
+  "helptip_shortsBlock": { "message": "Shorts verbergen voor weergave op startpagina + resultaten" },
+  "helptip_playablesBlock": { "message": "Verberg Playables zodat ze niet op de startpagina verschijnen" },
+  "helptip_adBlock": { "message": "Verberg advertentieminiaturen in de lay-outs van de startpagina" },
+  "helptip_aiBlock": { "message": "Verberg AI-elementen op home + videopagina's" },
+  "helptip_reduceAnimations": { "message": "UI-animaties verminderen" },
+  "helptip_idlePrevention": { "message": "Voorkom dat tab in slaap valt" },
+  "helptip_notifDisabled": { "message": "Meldingen weergeven bij schakelen tussen modus/instellingen" },
+  "state_on": { "message": "op" },
+  "state_off": { "message": "uit" }
+}

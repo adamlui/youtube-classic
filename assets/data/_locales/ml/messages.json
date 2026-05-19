@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "YouTube-നെ അതിന്റെ ക്ലാസിക് ഡിസൈനിലേക്ക് പഴയപടിയാക്കുന്നു (എല്ലാ വൃത്താകൃതിയിലുള്ള കോണുകൾക്കും മറഞ്ഞിരിക്കുന്ന അനിഷ്ടങ്ങൾക്കും മുമ്പ്) + YouTube ഷോർട്ട്സ് + ബ്ലോക്കുകൾ ലഘുചിത്ര പരസ്യങ്ങൾ റീഡയറക്റ്റ് ചെയ്യുന്നു"
+  },
+  "mode_restoreDislikes": { "message": "ഇഷ്ടപ്പെടാത്തവ പുനഃസ്ഥാപിക്കുക" },
+  "mode_unroundCorners": { "message": "അൺറൗണ്ട് കോർണറുകൾ" },
+  "mode_disableShorts": { "message": "ഷോർട്ട്സ് റീഡയറക്റ്റ് ചെയ്യുക" },
+  "mode_shortsBlock": { "message": "ഷോർട്ട്സ് മറയ്ക്കുക" },
+  "mode_playablesBlock": { "message": "പ്ലേബാളുകൾ മറയ്ക്കുക" },
+  "mode_adBlock": { "message": "പരസ്യങ്ങൾ തടയുക" },
+  "mode_aiBlock": { "message": "AI ഘടകങ്ങൾ തടയുക" },
+  "mode_reduceAnimations": { "message": "ആനിമേഷനുകൾ കുറയ്ക്കുക" },
+  "mode_idlePrevention": { "message": "നിഷ്‌ക്രിയ പ്രിവൻഷൻ" },
+  "mode_notifDisabled": { "message": "മോഡ് അറിയിപ്പുകൾ" },
+  "helptip_restoreDislikes": {
+    "message": "റിട്ടേൺ YouTube ഇഷ്ടപ്പെടാത്ത ഡാറ്റ ഉപയോഗിച്ച് ഇഷ്ടപ്പെടാത്ത എണ്ണങ്ങൾ കാണിക്കുക"
+  },
+  "helptip_unroundCorners": { "message": "UI ഘടകങ്ങൾക്ക് ചുറ്റുമുള്ള കോണുകൾ അൺറൗണ്ട് ചെയ്യുക" },
+  "helptip_disableShorts": { "message": "ക്ലാസിക് വൈഡ് പ്ലെയറിലേക്ക് ഷോർട്ട്സ് റീഡയറക്റ്റ് ചെയ്യുക" },
+  "helptip_shortsBlock": { "message": "ഹോം പേജിൽ ദൃശ്യമാകുന്നതിൽ നിന്ന് ഷോർട്ട്സ് മറയ്ക്കുക + ഫലങ്ങൾ" },
+  "helptip_playablesBlock": { "message": "ഹോം പേജിൽ ദൃശ്യമാകുന്നതിൽ നിന്ന് പ്ലേബിളുകൾ മറയ്ക്കുക" },
+  "helptip_adBlock": { "message": "ഹോംപേജ് ലേഔട്ടുകളിൽ നിന്ന് പരസ്യ ലഘുചിത്രങ്ങൾ മറയ്ക്കുക" },
+  "helptip_aiBlock": { "message": "ഹോം + വീഡിയോ പേജുകളിൽ നിന്ന് AI ഘടകങ്ങൾ മറയ്ക്കുക" },
+  "helptip_reduceAnimations": { "message": "UI ആനിമേഷനുകൾ കുറയ്ക്കുക" },
+  "helptip_idlePrevention": { "message": "ഉറങ്ങുന്നതിൽ നിന്ന് ടാബ് തടയുക" },
+  "helptip_notifDisabled": { "message": "മോഡ്/ക്രമീകരണങ്ങൾ ടോഗിൾ ചെയ്യുമ്പോൾ അറിയിപ്പുകൾ കാണിക്കുക" },
+  "state_on": { "message": "ഓൺ" },
+  "state_off": { "message": "ഓഫ്" }
+}

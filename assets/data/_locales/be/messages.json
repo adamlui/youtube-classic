@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Вяртае YouTube да свайго класічнага дызайну (да ўсіх закругленых кутоў і схаваных антыпатыяў) + перанакіроўвае YouTube Shorts + блакуе мініяцюрную рэкламу"
+  },
+  "mode_restoreDislikes": { "message": "Аднавіць антыпатыі" },
+  "mode_unroundCorners": { "message": "Неабмежаваныя куты" },
+  "mode_disableShorts": { "message": "Перанакіраваць шорты" },
+  "mode_shortsBlock": { "message": "Схаваць шорты" },
+  "mode_playablesBlock": { "message": "Схаваць прайгравальнікі" },
+  "mode_adBlock": { "message": "Блакаваць рэкламу" },
+  "mode_aiBlock": { "message": "Блакаваць элементы ІІ" },
+  "mode_reduceAnimations": { "message": "Паменшыць анімацыю" },
+  "mode_idlePrevention": { "message": "Прафілактыка прабегу" },
+  "mode_notifDisabled": { "message": "Апавяшчэнні аб рэжыме" },
+  "helptip_restoreDislikes": {
+    "message": "Паказаць колькасць антыпатыяў з дапамогай вяртання дадзеных пра антыпатыю YouTube"
+  },
+  "helptip_unroundCorners": { "message": "Разгарнуць куты вакол элементаў карыстацкага інтэрфейсу" },
+  "helptip_disableShorts": { "message": "Перанакіраваць шорты ў класічны шырокі плэер" },
+  "helptip_shortsBlock": { "message": "Схаваць шорты ад з 'яўлення на галоўнай старонцы + вынікаў" },
+  "helptip_playablesBlock": { "message": "Схаваць прайгравальнікі ад з 'яўлення на галоўнай старонцы" },
+  "helptip_adBlock": { "message": "Схаваць мініяцюры рэкламы ад макетаў галоўнай старонкі" },
+  "helptip_aiBlock": { "message": "Схаваць элементы штучнага інтэлекту з хатніх + відэастаронак" },
+  "helptip_reduceAnimations": { "message": "Паменшыць анімацыю карыстацкага інтэрфейсу" },
+  "helptip_idlePrevention": { "message": "Прадухіліць засынанне ўкладкі" },
+  "helptip_notifDisabled": { "message": "Паказваць апавяшчэнні пры пераключэнні рэжыму/налад" },
+  "state_on": { "message": "уключаны" },
+  "state_off": { "message": "выключаны" }
+}

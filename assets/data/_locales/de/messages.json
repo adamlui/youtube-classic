@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Kehrt YouTube zu seinem klassischen Design zurück (vor all den abgerundeten Ecken und versteckten Abneigungen) + leitet YouTube-Shorts um + blockiert Thumbnail-Anzeigen"
+  },
+  "mode_restoreDislikes": { "message": "Abneigungen wiederherstellen" },
+  "mode_unroundCorners": { "message": "Unrunde Ecken" },
+  "mode_disableShorts": { "message": "Shorts umleiten" },
+  "mode_shortsBlock": { "message": "Shorts ausblenden" },
+  "mode_playablesBlock": { "message": "Spielbare Elemente ausblenden" },
+  "mode_adBlock": { "message": "Anzeigen blockieren" },
+  "mode_aiBlock": { "message": "KI-Elemente blockieren" },
+  "mode_reduceAnimations": { "message": "Animationen reduzieren" },
+  "mode_idlePrevention": { "message": "Vermeidung von Leerlauf" },
+  "mode_notifDisabled": { "message": "Modus-Benachrichtigungen" },
+  "helptip_restoreDislikes": {
+    "message": "Zeigen Sie die Anzahl der Abneigungen mit YouTube-Rückgabe Daten zur Abneigung"
+  },
+  "helptip_unroundCorners": { "message": "Ungerundete Ecken um UI-Elemente" },
+  "helptip_disableShorts": { "message": "Shorts an klassischen Wide Player weiterleiten" },
+  "helptip_shortsBlock": { "message": "Shorts ausblenden, die nicht auf der Startseite erscheinen + Ergebnisse" },
+  "helptip_playablesBlock": { "message": "Ausblenden, dass Playables nicht auf der Startseite angezeigt wird" },
+  "helptip_adBlock": { "message": "Anzeigen-Miniaturansichten von Homepage-Layouts ausblenden" },
+  "helptip_aiBlock": { "message": "KI-Elemente von Home- und Videoseiten ausblenden" },
+  "helptip_reduceAnimations": { "message": "UI-Animationen reduzieren" },
+  "helptip_idlePrevention": { "message": "Tab am Einschlafen hindern" },
+  "helptip_notifDisabled": { "message": "Benachrichtigungen beim Umschalten auf Modus/Einstellungen anzeigen" },
+  "state_on": { "message": "am" },
+  "state_off": { "message": "aus" }
+}

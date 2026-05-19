@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Reverteix YouTube al seu disseny clàssic (abans de totes les cantonades arrodonides i els disgustos ocults) + redirigeix YouTube Shorts + bloqueja els anuncis en miniatura"
+  },
+  "mode_restoreDislikes": { "message": "Restaura els disgustos" },
+  "mode_unroundCorners": { "message": "Cantonades sense arrodonir" },
+  "mode_disableShorts": { "message": "Redirigeix els pantalons curts" },
+  "mode_shortsBlock": { "message": "Amaga els pantalons curts" },
+  "mode_playablesBlock": { "message": "Amaga els reproductibles" },
+  "mode_adBlock": { "message": "Bloqueja els anuncis" },
+  "mode_aiBlock": { "message": "Bloqueja els elements d'IA" },
+  "mode_reduceAnimations": { "message": "Redueix les animacions" },
+  "mode_idlePrevention": { "message": "Prevenció d'inactivitat" },
+  "mode_notifDisabled": { "message": "Notificacions de mode" },
+  "helptip_restoreDislikes": {
+    "message": "Mostra els recomptes de no m'agrada mitjançant Torna les dades de no m'agrada"
+  },
+  "helptip_unroundCorners": { "message": "Cantonades no rodones al voltant dels elements de la interfíci" },
+  "helptip_disableShorts": { "message": "Redirigeix els pantalons curts al reproductor ample clàssic" },
+  "helptip_shortsBlock": { "message": "Amaga els pantalons curts perquè no apareguin a la pàgina d'inici + resultats" },
+  "helptip_playablesBlock": { "message": "Oculta els reproductors perquè no apareguin a la pàgina d'inici" },
+  "helptip_adBlock": { "message": "Oculta les miniatures dels anuncis dels dissenys de la pàgina d'inici" },
+  "helptip_aiBlock": { "message": "Oculta els elements d'IA de la pàgina d'inici + vídeo" },
+  "helptip_reduceAnimations": { "message": "Redueix les animacions de la interfície d'usuari" },
+  "helptip_idlePrevention": { "message": "Evita que la pestanya s'adormi" },
+  "helptip_notifDisabled": { "message": "Mostra les notificacions quan alternis entre el mode i la configuració" },
+  "state_on": { "message": "activat" },
+  "state_off": { "message": "desactivat" }
+}

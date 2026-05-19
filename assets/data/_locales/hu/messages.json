@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Visszaállítja a YouTube-ot a klasszikus dizájnra (a lekerekített sarkok és a rejtett ellenszenvek előtt) + átirányítja a YouTube rövidnadrágot + blokkolja a miniatűr hirdetéseket"
+  },
+  "mode_restoreDislikes": { "message": "Nemtetszések visszaállítása" },
+  "mode_unroundCorners": { "message": "Kerekítetlen sarkok" },
+  "mode_disableShorts": { "message": "Rövidnadrágok átirányítása" },
+  "mode_shortsBlock": { "message": "Rövidnadrág elrejtése" },
+  "mode_playablesBlock": { "message": "Lejátszható elemek elrejtése" },
+  "mode_adBlock": { "message": "Hirdetések blokkolása" },
+  "mode_aiBlock": { "message": "AI elemek blokkolása" },
+  "mode_reduceAnimations": { "message": "Animációk csökkentése" },
+  "mode_idlePrevention": { "message": "Üresjárat-megelőzés" },
+  "mode_notifDisabled": { "message": "Üzemmód értesítések" },
+  "helptip_restoreDislikes": {
+    "message": "Nem tetszésszám megjelenítése a YouTube Nem tetszés adatainak visszaküldésével"
+  },
+  "helptip_unroundCorners": { "message": "Lekerekítetlen sarkok a felhasználói felület elemei körül" },
+  "helptip_disableShorts": { "message": "Rövidnadrág átirányítása klasszikus széles lejátszóra" },
+  "helptip_shortsBlock": { "message": "Rövidnadrágok elrejtése a kezdőlap + találatok között" },
+  "helptip_playablesBlock": { "message": "Lejátszható elemek elrejtése a kezdőlapon való megjelenés elől" },
+  "helptip_adBlock": { "message": "Hirdetési miniatűrök elrejtése a kezdőlap elrendezéséből" },
+  "helptip_aiBlock": { "message": "AI-elemek elrejtése a kezdőlapról + videóoldalak" },
+  "helptip_reduceAnimations": { "message": "UI animációk csökkentése" },
+  "helptip_idlePrevention": { "message": "Megakadályozza, hogy a fül elaludjon" },
+  "helptip_notifDisabled": { "message": "Értesítések megjelenítése a mód/beállítások közötti váltáskor" },
+  "state_on": { "message": "be" },
+  "state_off": { "message": "ki" }
+}

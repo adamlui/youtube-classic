@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Vraća YouTube na svoj klasični dizajn (prije svih zaobljenih uglova i skrivenih nesviđanja) + preusmjerava YouTube Shorts + blokira minijature oglasa"
+  },
+  "mode_restoreDislikes": { "message": "Vrati oznake „Ne sviđa mi se”" },
+  "mode_unroundCorners": { "message": "Zaokreni kutove" },
+  "mode_disableShorts": { "message": "Preusmjeri kratke hlače" },
+  "mode_shortsBlock": { "message": "Sakrij kratke hlače" },
+  "mode_playablesBlock": { "message": "Sakrij reprodukcijske datoteke" },
+  "mode_adBlock": { "message": "Blokiraj oglase" },
+  "mode_aiBlock": { "message": "Blokiraj AI elemente" },
+  "mode_reduceAnimations": { "message": "Smanji animacije" },
+  "mode_idlePrevention": { "message": "Sprječavanje neaktivnosti" },
+  "mode_notifDisabled": { "message": "Obavijesti o načinu rada" },
+  "helptip_restoreDislikes": {
+    "message": "Prikaži broj nesviđanja pomoću podataka koji se ne sviđaju na usluzi Return YouTube"
+  },
+  "helptip_unroundCorners": { "message": "Zaokružite kutove oko elemenata korisničkog sučelja" },
+  "helptip_disableShorts": { "message": "Preusmjeri kratke hlače na klasičnog širokog igrača" },
+  "helptip_shortsBlock": { "message": "Sakrij kratke hlače da se ne prikazuju na početnoj stranici + rezultati" },
+  "helptip_playablesBlock": { "message": "Sakrij reprodukcijske datoteke od prikazivanja na početnoj stranici" },
+  "helptip_adBlock": { "message": "Sakrij minijature oglasa iz izgleda početne stranice" },
+  "helptip_aiBlock": { "message": "Sakrij elemente umjetne inteligencije od kuće + stranice s videozapisima" },
+  "helptip_reduceAnimations": { "message": "Smanji animacije korisničkog sučelja" },
+  "helptip_idlePrevention": { "message": "Spriječite da kartica zaspi" },
+  "helptip_notifDisabled": { "message": "Prikaži obavijesti prilikom prebacivanja načina rada/postavki" },
+  "state_on": { "message": "na" },
+  "state_off": { "message": "popusta" }
+}

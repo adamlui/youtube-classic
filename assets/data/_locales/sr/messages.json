@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Vraća YouTube u svoj klasični dizajn (pre svih zaobljenih uglova i skrivenih nesviđanja) + preusmerava YouTube Shorts + blokira sličice oglasa"
+  },
+  "mode_restoreDislikes": { "message": "Vrati oznake „Ne sviđa mi se“" },
+  "mode_unroundCorners": { "message": "Zaokružite uglove" },
+  "mode_disableShorts": { "message": "Preusmjeri kratke hlače" },
+  "mode_shortsBlock": { "message": "Sakrij kratke hlače" },
+  "mode_playablesBlock": { "message": "Sakrij igračke" },
+  "mode_adBlock": { "message": "Blokiraj oglase" },
+  "mode_aiBlock": { "message": "Blokirajte AI elemente" },
+  "mode_reduceAnimations": { "message": "Smanji broj animacija" },
+  "mode_idlePrevention": { "message": "Prevencija praznog hoda" },
+  "mode_notifDisabled": { "message": "Obaveštenja o režimu" },
+  "helptip_restoreDislikes": {
+    "message": "Prikažite broj onih koji se ne sviđaju koristeći Return YouTube podatke koji se ne sviđaju"
+  },
+  "helptip_unroundCorners": { "message": "Zaokružite uglove oko elemenata korisničkog interfejsa" },
+  "helptip_disableShorts": { "message": "Preusmeri kratke pantalone na klasičnog širokog igrača" },
+  "helptip_shortsBlock": { "message": "Sakrij kratke hlače da se ne prikazuju na početnoj stranici + rezultati" },
+  "helptip_playablesBlock": { "message": "Sakrij Playables od prikazivanja na početnoj stranici" },
+  "helptip_adBlock": { "message": "Sakrij sličice oglasa iz rasporeda početne stranice" },
+  "helptip_aiBlock": { "message": "Sakrij AI elemente od kuće + video stranice" },
+  "helptip_reduceAnimations": { "message": "Smanjite animacije korisničkog interfejsa" },
+  "helptip_idlePrevention": { "message": "Sprečite da jezičak zaspi" },
+  "helptip_notifDisabled": { "message": "Prikaži obaveštenja prilikom prebacivanja režima/podešavanja" },
+  "state_on": { "message": "na" },
+  "state_off": { "message": "isključeno" }
+}

@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "You Tube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Manaisotra ny YouTube amin'ny endriny mahazatra (eo anoloan'ny zorony boribory & tsy tiany miafina) + mamerina ny YouTube Shorts + biriky doka"
+  },
+  "mode_restoreDislikes": { "message": "_Avereno ireo tsy tiana" },
+  "mode_unroundCorners": { "message": "Manodidina Corners" },
+  "mode_disableShorts": { "message": "Redirect Shorts" },
+  "mode_shortsBlock": { "message": "Afeno ny Shorts" },
+  "mode_playablesBlock": { "message": "Afeno ny playables" },
+  "mode_adBlock": { "message": "Block Dokambarotra" },
+  "mode_aiBlock": { "message": "Singantaharo AI Block" },
+  "mode_reduceAnimations": { "message": "Mampihena ny sary mihetsika" },
+  "mode_idlePrevention": { "message": "Idle Fisorohana" },
+  "mode_notifDisabled": { "message": "Fampahafantarana fomba" },
+  "helptip_restoreDislikes": {
+    "message": "Asehoy ny fanisana tsy tiana amin'ny fampiasana ny antontan-kevitra miverena YouTube Dislike"
+  },
+  "helptip_unroundCorners": { "message": "Manodidina ny sisiny manodidina ny singa UI" },
+  "helptip_disableShorts": { "message": "Alefaso amin'ny alàlan'ny mpilalao mahazatra" },
+  "helptip_shortsBlock": { "message": "Afeno ireo Shorts avy amin'ny fisehoany ao amin'ny pejy an-trano + vokatra" },
+  "helptip_playablesBlock": { "message": "Afeno ireo Playables avy ny fisehoana ao an-trano pejy" },
+  "helptip_adBlock": { "message": "Afeno ao amin'ny fandrindran-tranonkalan'ny pejy fandraisana ny sary madinika" },
+  "helptip_aiBlock": { "message": "Hide AI singa avy amin'ny an-trano + lahatsary pejy" },
+  "helptip_reduceAnimations": { "message": "Ahenao ny sary mihetsika UI" },
+  "helptip_idlePrevention": { "message": "Manakana ny vakizoro tsy hatory" },
+  "helptip_notifDisabled": { "message": "Asehoy ny fampahafantarana rehefa miova fomba/fandrindrana" },
+  "state_on": { "message": "ao i" },
+  "state_off": { "message": "eny" }
+}

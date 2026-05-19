@@ -1,0 +1,37 @@
+{
+  "appName": { "message": "YouTube Classic" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "Bidh e a 'toirt air ais YouTube chun dealbhadh clasaigeach aige (ro na h - oiseanan cruinn uile & cha toigh le daoine falaichte) + ath - sheòlaidhean YouTube Shorts + blocaichean sanasan mion - dhealbh"
+  },
+  "mode_restoreDislikes": { "message": "Aisig na rudan nach toigh leat" },
+  "mode_unroundCorners": { "message": "Unround Corners" },
+  "mode_disableShorts": {
+    "message": "Iiiiiiiiiiidddddddddddddddddddddddddddddddddddddddddddddddddjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+  },
+  "mode_shortsBlock": { "message": "Falaich na geàrraidhean" },
+  "mode_playablesBlock": { "message": "Falaich a 'chluicheadairplug - in -" },
+  "mode_adBlock": { "message": "Block Ads" },
+  "mode_aiBlock": { "message": "Block AI Elements" },
+  "mode_reduceAnimations": { "message": "Lùghdaich na beòthachaidhean" },
+  "mode_idlePrevention": {
+    "message": "Iiiiiiiiiiidddddddddddddddddddddddddddddddddddddddddddddddddjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+  },
+  "mode_notifDisabled": { "message": "Notifications" },
+  "helptip_restoreDislikes": {
+    "message": "Seall cunntasan nach eil a 'còrdadh riut a' cleachdadh dàta Tilleadh YouTube Dislike"
+  },
+  "helptip_unroundCorners": { "message": "Unround oiseanan mun cuairt air na h - eileamaidean UI" },
+  "helptip_disableShorts": { "message": "Ath - sheòlaidhean gu cluicheadair farsaing clasaigeach" },
+  "helptip_shortsBlock": {
+    "message": "Falaich geàrr - chunntasan bho bhith a 'nochdadh anns an duilleag dachaigh + toraidhean"
+  },
+  "helptip_playablesBlock": { "message": "Falaich nithean - cluiche bho bhith a 'nochdadh air an duilleag dachaigh" },
+  "helptip_adBlock": { "message": "Falaich mion - dhealbhan na h - ad o dhealbhan na duilleige - dachaigh" },
+  "helptip_aiBlock": { "message": "Falaich eileamaidean AI bho dhuilleagan dachaigh + video" },
+  "helptip_reduceAnimations": { "message": "Lùghdaich beòthachaidhean an UI" },
+  "helptip_idlePrevention": { "message": "Cuir casg air taba bho bhith a 'tuiteam na chadal" },
+  "helptip_notifDisabled": { "message": "Seall brathan nuair a thogras tu am modh/roghainnean" },
+  "state_on": { "message": "air" },
+  "state_off": { "message": "dheth" }
+}

@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "YouTube-un klassikası" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "YouTube-u klassik dizaynına çevirir (bütün yuvarlaq guşələr və gizli bəyənmələrdən əvvəl) + YouTube Shorts + blokları kiçik reklamları yönləndirir"
+  },
+  "mode_restoreDislikes": { "message": "Bəyənilməyənləri bərpa edin" },
+  "mode_unroundCorners": { "message": "Ətrafdakı Künclər" },
+  "mode_disableShorts": { "message": "Şortu yönləndirin" },
+  "mode_shortsBlock": { "message": "Şortları gizlət" },
+  "mode_playablesBlock": { "message": "Oyun kabellərini gizlədin" },
+  "mode_adBlock": { "message": "Reklamları blokla" },
+  "mode_aiBlock": { "message": "AI elementlərini bloklayın" },
+  "mode_reduceAnimations": { "message": "Animasiyaları azaldın" },
+  "mode_idlePrevention": { "message": "İdentifikasiyanın qarşısının alınması" },
+  "mode_notifDisabled": { "message": "Rejim Bildirişləri" },
+  "helptip_restoreDislikes": {
+    "message": "Geri qayıt YouTube-dan İmtina verilənlərindən istifadə edərək sayları bəyənmədiyini göstər"
+  },
+  "helptip_unroundCorners": { "message": "Udi elementlərinin ətrafında guşələr" },
+  "helptip_disableShorts": { "message": "Şortu klassik geniş oyunçuya yönləndirin" },
+  "helptip_shortsBlock": { "message": "Ana səhifədə görünmə şortunu gizlət + nəticələr" },
+  "helptip_playablesBlock": { "message": "Oyun kabellərinin ana səhifədə görünməsini gizlədin" },
+  "helptip_adBlock": { "message": "Reklam rəsmciklərini ana səhifə düzülüşlərindən gizlədin" },
+  "helptip_aiBlock": { "message": "AI elementlərini evdən + video səhifələrdən gizlədin" },
+  "helptip_reduceAnimations": { "message": "UI animasiyalarını azaldın" },
+  "helptip_idlePrevention": { "message": "Tablonun yuxuya getməsinin qarşısını alın" },
+  "helptip_notifDisabled": { "message": "Bildirişləri keçid rejimi/parametrləri göstərdikdə göstər" },
+  "state_on": { "message": "aktivdir" },
+  "state_off": { "message": "endirim" }
+}

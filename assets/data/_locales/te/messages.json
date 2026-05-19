@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "YouTube క్లాసిక్" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "YouTubeని దాని క్లాసిక్ డిజైన్ ‌ కు రివర్స్ చేస్తుంది (అన్ని గుండ్రని మూలలు & దాచిన అయిష్టాలకు ముందు) + YouTube షార్ట్ ‌ లను రీడైరెక్ట్ చేస్తుంది + సూక్ష్మచిత్రం ప్రకటనలను బ్లాక్ చేస్తుంది"
+  },
+  "mode_restoreDislikes": { "message": "అయిష్టాలను పునరుద్ధరించండి" },
+  "mode_unroundCorners": { "message": "చుట్టుముట్టని మూలలు" },
+  "mode_disableShorts": { "message": "రీడైరెక్ట్ షార్ట్ ‌ లు" },
+  "mode_shortsBlock": { "message": "షార్ట్ ‌ లను దాచండి" },
+  "mode_playablesBlock": { "message": "ప్లేబ్యాక్ ‌ లను దాచండి" },
+  "mode_adBlock": { "message": "ప్రకటనలను బ్లాక్ చేయండి" },
+  "mode_aiBlock": { "message": "AI ఎలిమెంట్ ‌ లను బ్లాక్ చేయండి" },
+  "mode_reduceAnimations": { "message": "యానిమేషన్ ‌ లను తగ్గించండి" },
+  "mode_idlePrevention": { "message": "నిష్క్రియాత్మక నివారణ" },
+  "mode_notifDisabled": { "message": "మోడ్ నోటిఫికేషన్ ‌ లు" },
+  "helptip_restoreDislikes": { "message": "రిటర్న్ YouTube ఇష్టపడని డేటాను ఉపయోగించి ఇష్టపడని గణనలను చూపించండి" },
+  "helptip_unroundCorners": { "message": "UI ఎలిమెంట్ ‌ ల చుట్టూ మూలలను విడదీయండి" },
+  "helptip_disableShorts": { "message": "షార్ట్ ‌ లను క్లాసిక్ వైడ్ ప్లేయర్ ‌ కు మళ్ళించండి" },
+  "helptip_shortsBlock": { "message": "హోమ్ పేజీ + ఫలితాల్లో కనిపించకుండా షార్ట్ ‌ లను దాచండి" },
+  "helptip_playablesBlock": { "message": "హోమ్ పేజీలో ప్లేయబుల్స్ కనిపించకుండా దాచండి" },
+  "helptip_adBlock": { "message": "హోమ్ ‌ పేజీ లేఅవుట్ల నుండి ప్రకటన సూక్ష్మచిత్రాలను దాచండి" },
+  "helptip_aiBlock": { "message": "హోమ్ + వీడియో పేజీల నుండి AI ఎలిమెంట్ ‌ లను దాచండి" },
+  "helptip_reduceAnimations": { "message": "UI యానిమేషన్ ‌ లను తగ్గించండి" },
+  "helptip_idlePrevention": { "message": "నిద్రలోకి జారుకోకుండా ట్యాబ్ ‌ ను నిరోధించండి" },
+  "helptip_notifDisabled": { "message": "మోడ్/సెట్టింగ్ ‌ లను టోగుల్ చేసేటప్పుడు నోటిఫికేషన్ ‌ లను చూపించండి" },
+  "state_on": { "message": "తేదీన" },
+  "state_off": { "message": "ఆఫ్" }
+}

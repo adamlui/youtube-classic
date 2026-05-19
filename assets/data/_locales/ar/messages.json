@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "يوتيوب كلاسيك" },
+  "appAuthor": { "message": "Adam Lui & magma_craft" },
+  "appDesc": {
+    "message": "يعيد YouTube إلى تصميمه الكلاسيكي (قبل كل الزوايا المستديرة وعدم الإعجاب المخفي) + يعيد توجيه YouTube Shorts + حظر إعلانات الصور المصغرة"
+  },
+  "mode_restoreDislikes": { "message": "استعادة عدم الإعجاب" },
+  "mode_unroundCorners": { "message": "زوايا غير مستديرة" },
+  "mode_disableShorts": { "message": "إعادة توجيه السراويل القصيرة" },
+  "mode_shortsBlock": { "message": "إخفاء السراويل القصيرة" },
+  "mode_playablesBlock": { "message": "إخفاء الألعاب القابلة للتشغيل" },
+  "mode_adBlock": { "message": "حظر الإعلانات" },
+  "mode_aiBlock": { "message": "حظر عناصر الذكاء الاصطناعي" },
+  "mode_reduceAnimations": { "message": "تقليل الرسوم المتحركة" },
+  "mode_idlePrevention": { "message": "الوقاية من الخمول" },
+  "mode_notifDisabled": { "message": "إشعارات الوضع" },
+  "helptip_restoreDislikes": { "message": "عرض عدد مرات عدم الإعجاب باستخدام إرجاع بيانات عدم الإعجاب على YouTube" },
+  "helptip_unroundCorners": { "message": "زوايا غير مستديرة حول عناصر واجهة المستخدم" },
+  "helptip_disableShorts": { "message": "إعادة توجيه السراويل القصيرة إلى اللاعب الكلاسيكي الواسع" },
+  "helptip_shortsBlock": { "message": "إخفاء السراويل القصيرة من الظهور في الصفحة الرئيسية + النتائج" },
+  "helptip_playablesBlock": { "message": "إخفاء الألعاب من الظهور في الصفحة الرئيسية" },
+  "helptip_adBlock": { "message": "إخفاء الصور المصغرة للإعلانات من تخطيطات الصفحة الرئيسية" },
+  "helptip_aiBlock": { "message": "إخفاء عناصر الذكاء الاصطناعي من الصفحة الرئيسية + صفحات الفيديو" },
+  "helptip_reduceAnimations": { "message": "تقليل رسوم واجهة المستخدم المتحركة" },
+  "helptip_idlePrevention": { "message": "منع التبويب من النوم" },
+  "helptip_notifDisabled": { "message": "عرض الإشعارات عند تبديل الوضع/الإعدادات" },
+  "state_on": { "message": "في" },
+  "state_off": { "message": "إيقاف" }
+}
