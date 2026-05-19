@@ -14,3 +14,12 @@ updates:
       dev-dependencies:
         dependency-type: development
     versioning-strategy: increase
+
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: daily
+    groups:
+      dev-dependencies:
+        dependency-type: development
+    versioning-strategy: increase
