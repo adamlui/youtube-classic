@@ -5,7 +5,7 @@
       "renderer": "ytd-ad-slot-renderer, [class*=\"ads-renderer\"]"
     },
     "ai": {
-      "askBtn": "yt-button-view-model:has([style*=\"youtube_outline/spark\"])",
+      "askBtn": "yt-button-view-model:has([style*=\"youtube_outline/spark\"], path[d^=\"M480-80q0-83-31.5-156T363\"])",
       "askSection": {
         "homepage": "ytd-rich-section-renderer:has(yt-talk-to-recs-view-model)",
         "videoPage": "yt-video-description-youchat-section-view-model"
