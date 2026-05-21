@@ -1,0 +1,20 @@
+name: Validate links on push + PR
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  linkinator:
+    if: false
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v6.0.2
+      - uses: JustinBeckwith/linkinator-action@v2.4.2
+        with:
+          paths: '**/*.md'
+          statusCodes: '{ "429": "skip" }'
