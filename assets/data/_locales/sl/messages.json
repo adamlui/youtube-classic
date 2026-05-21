@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "YouTubu povrne klasično obliko (pred vsemi zaobljenimi vogali in skritimi nevšečnostmi) + preusmeri YouTubove kratke hlače + blokira sličice oglasov"
   },
+  "menuLabel_about": { "message": "O" },
+  "about_author": { "message": "Avtor" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "sodelavci" },
+  "about_version": { "message": "Različica" },
+  "about_openSourceCode": { "message": "Odprtokodna koda" },
+  "about_latestChanges": { "message": "Najnovejše spremembe" },
   "mode_restoreDislikes": { "message": "Obnovi nevšečnosti" },
   "mode_unroundCorners": { "message": "Zaobljeni vogali" },
   "mode_disableShorts": { "message": "Preusmeri kratke hlače" },
@@ -26,6 +33,19 @@
   "helptip_reduceAnimations": { "message": "Zmanjšajte animacije uporabniškega vmesnika" },
   "helptip_idlePrevention": { "message": "Preprečite, da bi zavihek zaspal" },
   "helptip_notifDisabled": { "message": "Prikaži obvestila pri preklopu načina/nastavitev" },
+  "alert_updateAvail": { "message": "Posodobitev je na voljo" },
+  "alert_newerVer": { "message": "Posodobitev na" },
+  "alert_isAvail": { "message": "je na voljo" },
+  "alert_upToDate": { "message": "Posodobljeno" },
+  "alert_isUpToDate": { "message": "je posodobljen" },
+  "btnLabel_moreUserscripts": { "message": "Več uporabniških skriptov" },
+  "btnLabel_rateUs": { "message": "Ocenite nas" },
+  "btnLabel_getSupport": { "message": "Pridobite podporo" },
+  "btnLabel_checkForUpdates": { "message": "Preveri, ali so na voljo posodobitve" },
+  "btnLabel_update": { "message": "Posodobi" },
+  "btnLabel_dismiss": { "message": "Opusti" },
+  "link_viewChanges": { "message": "Ogled sprememb" },
+  "state_disabled": { "message": "onemogočeno" },
   "state_on": { "message": "na" },
   "state_off": { "message": "popusta" }
 }

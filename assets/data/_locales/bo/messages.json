@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "YouTube སྒྲིག་འཇུག་བྱས་ཚད ། ཐེངས་10 ལས་ཉུང་བ ། ཐོན་རིམ་5.7.1 ནང་དུ་ཚོད་ལྟ་བྱས་ཟིན ། ཟླ 6 སྔོན་ལ་གསར་བཅོས་བྱས །"
   },
+  "menuLabel_about": { "message": "སྐོར་" },
+  "about_author": { "message": "རྩོམ་པ་པོ །" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "གྲོགས་རམ །" },
+  "about_version": { "message": "བཟོ་བཅོས །" },
+  "about_openSourceCode": { "message": "ཁ་ཕྱེ་བའི་ཁ་བྱང་།" },
+  "about_latestChanges": { "message": "མཐའ་མའི་འགྱུར་ཁུངས །" },
   "mode_restoreDislikes": { "message": "མ་དགའ་བ་སླར་གསོ་བྱེད་པ" },
   "mode_unroundCorners": { "message": "ཕྱོགས་བཞིར་ཡོད་པའི་ཟུར་ཁ །" },
   "mode_disableShorts": { "message": "མདོར་བསྡུས །" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "སེམས་ཁྲལ་ཉུང་དུ་གཏོང་།" },
   "helptip_idlePrevention": { "message": "གཉིད་དུ་སོང་༔\\ རྨི་ལམ་དུ་རླག་སོང་༔" },
   "helptip_notifDisabled": { "message": "Toggling Mode/Settings" },
+  "alert_updateAvail": { "message": "ད་ལྟའི་དུས་ཚོད །" },
+  "alert_newerVer": { "message": "ད་ལྟའི་གནས་ཚུལ་གསར་འགྱུར །" },
+  "alert_isAvail": { "message": "ལག་ལེན་བྱེད་ཐུབ །" },
+  "alert_upToDate": { "message": "དུས་རབས །" },
+  "alert_isUpToDate": { "message": "གསར་འགྱུར་གསར་འགྱུར །" },
+  "btnLabel_moreUserscripts": { "message": "སྤྱོད་མཁན་མང་།" },
+  "btnLabel_rateUs": { "message": "རིན་ཆེན །" },
+  "btnLabel_getSupport": { "message": "རོགས་རམ་ཐོབ་པ" },
+  "btnLabel_checkForUpdates": { "message": "ད་ལྟའི་གནས་ཚུལ་འཚོལ་བ །" },
+  "btnLabel_update": { "message": "གསར་བསྒྱུར །" },
+  "btnLabel_dismiss": { "message": "ཁ་འཐོར་བ" },
+  "link_viewChanges": { "message": "འགྱུར་བ་མཐོང་བ" },
+  "state_disabled": { "message": "ཆ་མེད་པ །" },
   "state_on": { "message": "སྟེང་" },
   "state_off": { "message": "ཕྱིར་འཐེན" }
 }

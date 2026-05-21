@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Transforma YouTube a su diseño clásico (ante todas las canales redondas y disgustos oculto) + redireccionan YouTube Shorts + block thumbnail ads"
   },
+  "menuLabel_about": { "message": "About About" },
+  "about_author": { "message": "Autor" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "kontributornan" },
+  "about_version": { "message": "Vershon" },
+  "about_openSourceCode": { "message": "Codigo Fuente Abierto" },
+  "about_latestChanges": { "message": "Último kambionan" },
   "mode_restoreDislikes": { "message": "Recuperando dislikes" },
   "mode_unroundCorners": { "message": "Rin Tin Tin Corner" },
   "mode_disableShorts": { "message": "Redireccion Shorts" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "Reduce Animacion" },
   "helptip_idlePrevention": { "message": "Prevencion Para Dormir" },
   "helptip_notifDisabled": { "message": "Ver Informe Ampliado de Modalidad E Instalacion Sl" },
+  "alert_updateAvail": { "message": "Actualizacion Disponible" },
+  "alert_newerVer": { "message": "Un update pa" },
+  "alert_isAvail": { "message": "ta disponibel" },
+  "alert_upToDate": { "message": "UPDATE" },
+  "alert_isUpToDate": { "message": "tabata up-to-date" },
+  "btnLabel_moreUserscripts": { "message": "Mas Username" },
+  "btnLabel_rateUs": { "message": "Rate Nos" },
+  "btnLabel_getSupport": { "message": "Recibí Apoyo" },
+  "btnLabel_checkForUpdates": { "message": "Verificá las actualizaciones" },
+  "btnLabel_update": { "message": "Aktualidat" },
+  "btnLabel_dismiss": { "message": "Disimulashon" },
+  "link_viewChanges": { "message": "Bista riba kambionan" },
+  "state_disabled": { "message": "desabilidat" },
   "state_on": { "message": "riba" },
   "state_off": { "message": "for di" }
 }

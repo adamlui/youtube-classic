@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Tilbakestiller YouTube til det klassiske designet (før alle de avrundede hjørnene og skjulte mislikingene) + omdirigerer YouTube Shorts + blokkerer miniatyrannonser"
   },
+  "menuLabel_about": { "message": "Om" },
+  "about_author": { "message": "Forfatter" },
+  "about_and": { "message": "og" },
+  "about_contributors": { "message": "bidragsytere" },
+  "about_version": { "message": "Versjon" },
+  "about_openSourceCode": { "message": "Åpen kildekode" },
+  "about_latestChanges": { "message": "Siste endringer" },
   "mode_restoreDislikes": { "message": "Gjenopprett misliker" },
   "mode_unroundCorners": { "message": "Avrundede hjørner" },
   "mode_disableShorts": { "message": "Omdiriger shorts" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "Reduser UI-animasjoner" },
   "helptip_idlePrevention": { "message": "Forhindre at fanen sovner" },
   "helptip_notifDisabled": { "message": "Vis varsler når du veksler mellom modus/innstillinger" },
+  "alert_updateAvail": { "message": "Oppdatering tilgjengelig" },
+  "alert_newerVer": { "message": "En oppdatering til" },
+  "alert_isAvail": { "message": "er tilgjengelig" },
+  "alert_upToDate": { "message": "Oppdatert" },
+  "alert_isUpToDate": { "message": "er oppdatert" },
+  "btnLabel_moreUserscripts": { "message": "Flere brukerskript" },
+  "btnLabel_rateUs": { "message": "Vurder oss" },
+  "btnLabel_getSupport": { "message": "Få støtte" },
+  "btnLabel_checkForUpdates": { "message": "Se etter oppdateringer" },
+  "btnLabel_update": { "message": "Oppdatering" },
+  "btnLabel_dismiss": { "message": "Avskjedige" },
+  "link_viewChanges": { "message": "Vis endringer" },
+  "state_disabled": { "message": "funksjonshemmet" },
   "state_on": { "message": "på" },
   "state_off": { "message": "av" }
 }

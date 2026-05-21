@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "YouTube लाई यसको क्लासिक डिजाइनमा फर्काउँछ (सबै गोलाकार कुनाहरू र लुकेका मन नपराउनु अघि) + YouTube सर्टहरू + थम्बनेल विज्ञापनहरू रोक्दछ"
   },
+  "menuLabel_about": { "message": "बारेमा" },
+  "about_author": { "message": "लेखक" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "योगदानकर्ताहरू" },
+  "about_version": { "message": "संस्करण" },
+  "about_openSourceCode": { "message": "खुला स्रोत कोड" },
+  "about_latestChanges": { "message": "भर्खरका परिवर्तनहरू" },
   "mode_restoreDislikes": { "message": "मन नपराउनेहरू पुनर्स्थापित गर्नुहोस्" },
   "mode_unroundCorners": { "message": "अनराउन्ड कुनाहरू" },
   "mode_disableShorts": { "message": "सर्टहरू पुनर्निर्देशित गर्नुहोस्" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "UI एनिमेसनहरू घटाउनुहोस्" },
   "helptip_idlePrevention": { "message": "ट्याबलाई सुत्नबाट रोक्नुहोस्" },
   "helptip_notifDisabled": { "message": "टगल मोड/सेटिङहरू गर्दा सूचनाहरू देखाउनुहोस्" },
+  "alert_updateAvail": { "message": "अद्यावधिक उपलब्ध छ" },
+  "alert_newerVer": { "message": "यसमा अद्यावधिक गर्नुहोस्" },
+  "alert_isAvail": { "message": "उपलब्ध छ" },
+  "alert_upToDate": { "message": "अद्यावधिक" },
+  "alert_isUpToDate": { "message": "अप - टु - डेट छ" },
+  "btnLabel_moreUserscripts": { "message": "थप युजरस्क्रिप्टहरू" },
+  "btnLabel_rateUs": { "message": "हामीलाई मूल्याङ्कन गर्नुहोस्" },
+  "btnLabel_getSupport": { "message": "सहायता प्राप्त गर्नुहोस्" },
+  "btnLabel_checkForUpdates": { "message": "अद्यावधिकहरूको लागि जाँच गर्नुहोस्" },
+  "btnLabel_update": { "message": "अद्यावधिक गर्नुहोस्" },
+  "btnLabel_dismiss": { "message": "खारेज गर्नुहोस्" },
+  "link_viewChanges": { "message": "परिवर्तनहरू हेर्नुहोस्" },
+  "state_disabled": { "message": "अक्षम" },
   "state_on": { "message": "खोल्नुहोस्" },
   "state_off": { "message": "बन्द" }
 }

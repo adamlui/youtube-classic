@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Დააბრუნებს YouTube-ს მის კლასიკურ დიზაინზე (ყველა მომრგვალებული კუთხის წინ და დამალული არ მოსწონს) + გადაამისამართებს YouTube-ის შორტებს + ბლოკავს მინიატურულ რეკლამებს"
   },
+  "menuLabel_about": { "message": "Ინფორმაცია" },
+  "about_author": { "message": "Ავტორი" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "კონტრიბუტორები" },
+  "about_version": { "message": "Ვერსია" },
+  "about_openSourceCode": { "message": "Ღია კოდი" },
+  "about_latestChanges": { "message": "Ბოლო ცვლილებები" },
   "mode_restoreDislikes": { "message": "Აღადგინეთ არმოწონებები" },
   "mode_unroundCorners": { "message": "Შემოუერთდით კუთხეებს" },
   "mode_disableShorts": { "message": "Შორტების გადამისამართება" },
@@ -26,6 +33,19 @@
   "helptip_reduceAnimations": { "message": "Შეამცირეთ UI ანიმაციები" },
   "helptip_idlePrevention": { "message": "Თავიდან აიცილეთ ჩანართის დაძინება" },
   "helptip_notifDisabled": { "message": "Გაფრთხილებების ჩვენება რეჟიმის/პარამეტრების გადართვისას" },
+  "alert_updateAvail": { "message": "Ხელმისაწვდომია განახლება" },
+  "alert_newerVer": { "message": "Განახლება:" },
+  "alert_isAvail": { "message": "თავისუფალია" },
+  "alert_upToDate": { "message": "Განახლებული" },
+  "alert_isUpToDate": { "message": "განახლებულია" },
+  "btnLabel_moreUserscripts": { "message": "Სხვა სამომხმარებლო სკრიპტები" },
+  "btnLabel_rateUs": { "message": "Შეფასება" },
+  "btnLabel_getSupport": { "message": "Მხარდაჭერის მიღება" },
+  "btnLabel_checkForUpdates": { "message": "Განახლებების შემოწმება" },
+  "btnLabel_update": { "message": "Განახლება" },
+  "btnLabel_dismiss": { "message": "Დახურვა" },
+  "link_viewChanges": { "message": "Ცვლილებების ნახვა" },
+  "state_disabled": { "message": "გამორთულია" },
   "state_on": { "message": "on" },
   "state_off": { "message": "გამორთული" }
 }

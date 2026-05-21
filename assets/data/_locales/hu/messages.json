@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Visszaállítja a YouTube-ot a klasszikus dizájnra (a lekerekített sarkok és a rejtett ellenszenvek előtt) + átirányítja a YouTube rövidnadrágot + blokkolja a miniatűr hirdetéseket"
   },
+  "menuLabel_about": { "message": "Rólunk" },
+  "about_author": { "message": "Szerző" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "közreműködők" },
+  "about_version": { "message": "Verzió" },
+  "about_openSourceCode": { "message": "Nyílt forráskód" },
+  "about_latestChanges": { "message": "Legutóbbi módosítások" },
   "mode_restoreDislikes": { "message": "Nemtetszések visszaállítása" },
   "mode_unroundCorners": { "message": "Kerekítetlen sarkok" },
   "mode_disableShorts": { "message": "Rövidnadrágok átirányítása" },
@@ -26,6 +33,19 @@
   "helptip_reduceAnimations": { "message": "UI animációk csökkentése" },
   "helptip_idlePrevention": { "message": "Megakadályozza, hogy a fül elaludjon" },
   "helptip_notifDisabled": { "message": "Értesítések megjelenítése a mód/beállítások közötti váltáskor" },
+  "alert_updateAvail": { "message": "Frissítés elérhető" },
+  "alert_newerVer": { "message": "Frissítés a következőhöz:" },
+  "alert_isAvail": { "message": "elérhető" },
+  "alert_upToDate": { "message": "Naprakész" },
+  "alert_isUpToDate": { "message": "naprakész" },
+  "btnLabel_moreUserscripts": { "message": "További felhasználói indexek" },
+  "btnLabel_rateUs": { "message": "Értékeljen minket" },
+  "btnLabel_getSupport": { "message": "Támogatás kérése" },
+  "btnLabel_checkForUpdates": { "message": "Frissítések keresése" },
+  "btnLabel_update": { "message": "Frissítés" },
+  "btnLabel_dismiss": { "message": "Bezárás" },
+  "link_viewChanges": { "message": "Módosítások megtekintése" },
+  "state_disabled": { "message": "letiltva" },
   "state_on": { "message": "be" },
   "state_off": { "message": "ki" }
 }

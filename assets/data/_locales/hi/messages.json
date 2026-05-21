@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "YouTube को अपने क्लासिक डिज़ाइन पर वापस लाता है (सभी गोल कोनों और छिपे हुए नापसंद से पहले) + YouTube शॉर्ट्स को रीडायरेक्ट करता है + थंबनेल विज्ञापनों को ब्लॉक करता है"
   },
+  "menuLabel_about": { "message": "परिचय" },
+  "about_author": { "message": "लेखक" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "योगदानकर्ता" },
+  "about_version": { "message": "संस्करण" },
+  "about_openSourceCode": { "message": "ओपन सोर्स कोड" },
+  "about_latestChanges": { "message": "ताज़ा बदलाव" },
   "mode_restoreDislikes": { "message": "नापसंद को पुनर्स्थापित करें" },
   "mode_unroundCorners": { "message": "अनराउंड कॉर्नर" },
   "mode_disableShorts": { "message": "शॉर्ट्स रीडायरेक्ट करें" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "UI एनिमेशन कम करें" },
   "helptip_idlePrevention": { "message": "टैब को सो जाने से रोकें" },
   "helptip_notifDisabled": { "message": "टॉगलिंग मोड/सेटिंग के दौरान नोटिफ़िकेशन दिखाएँ" },
+  "alert_updateAvail": { "message": "अपडेट उपलब्ध है" },
+  "alert_newerVer": { "message": "पर एक अपडेट" },
+  "alert_isAvail": { "message": "उपलब्ध है" },
+  "alert_upToDate": { "message": "अप - टू - डेट" },
+  "alert_isUpToDate": { "message": "अप - टू - डेट है" },
+  "btnLabel_moreUserscripts": { "message": "और यूज़रस्क्रिप्ट" },
+  "btnLabel_rateUs": { "message": "हमें रेट करें" },
+  "btnLabel_getSupport": { "message": "सहायता पाएँ" },
+  "btnLabel_checkForUpdates": { "message": "अपडेट के लिए जाँचें" },
+  "btnLabel_update": { "message": "अपडेट करें" },
+  "btnLabel_dismiss": { "message": "खारिज करें" },
+  "link_viewChanges": { "message": "बदलाव देखें" },
+  "state_disabled": { "message": "अक्षम" },
   "state_on": { "message": "चालू" },
   "state_off": { "message": "बंद" }
 }

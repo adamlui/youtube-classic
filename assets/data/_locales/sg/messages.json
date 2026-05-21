@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "A kiri na YouTube na yâ ti fini ti lo ti giriri (na gbele angoro kue so a kanga ni na ndo ni nga na aye so a honde ni) + a kiri na YouTube Shorts + akete kete matanga ti matanga ti matanga ti matanga ti matanga ti matanga ti matanga ti matanga ti matanga ni"
   },
+  "menuLabel_about": { "message": "About sara" },
+  "about_author": { "message": "Author sara" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "azo so amû mbage ti ala" },
+  "about_version": { "message": "Yângâ tî kodoro" },
+  "about_openSourceCode": { "message": "Création d 'une brochure open source" },
+  "about_latestChanges": { "message": "Ndangba changement" },
   "mode_restoreDislikes": { "message": "A kiri a sara ye so bê ti lo aye" },
   "mode_unroundCorners": { "message": "Akodoro so ayeke na yâ ni pëpe" },
   "mode_disableShorts": { "message": "A yeke sara si a yeke ngangu na ala ti sara ye alingbi na andia ti" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "A yeke sara si azo abâ so a yeke nzoni ti sara ye na lege ti yingo" },
   "helptip_idlePrevention": { "message": "Ti si super i ti si bed" },
   "helptip_notifDisabled": { "message": "Fa asango na ngoi so mo yeke toggling mode/settings" },
+  "alert_updateAvail": { "message": "Nduru tënë so ayeke dä" },
+  "alert_newerVer": { "message": "Mbeni ye so a sara na yâ ti fini dunia" },
+  "alert_isAvail": { "message": "yeke available" },
+  "alert_upToDate": { "message": "Upgrade na" },
+  "alert_isUpToDate": { "message": "a yeke ti laso" },
+  "btnLabel_moreUserscripts": { "message": "More Userscripts Mbi" },
+  "btnLabel_rateUs": { "message": "Rate E ti" },
+  "btnLabel_getSupport": { "message": "Gi ti wara mungo maboko" },
+  "btnLabel_checkForUpdates": { "message": "Gbu li ti mo na ndo ti aye so asi laso" },
+  "btnLabel_update": { "message": "Nduru tënëModifier" },
+  "btnLabel_dismiss": { "message": "Gbenga Akinnagbe" },
+  "link_viewChanges": { "message": "Bâ achangement" },
+  "state_disabled": { "message": "disable awe" },
   "state_on": { "message": "na ndö ti" },
   "state_off": { "message": "ti zia lege ni" }
 }

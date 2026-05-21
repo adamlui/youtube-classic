@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Revertas YouTube al ĝia klasika dezajno (antaŭ ĉiuj rondetaj anguloj & kaŝaj abomenoj) + redirektas YouTube Shorts + blokas bildikonanoncojn"
   },
+  "menuLabel_about": { "message": "Pri" },
+  "about_author": { "message": "Aŭtoro" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "kontribuantoj" },
+  "about_version": { "message": "Versio" },
+  "about_openSourceCode": { "message": "Malfermkoda kodo" },
+  "about_latestChanges": { "message": "Lastaj ŝanĝoj" },
   "mode_restoreDislikes": { "message": "Restarigi malŝatojn" },
   "mode_unroundCorners": { "message": "Ĉirkaŭaj anguloj" },
   "mode_disableShorts": { "message": "Redirekti pantaloneton" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "Redukti UI-animaciojn" },
   "helptip_idlePrevention": { "message": "Malhelpi klapeton endormiĝi" },
   "helptip_notifDisabled": { "message": "Montri sciigojn kiam oni ŝanĝas moduson/agordon" },
+  "alert_updateAvail": { "message": "Ĝisdatigo disponebla" },
+  "alert_newerVer": { "message": "Ĝisdatigo al" },
+  "alert_isAvail": { "message": "estas disponebla" },
+  "alert_upToDate": { "message": "Ĝisdata" },
+  "alert_isUpToDate": { "message": "estas ĝisdata" },
+  "btnLabel_moreUserscripts": { "message": "Pli da uzantoskriptoj" },
+  "btnLabel_rateUs": { "message": "Taksi nin" },
+  "btnLabel_getSupport": { "message": "Akiri subtenon" },
+  "btnLabel_checkForUpdates": { "message": "Kontroli ĝisdatigojn" },
+  "btnLabel_update": { "message": "Ĝisdatigi" },
+  "btnLabel_dismiss": { "message": "Malakcepti" },
+  "link_viewChanges": { "message": "Vidi ŝanĝojn" },
+  "state_disabled": { "message": "malebligita" },
   "state_on": { "message": "sur" },
   "state_off": { "message": "malŝalti" }
 }

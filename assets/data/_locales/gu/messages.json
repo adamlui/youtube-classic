@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "YouTube ને તેની ક્લાસિક ડિઝાઇન પર ફેરવે છે (બધા ગોળાકાર ખૂણાઓ અને છુપાયેલા નાપસંદ પહેલાં) + YouTube શોર્ટ્સ + બ્લૉક થંબનેલ જાહેરાતોને રીડાયરેક્ટ કરે છે"
   },
+  "menuLabel_about": { "message": "વિશે" },
+  "about_author": { "message": "લેખક" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "ફાળો આપનારાઓ" },
+  "about_version": { "message": "સંસ્કરણ" },
+  "about_openSourceCode": { "message": "ઓપન સોર્સ કોડ" },
+  "about_latestChanges": { "message": "તાજેતરના ફેરફારો" },
   "mode_restoreDislikes": { "message": "નાપસંદો પુનઃસ્થાપિત કરો" },
   "mode_unroundCorners": { "message": "ગોળાકાર ખૂણાઓ" },
   "mode_disableShorts": { "message": "શોર્ટ્સ રીડાયરેક્ટ કરો" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "UI એનિમેશન ઘટાડો" },
   "helptip_idlePrevention": { "message": "ટેબને નિદ્રાધીન થવાથી અટકાવો" },
   "helptip_notifDisabled": { "message": "જ્યારે ટોગલિંગ મોડ/સેટિંગ્સ હોય ત્યારે સૂચનાઓ બતાવો" },
+  "alert_updateAvail": { "message": "અપડેટ ઉપલબ્ધ છે" },
+  "alert_newerVer": { "message": "આ માટે એક અપડેટ" },
+  "alert_isAvail": { "message": "ઉપલબ્ધ છે" },
+  "alert_upToDate": { "message": "અપ-ટૂ-ડેટ" },
+  "alert_isUpToDate": { "message": "અદ્યતન છે" },
+  "btnLabel_moreUserscripts": { "message": "વધુ યુઝર્સસ્ક્રિપ્ટ્સ" },
+  "btnLabel_rateUs": { "message": "અમને રેટ કરો" },
+  "btnLabel_getSupport": { "message": "સપોર્ટ મેળવો" },
+  "btnLabel_checkForUpdates": { "message": "અપડેટ્સ માટે તપાસો" },
+  "btnLabel_update": { "message": "અપડેટ કરો" },
+  "btnLabel_dismiss": { "message": "રદ કરો" },
+  "link_viewChanges": { "message": "ફેરફારો જુઓ" },
+  "state_disabled": { "message": "અક્ષમ" },
   "state_on": { "message": "ચાલુ" },
   "state_off": { "message": "બંધ" }
 }

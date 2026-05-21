@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Bidh e a 'toirt air ais YouTube chun dealbhadh clasaigeach aige (ro na h - oiseanan cruinn uile & cha toigh le daoine falaichte) + ath - sheòlaidhean YouTube Shorts + blocaichean sanasan mion - dhealbh"
   },
+  "menuLabel_about": { "message": "About" },
+  "about_author": { "message": "Author" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "luchd - tabhartais" },
+  "about_version": { "message": "Tionndadh" },
+  "about_openSourceCode": { "message": "Open source code" },
+  "about_latestChanges": { "message": "Na h - atharraichean as ùire" },
   "mode_restoreDislikes": { "message": "Aisig na rudan nach toigh leat" },
   "mode_unroundCorners": { "message": "Unround Corners" },
   "mode_disableShorts": {
@@ -32,6 +39,19 @@
   "helptip_reduceAnimations": { "message": "Lùghdaich beòthachaidhean an UI" },
   "helptip_idlePrevention": { "message": "Cuir casg air taba bho bhith a 'tuiteam na chadal" },
   "helptip_notifDisabled": { "message": "Seall brathan nuair a thogras tu am modh/roghainnean" },
+  "alert_updateAvail": { "message": "Ùrachadh ri fhaighinn" },
+  "alert_newerVer": { "message": "An update to" },
+  "alert_isAvail": { "message": "tha e ri fhaotainn" },
+  "alert_upToDate": { "message": "Suas chun an latha an - diugh" },
+  "alert_isUpToDate": { "message": "up - upstairs" },
+  "btnLabel_moreUserscripts": { "message": "Barrachd sgrìobhainnean - cleachdaidh" },
+  "btnLabel_rateUs": { "message": "Rèitich sinn" },
+  "btnLabel_getSupport": { "message": "Faigh Taic" },
+  "btnLabel_checkForUpdates": { "message": "Thoir sùil airson ùrachaidhean" },
+  "btnLabel_update": { "message": "Ùraich" },
+  "btnLabel_dismiss": { "message": "Diùlt" },
+  "link_viewChanges": { "message": "Seall na h - atharraichean" },
+  "state_disabled": { "message": "ciorramach" },
   "state_on": { "message": "air" },
   "state_off": { "message": "dheth" }
 }

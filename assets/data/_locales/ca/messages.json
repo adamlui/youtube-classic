@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Reverteix YouTube al seu disseny clàssic (abans de totes les cantonades arrodonides i els disgustos ocults) + redirigeix YouTube Shorts + bloqueja els anuncis en miniatura"
   },
+  "menuLabel_about": { "message": "Quant a" },
+  "about_author": { "message": "Autor" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "col·laboradors" },
+  "about_version": { "message": "Versió" },
+  "about_openSourceCode": { "message": "Codi font obert" },
+  "about_latestChanges": { "message": "Últims canvis" },
   "mode_restoreDislikes": { "message": "Restaura els disgustos" },
   "mode_unroundCorners": { "message": "Cantonades sense arrodonir" },
   "mode_disableShorts": { "message": "Redirigeix els pantalons curts" },
@@ -26,6 +33,19 @@
   "helptip_reduceAnimations": { "message": "Redueix les animacions de la interfície d'usuari" },
   "helptip_idlePrevention": { "message": "Evita que la pestanya s'adormi" },
   "helptip_notifDisabled": { "message": "Mostra les notificacions quan alternis entre el mode i la configuració" },
+  "alert_updateAvail": { "message": "Actualització disponible" },
+  "alert_newerVer": { "message": "Una actualització a" },
+  "alert_isAvail": { "message": "està disponible" },
+  "alert_upToDate": { "message": "Actualitzat" },
+  "alert_isUpToDate": { "message": "està actualitzat" },
+  "btnLabel_moreUserscripts": { "message": "Més usercripts" },
+  "btnLabel_rateUs": { "message": "Valora'ns" },
+  "btnLabel_getSupport": { "message": "Aconsegueix ajuda" },
+  "btnLabel_checkForUpdates": { "message": "Comprova si hi ha actualitzacions" },
+  "btnLabel_update": { "message": "Actualitza" },
+  "btnLabel_dismiss": { "message": "Descarta" },
+  "link_viewChanges": { "message": "Mostra els canvis" },
+  "state_disabled": { "message": "desactivat" },
   "state_on": { "message": "activat" },
   "state_off": { "message": "desactivat" }
 }

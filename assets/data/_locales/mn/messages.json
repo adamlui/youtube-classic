@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "YouTube-г сонгодог загвартай нь эргүүлдэг (бүх дугуй булангуудаас өмнө & далд дургүйцэхээс өмнө) + YouTube боомт + блок зурвасын сурталчилгааг дахин чиглүүлдэг"
   },
+  "menuLabel_about": { "message": "Бидний тухай" },
+  "about_author": { "message": "Зохиолч" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "хувь нэмэр оруулагчид" },
+  "about_version": { "message": "Хувилбар" },
+  "about_openSourceCode": { "message": "Нээлттэй эхийн код" },
+  "about_latestChanges": { "message": "Сүүлийн өөрчлөлтүүд" },
   "mode_restoreDislikes": { "message": "Зөрчилгүйг сэргээх" },
   "mode_unroundCorners": { "message": "Балартаагүй булан" },
   "mode_disableShorts": { "message": "Богино шортыг дахин чиглүүлэх" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "UI анимацийг багасгах" },
   "helptip_idlePrevention": { "message": "Табыг унтахаас сэргийлэх" },
   "helptip_notifDisabled": { "message": "Зориулалтын горим/тохиргоог оруулах үед мэдэгдлүүдийг харуулах" },
+  "alert_updateAvail": { "message": "Шинэчлэх боломжтой" },
+  "alert_newerVer": { "message": "Шинэчлэлт" },
+  "alert_isAvail": { "message": "авах боломжтой" },
+  "alert_upToDate": { "message": "Шинэчлэгдсэн" },
+  "alert_isUpToDate": { "message": "одоогийн байдлаар" },
+  "btnLabel_moreUserscripts": { "message": "Илүү олон хэрэглэгчийн бичвэрүүд" },
+  "btnLabel_rateUs": { "message": "Биднийг үнэлэх" },
+  "btnLabel_getSupport": { "message": "Тусламж авах" },
+  "btnLabel_checkForUpdates": { "message": "Шинэчлэлтүүдийг шалгана уу" },
+  "btnLabel_update": { "message": "Шинэчлэх" },
+  "btnLabel_dismiss": { "message": "Татгалзах" },
+  "link_viewChanges": { "message": "Өөрчлөлтүүдийг харах" },
+  "state_disabled": { "message": "хөгжлийн бэрхшээлтэй" },
   "state_on": { "message": "on" },
   "state_off": { "message": "унтраах" }
 }

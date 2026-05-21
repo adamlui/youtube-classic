@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Chuyển YouTube về thiết kế cổ điển của nó (trước tất cả các góc bo tròn và không thích ẩn) + chuyển hướng YouTube Shorts + chặn quảng cáo hình thu nhỏ"
   },
+  "menuLabel_about": { "message": "Giới thiệu" },
+  "about_author": { "message": "Tác giả" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "người đóng góp" },
+  "about_version": { "message": "Phiên bản" },
+  "about_openSourceCode": { "message": "Mã nguồn mở" },
+  "about_latestChanges": { "message": "Thay đổi mới nhất" },
   "mode_restoreDislikes": { "message": "Khôi phục lượt không thích" },
   "mode_unroundCorners": { "message": "Góc không tròn" },
   "mode_disableShorts": { "message": "Chuyển hướng quần short" },
@@ -26,6 +33,19 @@
   "helptip_reduceAnimations": { "message": "Giảm hoạt ảnh UI" },
   "helptip_idlePrevention": { "message": "Ngăn chặn tab rơi vào giấc ngủ" },
   "helptip_notifDisabled": { "message": "Hiển thị thông báo khi chuyển đổi chế độ/cài đặt" },
+  "alert_updateAvail": { "message": "Đã có bản cập nhật" },
+  "alert_newerVer": { "message": "Cập nhật cho" },
+  "alert_isAvail": { "message": "có sẵn" },
+  "alert_upToDate": { "message": "Cập nhật" },
+  "alert_isUpToDate": { "message": "được cập nhật" },
+  "btnLabel_moreUserscripts": { "message": "Xem thêm chỉ số người dùng" },
+  "btnLabel_rateUs": { "message": "Đánh giá chúng tôi" },
+  "btnLabel_getSupport": { "message": "Yêu cầu hỗ trợ" },
+  "btnLabel_checkForUpdates": { "message": "Kiểm tra cập nhật" },
+  "btnLabel_update": { "message": "Cập nhật" },
+  "btnLabel_dismiss": { "message": "Bỏ qua" },
+  "link_viewChanges": { "message": "Xem thay đổi" },
+  "state_disabled": { "message": "đã tắt" },
   "state_on": { "message": "vào" },
   "state_off": { "message": "tắt" }
 }

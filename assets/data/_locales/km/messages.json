@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "បង្វិលគេហទំព័រ YouTube ទៅរចនាប័ទ្មបុរាណរបស់ខ្លួន (មុនពេលទាំងអស់ជ្រុងជុំ & ការមិនចូលចិត្តដែលបានលាក់) + ប្ដូរទិស YouTube ខ្លី + ប្លុកការផ្សាយពាណិជ្ជកម្មខ្នាតតូច"
   },
+  "menuLabel_about": { "message": "អំពី" },
+  "about_author": { "message": "អ្នកនិពន្ធ" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "អ្នករួមចំណែក" },
+  "about_version": { "message": "កំណែ" },
+  "about_openSourceCode": { "message": "កូដប្រភពបើកចំហ" },
+  "about_latestChanges": { "message": "ការផ្លាស់ប្តូរចុងក្រោយបំផុត" },
   "mode_restoreDislikes": { "message": "ស្តារការមិនចូលចិត្តឡើងវិញ" },
   "mode_unroundCorners": { "message": "ជ្រុងមូល" },
   "mode_disableShorts": { "message": "ប្ដូរ ទិស ខោខ្លី" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "កាត់ បន្ថយ ចលនា UI" },
   "helptip_idlePrevention": { "message": "ការពារថេបពីការដេកលក់" },
   "helptip_notifDisabled": { "message": "បង្ហាញការជូនដំណឹងនៅពេលម៉ូដ/ការកំណត់បិទបើក" },
+  "alert_updateAvail": { "message": "មានអាប់ដេត" },
+  "alert_newerVer": { "message": "អាប់ដេតទៅ" },
+  "alert_isAvail": { "message": "មាន" },
+  "alert_upToDate": { "message": "ធ្វើបច្ចុប្បន្នភាព" },
+  "alert_isUpToDate": { "message": "បានធ្វើបច្ចុប្បន្នភាព" },
+  "btnLabel_moreUserscripts": { "message": "ស្គ្រីបអ្នកប្រើច្រើនទៀត" },
+  "btnLabel_rateUs": { "message": "វាយតម្លៃយើង" },
+  "btnLabel_getSupport": { "message": "ទទួលបានការគាំទ្រ" },
+  "btnLabel_checkForUpdates": { "message": "ពិនិត្យរកអាប់ដេត" },
+  "btnLabel_update": { "message": "អាប់ដេត" },
+  "btnLabel_dismiss": { "message": "ច្រានចោល" },
+  "link_viewChanges": { "message": "មើលការផ្លាស់ប្តូរ" },
+  "state_disabled": { "message": "បានបិទ" },
   "state_on": { "message": "ស្តីពី" },
   "state_off": { "message": "បិទ" }
 }

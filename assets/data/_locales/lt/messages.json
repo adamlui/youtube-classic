@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Grąžina „YouTube“ klasikinį dizainą (prieš visus suapvalintus kampus ir paslėptus nepatinka) + nukreipia „YouTube“ šortus + blokuoja miniatiūrų skelbimus"
   },
+  "menuLabel_about": { "message": "Apie" },
+  "about_author": { "message": "Autorius" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "bendraautoriai" },
+  "about_version": { "message": "Versija" },
+  "about_openSourceCode": { "message": "Atviras kodas" },
+  "about_latestChanges": { "message": "Naujausi pakeitimai" },
   "mode_restoreDislikes": { "message": "Atkurti „Nepatinka“" },
   "mode_unroundCorners": { "message": "Neapvalinti kampai" },
   "mode_disableShorts": { "message": "Peradresuoti šortus" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "Sumažinti vartotojo sąsajos animacijas" },
   "helptip_idlePrevention": { "message": "Neleisti skirtukui užmigti" },
   "helptip_notifDisabled": { "message": "Rodyti pranešimus perjungiant režimą/nustatymus" },
+  "alert_updateAvail": { "message": "Galimas atnaujinimas" },
+  "alert_newerVer": { "message": "Atnaujinta į" },
+  "alert_isAvail": { "message": "yra" },
+  "alert_upToDate": { "message": "Naujausia informacija" },
+  "alert_isUpToDate": { "message": "yra naujausia" },
+  "btnLabel_moreUserscripts": { "message": "Daugiau naudotojų scenarijų" },
+  "btnLabel_rateUs": { "message": "Įvertinkite mus" },
+  "btnLabel_getSupport": { "message": "Gauti pagalbos" },
+  "btnLabel_checkForUpdates": { "message": "Tikrinti, ar yra atnaujinimų" },
+  "btnLabel_update": { "message": "Atnaujinti" },
+  "btnLabel_dismiss": { "message": "Atmesti" },
+  "link_viewChanges": { "message": "Peržiūrėti pakeitimus" },
+  "state_disabled": { "message": "išjungta" },
   "state_on": { "message": "įjungta" },
   "state_off": { "message": "išjungta" }
 }

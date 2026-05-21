@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "YouTube-ті классикалық дизайнға қайтарады (барлық дөңгелек бұрыштар мен жасырын ұнамсыздықтар алдында) + YouTube Shorts + блоктарын нобай жарнамаларына бағыттайды"
   },
+  "menuLabel_about": { "message": "Туралы" },
+  "about_author": { "message": "Автор" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "салымшылар" },
+  "about_version": { "message": "Нұсқа" },
+  "about_openSourceCode": { "message": "Ашық бастапқы код" },
+  "about_latestChanges": { "message": "Соңғы өзгерістер" },
   "mode_restoreDislikes": { "message": "Ұнамайтындарды қалпына келтіру" },
   "mode_unroundCorners": { "message": "Айнала бұрыштар" },
   "mode_disableShorts": { "message": "Шорттарды қайта бағыттау" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "UI анимацияларын азайту" },
   "helptip_idlePrevention": { "message": "Қойындының ұйқыға кетуіне жол бермеу" },
   "helptip_notifDisabled": { "message": "Режімді/параметрлерді ауыстыру кезінде хабарландыруларды көрсету" },
+  "alert_updateAvail": { "message": "Жаңарту қол жетімді" },
+  "alert_newerVer": { "message": "Жаңарту" },
+  "alert_isAvail": { "message": "қол жетімді" },
+  "alert_upToDate": { "message": "Жаңартылған" },
+  "alert_isUpToDate": { "message": "жаңартылған" },
+  "btnLabel_moreUserscripts": { "message": "Қосымша пайдаланушы сценарийлері" },
+  "btnLabel_rateUs": { "message": "Бізді бағалаңыз" },
+  "btnLabel_getSupport": { "message": "Қолдау алу" },
+  "btnLabel_checkForUpdates": { "message": "Жаңартуларды тексеріңіз" },
+  "btnLabel_update": { "message": "Жаңарту" },
+  "btnLabel_dismiss": { "message": "Жұмыстан шығару" },
+  "link_viewChanges": { "message": "Өзгерістерді көру" },
+  "state_disabled": { "message": "өшірілген" },
   "state_on": { "message": "қосулы" },
   "state_off": { "message": "өшіру" }
 }

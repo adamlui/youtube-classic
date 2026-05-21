@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Inodzosera YouTube kune yayo yakasarudzika dhizaini (pamberi pemakona ese akakomberedzwa & akavanzika asingadi) + inodzoreredza YouTube Shorts + inodzivirira thumbnail kushambadza"
   },
+  "menuLabel_about": { "message": "Nezvedu" },
+  "about_author": { "message": "Munyori" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "zVINOKOSHA" },
+  "about_version": { "message": "Shanduro" },
+  "about_openSourceCode": { "message": "Open source code" },
+  "about_latestChanges": { "message": "Shanduko dzichangoburwa" },
   "mode_restoreDislikes": { "message": "Dzorera Zvausingadi" },
   "mode_unroundCorners": { "message": "Kutenderedza makona" },
   "mode_disableShorts": { "message": "Taura nesu" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "Deredza UI mifananidzo" },
   "helptip_idlePrevention": { "message": "Dzivisa tab kubva pakurara" },
   "helptip_notifDisabled": { "message": "Ratidza zviziviso kana toggling muoti/marongero" },
+  "alert_updateAvail": { "message": "Zadzisa zviripo" },
+  "alert_newerVer": { "message": "An update kuti" },
+  "alert_isAvail": { "message": "inowanika" },
+  "alert_upToDate": { "message": "Up-to-date" },
+  "alert_isUpToDate": { "message": "is up-to-date" },
+  "btnLabel_moreUserscripts": { "message": "Zvimwe Zvinyorwa zveVashandisi" },
+  "btnLabel_rateUs": { "message": "Taura nesu" },
+  "btnLabel_getSupport": { "message": "Kuwana Rutsigiro" },
+  "btnLabel_checkForUpdates": { "message": "Ongorora nokuti Updates" },
+  "btnLabel_update": { "message": "Kugadziridza" },
+  "btnLabel_dismiss": { "message": "Dzinga" },
+  "link_viewChanges": { "message": "Vonanyi cinjo" },
+  "state_disabled": { "message": "chakaremara" },
   "state_on": { "message": "pamusoro" },
   "state_off": { "message": "kure" }
 }

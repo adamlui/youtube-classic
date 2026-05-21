@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Tahuri YouTube ki tona hoahoa tawhito (i mua i nga kokonga katoa huri noa me te kore e pai) + redirects YouTube Shorts + poraka whakatairanga thumbnail"
   },
+  "menuLabel_about": { "message": "Mō" },
+  "about_author": { "message": "Kaituhi" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "ngā kaihauturu" },
+  "about_version": { "message": "Putanga" },
+  "about_openSourceCode": { "message": "Waehere puna tuwhera" },
+  "about_latestChanges": { "message": "Ngā huringa hou" },
   "mode_restoreDislikes": { "message": "Whakahoutia nga mea e kore e pai" },
   "mode_unroundCorners": { "message": "Kohikohi Kohikohinga" },
   "mode_disableShorts": { "message": "Whakaaturanga Whakaaturanga" },
@@ -26,6 +33,19 @@
   "helptip_reduceAnimations": { "message": "Whakaitihia nga Whakaahua UI" },
   "helptip_idlePrevention": { "message": "Te ārai i te pātene o te moe" },
   "helptip_notifDisabled": { "message": "Whakaatu whakamōhio ina toggling aratau/tautuhinga" },
+  "alert_updateAvail": { "message": "Ngā whakahoutanga e wātea ana" },
+  "alert_newerVer": { "message": "He whakahoutanga" },
+  "alert_isAvail": { "message": "kei te wātea" },
+  "alert_upToDate": { "message": "Whakahoutia" },
+  "alert_isUpToDate": { "message": "kei te whakahoutia" },
+  "btnLabel_moreUserscripts": { "message": "Ētahi atu Kaiwhakamahi" },
+  "btnLabel_rateUs": { "message": "Te utu ki a tatou" },
+  "btnLabel_getSupport": { "message": "Tautoko" },
+  "btnLabel_checkForUpdates": { "message": "Tirohia nga whakahoutanga" },
+  "btnLabel_update": { "message": "Whakahoutanga" },
+  "btnLabel_dismiss": { "message": "Te whakahawea" },
+  "link_viewChanges": { "message": "Tirohia nga huringa" },
+  "state_disabled": { "message": "ngoikoretanga" },
   "state_on": { "message": "i runga i" },
   "state_off": { "message": "haere atu" }
 }

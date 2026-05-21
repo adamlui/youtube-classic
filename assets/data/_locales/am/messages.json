@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "ዩቲዩብን ወደ ክላሲክ ዲዛይን (ከሁሉም ክብ ማዕዘኖች እና የተደበቁ አሻንጉሊቶች በፊት) + የYouTube Shorts + የጣት ማስታወቂያዎችን ያግዳል"
   },
+  "menuLabel_about": { "message": "ስለ" },
+  "about_author": { "message": "ደራሲ" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "አስተዋፅዖ አድራጊዎች" },
+  "about_version": { "message": "ስሪት" },
+  "about_openSourceCode": { "message": "ክፍት ምንጭ ኮድ" },
+  "about_latestChanges": { "message": "የቅርብ ጊዜ ለውጦች" },
   "mode_restoreDislikes": { "message": "ውድቀቶችን እንደገና ያስጀምሩ" },
   "mode_unroundCorners": { "message": "Unround የማዕዘን" },
   "mode_disableShorts": { "message": "አጫጭር ነገሮችን ያስተካክሉ" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "UI እነማዎችን ይቀንሱ" },
   "helptip_idlePrevention": { "message": "ከመተኛት ትርን ይከላከሉ" },
   "helptip_notifDisabled": { "message": "Tggling ሁነታ/ቅንብሮች ጊዜ ማሳወቂያዎች አሳይ" },
+  "alert_updateAvail": { "message": "ይገኛል ዝማኔ" },
+  "alert_newerVer": { "message": "አንድ ዝማኔ ወደ" },
+  "alert_isAvail": { "message": "ይገኛል" },
+  "alert_upToDate": { "message": "ወቅታዊ" },
+  "alert_isUpToDate": { "message": "ወቅታዊ ነው" },
+  "btnLabel_moreUserscripts": { "message": "ተጨማሪ የተጠቃሚዎች ቅጂዎች" },
+  "btnLabel_rateUs": { "message": "ደረጃ ይስጡን" },
+  "btnLabel_getSupport": { "message": "ድጋፍ ያግኙ" },
+  "btnLabel_checkForUpdates": { "message": "ዝማኔዎችን ይመልከቱ" },
+  "btnLabel_update": { "message": "ያዘምኑ" },
+  "btnLabel_dismiss": { "message": "ማፈናቀል" },
+  "link_viewChanges": { "message": "ለውጦችን ይመልከቱ" },
+  "state_disabled": { "message": "የአካል ጉዳተኛ" },
   "state_on": { "message": "ላይ" },
   "state_off": { "message": "ማጥፋት" }
 }

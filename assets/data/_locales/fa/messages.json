@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "یوتیوب را به طراحی کلاسیک خود (قبل از تمام گوشه‌های گرد و دیسلایک‌های پنهان) برمی‌گرداند + ویدیوهای کوتاه یوتیوب را ریدایرکت می‌کند + تبلیغات بندانگشتی را مسدود می‌کند"
   },
+  "menuLabel_about": { "message": "درباره ما" },
+  "about_author": { "message": "نویسنده" },
+  "about_and": { "message": "و" },
+  "about_contributors": { "message": "مشارکت‌کنندگان" },
+  "about_version": { "message": "نسخه" },
+  "about_openSourceCode": { "message": "کد منبع باز" },
+  "about_latestChanges": { "message": "آخرین تغییرات" },
   "mode_restoreDislikes": { "message": "بازگرداندن دیسلایک‌ها" },
   "mode_unroundCorners": { "message": "گوشه‌های گرد نشده" },
   "mode_disableShorts": { "message": "شورت‌های ریدایرکت" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "کاهش انیمیشن‌های رابط کاربری" },
   "helptip_idlePrevention": { "message": "جلوگیری از به خواب رفتن تب" },
   "helptip_notifDisabled": { "message": "نمایش اعلان‌ها هنگام تغییر حالت/تنظیمات" },
+  "alert_updateAvail": { "message": "به‌روزرسانی موجود است" },
+  "alert_newerVer": { "message": "یک به‌روزرسانی برای" },
+  "alert_isAvail": { "message": "موجود است" },
+  "alert_upToDate": { "message": "به‌روز" },
+  "alert_isUpToDate": { "message": "به‌روز است" },
+  "btnLabel_moreUserscripts": { "message": "اسکریپت‌های کاربری بیشتر" },
+  "btnLabel_rateUs": { "message": "به ما امتیاز دهید" },
+  "btnLabel_getSupport": { "message": "دریافت پشتیبانی" },
+  "btnLabel_checkForUpdates": { "message": "بررسی به‌روزرسانی‌ها" },
+  "btnLabel_update": { "message": "به‌روزرسانی" },
+  "btnLabel_dismiss": { "message": "رد کردن" },
+  "link_viewChanges": { "message": "مشاهده تغییرات" },
+  "state_disabled": { "message": "معلول" },
   "state_on": { "message": "روی" },
   "state_off": { "message": "خاموش" }
 }

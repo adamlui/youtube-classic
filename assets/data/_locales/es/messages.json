@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Revierte YouTube a su diseño clásico (antes de todas las esquinas redondeadas y los disgustos ocultos) + redirige YouTube Shorts + bloquea los anuncios en miniatura"
   },
+  "menuLabel_about": { "message": "Acerca de" },
+  "about_author": { "message": "Autor" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "colaboradores" },
+  "about_version": { "message": "Versión" },
+  "about_openSourceCode": { "message": "Código fuente abierto" },
+  "about_latestChanges": { "message": "Últimos cambios" },
   "mode_restoreDislikes": { "message": "Restaurar disgustos" },
   "mode_unroundCorners": { "message": "Esquinas sin redondear" },
   "mode_disableShorts": { "message": "Redirigir pantalones cortos" },
@@ -26,6 +33,19 @@
   "helptip_reduceAnimations": { "message": "Reduce las animaciones de la interfaz de usuario" },
   "helptip_idlePrevention": { "message": "Evitar que la pestaña se duerma" },
   "helptip_notifDisabled": { "message": "Mostrar notificaciones cuando se alterna el modo/configuración" },
+  "alert_updateAvail": { "message": "Actualización disponible" },
+  "alert_newerVer": { "message": "Una actualización a" },
+  "alert_isAvail": { "message": "está disponible" },
+  "alert_upToDate": { "message": "Actualizado" },
+  "alert_isUpToDate": { "message": "está actualizado" },
+  "btnLabel_moreUserscripts": { "message": "Más Userscripts" },
+  "btnLabel_rateUs": { "message": "Valóranos" },
+  "btnLabel_getSupport": { "message": "Obtener asistencia" },
+  "btnLabel_checkForUpdates": { "message": "Buscar actualizaciones" },
+  "btnLabel_update": { "message": "Actualizar" },
+  "btnLabel_dismiss": { "message": "Descartar" },
+  "link_viewChanges": { "message": "Ver cambios" },
+  "state_disabled": { "message": "desactivado" },
   "state_on": { "message": "en" },
   "state_off": { "message": "desactivado" }
 }

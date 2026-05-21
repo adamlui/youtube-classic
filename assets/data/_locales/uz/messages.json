@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "YouTube’ni klassik dizayniga qaytaradi (barcha yumaloq burchaklar va yashirin yoqtirmasliklardan oldin) + YouTube Shorts’ni yo‘naltiradi + eskiz reklamalarini bloklaydi"
   },
+  "menuLabel_about": { "message": "Haqida" },
+  "about_author": { "message": "Muallif" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "hissa qo'shuvchilar" },
+  "about_version": { "message": "Versiya" },
+  "about_openSourceCode": { "message": "Ochiq kodli kod" },
+  "about_latestChanges": { "message": "So'nggi o'zgarishlar" },
   "mode_restoreDislikes": { "message": "Yoqtirmasliklarni tiklash" },
   "mode_unroundCorners": { "message": "Burchaklarni aylanma yo'llar bilan o'zgartirish" },
   "mode_disableShorts": { "message": "Yo'naltiruvchi qisqa metrajli filmlar" },
@@ -26,6 +33,19 @@
   "helptip_reduceAnimations": { "message": "UI animatsiyalarini kamaytirish" },
   "helptip_idlePrevention": { "message": "Tabning uxlab qolishiga yo'l qo'ymang" },
   "helptip_notifDisabled": { "message": "Rejim/sozlamalarni almashtirishda bildirishnomalarni ko'rsatish" },
+  "alert_updateAvail": { "message": "Yangilanish mavjud" },
+  "alert_newerVer": { "message": "Yangilanish" },
+  "alert_isAvail": { "message": "mavjud" },
+  "alert_upToDate": { "message": "Hozirgi kungacha" },
+  "alert_isUpToDate": { "message": "yangilangan" },
+  "btnLabel_moreUserscripts": { "message": "Ko'proq foydalanuvchi skriptlari" },
+  "btnLabel_rateUs": { "message": "Bizni baholang" },
+  "btnLabel_getSupport": { "message": "Yordam oling" },
+  "btnLabel_checkForUpdates": { "message": "Yangilanishlarni tekshiring" },
+  "btnLabel_update": { "message": "Yangilash" },
+  "btnLabel_dismiss": { "message": "Bekor qilish" },
+  "link_viewChanges": { "message": "O'zgarishlarni ko'rish" },
+  "state_disabled": { "message": "nogiron" },
   "state_on": { "message": "yoqilgan" },
   "state_off": { "message": "o'chirilgan" }
 }

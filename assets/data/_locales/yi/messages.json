@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "ברענגט צוריק יוטוב צו זיין קלאסישן דיזיין (פאר אלע די קיילעכדיגע ווינקלען און באהאלטענע דיסלייקס) + רידירעקט יוטוב קורצע בילדער + בלאקירט טהומבנייל אדווערטייזמענטס"
   },
+  "menuLabel_about": { "message": "וועגן" },
+  "about_author": { "message": "מחבר" },
+  "about_and": { "message": "און" },
+  "about_contributors": { "message": "ביישטייערער" },
+  "about_version": { "message": "ווערסיע" },
+  "about_openSourceCode": { "message": "אָפֿן מקור קאָד" },
+  "about_latestChanges": { "message": "לעצטע ענדערונגען" },
   "mode_restoreDislikes": { "message": "צוריקשטעלן דיסלייקס" },
   "mode_unroundCorners": { "message": "נישט-אויסגערונדענע ווינקלען" },
   "mode_disableShorts": { "message": "רידירעקט קורצע פֿילמען" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "רעדוצירן UI אנימאַציעס" },
   "helptip_idlePrevention": { "message": "פאַרהיטן טאַב פון איינשלאָפן" },
   "helptip_notifDisabled": { "message": "ווייַזן נאָוטאַפאַקיישאַנז ווען איר טוישט מאָדע/סעטטינגס" },
+  "alert_updateAvail": { "message": "דערהייַנטיקונג בנימצא" },
+  "alert_newerVer": { "message": "אן אפדעיט צו" },
+  "alert_isAvail": { "message": "איז פֿאַראַן" },
+  "alert_upToDate": { "message": "אַרויף-צו-דאַטע" },
+  "alert_isUpToDate": { "message": "איז אַרויף-צו-דאַטע" },
+  "btnLabel_moreUserscripts": { "message": "מער באַניצער סקריפּטן" },
+  "btnLabel_rateUs": { "message": "באַווערט אונדז" },
+  "btnLabel_getSupport": { "message": "באַקומען שטיצע" },
+  "btnLabel_checkForUpdates": { "message": "קוק פֿאַר דערהייַנטיקונגען" },
+  "btnLabel_update": { "message": "דערהייַנטיקונג" },
+  "btnLabel_dismiss": { "message": "אָפּזאָגן" },
+  "link_viewChanges": { "message": "זען ענדערונגען" },
+  "state_disabled": { "message": "דיסייבאַלד" },
   "state_on": { "message": "אויף" },
   "state_off": { "message": "אויס" }
 }

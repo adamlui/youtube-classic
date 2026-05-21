@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Hoʻihoʻi iā YouTube i kāna hoʻolālā maʻamau (ma mua o nā kihi poepoe a pau a me nā makemake ʻole huna) + hoʻohuli hou i nā YouTube Shorts + ālai i nā hoʻolaha kiʻi liʻiliʻi"
   },
+  "menuLabel_about": { "message": "E pili ana" },
+  "about_author": { "message": "Mea kākau" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "nā mea hāʻawi" },
+  "about_version": { "message": "Mana" },
+  "about_openSourceCode": { "message": "Kōmike kumu wehe" },
+  "about_latestChanges": { "message": "Nā loli hou loa" },
   "mode_restoreDislikes": { "message": "Hoʻihoʻi i nā mea makemake ʻole" },
   "mode_unroundCorners": { "message": "Nā Kihi ʻAʻole Poepoe" },
   "mode_disableShorts": { "message": "Hoʻohuli i nā Pōkole" },
@@ -26,6 +33,19 @@
   "helptip_reduceAnimations": { "message": "E hōʻemi i nā kiʻiʻoniʻoni UI" },
   "helptip_idlePrevention": { "message": "E pale i ka hiamoe ʻana o ka pā" },
   "helptip_notifDisabled": { "message": "Hōʻike i nā leka hoʻomaopopo i ka wā e hoʻololi ai i ke ʻano/nā hoʻonohonoho" },
+  "alert_updateAvail": { "message": "Loaʻa ka hōʻano hou" },
+  "alert_newerVer": { "message": "He mea hou i" },
+  "alert_isAvail": { "message": "loaʻa" },
+  "alert_upToDate": { "message": "ʻikepili hou āpau" },
+  "alert_isUpToDate": { "message": "ua hōʻano hou ʻia" },
+  "btnLabel_moreUserscripts": { "message": "Nā Palapala Hoʻohana Hou Aʻe" },
+  "btnLabel_rateUs": { "message": "E helu iā mākou" },
+  "btnLabel_getSupport": { "message": "E kiʻi i ke kākoʻo" },
+  "btnLabel_checkForUpdates": { "message": "E nānā no nā mea hou" },
+  "btnLabel_update": { "message": "Hoʻohou" },
+  "btnLabel_dismiss": { "message": "Hoʻokuʻu" },
+  "link_viewChanges": { "message": "Nānā i nā loli" },
+  "state_disabled": { "message": "kīnā" },
   "state_on": { "message": "ma luna" },
   "state_off": { "message": "pio" }
 }

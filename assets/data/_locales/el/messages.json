@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Επαναφέρει το YouTube στον κλασικό σχεδιασμό του (πριν από όλες τις στρογγυλεμένες γωνίες και τις κρυφές αντιπάθειες) + ανακατευθύνει το YouTube Shorts + αποκλείει τις διαφημίσεις μικρογραφιών"
   },
+  "menuLabel_about": { "message": "Πληροφορίες" },
+  "about_author": { "message": "Συντάκτης" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "συνεισφέροντες" },
+  "about_version": { "message": "Έκδοση" },
+  "about_openSourceCode": { "message": "Κώδικας ανοιχτού κώδικα" },
+  "about_latestChanges": { "message": "Τελευταίες αλλαγές" },
   "mode_restoreDislikes": { "message": "Επαναφορά αντιπαθειών" },
   "mode_unroundCorners": { "message": "Unround Γωνίες" },
   "mode_disableShorts": { "message": "Ανακατεύθυνση σορτς" },
@@ -26,6 +33,19 @@
   "helptip_reduceAnimations": { "message": "Μείωση κινούμενων γραφικών περιβάλλοντος χρήστη" },
   "helptip_idlePrevention": { "message": "Αποτρέψτε τον ύπνο της καρτέλας" },
   "helptip_notifDisabled": { "message": "Εμφάνιση ειδοποιήσεων κατά την εναλλαγή λειτουργίας/ρυθμίσεων" },
+  "alert_updateAvail": { "message": "Διαθέσιμη ενημέρωση" },
+  "alert_newerVer": { "message": "Ενημέρωση σε" },
+  "alert_isAvail": { "message": "είναι διαθέσιμο" },
+  "alert_upToDate": { "message": "Ενημερωμένο" },
+  "alert_isUpToDate": { "message": "είναι ενημερωμένο" },
+  "btnLabel_moreUserscripts": { "message": "Περισσότερα Usercripts" },
+  "btnLabel_rateUs": { "message": "Αξιολογήστε μας" },
+  "btnLabel_getSupport": { "message": "Λήψη υποστήριξης" },
+  "btnLabel_checkForUpdates": { "message": "Έλεγχος για ενημερώσεις" },
+  "btnLabel_update": { "message": "Ενημέρωση" },
+  "btnLabel_dismiss": { "message": "Απόρριψη" },
+  "link_viewChanges": { "message": "Προβολή αλλαγών" },
+  "state_disabled": { "message": "απενεργοποιημένο" },
   "state_on": { "message": "στις" },
   "state_off": { "message": "off" }
 }

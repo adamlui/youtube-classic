@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "YouTubeని దాని క్లాసిక్ డిజైన్ ‌ కు రివర్స్ చేస్తుంది (అన్ని గుండ్రని మూలలు & దాచిన అయిష్టాలకు ముందు) + YouTube షార్ట్ ‌ లను రీడైరెక్ట్ చేస్తుంది + సూక్ష్మచిత్రం ప్రకటనలను బ్లాక్ చేస్తుంది"
   },
+  "menuLabel_about": { "message": "గురించి" },
+  "about_author": { "message": "రచయిత" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "కంట్రిబ్యూటర్ ‌ లు" },
+  "about_version": { "message": "వెర్షన్" },
+  "about_openSourceCode": { "message": "ఓపెన్ సోర్స్ కోడ్" },
+  "about_latestChanges": { "message": "తాజా మార్పులు" },
   "mode_restoreDislikes": { "message": "అయిష్టాలను పునరుద్ధరించండి" },
   "mode_unroundCorners": { "message": "చుట్టుముట్టని మూలలు" },
   "mode_disableShorts": { "message": "రీడైరెక్ట్ షార్ట్ ‌ లు" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "UI యానిమేషన్ ‌ లను తగ్గించండి" },
   "helptip_idlePrevention": { "message": "నిద్రలోకి జారుకోకుండా ట్యాబ్ ‌ ను నిరోధించండి" },
   "helptip_notifDisabled": { "message": "మోడ్/సెట్టింగ్ ‌ లను టోగుల్ చేసేటప్పుడు నోటిఫికేషన్ ‌ లను చూపించండి" },
+  "alert_updateAvail": { "message": "అప్ ‌ డేట్ అందుబాటులో ఉంది" },
+  "alert_newerVer": { "message": "కు అప్ ‌ డేట్" },
+  "alert_isAvail": { "message": "అందుబాటులో ఉంది" },
+  "alert_upToDate": { "message": "అప్-టు-డేట్" },
+  "alert_isUpToDate": { "message": "తాజాగా ఉంది" },
+  "btnLabel_moreUserscripts": { "message": "మరిన్ని యూజర్ ‌ స్క్రిప్ట్ ‌ లు" },
+  "btnLabel_rateUs": { "message": "మాకు రేటింగ్ ఇవ్వండి" },
+  "btnLabel_getSupport": { "message": "సపోర్ట్ పొందండి" },
+  "btnLabel_checkForUpdates": { "message": "అప్ ‌ డేట్ ‌ ల కోసం తనిఖీ చేయండి" },
+  "btnLabel_update": { "message": "అప్ ‌ డేట్ చేయండి" },
+  "btnLabel_dismiss": { "message": "విస్మరించండి" },
+  "link_viewChanges": { "message": "మార్పులను చూడండి" },
+  "state_disabled": { "message": "నిలిపివేయబడింది" },
   "state_on": { "message": "తేదీన" },
   "state_off": { "message": "ఆఫ్" }
 }

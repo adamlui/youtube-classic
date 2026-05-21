@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Toe liliu YouTube i lona mamanu masani (i luma o tulimanu faataamilo uma & le fiafia natia) + redirects YouTube Shorts + poloka faasalalauga thumbnail"
   },
+  "menuLabel_about": { "message": "E uiga i" },
+  "about_author": { "message": "Tusitala" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "saofaga" },
+  "about_version": { "message": "Faaliliuga" },
+  "about_openSourceCode": { "message": "Open source code" },
+  "about_latestChanges": { "message": "Suiga mulimuli" },
   "mode_restoreDislikes": { "message": "Toefuataiina o mea e lē fiafia i ai" },
   "mode_unroundCorners": { "message": "O le a le mea e tupu i le lalolagi?" },
   "mode_disableShorts": { "message": "Faʻamaumauga o le Redirect Shorts" },
@@ -26,6 +33,19 @@
   "helptip_reduceAnimations": { "message": "Faʻaititia UI animations" },
   "helptip_idlePrevention": { "message": "Aloese mai le moe" },
   "helptip_notifDisabled": { "message": "Faaali atu faasilasilaga pe a toggling faiga/faatulagaga" },
+  "alert_updateAvail": { "message": "Faʻafouga o loʻo avanoa" },
+  "alert_newerVer": { "message": "Faʻafouga" },
+  "alert_isAvail": { "message": "o loo maua" },
+  "alert_upToDate": { "message": "Faʻafouina i le taimi nei" },
+  "alert_isUpToDate": { "message": "o loo i ai i le taimi nei" },
+  "btnLabel_moreUserscripts": { "message": "Sili atu Tagata Faʻaaoga Tusitusiga" },
+  "btnLabel_rateUs": { "message": "Faatusatusaina i Tatou" },
+  "btnLabel_getSupport": { "message": "Maua Lagolago" },
+  "btnLabel_checkForUpdates": { "message": "Siaki mo Faʻafouga" },
+  "btnLabel_update": { "message": "Faʻafouga" },
+  "btnLabel_dismiss": { "message": "Dismiss" },
+  "link_viewChanges": { "message": "Vaʻai suiga" },
+  "state_disabled": { "message": "faaletonu" },
   "state_on": { "message": "i luga o" },
   "state_off": { "message": "alu ese" }
 }

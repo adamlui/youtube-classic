@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Gibalik ang YouTube sa klasiko nga laraw niini (sa wala pa ang tanan nga mga bilog nga kanto & gitago nga dili gusto) + pag-redirect sa YouTube Shorts + mga bloke sa mga thumbnail ad"
   },
+  "menuLabel_about": { "message": "Mahitungod" },
+  "about_author": { "message": "Awtor" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "mga kontribyutor" },
+  "about_version": { "message": "Bersyon" },
+  "about_openSourceCode": { "message": "Bukas nga gigikanan nga code" },
+  "about_latestChanges": { "message": "Pinakabag-o nga mga pagbag-o" },
   "mode_restoreDislikes": { "message": "Ibalik ang Dili Gusto" },
   "mode_unroundCorners": { "message": "Unround Corners" },
   "mode_disableShorts": { "message": "I-redirect ang Mga Shorts" },
@@ -26,6 +33,19 @@
   "helptip_reduceAnimations": { "message": "Pagminus sa mga animasyon sa UI" },
   "helptip_idlePrevention": { "message": "Pugngan ang tab gikan sa pagkatulog" },
   "helptip_notifDisabled": { "message": "Ipakita ang mga pahibalo sa diha nga toggling mode/setting" },
+  "alert_updateAvail": { "message": "Magamit ang pag-update" },
+  "alert_newerVer": { "message": "Usa ka update sa" },
+  "alert_isAvail": { "message": "mao available" },
+  "alert_upToDate": { "message": "Up-to-Date nga" },
+  "alert_isUpToDate": { "message": "uPDATE kini" },
+  "btnLabel_moreUserscripts": { "message": "Dugang nga mga Usercripts" },
+  "btnLabel_rateUs": { "message": "I-rate Kanato" },
+  "btnLabel_getSupport": { "message": "Kuhaa ang Suporta" },
+  "btnLabel_checkForUpdates": { "message": "Susiha ang mga Update" },
+  "btnLabel_update": { "message": "I-update" },
+  "btnLabel_dismiss": { "message": "I-dismiss" },
+  "link_viewChanges": { "message": "Tan-awa ang mga kausaban" },
+  "state_disabled": { "message": "baldado" },
   "state_on": { "message": "sa on" },
   "state_off": { "message": "off" }
 }

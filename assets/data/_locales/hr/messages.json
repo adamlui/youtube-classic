@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Vraća YouTube na svoj klasični dizajn (prije svih zaobljenih uglova i skrivenih nesviđanja) + preusmjerava YouTube Shorts + blokira minijature oglasa"
   },
+  "menuLabel_about": { "message": "O nama" },
+  "about_author": { "message": "Autor" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "suradnici" },
+  "about_version": { "message": "Verzija" },
+  "about_openSourceCode": { "message": "Otvoreni izvorni kod" },
+  "about_latestChanges": { "message": "Najnovije promjene" },
   "mode_restoreDislikes": { "message": "Vrati oznake „Ne sviđa mi se”" },
   "mode_unroundCorners": { "message": "Zaokreni kutove" },
   "mode_disableShorts": { "message": "Preusmjeri kratke hlače" },
@@ -26,6 +33,19 @@
   "helptip_reduceAnimations": { "message": "Smanji animacije korisničkog sučelja" },
   "helptip_idlePrevention": { "message": "Spriječite da kartica zaspi" },
   "helptip_notifDisabled": { "message": "Prikaži obavijesti prilikom prebacivanja načina rada/postavki" },
+  "alert_updateAvail": { "message": "Dostupno je ažuriranje" },
+  "alert_newerVer": { "message": "Ažuriranje za" },
+  "alert_isAvail": { "message": "je dostupno" },
+  "alert_upToDate": { "message": "Ažurirano" },
+  "alert_isUpToDate": { "message": "je ažuriran" },
+  "btnLabel_moreUserscripts": { "message": "Više korisničkih skripti" },
+  "btnLabel_rateUs": { "message": "Ocijenite nas" },
+  "btnLabel_getSupport": { "message": "Zatraži podršku" },
+  "btnLabel_checkForUpdates": { "message": "Potražite ažuriranja" },
+  "btnLabel_update": { "message": "Ažuriraj" },
+  "btnLabel_dismiss": { "message": "Odbaci" },
+  "link_viewChanges": { "message": "Prikaži izmjene" },
+  "state_disabled": { "message": "onemogućeno" },
   "state_on": { "message": "na" },
   "state_off": { "message": "popusta" }
 }

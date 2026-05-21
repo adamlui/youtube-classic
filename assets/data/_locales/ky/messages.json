@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Анын классикалык дизайн YouTube артка (бардык тегерек бурчтары & жашыруун жактырбай чейин) + YouTube Shorts + блоктору эскиз жарнамаларды багыттайт"
   },
+  "menuLabel_about": { "message": "Жөнүндө" },
+  "about_author": { "message": "Автор" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "салымчылар" },
+  "about_version": { "message": "Версиясы" },
+  "about_openSourceCode": { "message": "Ачык булак коду" },
+  "about_latestChanges": { "message": "Акыркы өзгөртүүлөр" },
   "mode_restoreDislikes": { "message": "Жакпагандарды калыбына келтирүү" },
   "mode_unroundCorners": { "message": "Тегерек бурчтар" },
   "mode_disableShorts": { "message": "Шортторду багыттоо" },
@@ -26,6 +33,19 @@
   "helptip_reduceAnimations": { "message": "Undo-type" },
   "helptip_idlePrevention": { "message": "Уйкуга кетүү өтмөгүн алдын алуу" },
   "helptip_notifDisabled": { "message": "Режимди/параметрлерди күйгүзүүдө эскертүүлөрдү көрсөтүү" },
+  "alert_updateAvail": { "message": "Жаңыртуу жеткиликтүү" },
+  "alert_newerVer": { "message": "Жаңыртуу" },
+  "alert_isAvail": { "message": "жеткиликтүү" },
+  "alert_upToDate": { "message": "Учурдагы" },
+  "alert_isUpToDate": { "message": "актуалдуулугу" },
+  "btnLabel_moreUserscripts": { "message": "More Userscripts" },
+  "btnLabel_rateUs": { "message": "Бизди баалоо" },
+  "btnLabel_getSupport": { "message": "Колдоо алуу" },
+  "btnLabel_checkForUpdates": { "message": "Жаңыртууларды текшерүү" },
+  "btnLabel_update": { "message": "Жаңыртуу" },
+  "btnLabel_dismiss": { "message": "Иштен бошотуу" },
+  "link_viewChanges": { "message": "Өзгөртүүлөрдү көрүү" },
+  "state_disabled": { "message": "өчүрүлгөн" },
   "state_on": { "message": "күйгүзүлгөн" },
   "state_off": { "message": "өчүрүү" }
 }

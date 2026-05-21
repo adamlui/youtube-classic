@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "YouTube-ро ба тарроҳии классикии худ бармегардонад (пеш аз ҳама кунҷҳои мудаввар ва нохунакҳои пинҳонӣ) + YouTube Shorts + block ads thumbnail"
   },
+  "menuLabel_about": { "message": "Дар бораи" },
+  "about_author": { "message": "Муаллиф" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "саҳмгузорон" },
+  "about_version": { "message": "Версия" },
+  "about_openSourceCode": { "message": "Кушодани рамзи манбаъ" },
+  "about_latestChanges": { "message": "Mga pinakabagong pagbabago" },
   "mode_restoreDislikes": { "message": "Барқарор кардани норозигиҳо" },
   "mode_unroundCorners": { "message": "Undo-type" },
   "mode_disableShorts": { "message": "Ð  Ð ° Ð ¼ Ð ¾ Ð" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "Паст кардани аниматсияҳои UI" },
   "helptip_idlePrevention": { "message": "Предупреждать вкладку на вкл" },
   "helptip_notifDisabled": { "message": "Намоиши огоҳиномаҳо ҳангоми гузаштан аз режим/танзимот" },
+  "alert_updateAvail": { "message": "I-update ang magagamit" },
+  "alert_newerVer": { "message": "Ang isang pag-update sa" },
+  "alert_isAvail": { "message": "дастрас аст" },
+  "alert_upToDate": { "message": "Навсозии нав" },
+  "alert_isUpToDate": { "message": "up-to-date аст" },
+  "btnLabel_moreUserscripts": { "message": "Karagdagang Mga USERScript" },
+  "btnLabel_rateUs": { "message": "Баҳои мо" },
+  "btnLabel_getSupport": { "message": "Гирифтани Дастгирӣ" },
+  "btnLabel_checkForUpdates": { "message": "Тафтиш барои навсозиҳо" },
+  "btnLabel_update": { "message": "Навсозӣ" },
+  "btnLabel_dismiss": { "message": "Рад кардан" },
+  "link_viewChanges": { "message": "Tingnan ang mga pagbabago" },
+  "state_disabled": { "message": "ғайрифаъол" },
   "state_on": { "message": "фаъол" },
   "state_off": { "message": "ғайри фаъол" }
 }

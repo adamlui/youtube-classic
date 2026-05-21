@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Mengembalikan YouTube kepada reka bentuk klasiknya (sebelum semua sudut membulat & tidak suka tersembunyi) + mengalihkan YouTube Shorts + menyekat iklan lakaran kenit"
   },
+  "menuLabel_about": { "message": "Mengenai" },
+  "about_author": { "message": "Pengarang" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "penyumbang" },
+  "about_version": { "message": "Versi" },
+  "about_openSourceCode": { "message": "Kod sumber terbuka" },
+  "about_latestChanges": { "message": "Perubahan terkini" },
   "mode_restoreDislikes": { "message": "Pulihkan Tidak Suka" },
   "mode_unroundCorners": { "message": "Sudut-sudut Tak Bulat" },
   "mode_disableShorts": { "message": "Lencongkan Seluar Pendek" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "Kurangkan animasi UI" },
   "helptip_idlePrevention": { "message": "Cegah tab daripada tertidur" },
   "helptip_notifDisabled": { "message": "Tunjukkan pemberitahuan apabila menogol mod/tetapan" },
+  "alert_updateAvail": { "message": "Kemas kini tersedia" },
+  "alert_newerVer": { "message": "Pengemaskinian kepada" },
+  "alert_isAvail": { "message": "tersedia" },
+  "alert_upToDate": { "message": "Terkini" },
+  "alert_isUpToDate": { "message": "terkini" },
+  "btnLabel_moreUserscripts": { "message": "Lagi Naskah Pengguna" },
+  "btnLabel_rateUs": { "message": "Nilaikan Kami" },
+  "btnLabel_getSupport": { "message": "Dapatkan Sokongan" },
+  "btnLabel_checkForUpdates": { "message": "Semak Kemas Kini" },
+  "btnLabel_update": { "message": "Kemas kini" },
+  "btnLabel_dismiss": { "message": "Abaikan" },
+  "link_viewChanges": { "message": "Lihat perubahan" },
+  "state_disabled": { "message": "dilumpuhkan" },
   "state_on": { "message": "pada" },
   "state_off": { "message": "mati" }
 }

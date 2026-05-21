@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "ንዩቲዩብ ናብ ክላሲካዊ ንድፊኡ (ቅድሚ ኩሉ ዝተኸተለ ኩርናዕ & ዝተሓባበረ ዘይምርድዳእ) + ንዩቲዩብ ሾርትስ + ኣፕልቲካዊ ኣፕልቲካዊ ኣፕልቲካዊ ኣፕልቲካዊ ኣፕልቲካዊ ኣፕልቲካዊ ኣፕልቲካዊ ኣፕልቲካዊ ኣፕልቲካዊ ኣ"
   },
+  "menuLabel_about": { "message": "ብዛዕባ" },
+  "about_author": { "message": "ደራሲ" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "ኣበርክቶ ዝገበሩ" },
+  "about_version": { "message": "ቅጅል" },
+  "about_openSourceCode": { "message": "ክፉት ምንጪ ኮድ" },
+  "about_latestChanges": { "message": "ናይ መወዳእታ ለውጥታት" },
   "mode_restoreDislikes": { "message": "ንዘይምፍላጥካ ምምላስ" },
   "mode_unroundCorners": { "message": "ዕምባባታት" },
   "mode_disableShorts": { "message": "ቐጺሉ ዘሎ ቐጺሉ" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "ናይ ኣኒሜሽን ኣኒሜሽን ኣጉዲእካ" },
   "helptip_idlePrevention": { "message": "ካብ ድቃስ ርሓቕ" },
   "helptip_notifDisabled": { "message": "ናይ ቶግሊንግ ሞድ/ኣቀማምጣ ምስ እትገብር ኣፍልጦታት ኣርኢ" },
+  "alert_updateAvail": { "message": "ዝዘመነ" },
+  "alert_newerVer": { "message": "ዝዘመነ" },
+  "alert_isAvail": { "message": "ተዳልዩ ኣሎ" },
+  "alert_upToDate": { "message": "ዝቕጽል" },
+  "alert_isUpToDate": { "message": "ዝዘመነ" },
+  "btnLabel_moreUserscripts": { "message": "ዝያዳ ተጠቀምቲ" },
+  "btnLabel_rateUs": { "message": "ተመዝገብና" },
+  "btnLabel_getSupport": { "message": "ደገፍ ምርካብ" },
+  "btnLabel_checkForUpdates": { "message": "ዝቕጽል ሓበሬታ ርአ" },
+  "btnLabel_update": { "message": "ዝዘመነ" },
+  "btnLabel_dismiss": { "message": "ምጥፋእ" },
+  "link_viewChanges": { "message": "ለውጢ ርኣዮ" },
+  "state_disabled": { "message": "ስንክልና" },
   "state_on": { "message": "ኣብ" },
   "state_off": { "message": "ወጺእካ" }
 }

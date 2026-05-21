@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "YouTube 'y klassik dizaynyna öwürýär (häzir ähli töweregli köşeler we gizlin ýigrençler) + YouTube Shorts + bloklary kiçijik reklamalary redirect edýär"
   },
+  "menuLabel_about": { "message": "Hakynda" },
+  "about_author": { "message": "Ýazgyçy" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "öwrenýänler" },
+  "about_version": { "message": "VERSION" },
+  "about_openSourceCode": { "message": "Açyk manyly kod" },
+  "about_latestChanges": { "message": "Soňky özgerişler" },
   "mode_restoreDislikes": { "message": "Gowy görmeýänleri gaýtar" },
   "mode_unroundCorners": { "message": "Öňki köşeler" },
   "mode_disableShorts": { "message": "Gysgalanyş Gysgalanyş" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "Animasiýalary azaltmak" },
   "helptip_idlePrevention": { "message": "Uykmaýşyňy sakla" },
   "helptip_notifDisabled": { "message": "Mod/Settings toggling wagty habarlamalary görkez" },
+  "alert_updateAvail": { "message": "Täzeleşdir" },
+  "alert_newerVer": { "message": "Täzeleşdirmek" },
+  "alert_isAvail": { "message": "häzir bar" },
+  "alert_upToDate": { "message": "Täzeleşdir" },
+  "alert_isUpToDate": { "message": "häzirki döwürde" },
+  "btnLabel_moreUserscripts": { "message": "Galyberse-de, köp ulanylýan ýazgylar" },
+  "btnLabel_rateUs": { "message": "Bize habar beriň" },
+  "btnLabel_getSupport": { "message": "Ýolbaşçylyk maslahaty" },
+  "btnLabel_checkForUpdates": { "message": "Täzeleşmeler üçin barlaň" },
+  "btnLabel_update": { "message": "Täzele" },
+  "btnLabel_dismiss": { "message": "Çykyş" },
+  "link_viewChanges": { "message": "Özgertmeleri Gör" },
+  "state_disabled": { "message": "mugallym" },
   "state_on": { "message": "bu" },
   "state_off": { "message": "çyk" }
 }

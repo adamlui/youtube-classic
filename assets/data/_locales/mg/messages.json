@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Manaisotra ny YouTube amin'ny endriny mahazatra (eo anoloan'ny zorony boribory & tsy tiany miafina) + mamerina ny YouTube Shorts + biriky doka"
   },
+  "menuLabel_about": { "message": "Mombamomba" },
+  "about_author": { "message": "Laza momba ny mpamorona" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "mpandray anjara" },
+  "about_version": { "message": "Kinova" },
+  "about_openSourceCode": { "message": "Kaody misokatra" },
+  "about_latestChanges": { "message": "Fiovana farany" },
   "mode_restoreDislikes": { "message": "_Avereno ireo tsy tiana" },
   "mode_unroundCorners": { "message": "Manodidina Corners" },
   "mode_disableShorts": { "message": "Redirect Shorts" },
@@ -26,6 +33,19 @@
   "helptip_reduceAnimations": { "message": "Ahenao ny sary mihetsika UI" },
   "helptip_idlePrevention": { "message": "Manakana ny vakizoro tsy hatory" },
   "helptip_notifDisabled": { "message": "Asehoy ny fampahafantarana rehefa miova fomba/fandrindrana" },
+  "alert_updateAvail": { "message": "Ny fanavaozana azo alaina" },
+  "alert_newerVer": { "message": "Vaovao farany ho" },
+  "alert_isAvail": { "message": "tsy mety ampiasaina" },
+  "alert_upToDate": { "message": "Up-to-daty" },
+  "alert_isUpToDate": { "message": "zava-nitranga farany" },
+  "btnLabel_moreUserscripts": { "message": "More Mpampiasa" },
+  "btnLabel_rateUs": { "message": "Tadiavo anay" },
+  "btnLabel_getSupport": { "message": "Mitadiava fanampiana" },
+  "btnLabel_checkForUpdates": { "message": "Mitadiava fanavaozana" },
+  "btnLabel_update": { "message": "Avaozy" },
+  "btnLabel_dismiss": { "message": "Ario" },
+  "link_viewChanges": { "message": "Hijery ireo fanovana" },
+  "state_disabled": { "message": "disabled" },
   "state_on": { "message": "ao i" },
   "state_off": { "message": "eny" }
 }

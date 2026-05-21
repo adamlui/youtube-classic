@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "E busetsa YouTube mo sebopegong sa yone sa bogologolo (pele ga dikhutlo tsotlhe tse di dikologileng le dilo tse di sa ratweng tse di fitlhegileng) + e kaela gape YouTube Shorts + diphasalatso tsa thumbnail"
   },
+  "menuLabel_about": { "message": "O ka nna" },
+  "about_author": { "message": "Mokwadi" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "bakgatlhegedi" },
+  "about_version": { "message": "Mofuta" },
+  "about_openSourceCode": { "message": "Open source code" },
+  "about_latestChanges": { "message": "Diphetogo tsa sesweng" },
   "mode_restoreDislikes": { "message": "Tsosolosa Dilo tse O sa di Rateng" },
   "mode_unroundCorners": { "message": "DIKHUTLANA TSE DIKGOLO" },
   "mode_disableShorts": { "message": "Dikhutshwane tse di Rulagantsweng Gape" },
@@ -28,6 +35,19 @@
   "helptip_reduceAnimations": { "message": "Fokotsa ditshwantsho tsa UI" },
   "helptip_idlePrevention": { "message": "E thibela tab gore e seka ya robala" },
   "helptip_notifDisabled": { "message": "Bontsha dikitsiso fa o toggling mode/settings" },
+  "alert_updateAvail": { "message": "Diphetogo tse di leng teng" },
+  "alert_newerVer": { "message": "Tlhabololo ya go" },
+  "alert_isAvail": { "message": "e teng" },
+  "alert_upToDate": { "message": "E mo nakong" },
+  "alert_isUpToDate": { "message": "e mo nakong" },
+  "btnLabel_moreUserscripts": { "message": "Makwalo a a Oketsegileng a Badirisi" },
+  "btnLabel_rateUs": { "message": "Maemo a Rona" },
+  "btnLabel_getSupport": { "message": "Bona Kemonokeng" },
+  "btnLabel_checkForUpdates": { "message": "Tlhatlhoba Diphetogo" },
+  "btnLabel_update": { "message": "Ntshwafatso" },
+  "btnLabel_dismiss": { "message": "TLOGELA" },
+  "link_viewChanges": { "message": "Leba diphetogo" },
+  "state_disabled": { "message": "golafetse" },
   "state_on": { "message": "on" },
   "state_off": { "message": "off" }
 }

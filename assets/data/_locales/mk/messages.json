@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Го враќа YouTube во својот класичен дизајн (пред сите заоблени агли и скриени недопаѓања) + пренасочува YouTube Shorts + блокира реклами со сликички"
   },
+  "menuLabel_about": { "message": "За" },
+  "about_author": { "message": "Автор" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "соработници" },
+  "about_version": { "message": "Верзија" },
+  "about_openSourceCode": { "message": "Отворен изворен код" },
+  "about_latestChanges": { "message": "Најнови промени" },
   "mode_restoreDislikes": { "message": "Враќање на „Не ми се допаѓа“" },
   "mode_unroundCorners": { "message": "Отпуштете ги аглите" },
   "mode_disableShorts": { "message": "Кратенки за пренасочување" },
@@ -26,6 +33,19 @@
   "helptip_reduceAnimations": { "message": "Намалете ги анимациите на корисничкиот интерфејс" },
   "helptip_idlePrevention": { "message": "Спречете заспивање на јазичето" },
   "helptip_notifDisabled": { "message": "Прикажи известувања кога се префрлаат режимот/поставките" },
+  "alert_updateAvail": { "message": "Достапно е ажурирање" },
+  "alert_newerVer": { "message": "Ажурирање на" },
+  "alert_isAvail": { "message": "е достапен" },
+  "alert_upToDate": { "message": "Ажурирано" },
+  "alert_isUpToDate": { "message": "е ажуриран" },
+  "btnLabel_moreUserscripts": { "message": "Повеќе кориснички скрипти" },
+  "btnLabel_rateUs": { "message": "Оценете нѐ" },
+  "btnLabel_getSupport": { "message": "Добијте поддршка" },
+  "btnLabel_checkForUpdates": { "message": "Проверка за ажурирања" },
+  "btnLabel_update": { "message": "Ажурирај" },
+  "btnLabel_dismiss": { "message": "Отфрли" },
+  "link_viewChanges": { "message": "Прикажи ги промените" },
+  "state_disabled": { "message": "оневозможено" },
   "state_on": { "message": "на" },
   "state_off": { "message": "исклучено" }
 }

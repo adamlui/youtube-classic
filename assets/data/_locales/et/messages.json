@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Taastab YouTube 'i klassikalise disaini (enne kõiki ümardatud nurki ja varjatud mittemeeldimisi) + suunab YouTube' i lühikesed püksid + blokeerib pisipildireklaamid"
   },
+  "menuLabel_about": { "message": "Info" },
+  "about_author": { "message": "Autor" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "kaastöötajad" },
+  "about_version": { "message": "Versioon" },
+  "about_openSourceCode": { "message": "Avatud lähtekood" },
+  "about_latestChanges": { "message": "Viimased muudatused" },
   "mode_restoreDislikes": { "message": "Taasta mittemeeldimised" },
   "mode_unroundCorners": { "message": "Maandamata nurgad" },
   "mode_disableShorts": { "message": "Lühikesed ümbersuunamispü" },
@@ -26,6 +33,19 @@
   "helptip_reduceAnimations": { "message": "Vähenda kasutajaliidese animatsioone" },
   "helptip_idlePrevention": { "message": "Vältige vahelehe uinumist" },
   "helptip_notifDisabled": { "message": "Kuva teated režiimi/seadete vahetamisel" },
+  "alert_updateAvail": { "message": "Värskendus on saadaval" },
+  "alert_newerVer": { "message": "Uuendus versioonile" },
+  "alert_isAvail": { "message": "on saadaval" },
+  "alert_upToDate": { "message": "Ajakohane" },
+  "alert_isUpToDate": { "message": "on ajakohane" },
+  "btnLabel_moreUserscripts": { "message": "Veel kasutajakirju" },
+  "btnLabel_rateUs": { "message": "Hinda meid" },
+  "btnLabel_getSupport": { "message": "Küsi tuge" },
+  "btnLabel_checkForUpdates": { "message": "Otsi uuendusi" },
+  "btnLabel_update": { "message": "Uuenda" },
+  "btnLabel_dismiss": { "message": "Tühista" },
+  "link_viewChanges": { "message": "Vaata muudatusi" },
+  "state_disabled": { "message": "keelatud" },
   "state_on": { "message": "sees" },
   "state_off": { "message": "väljas" }
 }

@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Zet YouTube terug naar zijn klassieke ontwerp (vóór alle afgeronde hoeken en verborgen antipathieën) + stuurt YouTube-shorts om + blokkeert miniatuuradvertenties"
   },
+  "menuLabel_about": { "message": "Over" },
+  "about_author": { "message": "Auteur" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "bijdragers" },
+  "about_version": { "message": "Versie" },
+  "about_openSourceCode": { "message": "Open source code" },
+  "about_latestChanges": { "message": "Laatste wijzigingen" },
   "mode_restoreDislikes": { "message": "Dislikes herstellen" },
   "mode_unroundCorners": { "message": "Ongeronde hoeken" },
   "mode_disableShorts": { "message": "Korte broeken omleiden" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "UI-animaties verminderen" },
   "helptip_idlePrevention": { "message": "Voorkom dat tab in slaap valt" },
   "helptip_notifDisabled": { "message": "Meldingen weergeven bij schakelen tussen modus/instellingen" },
+  "alert_updateAvail": { "message": "Update beschikbaar" },
+  "alert_newerVer": { "message": "Een update van" },
+  "alert_isAvail": { "message": "is beschikbaar" },
+  "alert_upToDate": { "message": "Up-to-date" },
+  "alert_isUpToDate": { "message": "is up-to-date" },
+  "btnLabel_moreUserscripts": { "message": "Meer gebruikersscripts" },
+  "btnLabel_rateUs": { "message": "Beoordeel ons" },
+  "btnLabel_getSupport": { "message": "Ondersteuning krijgen" },
+  "btnLabel_checkForUpdates": { "message": "Controleren op updates" },
+  "btnLabel_update": { "message": "Bijwerken" },
+  "btnLabel_dismiss": { "message": "Sluiten" },
+  "link_viewChanges": { "message": "Wijzigingen bekijken" },
+  "state_disabled": { "message": "uitgeschakeld" },
   "state_on": { "message": "op" },
   "state_off": { "message": "uit" }
 }

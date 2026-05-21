@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "YouTube خپل کلاسیک ډیزاین ته اړوي (مخکې له ټولو ګرد کونجونو او پټ نه خوښوي) + د یوټیوب شارټس + بلاکونو تمبیل اعلانونه بیا تنظیموي"
   },
+  "menuLabel_about": { "message": "په اړه" },
+  "about_author": { "message": "ليکوال:" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "ګډونوالان" },
+  "about_version": { "message": "نسخه" },
+  "about_openSourceCode": { "message": "د سرچینې کوډ خلاص کړئ" },
+  "about_latestChanges": { "message": "وروستي بدلونونه" },
   "mode_restoreDislikes": { "message": "نه خوښونې بحال کړئ" },
   "mode_unroundCorners": { "message": "بې شاوخوا کونجونه" },
   "mode_disableShorts": { "message": "شارټس بېرته وګرځوئ" },
@@ -26,6 +33,19 @@
   "helptip_reduceAnimations": { "message": "د UI حرکتونه کم کړئ" },
   "helptip_idlePrevention": { "message": "ټب د ویده کیدو مخه ونیسئ" },
   "helptip_notifDisabled": { "message": "خبرتیاوې وښایاست کله چې حالت/تنظیمات تنظیم کړئ" },
+  "alert_updateAvail": { "message": "تازه کول شتون لري" },
+  "alert_newerVer": { "message": "ته تازه معلومات" },
+  "alert_isAvail": { "message": "شتون لري" },
+  "alert_upToDate": { "message": "تازه" },
+  "alert_isUpToDate": { "message": "تازه دی" },
+  "btnLabel_moreUserscripts": { "message": "د کاروونکو ډیرې لیکنې" },
+  "btnLabel_rateUs": { "message": "موږ ته رتبه راکړئ" },
+  "btnLabel_getSupport": { "message": "ملاتړ ترلاسه کړئ" },
+  "btnLabel_checkForUpdates": { "message": "د تازه معلوماتو لپاره وګورئ" },
+  "btnLabel_update": { "message": "تازه کړئ" },
+  "btnLabel_dismiss": { "message": "رد کول" },
+  "link_viewChanges": { "message": "بدلونونه وګورئ" },
+  "state_disabled": { "message": "معلول" },
   "state_on": { "message": "په" },
   "state_off": { "message": "بند" }
 }

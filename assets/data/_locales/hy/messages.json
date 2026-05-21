@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Վերադարձնում է YouTube - ն իր դասական դիզայնին (բոլոր կլորացված անկյուններից և թաքնված հավանումներից առաջ) + վերահղում YouTube Shorts + արգելափակում է մանրապատկերների գովազդը"
   },
+  "menuLabel_about": { "message": "Տեղեկություններ" },
+  "about_author": { "message": "Հեղինակ" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "ներդրողներ" },
+  "about_version": { "message": "Տարբերակ" },
+  "about_openSourceCode": { "message": "Բաց կոդ" },
+  "about_latestChanges": { "message": "Վերջին փոփոխությունները" },
   "mode_restoreDislikes": { "message": "Վերականգնել հավանումները" },
   "mode_unroundCorners": { "message": "Շրջապատել անկյունները" },
   "mode_disableShorts": { "message": "Վերահղել շորտերը" },
@@ -26,6 +33,19 @@
   "helptip_reduceAnimations": { "message": "Կրճատել UI անիմացիաները" },
   "helptip_idlePrevention": { "message": "Թույլ չտալ, որ ներդիրը քնի" },
   "helptip_notifDisabled": { "message": "Ցույց տալ ծանուցումները, երբ փոխվում է ռեժիմը/կարգավորումները" },
+  "alert_updateAvail": { "message": "Հասանելի թարմացում" },
+  "alert_newerVer": { "message": "Թարմացում" },
+  "alert_isAvail": { "message": "ազատ է" },
+  "alert_upToDate": { "message": "Թարմացված" },
+  "alert_isUpToDate": { "message": "արդիական է" },
+  "btnLabel_moreUserscripts": { "message": "Այլ օգտագործողների գրություններ" },
+  "btnLabel_rateUs": { "message": "Գնահատեք մեզ" },
+  "btnLabel_getSupport": { "message": "Ստանալ աջակցում" },
+  "btnLabel_checkForUpdates": { "message": "Ստուգել թարմացումները" },
+  "btnLabel_update": { "message": "Թարմացնել" },
+  "btnLabel_dismiss": { "message": "Փակել" },
+  "link_viewChanges": { "message": "Դիտել փոփոխությունները" },
+  "state_disabled": { "message": "անջատված է" },
   "state_on": { "message": "միացված" },
   "state_off": { "message": "անջատված է" }
 }

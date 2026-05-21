@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Umsetur YouTube til sítt klassiska design (frá øllum rundaðum hornum og skjaldum ólíkum) + leiðir YouTube Shorts + blokkar miniatursannlýsingar"
   },
+  "menuLabel_about": { "message": "Um" },
+  "about_author": { "message": "Forritari" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "ískoytisfólk" },
+  "about_version": { "message": "Versión" },
+  "about_openSourceCode": { "message": "Opna keldukota" },
+  "about_latestChanges": { "message": "Nýggju broytingarnar" },
   "mode_restoreDislikes": { "message": "Endurtaka ikki dámar" },
   "mode_unroundCorners": { "message": "Umhvørvisstovan" },
   "mode_disableShorts": { "message": "Redirect Shorts" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "Minka um UI-animeringar" },
   "helptip_idlePrevention": { "message": "At sleppa undan at sova" },
   "helptip_notifDisabled": { "message": "Vís boð, tá ið tú skiftir stillingar/stillingar" },
+  "alert_updateAvail": { "message": "Uppdatering tøka" },
+  "alert_newerVer": { "message": "Núverandi tíðindi" },
+  "alert_isAvail": { "message": "tað er tøkt" },
+  "alert_upToDate": { "message": "Uppdaterað" },
+  "alert_isUpToDate": { "message": "núverandi tíðindi" },
+  "btnLabel_moreUserscripts": { "message": "Fleiri brúkararskriftir" },
+  "btnLabel_rateUs": { "message": "Rætta okkum" },
+  "btnLabel_getSupport": { "message": "Fá stuðul" },
+  "btnLabel_checkForUpdates": { "message": "Gev gætur eftir dagføringum" },
+  "btnLabel_update": { "message": "Uppdatering" },
+  "btnLabel_dismiss": { "message": "Avsakað" },
+  "link_viewChanges": { "message": "Sí broytingar" },
+  "state_disabled": { "message": "sloppin" },
   "state_on": { "message": "á" },
   "state_off": { "message": "av" }
 }

@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Atjauno YouTube klasisko dizainu (pirms visi noapaļotie stūri un slēptie nepatīk) + novirza YouTube šortus + bloķē sīktēlu reklāmas"
   },
+  "menuLabel_about": { "message": "Par" },
+  "about_author": { "message": "Autors" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "līdzautori" },
+  "about_version": { "message": "Versija" },
+  "about_openSourceCode": { "message": "Atvērtais pirmkods" },
+  "about_latestChanges": { "message": "Jaunākās izmaiņas" },
   "mode_restoreDislikes": { "message": "Atjaunot atzīmes \"Patīk\"" },
   "mode_unroundCorners": { "message": "Neapaļi stūri" },
   "mode_disableShorts": { "message": "Novirzīt īsfilmas" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "Samazināt lietotāja interfeisa animācijas" },
   "helptip_idlePrevention": { "message": "Novērsiet cilnes aizmigšanu" },
   "helptip_notifDisabled": { "message": "Rādīt paziņojumus, pārslēdzot režīmu/iestatījumus" },
+  "alert_updateAvail": { "message": "Pieejams atjauninājums" },
+  "alert_newerVer": { "message": "Atjauninājums uz" },
+  "alert_isAvail": { "message": "ir pieejams" },
+  "alert_upToDate": { "message": "Jaunākā informācija" },
+  "alert_isUpToDate": { "message": "ir atjaunināts" },
+  "btnLabel_moreUserscripts": { "message": "Vairāk lietotāju skriptu" },
+  "btnLabel_rateUs": { "message": "Novērtējiet mūs" },
+  "btnLabel_getSupport": { "message": "Saņemt atbalstu" },
+  "btnLabel_checkForUpdates": { "message": "Pārbaudīt, vai nav atjauninājumu" },
+  "btnLabel_update": { "message": "Atjaunināt" },
+  "btnLabel_dismiss": { "message": "Noraidīt" },
+  "link_viewChanges": { "message": "Skatīt izmaiņas" },
+  "state_disabled": { "message": "atspējots" },
   "state_on": { "message": "ieslēgts" },
   "state_off": { "message": "izslēgts" }
 }

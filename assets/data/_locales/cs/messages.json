@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Vrátí YouTube do jeho klasického designu (před všemi zaoblenými rohy a skrytými nelibostmi) + přesměruje YouTube šortky + blokuje miniatury reklam"
   },
+  "menuLabel_about": { "message": "O" },
+  "about_author": { "message": "Autor" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "přispěvatelé" },
+  "about_version": { "message": "Verze" },
+  "about_openSourceCode": { "message": "Otevřený zdrojový kód" },
+  "about_latestChanges": { "message": "Poslední změny" },
   "mode_restoreDislikes": { "message": "Obnovit nelíbí" },
   "mode_unroundCorners": { "message": "Nezaoblené rohy" },
   "mode_disableShorts": { "message": "Šortky s přesměrováním" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "Snížit animace uživatelského rozhraní" },
   "helptip_idlePrevention": { "message": "Zabránit tomu, aby karta usnula" },
   "helptip_notifDisabled": { "message": "Zobrazit oznámení při přepínání režimu/nastavení" },
+  "alert_updateAvail": { "message": "Aktualizace je k dispozici" },
+  "alert_newerVer": { "message": "Aktualizace na" },
+  "alert_isAvail": { "message": "je k dispozici" },
+  "alert_upToDate": { "message": "Aktuální" },
+  "alert_isUpToDate": { "message": "je aktuální" },
+  "btnLabel_moreUserscripts": { "message": "Více uživatelských skriptů" },
+  "btnLabel_rateUs": { "message": "Ohodnoťte nás" },
+  "btnLabel_getSupport": { "message": "Získat podporu" },
+  "btnLabel_checkForUpdates": { "message": "Zkontrolovat aktualizace" },
+  "btnLabel_update": { "message": "Aktualizovat" },
+  "btnLabel_dismiss": { "message": "Zamítnout" },
+  "link_viewChanges": { "message": "Zobrazit změny" },
+  "state_disabled": { "message": "zakázáno" },
   "state_on": { "message": "dne" },
   "state_off": { "message": "vypnuto" }
 }

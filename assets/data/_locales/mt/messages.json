@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Tirritorna YouTube għad-disinn klassiku tagħha (qabel il-kantunieri ttundjati kollha u dislike moħbija) + tidderieġi mill-ġdid YouTube Shorts + timblokka r-reklami ta' mini"
   },
+  "menuLabel_about": { "message": "Dwar" },
+  "about_author": { "message": "Awtur" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "kontributuri" },
+  "about_version": { "message": "Verżjoni" },
+  "about_openSourceCode": { "message": "Kodiċi tas-sors miftuħ" },
+  "about_latestChanges": { "message": "L-aħħar bidliet" },
   "mode_restoreDislikes": { "message": "Irrestawra d-Dislikes" },
   "mode_unroundCorners": { "message": "Kantunieri Mingħajr Ċaqliq" },
   "mode_disableShorts": { "message": "Irridirezzjona x-xorzijiet" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "Naqqas l-animazzjonijiet tal-UI" },
   "helptip_idlePrevention": { "message": "Ipprevjeni t-tab milli torqod" },
   "helptip_notifDisabled": { "message": "Uri n-notifiki meta tibdel il-modalità/is-settings" },
+  "alert_updateAvail": { "message": "Aġġornament disponibbli" },
+  "alert_newerVer": { "message": "Aġġornament għal" },
+  "alert_isAvail": { "message": "huwa disponibbli" },
+  "alert_upToDate": { "message": "Aġġornat/a" },
+  "alert_isUpToDate": { "message": "huwa aġġornat" },
+  "btnLabel_moreUserscripts": { "message": "Iktar Skrizzjonijiet tal-Utenti" },
+  "btnLabel_rateUs": { "message": "Agħti Rata Aħna" },
+  "btnLabel_getSupport": { "message": "Ikseb l-Għajnuna" },
+  "btnLabel_checkForUpdates": { "message": "Iċċekkja l-Aġġornamenti" },
+  "btnLabel_update": { "message": "Aġġorna" },
+  "btnLabel_dismiss": { "message": "Neħħi" },
+  "link_viewChanges": { "message": "Ara l-bidliet" },
+  "state_disabled": { "message": "diżattivat" },
   "state_on": { "message": "mixgħula" },
   "state_off": { "message": "mitfija" }
 }

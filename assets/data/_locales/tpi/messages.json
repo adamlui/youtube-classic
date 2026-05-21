@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Yu ken tanim YouTube i go bek long ol piksa bilong en (long olgeta hap bilong en na ol samting yu no laikim) + yu ken redirect YouTube Shorts + ol liklik nius"
   },
+  "menuLabel_about": { "message": "About" },
+  "about_author": { "message": "Man bilong raitim" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "ol contributor" },
+  "about_version": { "message": "Tok Pisin" },
+  "about_openSourceCode": { "message": "Open source code" },
+  "about_latestChanges": { "message": "Ol nupela senis" },
   "mode_restoreDislikes": { "message": "Kisim bek ol samting yu no laikim" },
   "mode_unroundCorners": { "message": "Ol samting i no stap long ol kona" },
   "mode_disableShorts": { "message": "Redirect Shorts" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "Redukim ol samting bilong mekim wok long en" },
   "helptip_idlePrevention": { "message": "Taim yu slip, yu no ken slip" },
   "helptip_notifDisabled": { "message": "Toksave taim yu senisim mode/sait" },
+  "alert_updateAvail": { "message": "Ol nupela samting i stap" },
+  "alert_newerVer": { "message": "Ol nupela tok" },
+  "alert_isAvail": { "message": "em i stap" },
+  "alert_upToDate": { "message": "UPDATE" },
+  "alert_isUpToDate": { "message": "ol i save mekim ol samting i kamap" },
+  "btnLabel_moreUserscripts": { "message": "Ol rait bilong ol man" },
+  "btnLabel_rateUs": { "message": "Toksave long mipela" },
+  "btnLabel_getSupport": { "message": "Kisim helpim" },
+  "btnLabel_checkForUpdates": { "message": "Lukim ol nupela tok" },
+  "btnLabel_update": { "message": "UPDATE" },
+  "btnLabel_dismiss": { "message": "Lusim" },
+  "link_viewChanges": { "message": "Lukim ol senis" },
+  "state_disabled": { "message": "disable" },
   "state_on": { "message": "long" },
   "state_off": { "message": "i go" }
 }

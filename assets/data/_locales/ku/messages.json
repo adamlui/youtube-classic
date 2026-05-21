@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "YouTube-ê vedigerîne sêwirana xwe ya klasîk (berî hemî quncikên girover û nehezkirinên veşartî) + YouTube Shorts beralî dike + reklamên piçûk ên wêneyan asteng dike"
   },
+  "menuLabel_about": { "message": "Ji dor" },
+  "about_author": { "message": "Nivîskar" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "beşdaran" },
+  "about_version": { "message": "Awa" },
+  "about_openSourceCode": { "message": "Koda çavkaniya vekirî" },
+  "about_latestChanges": { "message": "Guhertinên dawî" },
   "mode_restoreDislikes": { "message": "Vegerandina Nehezkirinan" },
   "mode_unroundCorners": { "message": "Goşeyên Neçilmisandî" },
   "mode_disableShorts": { "message": "Kurtefîlmên ji nû ve beralî bike" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "Anîmasyonên UI kêm bikin" },
   "helptip_idlePrevention": { "message": "Astengkirina xewa tabloyê" },
   "helptip_notifDisabled": { "message": "Dema ku mod/mîhengan vediguherîne, agahdariyan nîşan bide" },
+  "alert_updateAvail": { "message": "Nûvekirin heye" },
+  "alert_newerVer": { "message": "Nûvekirinek ji bo" },
+  "alert_isAvail": { "message": "berdest e" },
+  "alert_upToDate": { "message": "Biroj" },
+  "alert_isUpToDate": { "message": "nûjen e" },
+  "btnLabel_moreUserscripts": { "message": "Skriptên Bikarhêner ên Zêdetir" },
+  "btnLabel_rateUs": { "message": "Binirxînin me" },
+  "btnLabel_getSupport": { "message": "Piştgiriyê bistînin" },
+  "btnLabel_checkForUpdates": { "message": "Ji bo Nûvekirinan Kontrol Bike" },
+  "btnLabel_update": { "message": "Nûvekirin" },
+  "btnLabel_dismiss": { "message": "Berdan" },
+  "link_viewChanges": { "message": "Guhertinan bibîne" },
+  "state_disabled": { "message": "bêmecel" },
   "state_on": { "message": "li" },
   "state_off": { "message": "ji" }
 }

@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "يعيد YouTube إلى تصميمه الكلاسيكي (قبل كل الزوايا المستديرة وعدم الإعجاب المخفي) + يعيد توجيه YouTube Shorts + حظر إعلانات الصور المصغرة"
   },
+  "menuLabel_about": { "message": "حول" },
+  "about_author": { "message": "المؤلف" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "المساهمون" },
+  "about_version": { "message": "الإصدار" },
+  "about_openSourceCode": { "message": "شفرة مفتوحة المصدر" },
+  "about_latestChanges": { "message": "آخر التغييرات" },
   "mode_restoreDislikes": { "message": "استعادة عدم الإعجاب" },
   "mode_unroundCorners": { "message": "زوايا غير مستديرة" },
   "mode_disableShorts": { "message": "إعادة توجيه السراويل القصيرة" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "تقليل رسوم واجهة المستخدم المتحركة" },
   "helptip_idlePrevention": { "message": "منع التبويب من النوم" },
   "helptip_notifDisabled": { "message": "عرض الإشعارات عند تبديل الوضع/الإعدادات" },
+  "alert_updateAvail": { "message": "التحديث متاح" },
+  "alert_newerVer": { "message": "تحديث لـ" },
+  "alert_isAvail": { "message": "متاح" },
+  "alert_upToDate": { "message": "مُحدَّث" },
+  "alert_isUpToDate": { "message": "محدث" },
+  "btnLabel_moreUserscripts": { "message": "المزيد من نصوص المستخدمين" },
+  "btnLabel_rateUs": { "message": "قيّمنا" },
+  "btnLabel_getSupport": { "message": "احصل على الدعم" },
+  "btnLabel_checkForUpdates": { "message": "التحقق من وجود تحديثات" },
+  "btnLabel_update": { "message": "تحديث" },
+  "btnLabel_dismiss": { "message": "تجاهل" },
+  "link_viewChanges": { "message": "عرض التغييرات" },
+  "state_disabled": { "message": "معطّل" },
   "state_on": { "message": "في" },
   "state_off": { "message": "إيقاف" }
 }

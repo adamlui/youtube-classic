@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Isebtar i yellan ddaw-a sɛan aseɣwen ɣer Youtube (uqbel meṛṛa n tɣawsiwin yettwassnen & tuffra n tuffra) + reffirects YouTube Shorts + blocks thumbnail ads"
   },
+  "menuLabel_about": { "message": "Ɣef" },
+  "about_author": { "message": "Amedyaz" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "imusnawen" },
+  "about_version": { "message": "Asebtar" },
+  "about_openSourceCode": { "message": "Ldi aɣbalu n udiwenni" },
+  "about_latestChanges": { "message": "Isbeddilen aneggaru" },
   "mode_restoreDislikes": { "message": "Rnu tuccḍiwin" },
   "mode_unroundCorners": { "message": "Anwalt Anwalt Corners" },
   "mode_disableShorts": { "message": "Snifel tizegziwin" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "Snifel iwenniten" },
   "helptip_idlePrevention": { "message": "Seḥbes tab seg yiḍes" },
   "helptip_notifDisabled": { "message": "Sken isallen melmi ara d-sbedden isenfaren/isenfaren" },
+  "alert_updateAvail": { "message": "Aneggaru i d-yellan" },
+  "alert_newerVer": { "message": "Aneggaru ɣer" },
+  "alert_isAvail": { "message": "yella" },
+  "alert_upToDate": { "message": "Aneggaru n uzegrir" },
+  "alert_isUpToDate": { "message": "yesssss up-to-date" },
+  "btnLabel_moreUserscripts": { "message": "Ugar n iseqdacen" },
+  "btnLabel_rateUs": { "message": "Rmed-aɣ" },
+  "btnLabel_getSupport": { "message": "Awi tallalt" },
+  "btnLabel_checkForUpdates": { "message": "Wali isenfaren" },
+  "btnLabel_update": { "message": "Aneggaru" },
+  "btnLabel_dismiss": { "message": "Asizdeg" },
+  "link_viewChanges": { "message": "Wali ibeddilen" },
+  "state_disabled": { "message": "asenqed" },
   "state_on": { "message": "ɣef" },
   "state_off": { "message": "ffeɣ" }
 }

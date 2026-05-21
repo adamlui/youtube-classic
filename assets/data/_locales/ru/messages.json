@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Возвращает YouTube к классическому дизайну (до всех закругленных углов и скрытых антипатий) + перенаправляет шорты YouTube + блокирует эскизную рекламу"
   },
+  "menuLabel_about": { "message": "О нас" },
+  "about_author": { "message": "Автор" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "участники" },
+  "about_version": { "message": "Версия" },
+  "about_openSourceCode": { "message": "Открытый исходный код" },
+  "about_latestChanges": { "message": "Последние изменения" },
   "mode_restoreDislikes": { "message": "Восстановить антипатии" },
   "mode_unroundCorners": { "message": "Округлить углы" },
   "mode_disableShorts": { "message": "Перенаправить шорты" },
@@ -26,6 +33,19 @@
   "helptip_reduceAnimations": { "message": "Уменьшить анимацию пользовательского интерфейса" },
   "helptip_idlePrevention": { "message": "Предотвращение засыпания вкладки" },
   "helptip_notifDisabled": { "message": "Показывать уведомления при переключении режима/настроек" },
+  "alert_updateAvail": { "message": "Доступно обновление" },
+  "alert_newerVer": { "message": "Обновление для" },
+  "alert_isAvail": { "message": "доступно" },
+  "alert_upToDate": { "message": "Актуально" },
+  "alert_isUpToDate": { "message": "актуален" },
+  "btnLabel_moreUserscripts": { "message": "Больше пользовательских скриптов" },
+  "btnLabel_rateUs": { "message": "Оцените нас" },
+  "btnLabel_getSupport": { "message": "Получить поддержку" },
+  "btnLabel_checkForUpdates": { "message": "Проверить наличие обновлений" },
+  "btnLabel_update": { "message": "Обновить" },
+  "btnLabel_dismiss": { "message": "Скрыть" },
+  "link_viewChanges": { "message": "Посмотреть изменения" },
+  "state_disabled": { "message": "отключено" },
   "state_on": { "message": "на" },
   "state_off": { "message": "выкл" }
 }

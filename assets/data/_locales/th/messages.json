@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "เปลี่ยน YouTube เป็นดีไซน์คลาสสิก (ก่อนมุมโค้งมนทั้งหมดและไม่ชอบที่ซ่อนอยู่) + เปลี่ยนเส้นทาง YouTube Short + บล็อกโฆษณาขนาดย่อ"
   },
+  "menuLabel_about": { "message": "เกี่ยวกับ" },
+  "about_author": { "message": "ผู้เขียน" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "ผู้ร่วมให้ข้อมูล" },
+  "about_version": { "message": "เวอร์ชัน" },
+  "about_openSourceCode": { "message": "โอเพนซอร์สโค้ด" },
+  "about_latestChanges": { "message": "การเปลี่ยนแปลงล่าสุด" },
   "mode_restoreDislikes": { "message": "คืนค่าสิ่งที่ไม่ชอบ" },
   "mode_unroundCorners": { "message": "Unround Corners" },
   "mode_disableShorts": { "message": "เปลี่ยนเส้นทางกางเกงขาสั้น" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "ลดภาพเคลื่อนไหว UI" },
   "helptip_idlePrevention": { "message": "ป้องกันไม่ให้แท็บหลับ" },
   "helptip_notifDisabled": { "message": "แสดงการแจ้งเตือนเมื่อสลับโหมด/การตั้งค่า" },
+  "alert_updateAvail": { "message": "มีอัปเดตพร้อมใช้งาน" },
+  "alert_newerVer": { "message": "อัพเดทเป็น" },
+  "alert_isAvail": { "message": "ว่าง" },
+  "alert_upToDate": { "message": "อัพเดทล่าสุด" },
+  "alert_isUpToDate": { "message": "อัพเดทแล้ว" },
+  "btnLabel_moreUserscripts": { "message": "สคริปต์ผู้ใช้เพิ่มเติม" },
+  "btnLabel_rateUs": { "message": "ให้คะแนนเรา" },
+  "btnLabel_getSupport": { "message": "ขอความช่วยเหลือ" },
+  "btnLabel_checkForUpdates": { "message": "ตรวจสอบการอัปเดต" },
+  "btnLabel_update": { "message": "อัปเดต" },
+  "btnLabel_dismiss": { "message": "ปิด" },
+  "link_viewChanges": { "message": "ดูการเปลี่ยนแปลง" },
+  "state_disabled": { "message": "ปิดการใช้งาน" },
   "state_on": { "message": "เปิด" },
   "state_off": { "message": "ลด" }
 }

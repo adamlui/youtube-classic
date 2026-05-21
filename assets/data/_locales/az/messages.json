@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "YouTube-u klassik dizaynına çevirir (bütün yuvarlaq guşələr və gizli bəyənmələrdən əvvəl) + YouTube Shorts + blokları kiçik reklamları yönləndirir"
   },
+  "menuLabel_about": { "message": "Haqqında" },
+  "about_author": { "message": "Müəllif" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "ianəçilər" },
+  "about_version": { "message": "Versiya" },
+  "about_openSourceCode": { "message": "Mənbə kodunu açın" },
+  "about_latestChanges": { "message": "Son dəyişikliklər" },
   "mode_restoreDislikes": { "message": "Bəyənilməyənləri bərpa edin" },
   "mode_unroundCorners": { "message": "Ətrafdakı Künclər" },
   "mode_disableShorts": { "message": "Şortu yönləndirin" },
@@ -26,6 +33,19 @@
   "helptip_reduceAnimations": { "message": "UI animasiyalarını azaldın" },
   "helptip_idlePrevention": { "message": "Tablonun yuxuya getməsinin qarşısını alın" },
   "helptip_notifDisabled": { "message": "Bildirişləri keçid rejimi/parametrləri göstərdikdə göstər" },
+  "alert_updateAvail": { "message": "Mövcud yeniləmə" },
+  "alert_newerVer": { "message": "Yeniləmə" },
+  "alert_isAvail": { "message": "mövcuddur" },
+  "alert_upToDate": { "message": "Yenilə" },
+  "alert_isUpToDate": { "message": "yenilənir" },
+  "btnLabel_moreUserscripts": { "message": "Daha çox istifadəçi yazısı" },
+  "btnLabel_rateUs": { "message": "Bizə qiymət verin" },
+  "btnLabel_getSupport": { "message": "Dəstək Əldə Edin" },
+  "btnLabel_checkForUpdates": { "message": "Yeniləmələri yoxla" },
+  "btnLabel_update": { "message": "Yenilə" },
+  "btnLabel_dismiss": { "message": "Ötür" },
+  "link_viewChanges": { "message": "Dəyişikliklərə bax" },
+  "state_disabled": { "message": "qeyri-aktiv" },
   "state_on": { "message": "aktivdir" },
   "state_off": { "message": "endirim" }
 }

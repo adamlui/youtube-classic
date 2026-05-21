@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Återgår YouTube till sin klassiska design (före alla rundade hörn och dolda ogillar) + omdirigerar YouTube Shorts + blockerar miniatyrannonser"
   },
+  "menuLabel_about": { "message": "Om" },
+  "about_author": { "message": "Författare" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "bidragsgivare" },
+  "about_version": { "message": "Version" },
+  "about_openSourceCode": { "message": "Öppen källkod" },
+  "about_latestChanges": { "message": "Senaste ändringarna" },
   "mode_restoreDislikes": { "message": "Återställ ogillar" },
   "mode_unroundCorners": { "message": "Orundade hörn" },
   "mode_disableShorts": { "message": "Omdirigeringsshorts" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "Minska användargränssnittsanimationer" },
   "helptip_idlePrevention": { "message": "Förhindra att fliken somnar" },
   "helptip_notifDisabled": { "message": "Visa aviseringar när du växlar läge/inställningar" },
+  "alert_updateAvail": { "message": "Uppdatering tillgänglig" },
+  "alert_newerVer": { "message": "En uppdatering av" },
+  "alert_isAvail": { "message": "är tillgänglig" },
+  "alert_upToDate": { "message": "Uppdaterad" },
+  "alert_isUpToDate": { "message": "är uppdaterad" },
+  "btnLabel_moreUserscripts": { "message": "Fler användarskript" },
+  "btnLabel_rateUs": { "message": "Betygsätt oss" },
+  "btnLabel_getSupport": { "message": "Få support" },
+  "btnLabel_checkForUpdates": { "message": "Sök efter uppdateringar" },
+  "btnLabel_update": { "message": "Uppdatera" },
+  "btnLabel_dismiss": { "message": "Avfärda" },
+  "link_viewChanges": { "message": "Visa ändringar" },
+  "state_disabled": { "message": "inaktiverad" },
   "state_on": { "message": "på" },
   "state_off": { "message": "av" }
 }

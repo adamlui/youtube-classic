@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "YouTube'u klasik tasarımına geri döndürür (tüm yuvarlatılmış köşelerden ve gizli beğenmediklerinden önce) + YouTube Shorts'u yeniden yönlendirir + küçük resim reklamları engeller"
   },
+  "menuLabel_about": { "message": "Hakkında" },
+  "about_author": { "message": "Yazar" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "katkıda bulunanlar" },
+  "about_version": { "message": "Versiyon" },
+  "about_openSourceCode": { "message": "Açık kaynak kodu" },
+  "about_latestChanges": { "message": "Son değişiklikler" },
   "mode_restoreDislikes": { "message": "Beğenmeyenleri Geri Yükle" },
   "mode_unroundCorners": { "message": "Düz Olmayan Köşeler" },
   "mode_disableShorts": { "message": "Yönlendirme Şortları" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "UI animasyonlarını azaltın" },
   "helptip_idlePrevention": { "message": "Sekmenin uykuya dalmasını önleyin" },
   "helptip_notifDisabled": { "message": "Mod/ayarlar arasında geçiş yaparken bildirimleri göster" },
+  "alert_updateAvail": { "message": "Güncelleme mevcut" },
+  "alert_newerVer": { "message": "Şunun için güncelleme:" },
+  "alert_isAvail": { "message": "mevcut" },
+  "alert_upToDate": { "message": "Güncel" },
+  "alert_isUpToDate": { "message": "günceldir" },
+  "btnLabel_moreUserscripts": { "message": "Daha Fazla Kullanıcı Betiği" },
+  "btnLabel_rateUs": { "message": "Bizi Değerlendirin" },
+  "btnLabel_getSupport": { "message": "Destek Alın" },
+  "btnLabel_checkForUpdates": { "message": "Güncellemeleri Denetle" },
+  "btnLabel_update": { "message": "Güncelle" },
+  "btnLabel_dismiss": { "message": "Kapat" },
+  "link_viewChanges": { "message": "Değişiklikleri görüntüle" },
+  "state_disabled": { "message": "devre dışı" },
   "state_on": { "message": "açık" },
   "state_off": { "message": "kapalı" }
 }

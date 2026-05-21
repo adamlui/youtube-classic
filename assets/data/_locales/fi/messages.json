@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Palauttaa YouTuben klassiseen muotoiluunsa (ennen kaikkia pyöristettyjä kulmia ja piilotettuja inhoamisia) + ohjaa YouTube-shortsit + estää pikkukuvamainokset"
   },
+  "menuLabel_about": { "message": "Tietoja" },
+  "about_author": { "message": "Kirjoittaja" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "avustajat" },
+  "about_version": { "message": "Versio" },
+  "about_openSourceCode": { "message": "Avoin lähdekoodi" },
+  "about_latestChanges": { "message": "Viimeisimmät muutokset" },
   "mode_restoreDislikes": { "message": "Palauta inhoamiset" },
   "mode_unroundCorners": { "message": "Unround Corners" },
   "mode_disableShorts": { "message": "Ohjaa shortsit uudelleen" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "Vähennä käyttöliittymäanimaatioita" },
   "helptip_idlePrevention": { "message": "Estä välilehden nukahtaminen" },
   "helptip_notifDisabled": { "message": "Näytä ilmoitukset vaihdettaessa tilaa/asetuksia" },
+  "alert_updateAvail": { "message": "Päivitys saatavilla" },
+  "alert_newerVer": { "message": "Päivitys seuraavaan:" },
+  "alert_isAvail": { "message": "on käytettävissä" },
+  "alert_upToDate": { "message": "Ajan tasalla" },
+  "alert_isUpToDate": { "message": "on ajan tasalla" },
+  "btnLabel_moreUserscripts": { "message": "Lisää käyttäjäkomentosarjoja" },
+  "btnLabel_rateUs": { "message": "Arvioi meidät" },
+  "btnLabel_getSupport": { "message": "Pyydä tukea" },
+  "btnLabel_checkForUpdates": { "message": "Tarkista päivitykset" },
+  "btnLabel_update": { "message": "Päivitä" },
+  "btnLabel_dismiss": { "message": "Hylkää" },
+  "link_viewChanges": { "message": "Näytä muutokset" },
+  "state_disabled": { "message": "pois käytöstä" },
   "state_on": { "message": "päällä" },
   "state_off": { "message": "pois" }
 }

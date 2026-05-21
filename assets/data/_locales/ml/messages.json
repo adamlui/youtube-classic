@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "YouTube-നെ അതിന്റെ ക്ലാസിക് ഡിസൈനിലേക്ക് പഴയപടിയാക്കുന്നു (എല്ലാ വൃത്താകൃതിയിലുള്ള കോണുകൾക്കും മറഞ്ഞിരിക്കുന്ന അനിഷ്ടങ്ങൾക്കും മുമ്പ്) + YouTube ഷോർട്ട്സ് + ബ്ലോക്കുകൾ ലഘുചിത്ര പരസ്യങ്ങൾ റീഡയറക്റ്റ് ചെയ്യുന്നു"
   },
+  "menuLabel_about": { "message": "കുറിച്ച്" },
+  "about_author": { "message": "രചയിതാവ്" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "സംഭാവന ചെയ്യുന്നവർ" },
+  "about_version": { "message": "പതിപ്പ്" },
+  "about_openSourceCode": { "message": "ഓപ്പൺ സോഴ്സ് കോഡ്" },
+  "about_latestChanges": { "message": "ഏറ്റവും പുതിയ മാറ്റങ്ങൾ" },
   "mode_restoreDislikes": { "message": "ഇഷ്ടപ്പെടാത്തവ പുനഃസ്ഥാപിക്കുക" },
   "mode_unroundCorners": { "message": "അൺറൗണ്ട് കോർണറുകൾ" },
   "mode_disableShorts": { "message": "ഷോർട്ട്സ് റീഡയറക്റ്റ് ചെയ്യുക" },
@@ -26,6 +33,19 @@
   "helptip_reduceAnimations": { "message": "UI ആനിമേഷനുകൾ കുറയ്ക്കുക" },
   "helptip_idlePrevention": { "message": "ഉറങ്ങുന്നതിൽ നിന്ന് ടാബ് തടയുക" },
   "helptip_notifDisabled": { "message": "മോഡ്/ക്രമീകരണങ്ങൾ ടോഗിൾ ചെയ്യുമ്പോൾ അറിയിപ്പുകൾ കാണിക്കുക" },
+  "alert_updateAvail": { "message": "അപ്‌ഡേറ്റ് ലഭ്യമാണ്" },
+  "alert_newerVer": { "message": "ഇതിലേക്കുള്ള ഒരു അപ്‌ഡേറ്റ്" },
+  "alert_isAvail": { "message": "ലഭ്യമാണ്" },
+  "alert_upToDate": { "message": "അപ്-ടു-ഡേറ്റ്" },
+  "alert_isUpToDate": { "message": "കാലികമാണ്" },
+  "btnLabel_moreUserscripts": { "message": "കൂടുതൽ ഉപയോക്തൃ സ്ക്രിപ്റ്റുകൾ" },
+  "btnLabel_rateUs": { "message": "ഞങ്ങളെ റേറ്റുചെയ്യുക" },
+  "btnLabel_getSupport": { "message": "പിന്തുണ നേടുക" },
+  "btnLabel_checkForUpdates": { "message": "അപ്ഡേറ്റുകൾക്കായി പരിശോധിക്കുക" },
+  "btnLabel_update": { "message": "അപ്‌ഡേറ്റ് ചെയ്യുക" },
+  "btnLabel_dismiss": { "message": "നിരസിക്കുക" },
+  "link_viewChanges": { "message": "മാറ്റങ്ങൾ കാണുക" },
+  "state_disabled": { "message": "അപ്രാപ്തമാക്കി" },
   "state_on": { "message": "ഓൺ" },
   "state_off": { "message": "ഓഫ്" }
 }

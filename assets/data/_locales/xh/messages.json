@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Ubuyisela iYouTube kwindlela eyakhiwe ngayo (ngaphambi kokuba zonke iikona ezijikelezileyo nezinto ezingazithandiyo ezifihlakeleyo) + uqondisa kwakhona ii-YouTube Shorts + iintengiso zeebhloko"
   },
+  "menuLabel_about": { "message": "Malunga" },
+  "about_author": { "message": "Umbhali" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "abantu abanikelayo" },
+  "about_version": { "message": "Uhlobo" },
+  "about_openSourceCode": { "message": "Vula ikhowudi yemvelaphi" },
+  "about_latestChanges": { "message": "Izinto ezitshintshiweyo zakutsh" },
   "mode_restoreDislikes": { "message": "Buyisela Izinto Ezingazithandiyo" },
   "mode_unroundCorners": { "message": "Jikeleza Iikona" },
   "mode_disableShorts": { "message": "Qondisa kwakhona ii-Shorts" },
@@ -26,6 +33,19 @@
   "helptip_reduceAnimations": { "message": "Nciphisa oopopayi be-UI" },
   "helptip_idlePrevention": { "message": "Ukuthintela ithebhu ukuba ingalali" },
   "helptip_notifDisabled": { "message": "Bonisa imiyalezo xa uguqula imowudi/iisetingi" },
+  "alert_updateAvail": { "message": "Uhlaziyo luyafumaneka" },
+  "alert_newerVer": { "message": "Inkcazelo ehlaziyiweyo kwi" },
+  "alert_isAvail": { "message": "iyafumaneka" },
+  "alert_upToDate": { "message": "Ihlaziyiwe" },
+  "alert_isUpToDate": { "message": "isexesheni" },
+  "btnLabel_moreUserscripts": { "message": "Imibhalo Engakumbi Yabantu Abayisebenzisayo" },
+  "btnLabel_rateUs": { "message": "Silinganise" },
+  "btnLabel_getSupport": { "message": "Fumana Uncedo" },
+  "btnLabel_checkForUpdates": { "message": "Khangela Izinto Ezintsha" },
+  "btnLabel_update": { "message": "Hlaziya" },
+  "btnLabel_dismiss": { "message": "Susa" },
+  "link_viewChanges": { "message": "Jonga izinto ezitshintshiweyo" },
+  "state_disabled": { "message": "yenziwe ingasebenzi" },
   "state_on": { "message": "ivuliwe" },
   "state_off": { "message": "ivaliwe" }
 }

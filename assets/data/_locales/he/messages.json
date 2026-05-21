@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "מחזיר את YouTube לעיצוב הקלאסי שלו (לפני כל הפינות המעוגלות ושנאות נסתרות) + מפנה מחדש מודעות תמונה ממוזערת של YouTube Shorts + Block"
   },
+  "menuLabel_about": { "message": "אודות" },
+  "about_author": { "message": "מחבר" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "תורמים" },
+  "about_version": { "message": "גרסה" },
+  "about_openSourceCode": { "message": "קוד מקור פתוח" },
+  "about_latestChanges": { "message": "שינויים אחרונים" },
   "mode_restoreDislikes": { "message": "שחזר 'לא אהבתי'" },
   "mode_unroundCorners": { "message": "פינות לא עגולות" },
   "mode_disableShorts": { "message": "הפניה מחדש של מכנסיים קצרים" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "צמצום הנפשות ממשק המשתמש" },
   "helptip_idlePrevention": { "message": "מנע מהלשונית להירדם" },
   "helptip_notifDisabled": { "message": "הצג התראות בעת החלפת מצב/הגדרות" },
+  "alert_updateAvail": { "message": "עדכון זמין" },
+  "alert_newerVer": { "message": "עדכון לגבי" },
+  "alert_isAvail": { "message": "זמין" },
+  "alert_upToDate": { "message": "עדכני" },
+  "alert_isUpToDate": { "message": "מעודכן" },
+  "btnLabel_moreUserscripts": { "message": "עוד סקריפטים של משתמשים" },
+  "btnLabel_rateUs": { "message": "דרג אותנו" },
+  "btnLabel_getSupport": { "message": "לקבלת תמיכה" },
+  "btnLabel_checkForUpdates": { "message": "בדוק אם קיימים עדכונים" },
+  "btnLabel_update": { "message": "עדכון" },
+  "btnLabel_dismiss": { "message": "סגירה" },
+  "link_viewChanges": { "message": "הצגת השינויים" },
+  "state_disabled": { "message": "מושבת" },
   "state_on": { "message": "ב -" },
   "state_off": { "message": "כבוי" }
 }

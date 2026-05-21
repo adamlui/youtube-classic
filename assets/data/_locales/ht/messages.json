@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Konvèti YouTube nan konsepsyon klasik li yo (anvan tout kwen awondi ak dislikes kache) + redireksyon YouTube Shorts + blòk ti anons"
   },
+  "menuLabel_about": { "message": "Konsènan" },
+  "about_author": { "message": "Otè" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "kontribitè" },
+  "about_version": { "message": "Vèsyon" },
+  "about_openSourceCode": { "message": "Kòd sous louvri" },
+  "about_latestChanges": { "message": "Dènye chanjman yo" },
   "mode_restoreDislikes": { "message": "Restore Degoutans yo" },
   "mode_unroundCorners": { "message": "Kwen ki pa wonn" },
   "mode_disableShorts": { "message": "Bout pantalon redireksyon" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "Diminye animasyon UI" },
   "helptip_idlePrevention": { "message": "Anpeche tab soti nan tonbe nan dòmi" },
   "helptip_notifDisabled": { "message": "Montre notifikasyon lè toggling mòd/anviwònman" },
+  "alert_updateAvail": { "message": "Mizajou ki disponib" },
+  "alert_newerVer": { "message": "Yon aktyalizasyon pou" },
+  "alert_isAvail": { "message": "se disponib/est disponible" },
+  "alert_upToDate": { "message": "Mizajou" },
+  "alert_isUpToDate": { "message": "se monte-a-dat/est" },
+  "btnLabel_moreUserscripts": { "message": "Plis Itilizatè" },
+  "btnLabel_rateUs": { "message": "Evalye nou" },
+  "btnLabel_getSupport": { "message": "Jwenn Sipò" },
+  "btnLabel_checkForUpdates": { "message": "Tcheke pou Mizajou" },
+  "btnLabel_update": { "message": "Mizajou" },
+  "btnLabel_dismiss": { "message": "Demisyon" },
+  "link_viewChanges": { "message": "Gade chanjman yo" },
+  "state_disabled": { "message": "enfim" },
   "state_on": { "message": "sou" },
   "state_off": { "message": "koupe" }
 }

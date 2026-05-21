@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "ইউটিউবকে তার ক্লাসিক ডিজাইনে ফিরিয়ে দেয় (সমস্ত গোলাকার কোণ এবং লুকানো অপছন্দের আগে) + YouTube শর্টস + থাম্বনেইল বিজ্ঞাপনগুলিকে পুনঃনির্দেশ করে"
   },
+  "menuLabel_about": { "message": "সম্পর্কে" },
+  "about_author": { "message": "লেখক" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "অবদানকারী" },
+  "about_version": { "message": "সংস্করণ" },
+  "about_openSourceCode": { "message": "ওপেন সোর্স কোড" },
+  "about_latestChanges": { "message": "সর্বশেষ পরিবর্তনসমূহ" },
   "mode_restoreDislikes": { "message": "অপছন্দগুলি পুনরুদ্ধার করুন" },
   "mode_unroundCorners": { "message": "গোলাকার কোণ" },
   "mode_disableShorts": { "message": "রিডাইরেক্ট শর্টস" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "UI অ্যানিমেশন হ্রাস করুন" },
   "helptip_idlePrevention": { "message": "ট্যাবটি ঘুমিয়ে পড়া থেকে বিরত রাখুন" },
   "helptip_notifDisabled": { "message": "মোড/সেটিংস টগল করার সময় বিজ্ঞপ্তিগুলি দেখান" },
+  "alert_updateAvail": { "message": "আপডেট উপলভ্য" },
+  "alert_newerVer": { "message": "-এ একটি আপডেট" },
+  "alert_isAvail": { "message": "উপলভ্য" },
+  "alert_upToDate": { "message": "আপ-টু-ডেট" },
+  "alert_isUpToDate": { "message": "আপ-টু-ডেট" },
+  "btnLabel_moreUserscripts": { "message": "আরও ইউজারস্ক্রিপ্ট" },
+  "btnLabel_rateUs": { "message": "আমাদের রেট দিন" },
+  "btnLabel_getSupport": { "message": "সহায়তা নিন" },
+  "btnLabel_checkForUpdates": { "message": "আপডেটের জন্য চেক করুন" },
+  "btnLabel_update": { "message": "আপডেট করুন" },
+  "btnLabel_dismiss": { "message": "খারিজ করুন" },
+  "link_viewChanges": { "message": "পরিবর্তনগুলি দেখুন" },
+  "state_disabled": { "message": "নিষ্ক্রিয়" },
   "state_on": { "message": "চালু" },
   "state_off": { "message": "বন্ধ" }
 }

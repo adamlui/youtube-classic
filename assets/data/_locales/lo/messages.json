@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "ຟື້ນຟູ YouTube ກັບການອອກແບບຄລາສສິກຂອງມັນ (ກ່ອນທຸກມຸມມອງຮອບ & ຄວາມບໍ່ມັກທີ່ເຊື່ອງໄວ້) + redirects YouTube Shorts + ບລັອກໂຄສະນາ thumbnail"
   },
+  "menuLabel_about": { "message": "ກ່ຽວກັບ" },
+  "about_author": { "message": "ຜູ້ຂຽນ" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "ຜູ້ປະກອບສ່ວນ" },
+  "about_version": { "message": "ເວີຊັນ" },
+  "about_openSourceCode": { "message": "ລະຫັດແຫຼ່ງເປີດ" },
+  "about_latestChanges": { "message": "ການປ່ຽນແປງຫຼ້າສຸດ" },
   "mode_restoreDislikes": { "message": "ຟື້ນຟູຄວາມບໍ່ມັກ" },
   "mode_unroundCorners": { "message": "ມຸມມອງສ້ອມ" },
   "mode_disableShorts": { "message": "REDIRECT SHORT" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "ຫຼຸດຜ່ອນການເຄື່ອນໄຫວ UI" },
   "helptip_idlePrevention": { "message": "ປ້ອງກັນ tab ຈາກການຕົກນອນ" },
   "helptip_notifDisabled": { "message": "ສະແດງການແຈ້ງເຕືອນເມື່ອປິດໂໝດ/ການຕັ້ງຄ່າ" },
+  "alert_updateAvail": { "message": "ອັບເດດທີ່ມີຢູ່" },
+  "alert_newerVer": { "message": "ການອັບເດດ" },
+  "alert_isAvail": { "message": "ມີ" },
+  "alert_upToDate": { "message": "ອັບເດດ" },
+  "alert_isUpToDate": { "message": "up-to-date" },
+  "btnLabel_moreUserscripts": { "message": "ສະຄິບຜູ້ໃຊ້ເພີ່ມເຕີມ" },
+  "btnLabel_rateUs": { "message": "ປະເມີນພວກເຮົາ" },
+  "btnLabel_getSupport": { "message": "ໄດ້ຮັບການສະໜັບສະໜູນ" },
+  "btnLabel_checkForUpdates": { "message": "ກວດເບິ່ງການອັບເດດ" },
+  "btnLabel_update": { "message": "ອັບເດດ" },
+  "btnLabel_dismiss": { "message": "ໄລ່ອອກ" },
+  "link_viewChanges": { "message": "ເບິ່ງການປ່ຽນແປງ" },
+  "state_disabled": { "message": "ພິການ" },
   "state_on": { "message": "ເປີດ" },
   "state_off": { "message": "ປິດ" }
 }

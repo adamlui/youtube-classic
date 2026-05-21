@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Yn dychwelyd YouTube i'w ddyluniad clasurol (cyn yr holl gorneli crwn a chas bethau cudd) + yn ailgyfeirio YouTube Shorts + blociau hysbysebion mân - luniau"
   },
+  "menuLabel_about": { "message": "Am" },
+  "about_author": { "message": "Awdur" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "cyfranwyr" },
+  "about_version": { "message": "Fersiwn" },
+  "about_openSourceCode": { "message": "Cod ffynhonnell agored" },
+  "about_latestChanges": { "message": "Newidiadau diweddaraf" },
   "mode_restoreDislikes": { "message": "Adfer Hoffterau" },
   "mode_unroundCorners": { "message": "Corneli dad - grwn" },
   "mode_disableShorts": { "message": "Ailgyfeirio Shorts" },
@@ -26,6 +33,19 @@
   "helptip_reduceAnimations": { "message": "Lleihau animeiddiadau rhyngwyneb" },
   "helptip_idlePrevention": { "message": "Atal tab rhag syrthio i gysgu" },
   "helptip_notifDisabled": { "message": "Dangos hysbysiadau wrth toglo modd/gosodiadau" },
+  "alert_updateAvail": { "message": "Diweddariad ar gael" },
+  "alert_newerVer": { "message": "Diweddariad i" },
+  "alert_isAvail": { "message": "ar gael" },
+  "alert_upToDate": { "message": "Updated" },
+  "alert_isUpToDate": { "message": "updateddd" },
+  "btnLabel_moreUserscripts": { "message": "Mwy o Ysgrifau Defnyddwyr" },
+  "btnLabel_rateUs": { "message": "Graddio Ni" },
+  "btnLabel_getSupport": { "message": "Cael Cymorth" },
+  "btnLabel_checkForUpdates": { "message": "Gwirio am Ddiweddariadau" },
+  "btnLabel_update": { "message": "Diweddaru" },
+  "btnLabel_dismiss": { "message": "Diystyru" },
+  "link_viewChanges": { "message": "Gweld newidiadau" },
+  "state_disabled": { "message": "analluogwyd" },
   "state_on": { "message": "ar" },
   "state_off": { "message": "diffodd" }
 }

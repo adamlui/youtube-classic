@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "YouTube bere diseinu klasikora leheneratzen du (izkin biribildu eta gustuko ezkutu guztiak baino lehen) + YouTube Shorts birbideratzen ditu + miniaturazko iragarkiak blokeatzen ditu"
   },
+  "menuLabel_about": { "message": "Buruz" },
+  "about_author": { "message": "Egilea" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "kolaboratzaileak" },
+  "about_version": { "message": "Bertsioa" },
+  "about_openSourceCode": { "message": "Kode irekia" },
+  "about_latestChanges": { "message": "Azken aldaketak" },
   "mode_restoreDislikes": { "message": "Berreskuratu gustuko ez direnak" },
   "mode_unroundCorners": { "message": "Izkinak biribildu gabe" },
   "mode_disableShorts": { "message": "Birbideratu laburrak" },
@@ -26,6 +33,19 @@
   "helptip_reduceAnimations": { "message": "Murriztu UI animazioak" },
   "helptip_idlePrevention": { "message": "Saihestu fitxa lokartzea" },
   "helptip_notifDisabled": { "message": "Erakutsi jakinarazpenak modua/ezarpenak txandakatzean" },
+  "alert_updateAvail": { "message": "Eguneratzea eskuragarri" },
+  "alert_newerVer": { "message": "Eguneratze bat" },
+  "alert_isAvail": { "message": "eskuragarri dago" },
+  "alert_upToDate": { "message": "Eguneratua" },
+  "alert_isUpToDate": { "message": "eguneratuta dago" },
+  "btnLabel_moreUserscripts": { "message": "Erabiltzaile-skript gehiago" },
+  "btnLabel_rateUs": { "message": "Baloratu gaitzazu" },
+  "btnLabel_getSupport": { "message": "Lortu laguntza" },
+  "btnLabel_checkForUpdates": { "message": "Bilatu eguneratzeak" },
+  "btnLabel_update": { "message": "Eguneratu" },
+  "btnLabel_dismiss": { "message": "Baztertu" },
+  "link_viewChanges": { "message": "Ikusi aldaketak" },
+  "state_disabled": { "message": "desgaituta" },
   "state_on": { "message": "piztuta" },
   "state_off": { "message": "itzalita" }
 }

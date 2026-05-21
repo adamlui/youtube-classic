@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Kehrt YouTube zu seinem klassischen Design zurück (vor all den abgerundeten Ecken und versteckten Abneigungen) + leitet YouTube-Shorts um + blockiert Thumbnail-Anzeigen"
   },
+  "menuLabel_about": { "message": "Über" },
+  "about_author": { "message": "Autor" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "mitwirkende" },
+  "about_version": { "message": "Version" },
+  "about_openSourceCode": { "message": "Open Source Code" },
+  "about_latestChanges": { "message": "Letzte Änderungen" },
   "mode_restoreDislikes": { "message": "Abneigungen wiederherstellen" },
   "mode_unroundCorners": { "message": "Unrunde Ecken" },
   "mode_disableShorts": { "message": "Shorts umleiten" },
@@ -26,6 +33,19 @@
   "helptip_reduceAnimations": { "message": "UI-Animationen reduzieren" },
   "helptip_idlePrevention": { "message": "Tab am Einschlafen hindern" },
   "helptip_notifDisabled": { "message": "Benachrichtigungen beim Umschalten auf Modus/Einstellungen anzeigen" },
+  "alert_updateAvail": { "message": "Update verfügbar" },
+  "alert_newerVer": { "message": "Ein Update zu" },
+  "alert_isAvail": { "message": "liegt vor" },
+  "alert_upToDate": { "message": "Aktuell" },
+  "alert_isUpToDate": { "message": "ist auf dem neuesten Stand" },
+  "btnLabel_moreUserscripts": { "message": "Weitere Benutzerskripte" },
+  "btnLabel_rateUs": { "message": "Bewerten Sie uns" },
+  "btnLabel_getSupport": { "message": "Support anfordern" },
+  "btnLabel_checkForUpdates": { "message": "Nach Updates suchen" },
+  "btnLabel_update": { "message": "Aktualisieren" },
+  "btnLabel_dismiss": { "message": "Ausblenden" },
+  "link_viewChanges": { "message": "Änderungen anzeigen" },
+  "state_disabled": { "message": "deaktiviert" },
   "state_on": { "message": "am" },
   "state_off": { "message": "aus" }
 }

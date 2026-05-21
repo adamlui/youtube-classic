@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "YouTube එහි සම්භාව්ය නිර්මාණය (සියලු වටකුරු කොන් සහ සැඟවුණු අකමැති වීමට පෙර) + YouTube Shorts + බ්ලොක් සිඟිති දැන්වීම්"
   },
+  "menuLabel_about": { "message": "ගැන" },
+  "about_author": { "message": "කර්තෘ" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "දායකයින්" },
+  "about_version": { "message": "අනුවාදය" },
+  "about_openSourceCode": { "message": "විවෘත කේතය" },
+  "about_latestChanges": { "message": "නවතම වෙනස්කම්" },
   "mode_restoreDislikes": { "message": "අකමැති දේ ප් ‍ රතිෂ්ඨාපනය කරන්න" },
   "mode_unroundCorners": { "message": "Unround Corners" },
   "mode_disableShorts": { "message": "කෙටිමං යළි-යොමු කරන්න" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "UI සජීවීකරණ අඩු කරන්න" },
   "helptip_idlePrevention": { "message": "ටැබය නින්දට වැටීම වළක්වන්න" },
   "helptip_notifDisabled": { "message": "ටොගල් කිරීමේ ප් ‍ රකාරය/සැකසුම් විට දැනුම්දීම් පෙන්වන්න" },
+  "alert_updateAvail": { "message": "යාවත්කාලීනය තිබේ" },
+  "alert_newerVer": { "message": "වෙත යාවත්කාලීන කිරීමක්" },
+  "alert_isAvail": { "message": "ලබා ගත හැක" },
+  "alert_upToDate": { "message": "යාවත්කාලීන කරන්න" },
+  "alert_isUpToDate": { "message": "අද දක්වාම" },
+  "btnLabel_moreUserscripts": { "message": "තවත් පරිශීලක පිටපත්" },
+  "btnLabel_rateUs": { "message": "අපව අගයන්න" },
+  "btnLabel_getSupport": { "message": "සහාය ලබා ගන්න" },
+  "btnLabel_checkForUpdates": { "message": "යාවත්කාලීන සඳහා පරීක් ‍ ෂා කරන්න" },
+  "btnLabel_update": { "message": "යාවත්කාලීන කරන්න" },
+  "btnLabel_dismiss": { "message": "බැහැර කරන්න" },
+  "link_viewChanges": { "message": "වෙනස්කම් බලන්න" },
+  "state_disabled": { "message": "අක් ‍ රීය කර ඇත" },
   "state_on": { "message": "දින" },
   "state_off": { "message": "ක වට්ටමක්" }
 }

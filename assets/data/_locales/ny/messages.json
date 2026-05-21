@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Kubwezeretsa YouTube kapangidwe ake tingachipeze powerenga (pamaso ngodya zonse ozungulira & zobisika sakonda) + redirects YouTube waufupi + midadada thumbnail malonda"
   },
+  "menuLabel_about": { "message": "Zokhudza" },
+  "about_author": { "message": "Wolemba" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "othandizira" },
+  "about_version": { "message": "Lumikizanani nafe" },
+  "about_openSourceCode": { "message": "Open gwero kachidindo" },
+  "about_latestChanges": { "message": "Zosintha zaposachedwa" },
   "mode_restoreDislikes": { "message": "Kubwezeretsa Zosakondweretsa" },
   "mode_unroundCorners": { "message": "Makona Osazunguliridwa" },
   "mode_disableShorts": { "message": "Kubwezeretsanso Shorts" },
@@ -26,6 +33,19 @@
   "helptip_reduceAnimations": { "message": "Chepetsani makanema ojambula a UI" },
   "helptip_idlePrevention": { "message": "Pewani tabu kuti isagone" },
   "helptip_notifDisabled": { "message": "Onetsani zidziwitso pamene toggling mode/zoikamo" },
+  "alert_updateAvail": { "message": "Sinthani likupezeka" },
+  "alert_newerVer": { "message": "An pomwe kuti" },
+  "alert_isAvail": { "message": "likupezeka" },
+  "alert_upToDate": { "message": "Zaposachedwa" },
+  "alert_isUpToDate": { "message": "ndi up-to-date" },
+  "btnLabel_moreUserscripts": { "message": "Zambiri za Ogwiritsa Ntchito" },
+  "btnLabel_rateUs": { "message": "Kuwerengetsa Ife" },
+  "btnLabel_getSupport": { "message": "Pezani Thandizo" },
+  "btnLabel_checkForUpdates": { "message": "Fufuzani Zosintha" },
+  "btnLabel_update": { "message": "Sinthani" },
+  "btnLabel_dismiss": { "message": "Kuthamangitsidwa" },
+  "link_viewChanges": { "message": "Onani zosintha" },
+  "state_disabled": { "message": "olumala" },
   "state_on": { "message": "pa" },
   "state_off": { "message": "m 'munsi" }
 }

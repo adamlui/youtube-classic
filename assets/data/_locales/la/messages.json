@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Reverts YouTube ad facto designam klasika (ante alla rounded corners & hidden dislikes) + redirects ad tabularibus YouTube shorts + blocks thumbnail ad"
   },
+  "menuLabel_about": { "message": "De Hac Re" },
+  "about_author": { "message": "Author" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "partes" },
+  "about_version": { "message": "Version" },
+  "about_openSourceCode": { "message": "Codex Próxus" },
+  "about_latestChanges": { "message": "QUAE QUAE" },
   "mode_restoreDislikes": { "message": "Disficere" },
   "mode_unroundCorners": { "message": "Unround Corners" },
   "mode_disableShorts": { "message": "REGISTRARIA" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "Higra animationes UI" },
   "helptip_idlePrevention": { "message": "Paucitur tabus ad futremus" },
   "helptip_notifDisabled": { "message": "Notificationes quod toggling mode/settings" },
+  "alert_updateAvail": { "message": "Updateis available" },
+  "alert_newerVer": { "message": "Omnia ad" },
+  "alert_isAvail": { "message": "est disponibus" },
+  "alert_upToDate": { "message": "Up-to-date" },
+  "alert_isUpToDate": { "message": "est up-to-date" },
+  "btnLabel_moreUserscripts": { "message": "QUAE PRAESES" },
+  "btnLabel_rateUs": { "message": "Próximo Us" },
+  "btnLabel_getSupport": { "message": "Supportum" },
+  "btnLabel_checkForUpdates": { "message": "Check for Updates" },
+  "btnLabel_update": { "message": "REGITATION" },
+  "btnLabel_dismiss": { "message": "Duplicare" },
+  "link_viewChanges": { "message": "Mutare" },
+  "state_disabled": { "message": "disabled" },
   "state_on": { "message": "on" },
   "state_off": { "message": "off" }
 }

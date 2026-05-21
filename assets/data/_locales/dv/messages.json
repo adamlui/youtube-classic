@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "ޔޫޓިއުބް އޭގެ ކްލާސިކް ޑިޒައިންއަށް ރިވަރޓްކުރުން (ހުރިހާ ވަށައިގެންވާ ކަނެއް & ފޮރުވިފައިވާ ޑިސްލައިކްސްގެ ކުރިން) + ޔޫޓިއުބް ޝޯޓްސް ރީޑައިރެކްޓްކުރުން + ތަމްބްނެއިލް އިޝްތިހާރުތައް ބްލޮކްކުރުން"
   },
+  "menuLabel_about": { "message": "ގުޅިގެން" },
+  "about_author": { "message": "ލިޔުންތެރިޔާ" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "ކޮންޓްރިބިއުޓަރުންނެވެ" },
+  "about_version": { "message": "ވަރޝަން" },
+  "about_openSourceCode": { "message": "އޮޕަން ސޯސް ކޯޑެވެ" },
+  "about_latestChanges": { "message": "އެންމެ ފަހުގެ ބަދަލުތަކެވެ" },
   "mode_restoreDislikes": { "message": "ޑިސްލައިކްސް ރިސްޓޯރ ކުރުން" },
   "mode_unroundCorners": { "message": "އަންރައުންޑް ކޯނަރސް" },
   "mode_disableShorts": { "message": "ރީޑައިރެކްޓް ޝޯޓްސް" },
@@ -26,6 +33,19 @@
   "helptip_reduceAnimations": { "message": "ޔޫއައި އެނިމޭޝަންތައް މަދުކުރުން" },
   "helptip_idlePrevention": { "message": "ޓެބް ނިދި އައުން ހުއްޓުވުން" },
   "helptip_notifDisabled": { "message": "މޯޑް/ސެޓިންގސް ޓޮގްލް ކުރާއިރު ނޮޓިފިކޭޝަންތައް ދައްކާށެވެ" },
+  "alert_updateAvail": { "message": "އަޕްޑޭޓް ލިބެން ހުރެއެވެ" },
+  "alert_newerVer": { "message": "އަށް އަޕްޑޭޓެއް..." },
+  "alert_isAvail": { "message": "ލިބެން ހުރެއެވެ" },
+  "alert_upToDate": { "message": "އަޕްޑޭޓް" },
+  "alert_isUpToDate": { "message": "ޒަމާނާ އެއްގޮތެވެ" },
+  "btnLabel_moreUserscripts": { "message": "އިތުރު ޔޫޒަރސްކްރިޕްޓްސް" },
+  "btnLabel_rateUs": { "message": "ރޭޓް އަސް" },
+  "btnLabel_getSupport": { "message": "ސަޕޯޓް ހޯދުން" },
+  "btnLabel_checkForUpdates": { "message": "އަޕްޑޭޓްސް ހުރިތޯ ބަލާށެވެ" },
+  "btnLabel_update": { "message": "އަޕްޑޭޓް" },
+  "btnLabel_dismiss": { "message": "ދުރުކޮށްލުން" },
+  "link_viewChanges": { "message": "ބަދަލުތައް ބަލާށެވެ" },
+  "state_disabled": { "message": "ނުކުޅެދޭ" },
   "state_on": { "message": "މަތީގައި" },
   "state_off": { "message": "އޮފް" }
 }

@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Hurejesha YouTube kwenye muundo wake wa kawaida (kabla ya kona zote za mviringo na kutopenda siri) + huelekeza tena Shorts za YouTube + matangazo ya vijipicha"
   },
+  "menuLabel_about": { "message": "Kuhusu" },
+  "about_author": { "message": "Mwandishi" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "wachangiaji" },
+  "about_version": { "message": "Toleo" },
+  "about_openSourceCode": { "message": "Msimbo wa chanzo wazi" },
+  "about_latestChanges": { "message": "Mabadiliko ya hivi karibuni" },
   "mode_restoreDislikes": { "message": "Rejesha Mambo Usiyopenda" },
   "mode_unroundCorners": { "message": "Kona Pande Zote" },
   "mode_disableShorts": { "message": "Elekeza tena Kifupi" },
@@ -24,6 +31,19 @@
   "helptip_reduceAnimations": { "message": "Punguza uhuishaji wa UI" },
   "helptip_idlePrevention": { "message": "Zuia kichupo kusinzia" },
   "helptip_notifDisabled": { "message": "Onyesha arifa wakati wa kugeuza hali/mipangilio" },
+  "alert_updateAvail": { "message": "Sasisho linapatikana" },
+  "alert_newerVer": { "message": "Sasisho kwa" },
+  "alert_isAvail": { "message": "inapatikana" },
+  "alert_upToDate": { "message": "Imesasishwa" },
+  "alert_isUpToDate": { "message": "imesasishwa" },
+  "btnLabel_moreUserscripts": { "message": "Maandishi Zaidi ya Watumiaji" },
+  "btnLabel_rateUs": { "message": "Tupe kadirio" },
+  "btnLabel_getSupport": { "message": "Pata Usaidizi" },
+  "btnLabel_checkForUpdates": { "message": "Angalia Masasisho" },
+  "btnLabel_update": { "message": "Sasisha" },
+  "btnLabel_dismiss": { "message": "Ondoa" },
+  "link_viewChanges": { "message": "Angalia mabadiliko" },
+  "state_disabled": { "message": "imelemazwa" },
   "state_on": { "message": "tarehe" },
   "state_off": { "message": "imezimwa" }
 }

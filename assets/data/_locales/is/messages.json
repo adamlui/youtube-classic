@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Breytir YouTube aftur í sígilda hönnun (fyrir öll rúnnuð horn og faldar mislíkanir) + beinir YouTube stuttbuxum + lokar á smámyndaauglýsingar"
   },
+  "menuLabel_about": { "message": "Um" },
+  "about_author": { "message": "Höfundur" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "meðhöfundar" },
+  "about_version": { "message": "Útgáfa" },
+  "about_openSourceCode": { "message": "Opinn frumkóði" },
+  "about_latestChanges": { "message": "Nýjustu breytingar" },
   "mode_restoreDislikes": { "message": "Endurheimta mislíkanir" },
   "mode_unroundCorners": { "message": "Órunnin horn" },
   "mode_disableShorts": { "message": "Beina stuttbuxum áfram" },
@@ -26,6 +33,19 @@
   "helptip_reduceAnimations": { "message": "Draga úr hreyfimyndum við HÍ" },
   "helptip_idlePrevention": { "message": "Koma í veg fyrir að flipi sofni" },
   "helptip_notifDisabled": { "message": "Sýna tilkynningar þegar skipt er um ham/stillingar" },
+  "alert_updateAvail": { "message": "Uppfærsla í boði" },
+  "alert_newerVer": { "message": "Breyting á" },
+  "alert_isAvail": { "message": "er í boði" },
+  "alert_upToDate": { "message": "Uppfært" },
+  "alert_isUpToDate": { "message": "er uppfært" },
+  "btnLabel_moreUserscripts": { "message": "Fleiri notandaskriftur" },
+  "btnLabel_rateUs": { "message": "Gefðu okkur einkunn" },
+  "btnLabel_getSupport": { "message": "Fáðu aðstoð" },
+  "btnLabel_checkForUpdates": { "message": "Leita að uppfærslum" },
+  "btnLabel_update": { "message": "Uppfæra" },
+  "btnLabel_dismiss": { "message": "Hafna" },
+  "link_viewChanges": { "message": "Skoða breytingar" },
+  "state_disabled": { "message": "afvirkjað" },
   "state_on": { "message": "kveikt" },
   "state_off": { "message": "slökkt" }
 }

@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Ku soo celi YouTube naqshadeeda caadiga ah (ka hor dhammaan geesaha wareegsan & nacaybka qarsoon) + dib-u-cusbooneysiinta YouTube Shorts + waxay xannibtaa xayeysiisyada thumbnail"
   },
+  "menuLabel_about": { "message": "Ku saabsan" },
+  "about_author": { "message": "Author" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "deeq-bixiyeyaasha" },
+  "about_version": { "message": "Version" },
+  "about_openSourceCode": { "message": "Koodhka ilaha furan" },
+  "about_latestChanges": { "message": "Isbedelada ugu dambeeyay" },
   "mode_restoreDislikes": { "message": "Soo Celinta Diidmada" },
   "mode_unroundCorners": { "message": "Corners Unround" },
   "mode_disableShorts": { "message": "Dib u soo celi Gaaban" },
@@ -26,6 +33,19 @@
   "helptip_reduceAnimations": { "message": "Iska yaree animations UI" },
   "helptip_idlePrevention": { "message": "Ka Hortagga Taabashada Hurdada" },
   "helptip_notifDisabled": { "message": "Muuji ogeysiisyada marka qaabka toggling/dejinta" },
+  "alert_updateAvail": { "message": "Cusboonaysiinta la heli karo" },
+  "alert_newerVer": { "message": "Cusbooneysiin ku socota" },
+  "alert_isAvail": { "message": "waa la heli karaa" },
+  "alert_upToDate": { "message": "Up-to-date" },
+  "alert_isUpToDate": { "message": "waa up-to-date" },
+  "btnLabel_moreUserscripts": { "message": "Qoraalo badan oo Isticmaalayaal ah" },
+  "btnLabel_rateUs": { "message": "Nagu Qiimee" },
+  "btnLabel_getSupport": { "message": "Hel Taageero" },
+  "btnLabel_checkForUpdates": { "message": "Hubi Cusbooneysiinta" },
+  "btnLabel_update": { "message": "Cusboonaysiinta" },
+  "btnLabel_dismiss": { "message": "Joojinta" },
+  "link_viewChanges": { "message": "Eeg isbeddellada" },
+  "state_disabled": { "message": "naafo ah" },
   "state_on": { "message": "on" },
   "state_off": { "message": "off" }
 }

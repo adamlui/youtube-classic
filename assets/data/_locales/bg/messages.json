@@ -4,6 +4,13 @@
   "appDesc": {
     "message": "Връща YouTube към класическия си дизайн (преди всички заоблени ъгли и скрити нехаресвания) + пренасочва YouTube Shorts + блокира реклами с миниатюри"
   },
+  "menuLabel_about": { "message": "Относно" },
+  "about_author": { "message": "Автор" },
+  "about_and": { "message": "&" },
+  "about_contributors": { "message": "сътрудници" },
+  "about_version": { "message": "Версия" },
+  "about_openSourceCode": { "message": "Код с отворен код" },
+  "about_latestChanges": { "message": "Последни промени" },
   "mode_restoreDislikes": { "message": "Възстановяване на нехаресвания" },
   "mode_unroundCorners": { "message": "Разгъване на ъглите" },
   "mode_disableShorts": { "message": "Къси панталони за пренасочване" },
@@ -26,6 +33,19 @@
   "helptip_reduceAnimations": { "message": "Намаляване на анимациите на потребителския интерфейс" },
   "helptip_idlePrevention": { "message": "Предотвратете заспиването на раздела" },
   "helptip_notifDisabled": { "message": "Показване на известия при превключващ режим/настройки" },
+  "alert_updateAvail": { "message": "Налична е актуализация" },
+  "alert_newerVer": { "message": "Актуализация на" },
+  "alert_isAvail": { "message": "е наличен" },
+  "alert_upToDate": { "message": "Актуално" },
+  "alert_isUpToDate": { "message": "е актуален" },
+  "btnLabel_moreUserscripts": { "message": "Още потребителски скриптове" },
+  "btnLabel_rateUs": { "message": "Оценете ни" },
+  "btnLabel_getSupport": { "message": "Получаване на поддръжка" },
+  "btnLabel_checkForUpdates": { "message": "Проверка за актуализации" },
+  "btnLabel_update": { "message": "Актуализиране" },
+  "btnLabel_dismiss": { "message": "Отхвърляне" },
+  "link_viewChanges": { "message": "Преглед на промените" },
+  "state_disabled": { "message": "деактивиран" },
   "state_on": { "message": "на" },
   "state_off": { "message": "отстъпка" }
 }
