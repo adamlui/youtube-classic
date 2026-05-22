@@ -1,4 +1,3 @@
-
 window.settings = {
 
     categories: {
