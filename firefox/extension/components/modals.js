@@ -27,8 +27,8 @@ window.modals = { // requires lib/<chatgpt|css|dom>.js + <app|env>
         const aboutModal = modals.alert(
             `${app.symbol} ${i18n.getMsg('appName')}`, // title
             `<span style="${labelStyles}">🧠 ${i18n.getMsg('about_author')}:</span> `
-                + `<a href="${app.author.url}" target="_blank" rel="nopener">${i18n.getMsg('appAuthor')}</a> `
-                    + `${i18n.getMsg('about_and')} ${i18n.getMsg('about_contributors')}\n`
+                + `<a href="${ app.author?.url || app.authors[0]?.url }" target="_blank" rel="nopener">${
+                    i18n.getMsg('appAuthor')}</a> ${i18n.getMsg('about_and')} ${i18n.getMsg('about_contributors')}\n`
             + `<span style="${labelStyles}">🏷️ ${i18n.getMsg('about_version')}:</span> `
                 + `<span class="about-em">${app.version}</span>\n`
             + `<span style="${labelStyles}">📜 ${i18n.getMsg('about_openSourceCode')}:</span> `
