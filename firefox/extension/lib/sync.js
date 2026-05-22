@@ -1,10 +1,9 @@
-
 window.sync = {
 
     checkShortsToRedir() {
         if (location.pathname.startsWith('/shorts/'))
             return location.replace(`https://www.youtube.com/watch?v=${location.pathname.split('/')[2]}`)
-        sync.checkShortsToRedir.id = requestAnimationFrame(sync.checkShortsToRedir)
+        window.sync.checkShortsToRedir.id = requestAnimationFrame(window.sync.checkShortsToRedir)
     },
 
     configToUI({ updatedKey } = {}) {
