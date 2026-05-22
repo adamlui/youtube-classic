@@ -5,6 +5,10 @@
     "message": "Breytir YouTube aftur í sígilda hönnun (fyrir öll rúnnuð horn og faldar mislíkanir) + beinir YouTube stuttbuxum + lokar á smámyndaauglýsingar"
   },
   "menuLabel_about": { "message": "Um" },
+  "menuLabel_restoreModes": { "message": "Endurheimta stillingar" },
+  "menuLabel_blockModes": { "message": "Loka á stillingar" },
+  "menuLabel_perfModes": { "message": "Frammistöðuhamir" },
+  "menuLabel_notifSettings": { "message": "Tilkynningarstillingar" },
   "about_author": { "message": "Höfundur" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "meðhöfundar" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Draga úr hreyfimyndum" },
   "mode_idlePrevention": { "message": "Forvarnir gegn aðgerðarleysi" },
   "mode_notifDisabled": { "message": "Tilkynningar um ham" },
+  "helptip_restoreModes": { "message": "Endurvekja klassíska þætti notendaviðmóts" },
+  "helptip_blockModes": { "message": "Útiloka óæskilega þætti notendaviðmóts" },
+  "helptip_perfModes": { "message": "Bættu frammistöðu vafrans" },
+  "helptip_notifSettings": { "message": "Stillingar tengdar tilkynningum" },
   "helptip_restoreDislikes": {
     "message": "Sýna að fólki líki ekki talning með því að nota gögn sem því líkar ekki við á"
   },

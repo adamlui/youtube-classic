@@ -5,6 +5,10 @@
     "message": "Reverteix YouTube al seu disseny clàssic (abans de totes les cantonades arrodonides i els disgustos ocults) + redirigeix YouTube Shorts + bloqueja els anuncis en miniatura"
   },
   "menuLabel_about": { "message": "Quant a" },
+  "menuLabel_restoreModes": { "message": "Restaurar modes" },
+  "menuLabel_blockModes": { "message": "Modes de bloc" },
+  "menuLabel_perfModes": { "message": "Modes de rendiment" },
+  "menuLabel_notifSettings": { "message": "Configuració de les notificacions" },
   "about_author": { "message": "Autor" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "col·laboradors" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Redueix les animacions" },
   "mode_idlePrevention": { "message": "Prevenció d'inactivitat" },
   "mode_notifDisabled": { "message": "Notificacions de mode" },
+  "helptip_restoreModes": { "message": "Torna els elements clàssics de la interfície d'usu" },
+  "helptip_blockModes": { "message": "Bloqueja els elements de la interfície d'usuari no desit" },
+  "helptip_perfModes": { "message": "Millora el rendiment del navegador" },
+  "helptip_notifSettings": { "message": "Configuració relacionada amb les notificacions" },
   "helptip_restoreDislikes": {
     "message": "Mostra els recomptes de no m'agrada mitjançant Torna les dades de no m'agrada"
   },

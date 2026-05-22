@@ -5,6 +5,10 @@
     "message": "Го враќа YouTube во својот класичен дизајн (пред сите заоблени агли и скриени недопаѓања) + пренасочува YouTube Shorts + блокира реклами со сликички"
   },
   "menuLabel_about": { "message": "За" },
+  "menuLabel_restoreModes": { "message": "Режими на враќање" },
+  "menuLabel_blockModes": { "message": "Режими на блокирање" },
+  "menuLabel_perfModes": { "message": "Режими на изведба" },
+  "menuLabel_notifSettings": { "message": "Подесувања за известувања" },
   "about_author": { "message": "Автор" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "соработници" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Намали ги анимациите" },
   "mode_idlePrevention": { "message": "Превенција на неактивност" },
   "mode_notifDisabled": { "message": "Известувања за режимот" },
+  "helptip_restoreModes": { "message": "Вратете ги класичните елементи на корисничкиот интерфејс" },
+  "helptip_blockModes": { "message": "Блокирајте ги непожелните елементи на корисничкиот интерфејс" },
+  "helptip_perfModes": { "message": "Подобрете ги перформансите на прелистувачот" },
+  "helptip_notifSettings": { "message": "Подесувања поврзани со известувања" },
   "helptip_restoreDislikes": {
     "message": "Прикажи ги броевите на недопаѓања со помош на податоците за повратна содржина на"
   },

@@ -5,6 +5,10 @@
     "message": "YouTube ကို ၎ င်း ၏ ဂန္ဒီဇိုင်းကိုပြန်ပြောင်း (အားလုံးပတ်ပတ်လည်ထောင့် & ဝှက်ထားသောမကြိုက်ခင်) + YouTube ကို Shorts + ပိတ်ပင်တားဆီးမှု thumbnail ကိုကြော်ငြာ redirects"
   },
   "menuLabel_about": { "message": "အကြောင်း" },
+  "menuLabel_restoreModes": { "message": "ပြုပြင်မွမ်းမံမှုပုံစံများ" },
+  "menuLabel_blockModes": { "message": "ဘလော့ခ်မုဒ်များ" },
+  "menuLabel_perfModes": { "message": "စွမ်းဆောင်ရည်မုဒ်များ" },
+  "menuLabel_notifSettings": { "message": "အသိပေးချက် ဆက်တင်များ" },
   "about_author": { "message": "ရေးသားသူ" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "ပါဝင်ပံ့ပိုးသူများ" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "အန်နီမေးရှင်းများကို လျှော့ချပါ" },
   "mode_idlePrevention": { "message": "အလုပ်မလုပ်သော ကြိုတင်ကာကွယ်မှု" },
   "mode_notifDisabled": { "message": "မုဒ်အသိပေးချက်များ" },
+  "helptip_restoreModes": { "message": "ဂန္ထဝင် UI ကိုဒြပ်စင်ပြန်ယူလာပါ" },
+  "helptip_blockModes": { "message": "မလိုအပ္ေသာ UI အစိတ္အပိုင္းမ်ားကို ပိတ္ပါ" },
+  "helptip_perfModes": { "message": "ဘရောက်ဇာ စွမ်းဆောင်ရည်ကို မြှင့်တင်ပါ" },
+  "helptip_notifSettings": { "message": "အသိပေးချက်နှင့် ဆက်စပ်သော ဆက်တင်များ" },
   "helptip_restoreDislikes": {
     "message": "Return YouTube ကို အသုံးပြု ၍ မနှစ်သက်သော အရေအတွက်ကို ပြသပါ ဒေတာကို မနှစ်သက်ပါ"
   },

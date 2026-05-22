@@ -5,6 +5,10 @@
     "message": "Повертає YouTube до класичного дизайну (перед усіма закругленими кутами та прихованими відхиленнями) + перенаправляє шорти YouTube + блокує мініатюрні оголошення"
   },
   "menuLabel_about": { "message": "Про нас" },
+  "menuLabel_restoreModes": { "message": "Режими відновлення" },
+  "menuLabel_blockModes": { "message": "Режими блокування" },
+  "menuLabel_perfModes": { "message": "Режими продуктивності" },
+  "menuLabel_notifSettings": { "message": "Налаштування сповіщень" },
   "about_author": { "message": "Автор" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "співавтори" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Зменшити анімацію" },
   "mode_idlePrevention": { "message": "Запобігання простою" },
   "mode_notifDisabled": { "message": "Сповіщення про режим" },
+  "helptip_restoreModes": { "message": "Повернути класичні елементи інтерфейсу" },
+  "helptip_blockModes": { "message": "Блокування небажаних елементів інтерфейсу" },
+  "helptip_perfModes": { "message": "Підвищення продуктивності веб-переглядача" },
+  "helptip_notifSettings": { "message": "Налаштування, пов 'язані зі сповіщеннями" },
   "helptip_restoreDislikes": {
     "message": "Показати кількість не подобається, використовуючи Повернути дані про не подобається YouTube"
   },

@@ -5,6 +5,10 @@
     "message": "Hoʻihoʻi iā YouTube i kāna hoʻolālā maʻamau (ma mua o nā kihi poepoe a pau a me nā makemake ʻole huna) + hoʻohuli hou i nā YouTube Shorts + ālai i nā hoʻolaha kiʻi liʻiliʻi"
   },
   "menuLabel_about": { "message": "E pili ana" },
+  "menuLabel_restoreModes": { "message": "Hoʻihoʻi i nā ʻano" },
+  "menuLabel_blockModes": { "message": "Nā ʻAno Poloka" },
+  "menuLabel_perfModes": { "message": "Nā ʻAno Hana" },
+  "menuLabel_notifSettings": { "message": "Nā Hoʻonohonoho Hoʻolaha" },
   "about_author": { "message": "Mea kākau" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "nā mea hāʻawi" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "E hōʻemi i nā kiʻiʻoniʻoni" },
   "mode_idlePrevention": { "message": "Kāohi ʻana i ka hana ʻole" },
   "mode_notifDisabled": { "message": "Nā Hoʻolaha ʻAno" },
+  "helptip_restoreModes": { "message": "E hoʻihoʻi mai i nā mea UI maʻamau" },
+  "helptip_blockModes": { "message": "E ālai i nā mea UI i makemake ʻole ʻia" },
+  "helptip_perfModes": { "message": "Hoʻonui i ka hana o ka polokalamu kele pūnaewele" },
+  "helptip_notifSettings": { "message": "Nā hoʻonohonoho e pili ana i ka hoʻolaha" },
   "helptip_restoreDislikes": {
     "message": "Hōʻike i nā helu makemake ʻole me ka hoʻohana ʻana i ka ʻikepili Hoʻihoʻi ʻole YouTube"
   },

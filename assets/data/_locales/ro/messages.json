@@ -5,6 +5,10 @@
     "message": "Revine YouTube la designul său clasic (înainte de toate colțurile rotunjite și neplăcerile ascunse) + redirecționează YouTube Shorts + blochează anunțurile în miniatură"
   },
   "menuLabel_about": { "message": "Despre" },
+  "menuLabel_restoreModes": { "message": "Moduri de restaurare" },
+  "menuLabel_blockModes": { "message": "Moduri de blocare" },
+  "menuLabel_perfModes": { "message": "Moduri de performanță" },
+  "menuLabel_notifSettings": { "message": "Setări de notificare" },
   "about_author": { "message": "Autor" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "contribuabili" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Reduceți animațiile" },
   "mode_idlePrevention": { "message": "Prevenirea mersului în gol" },
   "mode_notifDisabled": { "message": "Notificări mod" },
+  "helptip_restoreModes": { "message": "Readuceți elementele clasice ale interfeței cu utilizatorul" },
+  "helptip_blockModes": { "message": "Blocați elementele UI nedorite" },
+  "helptip_perfModes": { "message": "Îmbunătățește performanța browserului" },
+  "helptip_notifSettings": { "message": "Setări legate de notificări" },
   "helptip_restoreDislikes": {
     "message": "Afișați numărul de dezaprobări utilizând Returnarea datelor de dezaprobare YouTube"
   },

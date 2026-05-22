@@ -5,6 +5,10 @@
     "message": "YouTube کو اس کے کلاسک ڈیزائن پر واپس لاتا ہے (تمام گول کونے اور پوشیدہ ناپسندیدگی سے پہلے) + YouTube شارٹس کو ری ڈائریکٹ کرتا ہے + تھمب نیل اشتہارات کو روکتا ہے"
   },
   "menuLabel_about": { "message": "تعارف" },
+  "menuLabel_restoreModes": { "message": "موڈز بحال کریں" },
+  "menuLabel_blockModes": { "message": "بلاک موڈز" },
+  "menuLabel_perfModes": { "message": "کارکردگی کے طریقے" },
+  "menuLabel_notifSettings": { "message": "اطلاع کی ترتیبات" },
   "about_author": { "message": "مصنف" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "تعاون کنندگان" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "حرکت پذیریوں کو کم کریں" },
   "mode_idlePrevention": { "message": "بیکار کی روک تھام" },
   "mode_notifDisabled": { "message": "موڈ نوٹیفکیشنز" },
+  "helptip_restoreModes": { "message": "کلاسیکی UI عناصر واپس لائیں" },
+  "helptip_blockModes": { "message": "ناپسندیدہ UI عناصر کو بلاک کریں" },
+  "helptip_perfModes": { "message": "براؤزر کی کارکردگی کو بہتر بنائیں" },
+  "helptip_notifSettings": { "message": "اطلاع سے متعلق ترتیبات" },
   "helptip_restoreDislikes": {
     "message": "YouTube کو واپس کریں ڈیٹا کو ناپسند کریں کا استعمال کرتے ہوئے ناپسندیدگی کی تعداد دکھائیں"
   },

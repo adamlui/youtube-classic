@@ -5,6 +5,10 @@
     "message": "YouTube’ni klassik dizayniga qaytaradi (barcha yumaloq burchaklar va yashirin yoqtirmasliklardan oldin) + YouTube Shorts’ni yo‘naltiradi + eskiz reklamalarini bloklaydi"
   },
   "menuLabel_about": { "message": "Haqida" },
+  "menuLabel_restoreModes": { "message": "Qayta tiklash rejimlari" },
+  "menuLabel_blockModes": { "message": "Bloklash rejimlari" },
+  "menuLabel_perfModes": { "message": "Ishlash rejimlari" },
+  "menuLabel_notifSettings": { "message": "Bildirishnoma sozlamalari" },
   "about_author": { "message": "Muallif" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "hissa qo'shuvchilar" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Animatsiyalarni kamaytirish" },
   "mode_idlePrevention": { "message": "Bo'sh ishlarning oldini olish" },
   "mode_notifDisabled": { "message": "Rejim bildirishnomalari" },
+  "helptip_restoreModes": { "message": "Klassik UI elementlarini qaytaring" },
+  "helptip_blockModes": { "message": "Keraksiz UI elementlarini bloklash" },
+  "helptip_perfModes": { "message": "Brauzer ish faoliyatini yaxshilash" },
+  "helptip_notifSettings": { "message": "Bildirishnoma bilan bog'liq sozlamalar" },
   "helptip_restoreDislikes": {
     "message": "YouTube yoqtirmaslik ma'lumotlarini qaytarish orqali yoqtirmasliklar sonini ko'rsatish"
   },

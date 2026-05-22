@@ -5,6 +5,10 @@
     "message": "Visszaállítja a YouTube-ot a klasszikus dizájnra (a lekerekített sarkok és a rejtett ellenszenvek előtt) + átirányítja a YouTube rövidnadrágot + blokkolja a miniatűr hirdetéseket"
   },
   "menuLabel_about": { "message": "Rólunk" },
+  "menuLabel_restoreModes": { "message": "Üzemmódok visszaállítása" },
+  "menuLabel_blockModes": { "message": "Blokk módok" },
+  "menuLabel_perfModes": { "message": "Teljesítménymódok" },
+  "menuLabel_notifSettings": { "message": "Értesítési beállítások" },
   "about_author": { "message": "Szerző" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "közreműködők" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Animációk csökkentése" },
   "mode_idlePrevention": { "message": "Üresjárat-megelőzés" },
   "mode_notifDisabled": { "message": "Üzemmód értesítések" },
+  "helptip_restoreModes": { "message": "Hozza vissza a klasszikus felhasználói felületi elemeket" },
+  "helptip_blockModes": { "message": "A nem kívánatos felhasználói felületi elemek kizárása" },
+  "helptip_perfModes": { "message": "A böngésző teljesítményének javítása" },
+  "helptip_notifSettings": { "message": "Értesítéssel kapcsolatos beállítások" },
   "helptip_restoreDislikes": {
     "message": "Nem tetszésszám megjelenítése a YouTube Nem tetszés adatainak visszaküldésével"
   },

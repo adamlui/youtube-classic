@@ -5,6 +5,10 @@
     "message": "Վերադարձնում է YouTube - ն իր դասական դիզայնին (բոլոր կլորացված անկյուններից և թաքնված հավանումներից առաջ) + վերահղում YouTube Shorts + արգելափակում է մանրապատկերների գովազդը"
   },
   "menuLabel_about": { "message": "Տեղեկություններ" },
+  "menuLabel_restoreModes": { "message": "Վերականգնել ռեժիմները" },
+  "menuLabel_blockModes": { "message": "Արգելափակման ռեժիմներ" },
+  "menuLabel_perfModes": { "message": "Արդյունավետության ռեժիմներ" },
+  "menuLabel_notifSettings": { "message": "Ծանուցման կարգավորումներ" },
   "about_author": { "message": "Հեղինակ" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "ներդրողներ" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Կրճատել անիմացիաները" },
   "mode_idlePrevention": { "message": "Պարապուրդի կանխարգելում" },
   "mode_notifDisabled": { "message": "Ծանուցումներ ռեժիմի մասին" },
+  "helptip_restoreModes": { "message": "Վերադարձնել դասական UI տարրերը" },
+  "helptip_blockModes": { "message": "Արգելափակել անցանկալի UI տարրերը" },
+  "helptip_perfModes": { "message": "Բարելավել դիտարկչի աշխատանքը" },
+  "helptip_notifSettings": { "message": "Ծանուցման հետ կապված կարգավորումներ" },
   "helptip_restoreDislikes": {
     "message": "Ցույց տալ չհավանած թվերը ՝ օգտագործելով Վերադարձնել YouTube - ի չհավանած տվյալները"
   },

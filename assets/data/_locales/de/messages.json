@@ -5,6 +5,10 @@
     "message": "Kehrt YouTube zu seinem klassischen Design zurück (vor all den abgerundeten Ecken und versteckten Abneigungen) + leitet YouTube-Shorts um + blockiert Thumbnail-Anzeigen"
   },
   "menuLabel_about": { "message": "Über" },
+  "menuLabel_restoreModes": { "message": "Wiederherstellungsmodi" },
+  "menuLabel_blockModes": { "message": "Block-Modi" },
+  "menuLabel_perfModes": { "message": "Leistungsmodi" },
+  "menuLabel_notifSettings": { "message": "Benachrichtigungseinstellungen" },
   "about_author": { "message": "Autor" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "mitwirkende" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Animationen reduzieren" },
   "mode_idlePrevention": { "message": "Vermeidung von Leerlauf" },
   "mode_notifDisabled": { "message": "Modus-Benachrichtigungen" },
+  "helptip_restoreModes": { "message": "Klassische UI-Elemente zurückbringen" },
+  "helptip_blockModes": { "message": "Unerwünschte UI-Elemente ausblenden" },
+  "helptip_perfModes": { "message": "Verbessern Sie die Browserleistung" },
+  "helptip_notifSettings": { "message": "Benachrichtigungsbezogene Einstellungen" },
   "helptip_restoreDislikes": {
     "message": "Zeigen Sie die Anzahl der Abneigungen mit YouTube-Rückgabe Daten zur Abneigung"
   },

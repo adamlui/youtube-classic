@@ -5,6 +5,10 @@
     "message": "Vraća YouTube u svoj klasični dizajn (pre svih zaobljenih uglova i skrivenih nesviđanja) + preusmerava YouTube Shorts + blokira sličice oglasa"
   },
   "menuLabel_about": { "message": "O nama" },
+  "menuLabel_restoreModes": { "message": "Režimi vraćanja" },
+  "menuLabel_blockModes": { "message": "Režimi blokiranja" },
+  "menuLabel_perfModes": { "message": "Režimi performansi" },
+  "menuLabel_notifSettings": { "message": "Podešavanja obaveštenja" },
   "about_author": { "message": "Autor" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "saradnici" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Smanji broj animacija" },
   "mode_idlePrevention": { "message": "Prevencija praznog hoda" },
   "mode_notifDisabled": { "message": "Obaveštenja o režimu" },
+  "helptip_restoreModes": { "message": "Vratite klasične elemente korisničkog interfejsa" },
+  "helptip_blockModes": { "message": "Blokirajte neželjene elemente korisničkog interfejsa" },
+  "helptip_perfModes": { "message": "Poboljšajte performanse pregledača" },
+  "helptip_notifSettings": { "message": "Podešavanja u vezi sa obaveštenjima" },
   "helptip_restoreDislikes": {
     "message": "Prikažite broj onih koji se ne sviđaju koristeći Return YouTube podatke koji se ne sviđaju"
   },

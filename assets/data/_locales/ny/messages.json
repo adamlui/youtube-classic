@@ -5,6 +5,10 @@
     "message": "Kubwezeretsa YouTube kapangidwe ake tingachipeze powerenga (pamaso ngodya zonse ozungulira & zobisika sakonda) + redirects YouTube waufupi + midadada thumbnail malonda"
   },
   "menuLabel_about": { "message": "Zokhudza" },
+  "menuLabel_restoreModes": { "message": "Kubwezeretsa Ma Modes" },
+  "menuLabel_blockModes": { "message": "Block Modes" },
+  "menuLabel_perfModes": { "message": "Magwiridwe Magwiridwe" },
+  "menuLabel_notifSettings": { "message": "Zidziwitso Zikhazikiko" },
   "about_author": { "message": "Wolemba" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "othandizira" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Kuchepetsa Zojambula" },
   "mode_idlePrevention": { "message": "Chitetezo Chosasangalatsa" },
   "mode_notifDisabled": { "message": "Mode Zidziwitso" },
+  "helptip_restoreModes": { "message": "Bweretsani zinthu zachikhalidwe za UI" },
+  "helptip_blockModes": { "message": "Tsekani zinthu zosafunika za UI" },
+  "helptip_perfModes": { "message": "Limbikitsani magwiridwe antchito a msakatuli" },
+  "helptip_notifSettings": { "message": "Zikhazikiko zokhudzana ndi zidziwitso" },
   "helptip_restoreDislikes": {
     "message": "Onetsani manambala osakonda pogwiritsa ntchito Bwererani YouTube Sakonda deta"
   },

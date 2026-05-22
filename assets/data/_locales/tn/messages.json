@@ -5,6 +5,10 @@
     "message": "E busetsa YouTube mo sebopegong sa yone sa bogologolo (pele ga dikhutlo tsotlhe tse di dikologileng le dilo tse di sa ratweng tse di fitlhegileng) + e kaela gape YouTube Shorts + diphasalatso tsa thumbnail"
   },
   "menuLabel_about": { "message": "O ka nna" },
+  "menuLabel_restoreModes": { "message": "Restore Modes" },
+  "menuLabel_blockModes": { "message": "Mefuta ya Block" },
+  "menuLabel_perfModes": { "message": "Mofuta wa Tiro" },
+  "menuLabel_notifSettings": { "message": "Diseting tsa Kitsiso" },
   "about_author": { "message": "Mokwadi" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "bakgatlhegedi" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Fokotsa Ditshwantsho" },
   "mode_idlePrevention": { "message": "Thibelo ya Boitimokanyo" },
   "mode_notifDisabled": { "message": "Dikitsiso tsa Mode" },
+  "helptip_restoreModes": { "message": "Bring back classic UI elements" },
+  "helptip_blockModes": { "message": "Thibela dilo tse di sa eletsegeng tsa UI" },
+  "helptip_perfModes": { "message": "GO TOKAFATSA TIRO YA BOBERI" },
+  "helptip_notifSettings": { "message": "Dithulaganyo tse di amanang le dikitsiso" },
   "helptip_restoreDislikes": {
     "message": "Bontsha dipalo tse di sa rateng o dirisa tshedimosetso ya Return YouTube Dislike"
   },

@@ -5,6 +5,10 @@
     "message": "Manaisotra ny YouTube amin'ny endriny mahazatra (eo anoloan'ny zorony boribory & tsy tiany miafina) + mamerina ny YouTube Shorts + biriky doka"
   },
   "menuLabel_about": { "message": "Mombamomba" },
+  "menuLabel_restoreModes": { "message": "Avereno amin'ny laoniny ny fomba" },
+  "menuLabel_blockModes": { "message": "Fomba fanakanana" },
+  "menuLabel_perfModes": { "message": "Fomba fiasa" },
+  "menuLabel_notifSettings": { "message": "Fandrindrana ny fampahafantarana" },
   "about_author": { "message": "Laza momba ny mpamorona" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "mpandray anjara" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Mampihena ny sary mihetsika" },
   "mode_idlePrevention": { "message": "Idle Fisorohana" },
   "mode_notifDisabled": { "message": "Fampahafantarana fomba" },
+  "helptip_restoreModes": { "message": "Avereno ireo singantaharo UI mahazatra" },
+  "helptip_blockModes": { "message": "Singantaharo UI tsy azo ihodivirana" },
+  "helptip_perfModes": { "message": "Ampitomboy ny fahombiazan'ny navigateur" },
+  "helptip_notifSettings": { "message": "Fandrindrana mifandraika amin'ny fampahafantarana" },
   "helptip_restoreDislikes": {
     "message": "Asehoy ny fanisana tsy tiana amin'ny fampiasana ny antontan-kevitra miverena YouTube Dislike"
   },

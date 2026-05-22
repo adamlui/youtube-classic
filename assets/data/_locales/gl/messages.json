@@ -5,6 +5,10 @@
     "message": "Reverte YouTube ao seu deseño clásico (antes de todos os cantos redondeados e disgustos ocultos) + redireccións YouTube Shorts + bloques anuncios de miniaturas"
   },
   "menuLabel_about": { "message": "Acerca de" },
+  "menuLabel_restoreModes": { "message": "Restaurar os modos" },
+  "menuLabel_blockModes": { "message": "Modos de bloqueo" },
+  "menuLabel_perfModes": { "message": "Modos de rendemento" },
+  "menuLabel_notifSettings": { "message": "Configuración da notificación" },
   "about_author": { "message": "Autor" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "colaboradores" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Reducir as animacións" },
   "mode_idlePrevention": { "message": "Prevención ociosa" },
   "mode_notifDisabled": { "message": "Notificacións de modo" },
+  "helptip_restoreModes": { "message": "Volver a elementos clásicos de UI" },
+  "helptip_blockModes": { "message": "Bloquear elementos de UI indesexables" },
+  "helptip_perfModes": { "message": "Mellorar o rendemento do navegador" },
+  "helptip_notifSettings": { "message": "Configuración relacionada coa notificación" },
   "helptip_restoreDislikes": {
     "message": "Mostrar as contas de desagrado usando Devolver os datos de desagrado de YouTube"
   },

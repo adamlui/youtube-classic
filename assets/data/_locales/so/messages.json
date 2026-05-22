@@ -5,6 +5,10 @@
     "message": "Ku soo celi YouTube naqshadeeda caadiga ah (ka hor dhammaan geesaha wareegsan & nacaybka qarsoon) + dib-u-cusbooneysiinta YouTube Shorts + waxay xannibtaa xayeysiisyada thumbnail"
   },
   "menuLabel_about": { "message": "Ku saabsan" },
+  "menuLabel_restoreModes": { "message": "Dib u soo celi Qaababka" },
+  "menuLabel_blockModes": { "message": "Hababka Xannibaadda" },
+  "menuLabel_perfModes": { "message": "Qaababka Waxqabadka" },
+  "menuLabel_notifSettings": { "message": "Dejinta Ogeysiinta" },
   "about_author": { "message": "Author" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "deeq-bixiyeyaasha" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Iska yaree Xayawaanka" },
   "mode_idlePrevention": { "message": "Ka Hortagga Caadiga ah" },
   "mode_notifDisabled": { "message": "Ogeysiisyada Mode" },
+  "helptip_restoreModes": { "message": "Ku soo celi walxaha UI ee caadiga ah" },
+  "helptip_blockModes": { "message": "Jooji walxaha UI ee aan loo baahnayn" },
+  "helptip_perfModes": { "message": "Hagaajinta waxqabadka biraawsarka" },
+  "helptip_notifSettings": { "message": "Dejinta la xiriira ogeysiinta" },
   "helptip_restoreDislikes": {
     "message": "Muuji tirooyinka nacaybka ah adoo adeegsanaya Xogta Soo Celinta YouTube Dislike"
   },

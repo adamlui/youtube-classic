@@ -5,6 +5,10 @@
     "message": "Bidh e a 'toirt air ais YouTube chun dealbhadh clasaigeach aige (ro na h - oiseanan cruinn uile & cha toigh le daoine falaichte) + ath - sheòlaidhean YouTube Shorts + blocaichean sanasan mion - dhealbh"
   },
   "menuLabel_about": { "message": "About" },
+  "menuLabel_restoreModes": { "message": "Modhan aiseig" },
+  "menuLabel_blockModes": { "message": "Modhan bacaidh" },
+  "menuLabel_perfModes": { "message": "Modhan coileanaidh" },
+  "menuLabel_notifSettings": { "message": "Roghainnean nam brathan" },
   "about_author": { "message": "Author" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "luchd - tabhartais" },
@@ -25,6 +29,10 @@
     "message": "Iiiiiiiiiiidddddddddddddddddddddddddddddddddddddddddddddddddjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
   },
   "mode_notifDisabled": { "message": "Notifications" },
+  "helptip_restoreModes": { "message": "Thoir na h - eileamaidean cleachdaiche clasaigeach air ais" },
+  "helptip_blockModes": { "message": "Cuir bacadh air eileamaidean neo - mhiannach an UI" },
+  "helptip_perfModes": { "message": "Leasaich coileanadh a 'bhrobhsair" },
+  "helptip_notifSettings": { "message": "Suidheachaidhean co - cheangailte ri fios" },
   "helptip_restoreDislikes": {
     "message": "Seall cunntasan nach eil a 'còrdadh riut a' cleachdadh dàta Tilleadh YouTube Dislike"
   },

@@ -5,6 +5,10 @@
     "message": "Chuyển YouTube về thiết kế cổ điển của nó (trước tất cả các góc bo tròn và không thích ẩn) + chuyển hướng YouTube Shorts + chặn quảng cáo hình thu nhỏ"
   },
   "menuLabel_about": { "message": "Giới thiệu" },
+  "menuLabel_restoreModes": { "message": "Chế độ khôi phục" },
+  "menuLabel_blockModes": { "message": "Chế độ chặn" },
+  "menuLabel_perfModes": { "message": "Chế độ hiệu suất" },
+  "menuLabel_notifSettings": { "message": "Cài đặt thông báo" },
   "about_author": { "message": "Tác giả" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "người đóng góp" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Giảm hoạt ảnh" },
   "mode_idlePrevention": { "message": "Ngăn chặn nhàn rỗi" },
   "mode_notifDisabled": { "message": "Thông báo chế độ" },
+  "helptip_restoreModes": { "message": "Mang lại các yếu tố giao diện người dùng cổ điển" },
+  "helptip_blockModes": { "message": "Chặn các yếu tố giao diện người dùng không mong muốn" },
+  "helptip_perfModes": { "message": "Nâng cao hiệu suất trình duyệt" },
+  "helptip_notifSettings": { "message": "Cài đặt liên quan đến thông báo" },
   "helptip_restoreDislikes": {
     "message": "Hiển thị số lượt không thích bằng cách sử dụng Trả lại dữ liệu YouTube Không thích"
   },

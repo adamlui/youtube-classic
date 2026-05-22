@@ -5,6 +5,10 @@
     "message": "Ripristina YouTube al suo design classico (prima di tutti gli angoli arrotondati e le antipatie nascoste) + reindirizza YouTube Shorts + blocca gli annunci in miniatura"
   },
   "menuLabel_about": { "message": "Informazioni" },
+  "menuLabel_restoreModes": { "message": "Modalità di ripristino" },
+  "menuLabel_blockModes": { "message": "Modalità di blocco" },
+  "menuLabel_perfModes": { "message": "Modalità Prestazioni" },
+  "menuLabel_notifSettings": { "message": "Impostazioni di notifica" },
   "about_author": { "message": "Autore" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "collaboratori" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Riduci animazioni" },
   "mode_idlePrevention": { "message": "Idle Prevention" },
   "mode_notifDisabled": { "message": "Notifiche di modalità" },
+  "helptip_restoreModes": { "message": "Riporta elementi classici dell'interfaccia utente" },
+  "helptip_blockModes": { "message": "Blocca gli elementi indesiderati dell'interfaccia utente" },
+  "helptip_perfModes": { "message": "Migliora le prestazioni del browser" },
+  "helptip_notifSettings": { "message": "Impostazioni relative alle notifiche" },
   "helptip_restoreDislikes": {
     "message": "Mostra conteggi antipatie utilizzando i dati Restituisci antipatie di YouTube"
   },

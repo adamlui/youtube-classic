@@ -5,6 +5,10 @@
     "message": "Taastab YouTube 'i klassikalise disaini (enne kõiki ümardatud nurki ja varjatud mittemeeldimisi) + suunab YouTube' i lühikesed püksid + blokeerib pisipildireklaamid"
   },
   "menuLabel_about": { "message": "Info" },
+  "menuLabel_restoreModes": { "message": "Taastamisrežiimid" },
+  "menuLabel_blockModes": { "message": "Blokeerimisrežiimid" },
+  "menuLabel_perfModes": { "message": "Jõudlusrežiimid" },
+  "menuLabel_notifSettings": { "message": "Teavituse seaded" },
   "about_author": { "message": "Autor" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "kaastöötajad" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Vähenda animatsioone" },
   "mode_idlePrevention": { "message": "Tühikäigu vältimine" },
   "mode_notifDisabled": { "message": "Režiimi teavitused" },
+  "helptip_restoreModes": { "message": "Too tagasi klassikalised kasutajaliidese elemendid" },
+  "helptip_blockModes": { "message": "Blokeeri soovimatud kasutajaliidese elemendid" },
+  "helptip_perfModes": { "message": "Parandage brauseri jõudlust" },
+  "helptip_notifSettings": { "message": "Teavitusega seotud seaded" },
   "helptip_restoreDislikes": {
     "message": "Näita mittemeeldimiste arvu, kasutades Tagasta YouTube 'i mittemeeldimiste andmeid"
   },

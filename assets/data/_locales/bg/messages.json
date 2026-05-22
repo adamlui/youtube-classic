@@ -5,6 +5,10 @@
     "message": "Връща YouTube към класическия си дизайн (преди всички заоблени ъгли и скрити нехаресвания) + пренасочва YouTube Shorts + блокира реклами с миниатюри"
   },
   "menuLabel_about": { "message": "Относно" },
+  "menuLabel_restoreModes": { "message": "Режими на възстановяване" },
+  "menuLabel_blockModes": { "message": "Режими на блокиране" },
+  "menuLabel_perfModes": { "message": "Режими на изпълнение" },
+  "menuLabel_notifSettings": { "message": "Настройки за известяване" },
   "about_author": { "message": "Автор" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "сътрудници" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Намаляване на анимациите" },
   "mode_idlePrevention": { "message": "Предотвратяване на празен ход" },
   "mode_notifDisabled": { "message": "Известия в режим" },
+  "helptip_restoreModes": { "message": "Връщане на класически елементи на потребителския интерфейс" },
+  "helptip_blockModes": { "message": "Блокиране на нежелани елементи на потребителския интерфейс" },
+  "helptip_perfModes": { "message": "Подобряване на ефективността на браузъра" },
+  "helptip_notifSettings": { "message": "Настройки, свързани с известия" },
   "helptip_restoreDislikes": {
     "message": "Показване на броя на случаите на нехаресване, като се използват данните за Връщане"
   },

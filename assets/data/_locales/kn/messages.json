@@ -5,6 +5,10 @@
     "message": "YouTube ಅನ್ನು ಅದರ ಕ್ಲಾಸಿಕ್ ವಿನ್ಯಾಸಕ್ಕೆ ಹಿಂತಿರುಗಿಸುತ್ತದೆ (ಎಲ್ಲಾ ದುಂಡಾದ ಮೂಲೆಗಳು ಮತ್ತು ಮರೆಮಾಡಿದ ಇಷ್ಟಪಡದಿರುವಿಕೆಗಳ ಮೊದಲು) + YouTube ಶಾರ್ಟ್ಸ್ ಅನ್ನು ಮರುನಿರ್ದೇಶಿಸುತ್ತದೆ + ಥಂಬ್‌ನೇಲ್ ಜಾಹೀರಾತುಗಳನ್ನು ನಿರ್ಬಂಧಿಸುತ್ತದೆ"
   },
   "menuLabel_about": { "message": "ಕುರಿತು" },
+  "menuLabel_restoreModes": { "message": "ಮೋಡ್‌ಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಿ" },
+  "menuLabel_blockModes": { "message": "ಬ್ಲಾಕ್ ಮೋಡ್‌ಗಳು" },
+  "menuLabel_perfModes": { "message": "ಕಾರ್ಯಕ್ಷಮತೆ ವಿಧಾನಗಳು" },
+  "menuLabel_notifSettings": { "message": "ಅಧಿಸೂಚನೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳು" },
   "about_author": { "message": "ಲೇಖಕ" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "ಕೊಡುಗೆದಾರರು" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "ಅನಿಮೇಷನ್‌ಗಳನ್ನು ಕಡಿಮೆ ಮಾಡಿ" },
   "mode_idlePrevention": { "message": "ಐಡಲ್ ತಡೆಗಟ್ಟುವಿಕೆ" },
   "mode_notifDisabled": { "message": "ಮೋಡ್ ಅಧಿಸೂಚನೆಗಳು" },
+  "helptip_restoreModes": { "message": "ಕ್ಲಾಸಿಕ್ UI ಅಂಶಗಳನ್ನು ಮರಳಿ ತರುವುದು" },
+  "helptip_blockModes": { "message": "ಅನಪೇಕ್ಷಿತ UI ಅಂಶಗಳನ್ನು ನಿರ್ಬಂಧಿಸಿ" },
+  "helptip_perfModes": { "message": "ಬ್ರೌಸರ್ ಕಾರ್ಯಕ್ಷಮತೆಯನ್ನು ಹೆಚ್ಚಿಸಿ" },
+  "helptip_notifSettings": { "message": "ಅಧಿಸೂಚನೆ-ಸಂಬಂಧಿತ ಸೆಟ್ಟಿಂಗ್‌" },
   "helptip_restoreDislikes": {
     "message": "ರಿಟರ್ನ್ YouTube ಇಷ್ಟವಿಲ್ಲದ ಡೇಟಾವನ್ನು ಬಳಸಿಕೊಂಡು ಇಷ್ಟವಿಲ್ಲದ ಎಣಿಕೆಗಳನ್ನು ತೋರಿಸಿ"
   },

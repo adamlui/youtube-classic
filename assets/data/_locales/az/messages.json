@@ -5,6 +5,10 @@
     "message": "YouTube-u klassik dizaynına çevirir (bütün yuvarlaq guşələr və gizli bəyənmələrdən əvvəl) + YouTube Shorts + blokları kiçik reklamları yönləndirir"
   },
   "menuLabel_about": { "message": "Haqqında" },
+  "menuLabel_restoreModes": { "message": "Rejimləri Bərpa Et" },
+  "menuLabel_blockModes": { "message": "Blok Rejimləri" },
+  "menuLabel_perfModes": { "message": "Performans Rejimləri" },
+  "menuLabel_notifSettings": { "message": "Bildiriş Parametrləri" },
   "about_author": { "message": "Müəllif" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "ianəçilər" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Animasiyaları azaldın" },
   "mode_idlePrevention": { "message": "İdentifikasiyanın qarşısının alınması" },
   "mode_notifDisabled": { "message": "Rejim Bildirişləri" },
+  "helptip_restoreModes": { "message": "Klassik Uİ elementlərini geri gətirin" },
+  "helptip_blockModes": { "message": "Arzuolunmaz Uİ elementlərini bloklayın" },
+  "helptip_perfModes": { "message": "Brauzer performansını artır" },
+  "helptip_notifSettings": { "message": "Bildirişlə bağlı parametrlər" },
   "helptip_restoreDislikes": {
     "message": "Geri qayıt YouTube-dan İmtina verilənlərindən istifadə edərək sayları bəyənmədiyini göstər"
   },

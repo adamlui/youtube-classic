@@ -5,6 +5,10 @@
     "message": "Toe liliu YouTube i lona mamanu masani (i luma o tulimanu faataamilo uma & le fiafia natia) + redirects YouTube Shorts + poloka faasalalauga thumbnail"
   },
   "menuLabel_about": { "message": "E uiga i" },
+  "menuLabel_restoreModes": { "message": "Toefuataiina o auala" },
+  "menuLabel_blockModes": { "message": "Faʻataʻitaʻiga poloka" },
+  "menuLabel_perfModes": { "message": "Faʻataʻitaʻiga o le faʻatinoga" },
+  "menuLabel_notifSettings": { "message": "Faasilasilaga o Faasilasilaga" },
   "about_author": { "message": "Tusitala" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "saofaga" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Faʻaititia o meaola" },
   "mode_idlePrevention": { "message": "Puipuiga o le tagata lava ia" },
   "mode_notifDisabled": { "message": "Faasilasilaga o le auala" },
+  "helptip_restoreModes": { "message": "Aumai elemene UI masani" },
+  "helptip_blockModes": { "message": "Taofi elemene UI le manaʻomia" },
+  "helptip_perfModes": { "message": "Faʻaleleia le faʻatinoga o le browser" },
+  "helptip_notifSettings": { "message": "Faʻasilasilaga e fesoʻotaʻi ma faʻasilasilaga" },
   "helptip_restoreDislikes": {
     "message": "Faʻaalia numera le fiafia e faʻaaoga ai le toe faʻafoʻi YouTube Dislike Data"
   },

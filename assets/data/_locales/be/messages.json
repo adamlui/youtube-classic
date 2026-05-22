@@ -5,6 +5,10 @@
     "message": "Вяртае YouTube да свайго класічнага дызайну (да ўсіх закругленых кутоў і схаваных антыпатыяў) + перанакіроўвае YouTube Shorts + блакуе мініяцюрную рэкламу"
   },
   "menuLabel_about": { "message": "Пра" },
+  "menuLabel_restoreModes": { "message": "Рэжым аднаўлення" },
+  "menuLabel_blockModes": { "message": "Блокавыя рэжымы" },
+  "menuLabel_perfModes": { "message": "Рэжымы выканання" },
+  "menuLabel_notifSettings": { "message": "Налады апавяшчэнняў" },
   "about_author": { "message": "Аўтар" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "удзельнікі" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Паменшыць анімацыю" },
   "mode_idlePrevention": { "message": "Прафілактыка прабегу" },
   "mode_notifDisabled": { "message": "Апавяшчэнні аб рэжыме" },
+  "helptip_restoreModes": { "message": "Вярнуць класічныя элементы карыстацкага інтэрфейсу" },
+  "helptip_blockModes": { "message": "Блакаваць непажаданыя элементы карыстацкага інтэрфейсу" },
+  "helptip_perfModes": { "message": "Павышэнне прадукцыйнасці браўзэра" },
+  "helptip_notifSettings": { "message": "Налады, звязаныя з апавяшчэннем" },
   "helptip_restoreDislikes": {
     "message": "Паказаць колькасць антыпатыяў з дапамогай вяртання дадзеных пра антыпатыю YouTube"
   },

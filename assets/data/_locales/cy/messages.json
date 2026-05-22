@@ -5,6 +5,10 @@
     "message": "Yn dychwelyd YouTube i'w ddyluniad clasurol (cyn yr holl gorneli crwn a chas bethau cudd) + yn ailgyfeirio YouTube Shorts + blociau hysbysebion mân - luniau"
   },
   "menuLabel_about": { "message": "Am" },
+  "menuLabel_restoreModes": { "message": "Adfer Moddau" },
+  "menuLabel_blockModes": { "message": "Moddau Bloc" },
+  "menuLabel_perfModes": { "message": "Moddau Perfformiad" },
+  "menuLabel_notifSettings": { "message": "Gosodiadau Hysbysiad" },
   "about_author": { "message": "Awdur" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "cyfranwyr" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Lleihau Animeiddiadau" },
   "mode_idlePrevention": { "message": "Atal Segur" },
   "mode_notifDisabled": { "message": "Hysbysiadau Modd" },
+  "helptip_restoreModes": { "message": "Dod ag elfennau rhyngwyneb clasurol yn ôl" },
+  "helptip_blockModes": { "message": "Rhwystro elfennau rhyngwyneb annymunol" },
+  "helptip_perfModes": { "message": "Gwella perfformiad y porwr" },
+  "helptip_notifSettings": { "message": "Gosodiadau sy'n gysylltiedig â hysbysiadau" },
   "helptip_restoreDislikes": {
     "message": "Dangos cyfrif ddim yn hoffi gan ddefnyddio Dychwelwch YouTube Anghytuno data"
   },

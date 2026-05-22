@@ -5,6 +5,10 @@
     "message": "YouTube ஐ அதன் உன்னதமான வடிவமைப்பிற்கு மாற்றுகிறது (அனைத்து வட்டமான மூலைகள் மற்றும் மறைக்கப்பட்ட வெறுப்புகளுக்கு முன்) + YouTube ஷார்ட்ஸ் + சிறு விளம்பரங்களைத் தடுக்கிறது"
   },
   "menuLabel_about": { "message": "அறிமுகம்" },
+  "menuLabel_restoreModes": { "message": "முறைகளை மீட்டமை" },
+  "menuLabel_blockModes": { "message": "தடுப்பு முறைகள்" },
+  "menuLabel_perfModes": { "message": "செயல்திறன் முறைகள்" },
+  "menuLabel_notifSettings": { "message": "அறிவிப்பு அமைப்புகள்" },
   "about_author": { "message": "ஆசிரியர்" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "பங்களிப்பாளர்கள்" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "அனிமேஷன்களைக் குறைக்கவும்" },
   "mode_idlePrevention": { "message": "செயலற்ற தடுப்பு" },
   "mode_notifDisabled": { "message": "பயன்முறை அறிவிப்புகள்" },
+  "helptip_restoreModes": { "message": "கிளாசிக் UI கூறுகளை மீண்டும் கொண்டு வாருங்கள்" },
+  "helptip_blockModes": { "message": "விரும்பத்தகாத UI கூறுகளைத் தடுக்கவும்" },
+  "helptip_perfModes": { "message": "உலாவி செயல்திறனை மேம்படுத்துதல்" },
+  "helptip_notifSettings": { "message": "அறிவிப்பு தொடர்பான அமைப்புகள்" },
   "helptip_restoreDislikes": {
     "message": "ரிட்டர்ன் YouTube விருப்பமின்மை தரவைப் பயன்படுத்தி விருப்பமின்மை எண்ணிக்கையைக் காட்டவும்"
   },

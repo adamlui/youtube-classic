@@ -5,6 +5,10 @@
     "message": "YouTube bere diseinu klasikora leheneratzen du (izkin biribildu eta gustuko ezkutu guztiak baino lehen) + YouTube Shorts birbideratzen ditu + miniaturazko iragarkiak blokeatzen ditu"
   },
   "menuLabel_about": { "message": "Buruz" },
+  "menuLabel_restoreModes": { "message": "Leheneratzeko moduak" },
+  "menuLabel_blockModes": { "message": "Bloke Moduak" },
+  "menuLabel_perfModes": { "message": "Errendimendu Moduak" },
+  "menuLabel_notifSettings": { "message": "Jakinarazpenen ezarpenak" },
   "about_author": { "message": "Egilea" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "kolaboratzaileak" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Murriztu animazioak" },
   "mode_idlePrevention": { "message": "Inaktiboen prebentzioa" },
   "mode_notifDisabled": { "message": "Moduaren jakinarazpenak" },
+  "helptip_restoreModes": { "message": "Berreskuratu UI elementu klasikoak" },
+  "helptip_blockModes": { "message": "Blokeatu nahi ez diren UI elementuak" },
+  "helptip_perfModes": { "message": "Hobetu arakatzailearen errendimendua" },
+  "helptip_notifSettings": { "message": "Jakinarazpenekin lotutako ezarpenak" },
   "helptip_restoreDislikes": {
     "message": "Erakutsi gustuko ez direnen kopuruak Return YouTube-ko gustuko ez direnen datuak erabiliz"
   },

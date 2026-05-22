@@ -5,6 +5,10 @@
     "message": "Tahuri YouTube ki tona hoahoa tawhito (i mua i nga kokonga katoa huri noa me te kore e pai) + redirects YouTube Shorts + poraka whakatairanga thumbnail"
   },
   "menuLabel_about": { "message": "Mō" },
+  "menuLabel_restoreModes": { "message": "Whakahoutia nga tikanga" },
+  "menuLabel_blockModes": { "message": "Ngā Tauira Whakakorea" },
+  "menuLabel_perfModes": { "message": "Ngā aratau mahi" },
+  "menuLabel_notifSettings": { "message": "Ngā Tautuhinga Whakapā Mai" },
   "about_author": { "message": "Kaituhi" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "ngā kaihauturu" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Te whakaiti i ngā kararehe" },
   "mode_idlePrevention": { "message": "Te aukati i te tuakiri" },
   "mode_notifDisabled": { "message": "Ngā tohu aratau" },
+  "helptip_restoreModes": { "message": "Whakahokia nga waahanga UI tawhito" },
+  "helptip_blockModes": { "message": "Whakakorea nga waahanga UI kore e hiahiatia" },
+  "helptip_perfModes": { "message": "Whakapai ake i te mahi tirotiro" },
+  "helptip_notifSettings": { "message": "Ngā tautuhinga e pā ana ki te whakapuakitanga" },
   "helptip_restoreDislikes": {
     "message": "Whakaatuhia nga kaute kino ma te whakamahi i nga raraunga Whakahoki YouTube Dislike"
   },

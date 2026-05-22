@@ -5,6 +5,10 @@
     "message": "YouTube-നെ അതിന്റെ ക്ലാസിക് ഡിസൈനിലേക്ക് പഴയപടിയാക്കുന്നു (എല്ലാ വൃത്താകൃതിയിലുള്ള കോണുകൾക്കും മറഞ്ഞിരിക്കുന്ന അനിഷ്ടങ്ങൾക്കും മുമ്പ്) + YouTube ഷോർട്ട്സ് + ബ്ലോക്കുകൾ ലഘുചിത്ര പരസ്യങ്ങൾ റീഡയറക്റ്റ് ചെയ്യുന്നു"
   },
   "menuLabel_about": { "message": "കുറിച്ച്" },
+  "menuLabel_restoreModes": { "message": "മോഡുകൾ പുനഃസ്ഥാപിക്കുക" },
+  "menuLabel_blockModes": { "message": "ബ്ലോക്ക് മോഡുകൾ" },
+  "menuLabel_perfModes": { "message": "പ്രകടന മോഡുകൾ" },
+  "menuLabel_notifSettings": { "message": "അറിയിപ്പ് ക്രമീകരണങ്ങള്‍" },
   "about_author": { "message": "രചയിതാവ്" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "സംഭാവന ചെയ്യുന്നവർ" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "ആനിമേഷനുകൾ കുറയ്ക്കുക" },
   "mode_idlePrevention": { "message": "നിഷ്‌ക്രിയ പ്രിവൻഷൻ" },
   "mode_notifDisabled": { "message": "മോഡ് അറിയിപ്പുകൾ" },
+  "helptip_restoreModes": { "message": "ക്ലാസിക് UI ഘടകങ്ങൾ തിരികെ കൊണ്ടുവരിക" },
+  "helptip_blockModes": { "message": "അഭികാമ്യമല്ലാത്ത UI ഘടകങ്ങൾ തടയുക" },
+  "helptip_perfModes": { "message": "ബ്രൗസർ പ്രകടനം മെച്ചപ്പെടുത്തുക" },
+  "helptip_notifSettings": { "message": "അറിയിപ്പുമായി ബന്ധപ്പെട്ട ക്രമീകരണങ്ങൾ" },
   "helptip_restoreDislikes": {
     "message": "റിട്ടേൺ YouTube ഇഷ്ടപ്പെടാത്ത ഡാറ്റ ഉപയോഗിച്ച് ഇഷ്ടപ്പെടാത്ത എണ്ണങ്ങൾ കാണിക്കുക"
   },

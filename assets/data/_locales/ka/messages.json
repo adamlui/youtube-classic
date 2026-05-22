@@ -5,6 +5,10 @@
     "message": "Დააბრუნებს YouTube-ს მის კლასიკურ დიზაინზე (ყველა მომრგვალებული კუთხის წინ და დამალული არ მოსწონს) + გადაამისამართებს YouTube-ის შორტებს + ბლოკავს მინიატურულ რეკლამებს"
   },
   "menuLabel_about": { "message": "Ინფორმაცია" },
+  "menuLabel_restoreModes": { "message": "Აღდგენითი რეჟიმები" },
+  "menuLabel_blockModes": { "message": "Ბლოკის რეჟიმები" },
+  "menuLabel_perfModes": { "message": "Შესრულების რეჟიმები" },
+  "menuLabel_notifSettings": { "message": "Გაფრთხილების პარამეტრები" },
   "about_author": { "message": "Ავტორი" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "კონტრიბუტორები" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Ანიმაციების შემცირება" },
   "mode_idlePrevention": { "message": "Უმოქმედო პრევენცია" },
   "mode_notifDisabled": { "message": "Რეჟიმის გაფრთხილებები" },
+  "helptip_restoreModes": { "message": "Დააბრუნეთ კლასიკური UI ელემენტები" },
+  "helptip_blockModes": { "message": "Არასასურველი UI ელემენტების დაბლოკვა" },
+  "helptip_perfModes": { "message": "Ბრაუზერის მუშაობის გაუმჯობესება" },
+  "helptip_notifSettings": { "message": "Გაფრთხილებასთან დაკავშირებული პარამეტრები" },
   "helptip_restoreDislikes": {
     "message": "Დისლაიქის რაოდენობების ჩვენება Return YouTube-ის დისლაიქის მონაცემების გამოყენებით"
   },

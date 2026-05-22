@@ -5,6 +5,10 @@
     "message": "Gibalik ang YouTube sa klasiko nga laraw niini (sa wala pa ang tanan nga mga bilog nga kanto & gitago nga dili gusto) + pag-redirect sa YouTube Shorts + mga bloke sa mga thumbnail ad"
   },
   "menuLabel_about": { "message": "Mahitungod" },
+  "menuLabel_restoreModes": { "message": "Ibalik ang mga Mode" },
+  "menuLabel_blockModes": { "message": "I-block ang Mga Mode" },
+  "menuLabel_perfModes": { "message": "Mga Mode sa Pagganap" },
+  "menuLabel_notifSettings": { "message": "Mga Setting sa Notification" },
   "about_author": { "message": "Awtor" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "mga kontribyutor" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Pagminus sa mga Animasyon" },
   "mode_idlePrevention": { "message": "Paglikay sa Idle" },
   "mode_notifDisabled": { "message": "Mga Notipikasyon sa Mode" },
+  "helptip_restoreModes": { "message": "Ibalik ang mga elemento sa klasiko nga UI" },
+  "helptip_blockModes": { "message": "Pag-block sa dili gusto nga mga elemento sa UI" },
+  "helptip_perfModes": { "message": "Pagpalambo sa pasundayag sa browser" },
+  "helptip_notifSettings": { "message": "Mga setting nga may kalabutan sa pahibalo" },
   "helptip_restoreDislikes": {
     "message": "Ipakita ang dili gusto nga pag-ihap gamit ang Return YouTube Dili gusto nga datos"
   },

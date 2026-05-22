@@ -5,6 +5,10 @@
     "message": "Возвращает YouTube к классическому дизайну (до всех закругленных углов и скрытых антипатий) + перенаправляет шорты YouTube + блокирует эскизную рекламу"
   },
   "menuLabel_about": { "message": "О нас" },
+  "menuLabel_restoreModes": { "message": "Режимы восстановления" },
+  "menuLabel_blockModes": { "message": "Режимы блока" },
+  "menuLabel_perfModes": { "message": "Режимы производительности" },
+  "menuLabel_notifSettings": { "message": "Настройки уведомлений" },
   "about_author": { "message": "Автор" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "участники" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Уменьшить анимацию" },
   "mode_idlePrevention": { "message": "Предотвращение простоя" },
   "mode_notifDisabled": { "message": "Уведомления о режиме" },
+  "helptip_restoreModes": { "message": "Вернуть классические элементы пользовательского интерфейса" },
+  "helptip_blockModes": { "message": "Блокировка нежелательных элементов пользовательского интерфейса" },
+  "helptip_perfModes": { "message": "Повышение производительности браузера" },
+  "helptip_notifSettings": { "message": "Настройки, связанные с уведомлениями" },
   "helptip_restoreDislikes": {
     "message": "Показать количество отметок «не нравится» с помощью Return YouTube Dislike data"
   },

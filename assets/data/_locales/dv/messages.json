@@ -5,6 +5,10 @@
     "message": "ޔޫޓިއުބް އޭގެ ކްލާސިކް ޑިޒައިންއަށް ރިވަރޓްކުރުން (ހުރިހާ ވަށައިގެންވާ ކަނެއް & ފޮރުވިފައިވާ ޑިސްލައިކްސްގެ ކުރިން) + ޔޫޓިއުބް ޝޯޓްސް ރީޑައިރެކްޓްކުރުން + ތަމްބްނެއިލް އިޝްތިހާރުތައް ބްލޮކްކުރުން"
   },
   "menuLabel_about": { "message": "ގުޅިގެން" },
+  "menuLabel_restoreModes": { "message": "ރިސްޓޯރ މޯޑްސް" },
+  "menuLabel_blockModes": { "message": "ބްލޮކް މޯޑްސް" },
+  "menuLabel_perfModes": { "message": "ޕާފޯމަންސް މޯޑްސް" },
+  "menuLabel_notifSettings": { "message": "ނޮޓިފިކޭޝަން ސެޓިންގސް" },
   "about_author": { "message": "ލިޔުންތެރިޔާ" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "ކޮންޓްރިބިއުޓަރުންނެވެ" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "އެނިމޭޝަންސް މަދުކުރުން" },
   "mode_idlePrevention": { "message": "އައިޑަލް ޕްރިވެންޝަން" },
   "mode_notifDisabled": { "message": "މޯޑް ނޮޓިފިކޭޝަންސް" },
+  "helptip_restoreModes": { "message": "ކްލާސިކް ޔޫއައި އެލިމެންޓްތައް އަނބުރާ ގެނައުން" },
+  "helptip_blockModes": { "message": "އެދެވޭ ޔޫއައި އެލިމެންޓްތައް ބްލޮކް އައުޓް ކުރުން" },
+  "helptip_perfModes": { "message": "ބްރައުޒާގެ ޕާފޯމަންސް އިތުރުކުރުން" },
+  "helptip_notifSettings": { "message": "ނޮޓިފިކޭޝަން އާއި ގުޅުންހުރި ސެޓިންގސް" },
   "helptip_restoreDislikes": {
     "message": "ރިޓަރން ޔޫޓިއުބް ޑިސްލައިކް ޑޭޓާ ބޭނުންކޮށްގެން ޑިސްލައިކް ކައުންޓްތައް ދައްކާށެވެ"
   },

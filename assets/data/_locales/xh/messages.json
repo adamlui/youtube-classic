@@ -5,6 +5,10 @@
     "message": "Ubuyisela iYouTube kwindlela eyakhiwe ngayo (ngaphambi kokuba zonke iikona ezijikelezileyo nezinto ezingazithandiyo ezifihlakeleyo) + uqondisa kwakhona ii-YouTube Shorts + iintengiso zeebhloko"
   },
   "menuLabel_about": { "message": "Malunga" },
+  "menuLabel_restoreModes": { "message": "Buyisela Iindlela" },
+  "menuLabel_blockModes": { "message": "Iindlela Zokuthintela" },
+  "menuLabel_perfModes": { "message": "Iindlela Zendlela Oqhuba Ngayo" },
+  "menuLabel_notifSettings": { "message": "Iisetingi Zemiyalezo" },
   "about_author": { "message": "Umbhali" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "abantu abanikelayo" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Nciphisa Oopopayi" },
   "mode_idlePrevention": { "message": "Uthintelo Olungaqengqelekiyo" },
   "mode_notifDisabled": { "message": "Imiyalezo Yemowudi" },
+  "helptip_restoreModes": { "message": "Buyisela izinto zakudala ze-UI" },
+  "helptip_blockModes": { "message": "Vala izinto ze-UI ezingafunekiyo" },
+  "helptip_perfModes": { "message": "Ukuphucula indlela ibhrawuza eqhuba ngayo" },
+  "helptip_notifSettings": { "message": "Iisetingi ezinento yokwenza nemiyalezo" },
   "helptip_restoreDislikes": {
     "message": "Bonisa izibalo ezingathandiyo usebenzisa inkcazelo ethi Buyisa U-YouTube Dislike"
   },

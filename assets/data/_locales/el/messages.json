@@ -5,6 +5,10 @@
     "message": "Επαναφέρει το YouTube στον κλασικό σχεδιασμό του (πριν από όλες τις στρογγυλεμένες γωνίες και τις κρυφές αντιπάθειες) + ανακατευθύνει το YouTube Shorts + αποκλείει τις διαφημίσεις μικρογραφιών"
   },
   "menuLabel_about": { "message": "Πληροφορίες" },
+  "menuLabel_restoreModes": { "message": "Επαναφορά λειτουργιών" },
+  "menuLabel_blockModes": { "message": "Λειτουργίες αποκλεισμού" },
+  "menuLabel_perfModes": { "message": "Τρόποι λειτουργίας απόδοσης" },
+  "menuLabel_notifSettings": { "message": "Ρυθμίσεις ειδοποιήσεων" },
   "about_author": { "message": "Συντάκτης" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "συνεισφέροντες" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Μείωση κινούμενων εικόνων" },
   "mode_idlePrevention": { "message": "Πρόληψη αδράνειας" },
   "mode_notifDisabled": { "message": "Ειδοποιήσεις λειτουργίας" },
+  "helptip_restoreModes": { "message": "Επαναφορά κλασικών στοιχείων διεπαφής χρήστη" },
+  "helptip_blockModes": { "message": "Αποκλεισμός ανεπιθύμητων στοιχείων διεπαφής χρήστη" },
+  "helptip_perfModes": { "message": "Βελτιώστε την απόδοση του προγράμματος περιήγησης" },
+  "helptip_notifSettings": { "message": "Ρυθμίσεις που σχετίζονται με τις ειδοποιήσεις" },
   "helptip_restoreDislikes": {
     "message": "Εμφάνιση αριθμών dislike χρησιμοποιώντας τα δεδομένα Return YouTube Dislike"
   },

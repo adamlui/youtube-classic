@@ -5,6 +5,10 @@
     "message": "Анын классикалык дизайн YouTube артка (бардык тегерек бурчтары & жашыруун жактырбай чейин) + YouTube Shorts + блоктору эскиз жарнамаларды багыттайт"
   },
   "menuLabel_about": { "message": "Жөнүндө" },
+  "menuLabel_restoreModes": { "message": "Режимдерди калыбына келтирүү" },
+  "menuLabel_blockModes": { "message": "Блок режимдери" },
+  "menuLabel_perfModes": { "message": "Performance режимдери" },
+  "menuLabel_notifSettings": { "message": "Эскертүү жөндөөлөрү" },
   "about_author": { "message": "Автор" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "салымчылар" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Анимацияны кыскартуу" },
   "mode_idlePrevention": { "message": "Боштук профилактикасы" },
   "mode_notifDisabled": { "message": "Режим эскертүүлөрү" },
+  "helptip_restoreModes": { "message": "Классикалык UI элементтерин кайра алып келүү" },
+  "helptip_blockModes": { "message": "Каалабаган интерфейс элементтерин бөгөттөө" },
+  "helptip_perfModes": { "message": "Браузердин иштешин жогорулатуу" },
+  "helptip_notifSettings": { "message": "Билдирүүгө байланыштуу параметрлер" },
   "helptip_restoreDislikes": {
     "message": "Return YouTube жакпаган маалыматтарды колдонуу менен жакпаган сандарды көрсөтүү"
   },

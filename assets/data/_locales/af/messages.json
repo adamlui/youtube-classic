@@ -5,6 +5,10 @@
     "message": "Keer YouTube terug na sy klassieke ontwerp (voor al die afgeronde hoeke en verborge afkeure) + lei YouTube Shorts + blokke miniatuuradvertensies"
   },
   "menuLabel_about": { "message": "Meer oor" },
+  "menuLabel_restoreModes": { "message": "Herstel Modusse" },
+  "menuLabel_blockModes": { "message": "Blok Modusse" },
+  "menuLabel_perfModes": { "message": "Prestasie Modusse" },
+  "menuLabel_notifSettings": { "message": "Kennisgewing Instellings" },
   "about_author": { "message": "Outeur" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "bydraers" },
@@ -21,6 +25,10 @@
   "mode_reduceAnimations": { "message": "Verminder animasies" },
   "mode_idlePrevention": { "message": "Lae Voorkoming" },
   "mode_notifDisabled": { "message": "Modus Kennisgewings" },
+  "helptip_restoreModes": { "message": "Bring klassieke UI-elemente terug" },
+  "helptip_blockModes": { "message": "Sluit ongewenste UI-elemente uit" },
+  "helptip_perfModes": { "message": "Verbeter blaaierprestasie" },
+  "helptip_notifSettings": { "message": "Kennisgewingverwante instellings" },
   "helptip_restoreDislikes": {
     "message": "Wys hou nie van tellings met behulp van Terugkeer YouTube Hou nie van data nie"
   },
