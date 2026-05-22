@@ -1,5 +1,3 @@
-
-
 window.styles = {
 
     update({ key, keys, append }) { // requires dom.js

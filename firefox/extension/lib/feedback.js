@@ -1,5 +1,3 @@
-
-
 localStorage.alertQueue = '[]'
 window.feedback = {
 
