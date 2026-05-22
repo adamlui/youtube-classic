@@ -7,11 +7,9 @@ window.feedback = {
     // [ title/msg = strings, btns = [named functions], checkbox = named function, width (px) = int ] = optional
     // * Spaces are inserted into button labels by parsing function names in camel/kebab/snake case
 
-        // Init env context
         const scheme = ui.getScheme(),
-                isMobile = env.browser.isMobile
+              isMobile = env.browser.isMobile
 
-        // Define event handlers
         const handlers = {
 
             dismiss: {
@@ -58,7 +56,7 @@ window.feedback = {
                 mousemove(event) { // drag modal
                     if (!feedback.draggingModal) return
                     const newX = event.clientX - handlers.drag.offsetX,
-                        newY = event.clientY - handlers.drag.offsetY
+                          newY = event.clientY - handlers.drag.offsetY
                     Object.assign(feedback.draggingModal.style, { left: `${newX}px`, top: `${newY}px` })
                 },
 
@@ -80,8 +78,8 @@ window.feedback = {
         modalContainer.id = Math.floor(randomFloat() * 1000000) + Date.now()
         modalContainer.classList.add('chatgpt-modal') // add class to main div
         const modal = document.createElement('div'),
-                modalTitle = document.createElement('h2'),
-                modalMsg = document.createElement('p')
+              modalTitle = document.createElement('h2'),
+              modalMsg = document.createElement('p')
 
         // Create/append/update modal style (if missing or outdated)
         const thisUpdated = 1739338889852 // timestamp of last edit for this file's `modalStyle`
@@ -95,7 +93,7 @@ window.feedback = {
             modalStyle.textContent = ( // update prev/new style contents
                 `.chatgpt-modal { /* vars */
                     --transition: opacity 0.65s cubic-bezier(.165,.84,.44,1), /* for fade-in */
-                                transform 0.55s cubic-bezier(.165,.84,.44,1) ; /* for move-in */
+                                  transform 0.55s cubic-bezier(.165,.84,.44,1) ; /* for move-in */
                     --bg-transition: background-color 0.25s ease ; /* for bg dim */
                     --btn-transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out ; /* for smooth zoom */
                     --btn-shadow: 2px 1px ${ scheme == 'dark' ? '54px #00cfff' : '30px #9cdaff' }}`
@@ -116,7 +114,7 @@ window.feedback = {
                     position: absolute ; /* to be click-draggable */
                     opacity: 0 ; /* to fade-in */
                     font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto,
-                                Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif ;
+                                  Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif ;
                     padding: 20px ; margin: 12px 23px ; font-size: 20px ;
                     color: ${ scheme == 'dark' ? 'white' : 'black' };
                     background-color: ${ scheme == 'dark' ? 'black' : 'white' };
@@ -214,7 +212,7 @@ window.feedback = {
         if (checkbox) { // is supplied
             checkboxDiv.classList.add('checkbox-group')
             const checkboxFn = checkbox, // assign the named function to checkboxFn
-                    checkboxInput = document.createElement('input')
+                  checkboxInput = document.createElement('input')
             checkboxInput.type = 'checkbox' ; checkboxInput.onchange = checkboxFn
 
             // Create/show label
@@ -309,7 +307,7 @@ window.feedback = {
         else [msg, position, notifDuration, shadow] = args
         notifDuration = notifDuration ? +notifDuration : 1.75 // sec duration to maintain notification visibility
         const fadeDuration = 0.35, // sec duration of fade-out
-            vpYoffset = 23, vpXoffset = 27 // px offset from viewport border
+              vpYoffset = 23, vpXoffset = 27 // px offset from viewport border
 
         // Create/append notification div
         const notificationDiv = document.createElement('div') // make div
@@ -437,8 +435,8 @@ window.feedback = {
 
     cjsRenderHTML(node) {
         const reTags = /<([a-z\d]+)\b([^>]*)>([\s\S]*?)<\/\1>/g,
-                reAttrs = /(\S+)=['"]?((?:.(?!['"]?\s+\S+=|[>']))+.)['"]?/g, // eslint-disable-line
-                nodeContent = node.childNodes
+              reAttrs = /(\S+)=['"]?((?:.(?!['"]?\s+\S+=|[>']))+.)['"]?/g, // eslint-disable-line
+              nodeContent = node.childNodes
 
         // Preserve consecutive spaces + line breaks
         if (!feedback.cjsRenderHTML.preWrapSet) {
@@ -452,13 +450,13 @@ window.feedback = {
             // Process text node
             if (childNode.nodeType == Node.TEXT_NODE) {
                 const text = childNode.nodeValue,
-                        elems = [...text.matchAll(reTags)]
+                      elems = [...text.matchAll(reTags)]
 
                 // Process 1st element to render
                 if (elems.length) {
                     const elem = elems[0],
-                            [tagContent, tagName, tagAttrs, tagText] = elem.slice(0, 4),
-                            tagNode = document.createElement(tagName) ; tagNode.textContent = tagText
+                         [tagContent, tagName, tagAttrs, tagText] = elem.slice(0, 4),
+                          tagNode = document.createElement(tagName) ; tagNode.textContent = tagText
 
                     // Extract/set attributes
                     const attrs = [...tagAttrs.matchAll(reAttrs)]
@@ -471,7 +469,7 @@ window.feedback = {
 
                     // Insert newly rendered node
                     const beforeTextNode = document.createTextNode(text.substring(0, elem.index)),
-                            afterTextNode = document.createTextNode(text.substring(elem.index + tagContent.length))
+                          afterTextNode = document.createTextNode(text.substring(elem.index + tagContent.length))
 
                     // Replace text node with processed nodes
                     node.replaceChild(beforeTextNode, childNode)
@@ -503,7 +501,7 @@ window.feedback = {
             const styledStateSpan = dom.create.elem('span', { style: `color: ${
                 foundState == gmToolbarMenu.state.words[0] ?
                     '#ef4848 ; text-shadow: rgba(255,169,225,0.44) 2px 1px 5px'
-                : '#5cef48 ; text-shadow: rgba(255,250,169,0.38) 2px 1px 5px'
+                  : '#5cef48 ; text-shadow: rgba(255,250,169,0.38) 2px 1px 5px'
             }`})
             styledStateSpan.append(foundState) ; notif.append(styledStateSpan)
         }

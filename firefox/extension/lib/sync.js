@@ -53,9 +53,9 @@ window.sync = {
         headerLogo() {
             app.logo ??= dom.create.elem('img', { style: 'margin-left: 5px', height: 65 })
             const ytLogo = document.getElementById('logo-icon') ; if (!ytLogo) return
-            const ytScheme =
-                document.querySelector('ytd-masthead[dark]') || window.matchMedia?.('(prefers-color-scheme: dark)').matches
-                    ? 'dark' : 'light'
+            const ytScheme = document.querySelector('ytd-masthead[dark]')
+                          || window.matchMedia?.('(prefers-color-scheme: dark)').matches
+                                ? 'dark' : 'light'
             app.logo.src = `${app.urls.images}/logos/youtube/${ytScheme}mode.png`
             ytLogo.textContent = '' ; ytLogo.append(app.logo)
         }

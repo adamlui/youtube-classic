@@ -23,7 +23,7 @@ window.modals = { // requires lib/<chatgpt|css|dom>.js + <app|env>
 
         // Show modal
         const labelStyles = 'text-transform: uppercase ; font-size: 17px ; font-weight: bold ;'
-                            + `color: ${ scheme == 'dark' ? 'white' : '#494141' }`
+                          + `color: ${ scheme == 'dark' ? 'white' : '#494141' }`
         const aboutModal = modals.alert(
             `${app.symbol} ${i18n.getMsg('appName')}`, // title
             `<span style="${labelStyles}">🧠 ${i18n.getMsg('about_author')}:</span> `
@@ -49,16 +49,16 @@ window.modals = { // requires lib/<chatgpt|css|dom>.js + <app|env>
         // Hack buttons
         aboutModal.querySelector('.modal-buttons').style.justifyContent = 'center'
         aboutModal.querySelectorAll('button').forEach(btn => {
-            btn.style.cssText = 'min-width: 136px ; text-align: center ;'
-                + `height: ${ this.runtime == 'greasemonkey' ? 58 : 55 }px`
+            btn.style.cssText =
+                `min-width: 136px ; text-align: center ; height: ${ this.runtime == 'greasemonkey' ? 58 : 55 }px`
 
             // Replace link buttons w/ clones that don't dismiss modal
             if (/support|rateus|userscripts/i.test(btn.textContent)) {
                 btn.replaceWith(btn = btn.cloneNode(true))
                 btn.onclick = () => this.safeWinOpen(
                     btn.textContent.includes(i18n.getMsg('btnLabel_getSupport')) ? app.urls.support
-                    : btn.textContent.includes(i18n.getMsg('btnLabel_rateUs')) ? app.urls.review.scriptcat
-                    : app.urls.userscripts
+                  : btn.textContent.includes(i18n.getMsg('btnLabel_rateUs')) ? app.urls.review.scriptcat
+                  : app.urls.userscripts
                 )
             }
 
@@ -148,7 +148,7 @@ window.modals = { // requires lib/<chatgpt|css|dom>.js + <app|env>
             .${this.class} a:hover { text-decoration: none ; opacity: 0.7 ; transition: 0.15s ease }
             .${this.class} h2 { font-weight: bold }
             .${this.class} button {
-            --btn-transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out ;
+              --btn-transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out ;
                 font-size: 14px ; text-transform: uppercase ; /* shrink/uppercase labels */
                 border-radius: 0 !important ; /* square borders */
                 transition: var(--btn-transition) ; /* smoothen hover fx */

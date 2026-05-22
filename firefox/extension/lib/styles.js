@@ -38,16 +38,16 @@ window.styles = {
 
                 /* Revert old background color and buttons */
                 html[dark] {
-                --yt-spec-general-background-a: #181818 !important ;
-                --yt-spec-general-background-b: #0f0f0f !important ;
-                --yt-spec-brand-background-primary: rgba(33,33,33,0.98) !important ;
-                --yt-spec-10-percent-layer: rgba(255,255,255,0.1) !important
+                    --yt-spec-general-background-a: #181818 !important ;
+                    --yt-spec-general-background-b: #0f0f0f !important ;
+                    --yt-spec-brand-background-primary: rgba(33,33,33,0.98) !important ;
+                    --yt-spec-10-percent-layer: rgba(255,255,255,0.1) !important
                 }
                 html:not([dark]) {
-                --yt-spec-general-background-a: #f9f9f9 !important ;
-                --yt-spec-general-background-b: #f1f1f1 !important ;
-                --yt-spec-brand-background-primary: rgba(255,255,255,0.98) !important ;
-                --yt-spec-10-percent-layer: rgba(0,0,0,0.1) !important
+                    --yt-spec-general-background-a: #f9f9f9 !important ;
+                    --yt-spec-general-background-b: #f1f1f1 !important ;
+                    --yt-spec-brand-background-primary: rgba(255,255,255,0.98) !important ;
+                    --yt-spec-10-percent-layer: rgba(0,0,0,0.1) !important
                 }
 
                 /* Un-segment engagement buttons below vid https://github.com/adamlui/youtube-classic/issues/10 */
@@ -527,8 +527,7 @@ window.styles = {
                 ytd-miniplayer,
                 ytd-channel-video-player-renderer[rounded] #player.ytd-channel-video-player-renderer,
                 ytd-c4-tabbed-header-renderer[use-page-header-style] .page-header-banner.ytd-c4-tabbed-header-renderer,
-                .image-wrapper.ytd-hero-playlist-thumbnail-renderer
-                {
+                .image-wrapper.ytd-hero-playlist-thumbnail-renderer {
                     border-radius: 0 !important
                 }
 
