@@ -490,7 +490,7 @@ window.feedback = {
         if (app.config.notifDisabled && !msg.includes(settings.controls.notifDisabled.label)) return
 
         // Strip state word to append colored one later
-        const foundState = toolbarMenu.state.words.find(word => msg.includes(word))
+        const foundState = gmToolbarMenu.state.words.find(word => msg.includes(word))
         if (foundState) msg = msg.replace(foundState, '')
 
         // Show notification
@@ -501,7 +501,7 @@ window.feedback = {
         notif.style.fontSize = '385%'
         if (foundState) { // append styled state word
             const styledStateSpan = dom.create.elem('span', { style: `color: ${
-                foundState == toolbarMenu.state.words[0] ?
+                foundState == gmToolbarMenu.state.words[0] ?
                     '#ef4848 ; text-shadow: rgba(255,169,225,0.44) 2px 1px 5px'
                 : '#5cef48 ; text-shadow: rgba(255,250,169,0.38) 2px 1px 5px'
             }`})

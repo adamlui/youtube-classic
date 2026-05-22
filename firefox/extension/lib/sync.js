@@ -20,7 +20,7 @@ window.sync = {
             styles.update({ key: 'block' })
         else if (updatedKey == 'idlePrevention')
             this.idle.toUI()
-        toolbarMenu.refresh() // prefixes/suffixes
+        gmToolbarMenu.refresh() // prefixes/suffixes
     },
 
     idle: {
