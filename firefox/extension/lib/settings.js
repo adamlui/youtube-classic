@@ -21,7 +21,14 @@ window.settings = {
         notifDisabled: { type: 'toggle', defaultVal: false, category: 'notifSettings' }
     },
 
+    initLabelHelptip() {
+        for (const [group, prefix] of Object.entries({ categories: 'menuLabel', controls: 'mode' }))
+            for (const [key, obj] of Object.entries(window.settings[group]))
+                Object.assign(obj, { label: i18n.getMsg(`${prefix}_${key}`), helptip: i18n.getMsg(`helptip_${key}`) })
+    },
+
     load(...keys) {
+        if (!this.labelHelptipSet) this.initLabelHelptip()
         keys.flat().forEach(key =>
             app.config[key] = processKey(key, GM_getValue(`${app.configKeyPrefix}_${key}`, undefined)))
         function processKey(key, val) {
@@ -42,7 +49,4 @@ window.settings = {
             && !reInvertSuffixes.test(this.controls[key]?.label || '') // but not in label msg key name
                 ? !app.config[key] : app.config[key] // so invert since flag reps opposite type state, else don't
     }
-}
-for (const [group, prefix] of Object.entries({ categories: 'menuLabel', controls: 'mode' }))
-    for (const [key, obj] of Object.entries(window.settings[group]))
-        Object.assign(obj, { label: i18n.getMsg(`${prefix}_${key}`), helptip: i18n.getMsg(`helptip_${key}`) });
+};
