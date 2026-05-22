@@ -7,7 +7,7 @@ import regexp from 'eslint-plugin-regexp'
 import stylisticJS from '@stylistic/eslint-plugin'
 
 export default [
-    { ignores: ['**/*cache*', '**/*.min.{js,mjs}', '**/package-lock.json'] },
+    { ignores: ['**/*cache*', '**/*.min.{js,mjs}', '**/package-lock.json', '**/return-youtube-dislike*.js'] },
     {
         files: ['**/*.{js,mjs}'],
         languageOptions: {
