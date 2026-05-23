@@ -22,6 +22,17 @@ window.sync = {
     },
 
     idle: {
+        configToUI() {
+            if (app.config.idlePrevention && !this.prevent.id) this.prevent()
+            else if (!app.config.idlePrevention && this.prevent.id) {
+                clearInterval(this.prevent.id) ; this.prevent.id = null
+                delete document.hidden
+                delete document.webkitHidden
+                delete document.visibilityState
+                delete document.webkitVisibilityState
+            }
+        },
+
         prevent() {
             Object.defineProperties(document, { // force page visibility
                 hidden: { configurable: true, value: false },
@@ -33,32 +44,21 @@ window.sync = {
                 document.dispatchEvent(new KeyboardEvent('keyup', {
                     bubbles: true, cancelable: true, keyCode: 143, which: 143 }))
             , 60000)
-        },
-
-        configToUI() {
-            if (app.config.idlePrevention && !this.prevent.id) this.prevent()
-            else if (!app.config.idlePrevention && this.prevent.id) {
-                clearInterval(this.prevent.id) ; this.prevent.id = null
-                delete document.hidden
-                delete document.webkitHidden
-                delete document.visibilityState
-                delete document.webkitVisibilityState
-            }
         }
     },
 
     shorts: {
-        redir() {
-            if (location.pathname.startsWith('/shorts/'))
-                return location.replace(`https://www.youtube.com/watch?v=${location.pathname.split('/')[2]}`)
-            window.sync.shorts.redir.id = requestAnimationFrame(window.sync.shorts.redir)
-        },
-
         configToUI() {
             if (app.config.disableShorts && !this.redir.id)
                 this.redir()
             else if (!app.config.disableShorts && this.redir.id) {
                 cancelAnimationFrame(this.redir.id) ; this.redir.id = null }
+        },
+
+        redir() {
+            if (location.pathname.startsWith('/shorts/'))
+                return location.replace(`https://www.youtube.com/watch?v=${location.pathname.split('/')[2]}`)
+            window.sync.shorts.redir.id = requestAnimationFrame(window.sync.shorts.redir)
         }
     }
 };
