@@ -6,11 +6,11 @@ window.sync = {
         else if (key == 'unroundCorners')
             styles.update({ key: 'unround' })
         else if (key == 'disableShorts')
-            this.shorts.toUI()
+            this.shorts.configToUI()
         else if (key.endsWith('Block'))
             styles.update({ key: 'block' })
         else if (key == 'idlePrevention')
-            this.idle.toUI()
+            this.idle.configToUI()
         gmToolbarMenu.refresh() // prefixes/suffixes
     },
 
@@ -35,7 +35,7 @@ window.sync = {
             , 60000)
         },
 
-        toUI() {
+        configToUI() {
             if (app.config.idlePrevention && !this.prevent.id) this.prevent()
             else if (!app.config.idlePrevention && this.prevent.id) {
                 clearInterval(this.prevent.id) ; this.prevent.id = null
@@ -54,7 +54,7 @@ window.sync = {
             window.sync.shorts.redir.id = requestAnimationFrame(window.sync.shorts.redir)
         },
 
-        toUI() {
+        configToUI() {
             if (app.config.disableShorts && !this.redir.id)
                 this.redir()
             else if (!app.config.disableShorts && this.redir.id) {
