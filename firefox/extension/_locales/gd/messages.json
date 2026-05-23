@@ -29,6 +29,8 @@
     "message": "Iiiiiiiiiiidddddddddddddddddddddddddddddddddddddddddddddddddjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
   },
   "mode_notifDisabled": { "message": "Notifications" },
+  "mode_notifBottom": { "message": "Anchor Notifications" },
+  "mode_toastMode": { "message": "Modh toast" },
   "helptip_restoreModes": { "message": "Thoir na h - eileamaidean cleachdaiche clasaigeach air ais" },
   "helptip_blockModes": { "message": "Cuir bacadh air eileamaidean neo - mhiannach an UI" },
   "helptip_perfModes": { "message": "Leasaich coileanadh a 'bhrobhsair" },
@@ -47,6 +49,8 @@
   "helptip_reduceAnimations": { "message": "Lùghdaich beòthachaidhean an UI" },
   "helptip_idlePrevention": { "message": "Cuir casg air taba bho bhith a 'tuiteam na chadal" },
   "helptip_notifDisabled": { "message": "Seall brathan nuair a thogras tu am modh/roghainnean" },
+  "helptip_notifBottom": { "message": "Ag acair brathan gu bonn na sgrìn" },
+  "helptip_toastMode": { "message": "Crùb/meadhan notifications into toast bubbles" },
   "alert_updateAvail": { "message": "Ùrachadh ri fhaighinn" },
   "alert_newerVer": { "message": "An update to" },
   "alert_isAvail": { "message": "tha e ri fhaotainn" },
