@@ -17,7 +17,10 @@ window.settings = {
         aiBlock: { type: 'toggle', defaultVal: true, category: 'blockModes' },
         reduceAnimations: { type: 'toggle',  defaultVal: true, category: 'perfModes' },
         idlePrevention: { type: 'toggle', defaultVal: true, category: 'perfModes' },
-        notifDisabled: { type: 'toggle', defaultVal: false, category: 'notifSettings' },
+        get notifDisabled() { return {
+            type: 'toggle', defaultVal: false, category: 'notifSettings',
+            label: `${settings.getMsg('menuLabel_show')} ${settings.getMsg('menuLabel_notifs')}`
+        }},
         notifBottom: { type: 'toggle', defaultVal: false, category: 'notifSettings' },
         toastMode: { type: 'toggle', defaultVal: false, category: 'notifSettings' }
     },
