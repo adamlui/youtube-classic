@@ -1,13 +1,5 @@
 window.sync = {
 
-    redir: {
-        shorts() {
-            if (location.pathname.startsWith('/shorts/'))
-                return location.replace(`https://www.youtube.com/watch?v=${location.pathname.split('/')[2]}`)
-            window.sync.redir.shorts.id = requestAnimationFrame(window.sync.redir.shorts)
-        }
-    },
-
     configToUI({ key } = {}) {
         if (key == 'restoreDislikes')
             styles.update({ key: 'dislikes' })
@@ -58,6 +50,14 @@ window.sync = {
                 delete document.visibilityState
                 delete document.webkitVisibilityState
             }
+        }
+    },
+
+    redir: {
+        shorts() {
+            if (location.pathname.startsWith('/shorts/'))
+                return location.replace(`https://www.youtube.com/watch?v=${location.pathname.split('/')[2]}`)
+            window.sync.redir.shorts.id = requestAnimationFrame(window.sync.redir.shorts)
         }
     }
 };
