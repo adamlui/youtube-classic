@@ -22,10 +22,17 @@ window.settings = {
         toastMode: { type: 'toggle', defaultVal: false, category: 'notifSettings' }
     },
 
+    getMsg(key) {
+        this.msgKeys ??= new Map() // to cache keys for this.isEnabled() inversion logic
+        const msg = typeof GM_info != 'undefined' ? app.msgs[key] : i18n.getMsg(key)
+        this.msgKeys.set(msg, key)
+        return msg
+    },
+
     initLabelHelptip() {
         for (const [group, prefix] of Object.entries({ categories: 'menuLabel', controls: 'mode' }))
             for (const [key, obj] of Object.entries(window.settings[group]))
-                Object.assign(obj, { label: i18n.getMsg(`${prefix}_${key}`), helptip: i18n.getMsg(`helptip_${key}`) })
+                Object.assign(obj, { label: this.getMsg(`${prefix}_${key}`), helptip: this.getMsg(`helptip_${key}`) })
         this.initLabelHelptip.hasRun = true
     },
 
