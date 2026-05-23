@@ -17,7 +17,9 @@ window.settings = {
         aiBlock: { type: 'toggle', defaultVal: true, category: 'blockModes' },
         reduceAnimations: { type: 'toggle',  defaultVal: true, category: 'perfModes' },
         idlePrevention: { type: 'toggle', defaultVal: true, category: 'perfModes' },
-        notifDisabled: { type: 'toggle', defaultVal: false, category: 'notifSettings' }
+        notifDisabled: { type: 'toggle', defaultVal: false, category: 'notifSettings' },
+        notifBottom: { type: 'toggle', defaultVal: false, category: 'notifSettings' },
+        toastMode: { type: 'toggle', defaultVal: false, category: 'notifSettings' }
     },
 
     initLabelHelptip() {
@@ -32,7 +34,8 @@ window.settings = {
         keys = keys.flat() // flatten array args nested by spread operator
         if (!this.initLabelHelptip.hasRun) this.initLabelHelptip()
         if (typeof GM_info != 'undefined') // synchronously load from userscript manager storage
-            keys.forEach(key => app.config[key] = processKey(key, GM_getValue(`${app.configKeyPrefix}_${key}`, undefined)))
+            keys.forEach(key =>
+                app.config[key] = processKey(key, GM_getValue(`${app.configKeyPrefix}_${key}`, undefined)))
         else // asynchronously load from browser extension storage
             return Promise.all(keys.map(async key =>
                 app.config[key] = processKey(key, (await browserAPI.storage.local.get(key))[key])))

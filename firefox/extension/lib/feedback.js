@@ -490,8 +490,10 @@ window.feedback = {
         if (foundState) msg = msg.replace(foundState, '')
 
         // Show notification
-        this.cjsNotify(`${app.symbol} ${msg}`, pos, notifDuration, shadow || ui.getScheme() == 'dark' ? '' : 'shadow')
+        this.cjsNotify(`${app.symbol} ${msg}`, pos ||( app.config.notifBottom ? 'bottom' : '' ),
+            notifDuration, shadow || ui.getScheme())
         const notif = document.querySelector('.chatgpt-notif:last-child')
+        notif.classList.add(app.slug) // for styles.toast
 
         // Tweak styles
         notif.style.fontSize = '385%'

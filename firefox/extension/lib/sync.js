@@ -11,6 +11,8 @@ window.sync = {
             styles.update({ key: 'block' })
         else if (key == 'idlePrevention')
             this.idle.configToUI()
+        else if (/notifBottom|toastMode/.test(key))
+            styles.update({ key: 'toast' })
         gmToolbarMenu.refresh() // prefixes/suffixes
     },
 
