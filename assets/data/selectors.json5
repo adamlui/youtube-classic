@@ -22,5 +22,8 @@
         "results": "grid-shelf-view-model:has(a[href*=\"/shorts/\"])" // https://imgur.com/a/vVzoEfH
       }
     }
+  },
+  "yt": {
+    "masthead": "ytd-masthead"
   }
 }
