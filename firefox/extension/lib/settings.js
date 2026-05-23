@@ -30,6 +30,7 @@ window.settings = {
     load(...keys) {
         app.config ??= {}
         keys = keys.flat() // flatten array args nested by spread operator
+        if (!this.initLabelHelptip.hasRun) this.initLabelHelptip()
         if (typeof GM_info != 'undefined') // synchronously load from userscript manager storage
             keys.forEach(key => app.config[key] = processKey(key, GM_getValue(`${app.configKeyPrefix}_${key}`, undefined)))
         else // asynchronously load from browser extension storage
