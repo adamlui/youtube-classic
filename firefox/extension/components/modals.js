@@ -82,14 +82,13 @@ window.modals = { // requires lib/<chatgpt|css|dom>.js + <app|env>
     alert(title = '', msg = '', btns = '', checkbox = '', width = '') { // generic one from feedback.cjsAlert()
         const alertID = feedback.cjsAlert(title, msg, btns, checkbox, width),
               alert = document.getElementById(alertID).firstChild
-        this.init(alert) // add classes + rising particles bg
+        this.init(alert) // add classes
         return alert
     },
 
     init(modal) { // requires lib/<css|dom>.js
         this.stylize()
         modal.classList.add(this.class) ; modal.parentNode.classList.add(`${this.class}-bg`)
-        css.addRisingParticles(modal)
     },
 
     observeRemoval(modal, modalType, modalSubType) { // to maintain stack for proper nav
@@ -113,7 +112,7 @@ window.modals = { // requires lib/<chatgpt|css|dom>.js + <app|env>
         const modal = modalSubType ? this[modalType][modalSubType]() : this[modalType]() // show modal
         if (!modal) return // since no div returned
         this.stack.unshift(modalSubType ? `${modalType}_${modalSubType}` : modalType) // add to stack
-        this.init(modal) // add classes + rising particles bg
+        this.init(modal) // add classes
         this.observeRemoval(modal, modalType, modalSubType) // to maintain stack for proper nav
     },
 
