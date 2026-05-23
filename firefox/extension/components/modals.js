@@ -157,6 +157,8 @@ window.modals = { // requires lib/<chatgpt|css|dom>.js + <app|env>
                 border: 1px solid ${ scheme == 'dark' ? 'white' : 'black' } !important ;
                 padding: 8px !important ; min-width: 102px /* resize */
             }
+            .${this.class} button:not(.primary-modal-btn) {
+                color: ${ scheme == 'dark' ? 'white' : 'black' } !important }
             .${this.class} button:not([class*=primary]) { background: none }
             .${this.class} button:hover {
                 ${ scheme == 'light' ? // reduce intensity of light scheme hover glow
