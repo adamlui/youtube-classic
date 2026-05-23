@@ -28,9 +28,13 @@ window.settings = {
     },
 
     load(...keys) {
-        if (!this.initLabelHelptip.hasRun) this.initLabelHelptip()
-        keys.flat().forEach(key =>
-            app.config[key] = processKey(key, GM_getValue(`${app.configKeyPrefix}_${key}`, undefined)))
+        app.config ??= {}
+        keys = keys.flat() // flatten array args nested by spread operator
+        if (typeof GM_info != 'undefined') // synchronously load from userscript manager storage
+            keys.forEach(key => app.config[key] = processKey(key, GM_getValue(`${app.configKeyPrefix}_${key}`, undefined)))
+        else // asynchronously load from browser extension storage
+            return Promise.all(keys.map(async key =>
+                app.config[key] = processKey(key, (await browserAPI.storage.local.get(key))[key])))
         function processKey(key, val) {
             const ctrl = settings.controls?.[key]
             if (val != undefined && ( // validate stored val
@@ -41,12 +45,20 @@ window.settings = {
         }
     },
 
-    save(key, val) { GM_setValue(`${app.configKeyPrefix}_${key}`, val) ; app.config[key] = val },
+    save(key, val) {
+        app.config ??= {}
+        if (typeof GM_info != 'undefined') // save to userscript manager storage
+            GM_setValue(`${app.configKeyPrefix}_${key}`, val)
+        else // save to browser extension storage
+            browserAPI.storage.local.set({ [key]: val })
+        app.config[key] = val // save to memory
+    },
 
-    typeIsEnabled(key) { // for menu labels + notifs to return ON/OFF
-        const reInvertSuffixes = /disabled|hidden/i
-        return reInvertSuffixes.test(key) // flag in control key name
-            && !reInvertSuffixes.test(this.controls[key]?.label || '') // but not in label msg key name
+    typeIsEnabled(key) { // for menu labels + notifs to return ON/OFF for type w/o suffix
+        app.config ??= {}
+        const reInvertFlags = /disabled|hidden/i
+        return reInvertFlags.test(key) // flag in control key name
+            && !reInvertFlags.test(this.msgKeys.get(this.controls[key]?.label) || '') // but not in label msg key name
                 ? !app.config[key] : app.config[key] // so invert since flag reps opposite type state, else don't
     }
 };
