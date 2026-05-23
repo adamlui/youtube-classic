@@ -7,10 +7,22 @@
   "homepage": "https://www.ytclassic.com",
   "license": "MIT",
   "funding": [
-    { "type": "cashapp", "url": "https://cash.app/$AdamLui" },
-    { "type": "github", "url": "http://github.com/sponsors/adamlui" },
-    { "type": "ko-fi", "url": "https://ko-fi.com/adamlui" },
-    { "type": "paypal", "url": "https://paypal.me/adamlui" }
+    {
+      "type": "cashapp",
+      "url": "https://cash.app/$AdamLui"
+    },
+    {
+      "type": "github",
+      "url": "http://github.com/sponsors/adamlui"
+    },
+    {
+      "type": "ko-fi",
+      "url": "https://ko-fi.com/adamlui"
+    },
+    {
+      "type": "paypal",
+      "url": "https://paypal.me/adamlui"
+    }
   ],
   "scripts": {
     "prepare": "husky",
@@ -18,7 +30,8 @@
     "lint:all": "eslint .",
     "lint:fix": "eslint . --fix --cache",
     "lint:fix-all": "eslint . --fix",
-    "translate": "translate-messages"
+    "translate": "translate-messages",
+    "bump:res": "node utils/bump/resources --cache"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
@@ -29,6 +42,7 @@
     "eslint-plugin-import-x": "^4.16.2",
     "eslint-plugin-regexp": "^3.1.0",
     "globals": "^17.6.0",
-    "husky": "^9.1.7"
+    "husky": "^9.1.7",
+    "ssri": "^14.0.0"
   }
 }
