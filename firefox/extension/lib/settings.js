@@ -67,7 +67,7 @@ window.settings = {
 
     typeIsEnabled(key) { // for menu labels + notifs to return ON/OFF for type w/o suffix
         app.config ??= {}
-        const reInvertFlags = /disabled|hidden/i
+        const reInvertFlags = /disable|hidden/i
         return reInvertFlags.test(key) // flag in control key name
             && !reInvertFlags.test(this.msgKeys.get(this.controls[key]?.label) || '') // but not in label msg key name
                 ? !app.config[key] : app.config[key] // so invert since flag reps opposite type state, else don't
