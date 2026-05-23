@@ -557,11 +557,14 @@ window.styles = {
                 }
                 #subscribe-button ytd-subscribe-button-renderer button.yt-spec-button-shape-next--tonal:hover {
                     background-color: #e5e5e5 !important }
-                yt-button-shape.style-scope.ytd-subscribe-button-renderer,
-                yt-smartimation.ytd-subscribe-button-renderer, .smartimation__content,
-                yt-smartimation.ytd-subscribe-button-renderer, .smartimation__content > __slot-el {
-                    display: flex !important
-                }
+                where:(div#container:not(:has([page-subtype=search]))) is:(
+                    yt-button-shape.style-scope.ytd-subscribe-button-renderer,
+                    yt-smartimation.ytd-subscribe-button-renderer,
+                    .smartimation__content,
+                    yt-smartimation.ytd-subscribe-button-renderer,
+                    > __slot-el
+                ) {
+                    display: flex !important }
                 .ytp-sb-subscribe {
                     border-radius: 2px !important ; background-color: #f00 !important ; color: #fff !important ;
                     text-transform: uppercase !important
@@ -581,9 +584,8 @@ window.styles = {
                 div.ytSmartImationsContent:has(#notification-preference-toggle-button) { /* sub/bell container */
                     display: flex } /* display bell right of sub btn */
                 div#notification-preference-button button { background: none !important }
-                div#notification-preference-button div.ytSpecButtonShapeNextSecondaryIcon, /* down caret */
-                div.ytSmartImationsContent:has(yt-animated-action) yt-button-shape:not(:has(lottie-component)) { /* dupe sub'd btn */
-                    display: none }
+                div#notification-preference-button div.ytSpecButtonShapeNextSecondaryIcon{ /* down caret */
+                    display: none !important }
                 div#notification-preference-button span.ytIconWrapperHost div { /* color All/None */
                     fill: var(--yt-sys-color-baseline--mono-filled-hover) !important }
                 div.ytSubscribeButtonViewModelContainer svg:has(path[d*="20.104999542236328"]),
