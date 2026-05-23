@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Blok Modları" },
   "menuLabel_perfModes": { "message": "Performans Modları" },
   "menuLabel_notifSettings": { "message": "Bildirim Ayarları" },
+  "menuLabel_show": { "message": "Göster" },
+  "menuLabel_notifs": { "message": "Bildirimler" },
   "about_author": { "message": "Yazar" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "katkıda bulunanlar" },

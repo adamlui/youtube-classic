@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Modhan bacaidh" },
   "menuLabel_perfModes": { "message": "Modhan coileanaidh" },
   "menuLabel_notifSettings": { "message": "Roghainnean nam brathan" },
+  "menuLabel_show": { "message": "Seall" },
+  "menuLabel_notifs": { "message": "Notifications" },
   "about_author": { "message": "Author" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "luchd - tabhartais" },

@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "ម៉ូដប្លុក" },
   "menuLabel_perfModes": { "message": "ម៉ូដនៃការអនុវត្តការងារ" },
   "menuLabel_notifSettings": { "message": "ការកំណត់ការជូនដំណឹង" },
+  "menuLabel_show": { "message": "បង្ហាញ" },
+  "menuLabel_notifs": { "message": "ការជូនដំណឹង" },
   "about_author": { "message": "អ្នកនិពន្ធ" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "អ្នករួមចំណែក" },

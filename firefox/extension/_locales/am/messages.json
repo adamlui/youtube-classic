@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "ሁነቶችን አግድ" },
   "menuLabel_perfModes": { "message": "የአፈጻጸም ሁነታዎች" },
   "menuLabel_notifSettings": { "message": "የማሳወቂያ ቅንብሮች" },
+  "menuLabel_show": { "message": "አሳይ" },
+  "menuLabel_notifs": { "message": "ማሳወቂያዎች" },
   "about_author": { "message": "ደራሲ" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "አስተዋፅዖ አድራጊዎች" },

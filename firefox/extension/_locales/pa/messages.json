@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "ਬਲਾਕ ਮੋਡ" },
   "menuLabel_perfModes": { "message": "ਕਾਰਗੁਜ਼ਾਰੀ ਢੰਗ" },
   "menuLabel_notifSettings": { "message": "ਨੋਟੀਫਿਕੇਸ਼ਨ ਸੈਟਿੰਗ" },
+  "menuLabel_show": { "message": "ਵੇਖਾਓ" },
+  "menuLabel_notifs": { "message": "ਨੋਟੀਫਿਕੇਸ਼ਨ" },
   "about_author": { "message": "ਲੇਖਕ" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "ਯੋਗਦਾਨੀ" },

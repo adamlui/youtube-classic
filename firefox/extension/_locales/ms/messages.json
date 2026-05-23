@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Mod-mod Sekat" },
   "menuLabel_perfModes": { "message": "Mod Prestasi" },
   "menuLabel_notifSettings": { "message": "Tetapan Pemberitahuan" },
+  "menuLabel_show": { "message": "Tunjukkan" },
+  "menuLabel_notifs": { "message": "Pemberitahuan" },
   "about_author": { "message": "Pengarang" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "penyumbang" },

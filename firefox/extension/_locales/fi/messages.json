@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Lohkotilat" },
   "menuLabel_perfModes": { "message": "Suorituskykytilat" },
   "menuLabel_notifSettings": { "message": "Ilmoitusasetukset" },
+  "menuLabel_show": { "message": "Näytä" },
+  "menuLabel_notifs": { "message": "Ilmoitukset" },
   "about_author": { "message": "Kirjoittaja" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "avustajat" },

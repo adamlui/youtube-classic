@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Hababka Xannibaadda" },
   "menuLabel_perfModes": { "message": "Qaababka Waxqabadka" },
   "menuLabel_notifSettings": { "message": "Dejinta Ogeysiinta" },
+  "menuLabel_show": { "message": "Muuji" },
+  "menuLabel_notifs": { "message": "Ogeysiisyada" },
   "about_author": { "message": "Author" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "deeq-bixiyeyaasha" },

@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Blocklägen" },
   "menuLabel_perfModes": { "message": "Prestandalägen" },
   "menuLabel_notifSettings": { "message": "Meddelandeinställningar" },
+  "menuLabel_show": { "message": "Visa" },
+  "menuLabel_notifs": { "message": "Aviseringar" },
   "about_author": { "message": "Författare" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "bidragsgivare" },

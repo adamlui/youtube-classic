@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "ব্লক মোড" },
   "menuLabel_perfModes": { "message": "পারফরম্যান্স মোড" },
   "menuLabel_notifSettings": { "message": "বিজ্ঞপ্তি সেটিংস" },
+  "menuLabel_show": { "message": "দেখান" },
+  "menuLabel_notifs": { "message": "বিজ্ঞপ্তি" },
   "about_author": { "message": "লেখক" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "অবদানকারী" },

@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Ngā Tauira Whakakorea" },
   "menuLabel_perfModes": { "message": "Ngā aratau mahi" },
   "menuLabel_notifSettings": { "message": "Ngā Tautuhinga Whakapā Mai" },
+  "menuLabel_show": { "message": "Whakaaturanga" },
+  "menuLabel_notifs": { "message": "Ngā kōrero" },
   "about_author": { "message": "Kaituhi" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "ngā kaihauturu" },

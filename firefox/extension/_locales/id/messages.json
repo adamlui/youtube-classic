@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Mode Blokir" },
   "menuLabel_perfModes": { "message": "Mode Performa" },
   "menuLabel_notifSettings": { "message": "Pengaturan Pemberitahuan" },
+  "menuLabel_show": { "message": "Tampilkan" },
+  "menuLabel_notifs": { "message": "Notifikasi" },
   "about_author": { "message": "Penulis" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "kontributor" },

@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Блок режимдери" },
   "menuLabel_perfModes": { "message": "Performance режимдери" },
   "menuLabel_notifSettings": { "message": "Эскертүү жөндөөлөрү" },
+  "menuLabel_show": { "message": "Көрсөтүү" },
+  "menuLabel_notifs": { "message": "Билдирүүлөр" },
   "about_author": { "message": "Автор" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "салымчылар" },

@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Snifel isenfaren" },
   "menuLabel_perfModes": { "message": "Iɣewwaṛen n usnulfu" },
   "menuLabel_notifSettings": { "message": "Iγewwaṛen n yiγewwaṛen" },
+  "menuLabel_show": { "message": "Sken" },
+  "menuLabel_notifs": { "message": "Isallen" },
   "about_author": { "message": "Amedyaz" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "imusnawen" },

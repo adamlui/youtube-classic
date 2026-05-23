@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Bloklash rejimlari" },
   "menuLabel_perfModes": { "message": "Ishlash rejimlari" },
   "menuLabel_notifSettings": { "message": "Bildirishnoma sozlamalari" },
+  "menuLabel_show": { "message": "Shou" },
+  "menuLabel_notifs": { "message": "Bildirishnomalar" },
   "about_author": { "message": "Muallif" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "hissa qo'shuvchilar" },

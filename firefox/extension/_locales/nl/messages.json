@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Blokmodi" },
   "menuLabel_perfModes": { "message": "Prestatiemodi" },
   "menuLabel_notifSettings": { "message": "Meldingsinstellingen" },
+  "menuLabel_show": { "message": "Weergeven" },
+  "menuLabel_notifs": { "message": "Meldingen" },
   "about_author": { "message": "Auteur" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "bijdragers" },

@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Bloker tilstande" },
   "menuLabel_perfModes": { "message": "Ydelsestilstande" },
   "menuLabel_notifSettings": { "message": "Notifikationsindstillinger" },
+  "menuLabel_show": { "message": "Vis" },
+  "menuLabel_notifs": { "message": "Notifikationer" },
   "about_author": { "message": "Forfatter" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "bidragydere" },

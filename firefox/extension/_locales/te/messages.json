@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "బ్లాక్ మోడ్ ‌ లు" },
   "menuLabel_perfModes": { "message": "పనితీరు మోడ్ ‌ లు" },
   "menuLabel_notifSettings": { "message": "నోటిఫికేషన్ సెట్టింగ్ ‌ లు" },
+  "menuLabel_show": { "message": "చూపించు" },
+  "menuLabel_notifs": { "message": "నోటిఫికేషన్ ‌ లు" },
   "about_author": { "message": "రచయిత" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "కంట్రిబ్యూటర్ ‌ లు" },

@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Faʻataʻitaʻiga poloka" },
   "menuLabel_perfModes": { "message": "Faʻataʻitaʻiga o le faʻatinoga" },
   "menuLabel_notifSettings": { "message": "Faasilasilaga o Faasilasilaga" },
+  "menuLabel_show": { "message": "Faaali atu" },
+  "menuLabel_notifs": { "message": "Faasilasilaga" },
   "about_author": { "message": "Tusitala" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "saofaga" },

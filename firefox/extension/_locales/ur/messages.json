@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "بلاک موڈز" },
   "menuLabel_perfModes": { "message": "کارکردگی کے طریقے" },
   "menuLabel_notifSettings": { "message": "اطلاع کی ترتیبات" },
+  "menuLabel_show": { "message": "دکھائیں" },
+  "menuLabel_notifs": { "message": "نوٹیفکیشنز" },
   "about_author": { "message": "مصنف" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "تعاون کنندگان" },

@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "སྦྲེལ་མཐུད" },
   "menuLabel_perfModes": { "message": "སྤྱོད་འཇུག་རྣམ་གཞག" },
   "menuLabel_notifSettings": { "message": "བརྡ་སྤྲོད་སྒྲིག་བཀོད །" },
+  "menuLabel_show": { "message": "སྟོན་པ" },
+  "menuLabel_notifs": { "message": "གསལ་བསྒྲགས །" },
   "about_author": { "message": "རྩོམ་པ་པོ །" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "གྲོགས་རམ །" },

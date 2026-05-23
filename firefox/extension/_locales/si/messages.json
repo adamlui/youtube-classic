@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "වාරණ ක් ‍ රම" },
   "menuLabel_perfModes": { "message": "කාර්ය සාධන මාතයන්" },
   "menuLabel_notifSettings": { "message": "දැනුම්දීම් සැකසුම්" },
+  "menuLabel_show": { "message": "පෙන්වන්න" },
+  "menuLabel_notifs": { "message": "දැනුම්දීම්" },
   "about_author": { "message": "කර්තෘ" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "දායකයින්" },

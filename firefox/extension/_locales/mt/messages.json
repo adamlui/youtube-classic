@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Modalitajiet tal-Imblukkar" },
   "menuLabel_perfModes": { "message": "Modalitajiet ta' Prestazzjoni" },
   "menuLabel_notifSettings": { "message": "Settings tan-Notifika" },
+  "menuLabel_show": { "message": "Uri" },
+  "menuLabel_notifs": { "message": "Notifiki" },
   "about_author": { "message": "Awtur" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "kontributuri" },

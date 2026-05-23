@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Tryby blokowania" },
   "menuLabel_perfModes": { "message": "Tryby wydajności" },
   "menuLabel_notifSettings": { "message": "Ustawienia powiadomień" },
+  "menuLabel_show": { "message": "Pokaż" },
+  "menuLabel_notifs": { "message": "Powiadomienia" },
   "about_author": { "message": "Autor" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "współautorzy" },

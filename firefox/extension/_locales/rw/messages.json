@@ -7,6 +7,8 @@
   "menuLabel_blockModes": { "message": "< B B" },
   "menuLabel_perfModes": { "message": "< Uburemere UTSINDAGIYE" },
   "menuLabel_notifSettings": { "message": "< Uburemere UTSINDAGIY" },
+  "menuLabel_show": { "message": "Garagaza" },
+  "menuLabel_notifs": { "message": "< B B" },
   "about_author": { "message": "Umwanditsi" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "abaterankunga" },

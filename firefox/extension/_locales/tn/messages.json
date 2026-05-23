@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Mefuta ya Block" },
   "menuLabel_perfModes": { "message": "Mofuta wa Tiro" },
   "menuLabel_notifSettings": { "message": "Diseting tsa Kitsiso" },
+  "menuLabel_show": { "message": "SHOW" },
+  "menuLabel_notifs": { "message": "Dikitsiso" },
   "about_author": { "message": "Mokwadi" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "bakgatlhegedi" },

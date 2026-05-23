@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Chế độ chặn" },
   "menuLabel_perfModes": { "message": "Chế độ hiệu suất" },
   "menuLabel_notifSettings": { "message": "Cài đặt thông báo" },
+  "menuLabel_show": { "message": "Hiển thị" },
+  "menuLabel_notifs": { "message": "Thông báo" },
   "about_author": { "message": "Tác giả" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "người đóng góp" },

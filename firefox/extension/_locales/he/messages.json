@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "מצבי חסימה" },
   "menuLabel_perfModes": { "message": "מצבי ביצועים" },
   "menuLabel_notifSettings": { "message": "הגדרות התראות" },
+  "menuLabel_show": { "message": "הצגה" },
+  "menuLabel_notifs": { "message": "התראות" },
   "about_author": { "message": "מחבר" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "תורמים" },

@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Blokreĝimoj" },
   "menuLabel_perfModes": { "message": "Spektakloreĝimoj" },
   "menuLabel_notifSettings": { "message": "Atentiga agordo" },
+  "menuLabel_show": { "message": "Montri" },
+  "menuLabel_notifs": { "message": "Atentigoj" },
   "about_author": { "message": "Aŭtoro" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "kontribuantoj" },

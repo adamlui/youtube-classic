@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Iindlela Zokuthintela" },
   "menuLabel_perfModes": { "message": "Iindlela Zendlela Oqhuba Ngayo" },
   "menuLabel_notifSettings": { "message": "Iisetingi Zemiyalezo" },
+  "menuLabel_show": { "message": "Bonisa" },
+  "menuLabel_notifs": { "message": "Imiyalezo" },
   "about_author": { "message": "Umbhali" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "abantu abanikelayo" },

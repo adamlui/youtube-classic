@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Fomba fanakanana" },
   "menuLabel_perfModes": { "message": "Fomba fiasa" },
   "menuLabel_notifSettings": { "message": "Fandrindrana ny fampahafantarana" },
+  "menuLabel_show": { "message": "Asehoy" },
+  "menuLabel_notifs": { "message": "Fampahafantarana" },
   "about_author": { "message": "Laza momba ny mpamorona" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "mpandray anjara" },

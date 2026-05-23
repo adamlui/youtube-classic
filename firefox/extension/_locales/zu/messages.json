@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Vimba Amamodi" },
   "menuLabel_perfModes": { "message": "Izindlela Zokusebenza" },
   "menuLabel_notifSettings": { "message": "Amasethingi Ezaziso" },
+  "menuLabel_show": { "message": "Bonisa" },
+  "menuLabel_notifs": { "message": "Izaziso" },
   "about_author": { "message": "Umbhali" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "abanikeli" },

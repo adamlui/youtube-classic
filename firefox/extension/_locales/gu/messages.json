@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "બ્લોક મોડ્સ" },
   "menuLabel_perfModes": { "message": "પર્ફોર્મન્સ મોડ્સ" },
   "menuLabel_notifSettings": { "message": "નોટિફિકેશન સેટિંગ્સ" },
+  "menuLabel_show": { "message": "બતાવો" },
+  "menuLabel_notifs": { "message": "સૂચનાઓ" },
   "about_author": { "message": "લેખક" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "ફાળો આપનારાઓ" },

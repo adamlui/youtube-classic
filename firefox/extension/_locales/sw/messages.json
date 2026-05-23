@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Modi za Zuia" },
   "menuLabel_perfModes": { "message": "Modi za Utendaji" },
   "menuLabel_notifSettings": { "message": "Mipangilio ya Arifa" },
+  "menuLabel_show": { "message": "Onyesha" },
+  "menuLabel_notifs": { "message": "Arifa" },
   "about_author": { "message": "Mwandishi" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "wachangiaji" },

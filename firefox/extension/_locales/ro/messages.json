@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Moduri de blocare" },
   "menuLabel_perfModes": { "message": "Moduri de performanță" },
   "menuLabel_notifSettings": { "message": "Setări de notificare" },
+  "menuLabel_show": { "message": "Afișează" },
+  "menuLabel_notifs": { "message": "Notificări" },
   "about_author": { "message": "Autor" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "contribuabili" },

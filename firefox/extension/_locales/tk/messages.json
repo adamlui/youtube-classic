@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Blok Mody" },
   "menuLabel_perfModes": { "message": "Performans Mody" },
   "menuLabel_notifSettings": { "message": "Saýlama Saýlamalary" },
+  "menuLabel_show": { "message": "Göster" },
+  "menuLabel_notifs": { "message": "Haýdalylar" },
   "about_author": { "message": "Ýazgyçy" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "öwrenýänler" },

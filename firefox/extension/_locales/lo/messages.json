@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "ໂໝດບລັອກ" },
   "menuLabel_perfModes": { "message": "ໂໝດການປະຕິບັດງານ" },
   "menuLabel_notifSettings": { "message": "ການຕັ້ງຄ່າການແຈ້ງເຕືອນ" },
+  "menuLabel_show": { "message": "ສະແດງ" },
+  "menuLabel_notifs": { "message": "ການແຈ້ງເຕືອນ" },
   "about_author": { "message": "ຜູ້ຂຽນ" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "ຜູ້ປະກອບສ່ວນ" },

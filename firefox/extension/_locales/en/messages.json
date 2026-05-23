@@ -7,6 +7,8 @@
   "menuLabel_blockModes": { "message": "Block Modes" },
   "menuLabel_perfModes": { "message": "Performance Modes" },
   "menuLabel_notifSettings": { "message": "Notification Settings" },
+  "menuLabel_show": { "message": "Show" },
+  "menuLabel_notifs": { "message": "Notifications" },
   "about_author": { "message": "Author" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "contributors" },

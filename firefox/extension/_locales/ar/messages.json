@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "أوضاع الكتلة" },
   "menuLabel_perfModes": { "message": "أوضاع الأداء" },
   "menuLabel_notifSettings": { "message": "إعدادات الإشعارات" },
+  "menuLabel_show": { "message": "عرض" },
+  "menuLabel_notifs": { "message": "الإشعارات" },
   "about_author": { "message": "المؤلف" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "المساهمون" },

@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Modên Blokê" },
   "menuLabel_perfModes": { "message": "Modên Performansê" },
   "menuLabel_notifSettings": { "message": "Mîhengên Agahdariyê" },
+  "menuLabel_show": { "message": "Rêdan" },
+  "menuLabel_notifs": { "message": "Agahdarî" },
   "about_author": { "message": "Nivîskar" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "beşdaran" },

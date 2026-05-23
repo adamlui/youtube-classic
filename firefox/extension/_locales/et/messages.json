@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Blokeerimisrežiimid" },
   "menuLabel_perfModes": { "message": "Jõudlusrežiimid" },
   "menuLabel_notifSettings": { "message": "Teavituse seaded" },
+  "menuLabel_show": { "message": "Kuva" },
+  "menuLabel_notifs": { "message": "Teated" },
   "about_author": { "message": "Autor" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "kaastöötajad" },

@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "בלאָק מאָדעס" },
   "menuLabel_perfModes": { "message": "פאָרשטעלונג מאָדעס" },
   "menuLabel_notifSettings": { "message": "מעלדונג סעטטינגס" },
+  "menuLabel_show": { "message": "ווייַזן" },
+  "menuLabel_notifs": { "message": "נאָטיפיקאַציעס" },
   "about_author": { "message": "מחבר" },
   "about_and": { "message": "און" },
   "about_contributors": { "message": "ביישטייערער" },

@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Режими на блокирање" },
   "menuLabel_perfModes": { "message": "Режими на изведба" },
   "menuLabel_notifSettings": { "message": "Подесувања за известувања" },
+  "menuLabel_show": { "message": "Прикажи" },
+  "menuLabel_notifs": { "message": "Известувања" },
   "about_author": { "message": "Автор" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "соработници" },

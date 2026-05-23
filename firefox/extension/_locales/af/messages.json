@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Blok Modusse" },
   "menuLabel_perfModes": { "message": "Prestasie Modusse" },
   "menuLabel_notifSettings": { "message": "Kennisgewing Instellings" },
+  "menuLabel_show": { "message": "Vertoon" },
+  "menuLabel_notifs": { "message": "Kennisgewings" },
   "about_author": { "message": "Outeur" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "bydraers" },

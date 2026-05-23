@@ -7,6 +7,8 @@
   "menuLabel_blockModes": { "message": "블록 모드" },
   "menuLabel_perfModes": { "message": "성능 모드" },
   "menuLabel_notifSettings": { "message": "알림 설정" },
+  "menuLabel_show": { "message": "표시" },
+  "menuLabel_notifs": { "message": "알림" },
   "about_author": { "message": "작성자" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "기여자" },

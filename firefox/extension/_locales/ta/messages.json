@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "தடுப்பு முறைகள்" },
   "menuLabel_perfModes": { "message": "செயல்திறன் முறைகள்" },
   "menuLabel_notifSettings": { "message": "அறிவிப்பு அமைப்புகள்" },
+  "menuLabel_show": { "message": "காட்டு" },
+  "menuLabel_notifs": { "message": "அறிவிப்புகள்" },
   "about_author": { "message": "ஆசிரியர்" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "பங்களிப்பாளர்கள்" },

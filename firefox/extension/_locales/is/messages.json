@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Loka á stillingar" },
   "menuLabel_perfModes": { "message": "Frammistöðuhamir" },
   "menuLabel_notifSettings": { "message": "Tilkynningarstillingar" },
+  "menuLabel_show": { "message": "Sýna" },
+  "menuLabel_notifs": { "message": "Tilkynningar" },
   "about_author": { "message": "Höfundur" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "meðhöfundar" },

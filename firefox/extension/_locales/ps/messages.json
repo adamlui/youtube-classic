@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "موډونه بلاک کړه" },
   "menuLabel_perfModes": { "message": "د فعالیت حالتونه" },
   "menuLabel_notifSettings": { "message": "د خبرتیا تنظیمات" },
+  "menuLabel_show": { "message": "ښودل" },
+  "menuLabel_notifs": { "message": "خبرتیاوې" },
   "about_author": { "message": "ليکوال:" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "ګډونوالان" },

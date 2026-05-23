@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "حالت‌های بلوکی" },
   "menuLabel_perfModes": { "message": "حالت‌های عملکرد" },
   "menuLabel_notifSettings": { "message": "تنظیمات اعلان" },
+  "menuLabel_show": { "message": "نمایش" },
+  "menuLabel_notifs": { "message": "اعلان‌ها" },
   "about_author": { "message": "نویسنده" },
   "about_and": { "message": "و" },
   "about_contributors": { "message": "مشارکت‌کنندگان" },

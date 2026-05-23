@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "ኣገባባት ዕጽዋ" },
   "menuLabel_perfModes": { "message": "ኣገባባት ኣፈፃፅማ" },
   "menuLabel_notifSettings": { "message": "ኣቀማምጣታት ኣፍልጦ" },
+  "menuLabel_show": { "message": "ኣርኢ" },
+  "menuLabel_notifs": { "message": "ኣፍልጦታት" },
   "about_author": { "message": "ደራሲ" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "ኣበርክቶ ዝገበሩ" },

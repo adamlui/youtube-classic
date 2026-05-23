@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "A yeke na lege ti lege ti lege" },
   "menuLabel_perfModes": { "message": "Lege ti sarango ye" },
   "menuLabel_notifSettings": { "message": "A yeke wara lege ti tene a fa tënë na ndo ti aye so ayeke na" },
+  "menuLabel_show": { "message": "Yekpare show" },
+  "menuLabel_notifs": { "message": "A yeke wara tënë ti fango tënë" },
   "about_author": { "message": "Author sara" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "azo so amû mbage ti ala" },

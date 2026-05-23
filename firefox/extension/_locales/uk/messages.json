@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Режими блокування" },
   "menuLabel_perfModes": { "message": "Режими продуктивності" },
   "menuLabel_notifSettings": { "message": "Налаштування сповіщень" },
+  "menuLabel_show": { "message": "Показати" },
+  "menuLabel_notifs": { "message": "Сповіщення" },
   "about_author": { "message": "Автор" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "співавтори" },

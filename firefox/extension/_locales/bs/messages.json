@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Režimi blokiranja" },
   "menuLabel_perfModes": { "message": "Režimi performansi" },
   "menuLabel_notifSettings": { "message": "Postavke obavještenja" },
+  "menuLabel_show": { "message": "Prikaži" },
+  "menuLabel_notifs": { "message": "Obavještenja" },
   "about_author": { "message": "Autor" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "saradnici" },

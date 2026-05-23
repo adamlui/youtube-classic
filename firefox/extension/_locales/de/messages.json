@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Block-Modi" },
   "menuLabel_perfModes": { "message": "Leistungsmodi" },
   "menuLabel_notifSettings": { "message": "Benachrichtigungseinstellungen" },
+  "menuLabel_show": { "message": "Anzeigen" },
+  "menuLabel_notifs": { "message": "Benachrichtigungen" },
   "about_author": { "message": "Autor" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "mitwirkende" },

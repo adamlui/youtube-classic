@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Blokkmoduser" },
   "menuLabel_perfModes": { "message": "Ytelsesmoduser" },
   "menuLabel_notifSettings": { "message": "Varslingsinnstillinger" },
+  "menuLabel_show": { "message": "Vise" },
+  "menuLabel_notifs": { "message": "Varsler" },
   "about_author": { "message": "Forfatter" },
   "about_and": { "message": "og" },
   "about_contributors": { "message": "bidragsytere" },

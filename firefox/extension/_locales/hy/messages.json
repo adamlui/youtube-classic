@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Արգելափակման ռեժիմներ" },
   "menuLabel_perfModes": { "message": "Արդյունավետության ռեժիմներ" },
   "menuLabel_notifSettings": { "message": "Ծանուցման կարգավորումներ" },
+  "menuLabel_show": { "message": "Ցույց տալ" },
+  "menuLabel_notifs": { "message": "Ծանուցումներ" },
   "about_author": { "message": "Հեղինակ" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "ներդրողներ" },

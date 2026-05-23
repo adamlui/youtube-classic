@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "ဘလော့ခ်မုဒ်များ" },
   "menuLabel_perfModes": { "message": "စွမ်းဆောင်ရည်မုဒ်များ" },
   "menuLabel_notifSettings": { "message": "အသိပေးချက် ဆက်တင်များ" },
+  "menuLabel_show": { "message": "ပြသပါ" },
+  "menuLabel_notifs": { "message": "အသိပေးချက်များ" },
   "about_author": { "message": "ရေးသားသူ" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "ပါဝင်ပံ့ပိုးသူများ" },

@@ -7,6 +7,8 @@
   "menuLabel_blockModes": { "message": "Imisango ya Kucingilila" },
   "menuLabel_perfModes": { "message": "Ifya Kucita" },
   "menuLabel_notifSettings": { "message": "Imitantikile ya Cishibisho" },
+  "menuLabel_show": { "message": "Mulesanga" },
+  "menuLabel_notifs": { "message": "Ifyebo" },
   "about_author": { "message": "Kalemba" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "abalesendamo ulubali" },

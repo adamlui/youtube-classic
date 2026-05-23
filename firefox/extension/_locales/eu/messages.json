@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Bloke Moduak" },
   "menuLabel_perfModes": { "message": "Errendimendu Moduak" },
   "menuLabel_notifSettings": { "message": "Jakinarazpenen ezarpenak" },
+  "menuLabel_show": { "message": "Erakutsi" },
+  "menuLabel_notifs": { "message": "Jakinarazpenak" },
   "about_author": { "message": "Egilea" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "kolaboratzaileak" },

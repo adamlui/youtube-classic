@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "โหมดบล็อก" },
   "menuLabel_perfModes": { "message": "โหมดประสิทธิภาพ" },
   "menuLabel_notifSettings": { "message": "การตั้งค่าการแจ้งเตือน" },
+  "menuLabel_show": { "message": "แสดง" },
+  "menuLabel_notifs": { "message": "การแจ้งเตือน" },
   "about_author": { "message": "ผู้เขียน" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "ผู้ร่วมให้ข้อมูล" },

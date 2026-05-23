@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Block Modes" },
   "menuLabel_perfModes": { "message": "Performance Modes" },
   "menuLabel_notifSettings": { "message": "Zvirongwa zvekuzivisa" },
+  "menuLabel_show": { "message": "Ratidza" },
+  "menuLabel_notifs": { "message": "Zviziviso" },
   "about_author": { "message": "Munyori" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "zVINOKOSHA" },

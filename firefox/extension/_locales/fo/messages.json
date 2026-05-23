@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Blokkað standi" },
   "menuLabel_perfModes": { "message": "Prestasjónarmið" },
   "menuLabel_notifSettings": { "message": "Kunningarstillingar" },
+  "menuLabel_show": { "message": "Vís" },
+  "menuLabel_notifs": { "message": "Kunningar" },
   "about_author": { "message": "Forritari" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "ískoytisfólk" },

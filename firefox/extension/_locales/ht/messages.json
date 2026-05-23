@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Blòk Mòd" },
   "menuLabel_perfModes": { "message": "Mòd Pèfòmans" },
   "menuLabel_notifSettings": { "message": "Anviwònman Notifikasyon" },
+  "menuLabel_show": { "message": "Montre" },
+  "menuLabel_notifs": { "message": "Notifikasyon" },
   "about_author": { "message": "Otè" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "kontribitè" },

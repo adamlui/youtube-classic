@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Nā ʻAno Poloka" },
   "menuLabel_perfModes": { "message": "Nā ʻAno Hana" },
   "menuLabel_notifSettings": { "message": "Nā Hoʻonohonoho Hoʻolaha" },
+  "menuLabel_show": { "message": "Hōʻike" },
+  "menuLabel_notifs": { "message": "Nā Hoʻolaha" },
   "about_author": { "message": "Mea kākau" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "nā mea hāʻawi" },

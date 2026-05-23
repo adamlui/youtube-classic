@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Blokové režimy" },
   "menuLabel_perfModes": { "message": "Režimy výkonu" },
   "menuLabel_notifSettings": { "message": "Nastavení oznámení" },
+  "menuLabel_show": { "message": "Zobrazit" },
+  "menuLabel_notifs": { "message": "Upozornění" },
   "about_author": { "message": "Autor" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "přispěvatelé" },

@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Blokim ol modus" },
   "menuLabel_perfModes": { "message": "Ol pasin bilong mekim wok" },
   "menuLabel_notifSettings": { "message": "Ol sait bilong notis" },
+  "menuLabel_show": { "message": "Toksave" },
+  "menuLabel_notifs": { "message": "Ol notis" },
   "about_author": { "message": "Man bilong raitim" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "ol contributor" },

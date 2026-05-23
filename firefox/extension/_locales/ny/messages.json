@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Block Modes" },
   "menuLabel_perfModes": { "message": "Magwiridwe Magwiridwe" },
   "menuLabel_notifSettings": { "message": "Zidziwitso Zikhazikiko" },
+  "menuLabel_show": { "message": "Lumikizanani nafe" },
+  "menuLabel_notifs": { "message": "Zidziwitso" },
   "about_author": { "message": "Wolemba" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "othandizira" },

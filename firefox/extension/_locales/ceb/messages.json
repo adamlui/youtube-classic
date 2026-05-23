@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "I-block ang Mga Mode" },
   "menuLabel_perfModes": { "message": "Mga Mode sa Pagganap" },
   "menuLabel_notifSettings": { "message": "Mga Setting sa Notification" },
+  "menuLabel_show": { "message": "Ipakita" },
+  "menuLabel_notifs": { "message": "Mga Notipikasyon" },
   "about_author": { "message": "Awtor" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "mga kontribyutor" },

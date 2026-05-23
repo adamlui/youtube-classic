@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Blokk módok" },
   "menuLabel_perfModes": { "message": "Teljesítménymódok" },
   "menuLabel_notifSettings": { "message": "Értesítési beállítások" },
+  "menuLabel_show": { "message": "Megjelenítés" },
+  "menuLabel_notifs": { "message": "Értesítések" },
   "about_author": { "message": "Szerző" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "közreműködők" },

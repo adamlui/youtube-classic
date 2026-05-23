@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Блоклох горимууд" },
   "menuLabel_perfModes": { "message": "Гүйцэтгэлийн горимууд" },
   "menuLabel_notifSettings": { "message": "Мэдэгдэлийн тохируулга" },
+  "menuLabel_show": { "message": "Харуулах" },
+  "menuLabel_notifs": { "message": "Мэдэгдэл" },
   "about_author": { "message": "Зохиолч" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "хувь нэмэр оруулагчид" },

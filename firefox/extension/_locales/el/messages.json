@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Λειτουργίες αποκλεισμού" },
   "menuLabel_perfModes": { "message": "Τρόποι λειτουργίας απόδοσης" },
   "menuLabel_notifSettings": { "message": "Ρυθμίσεις ειδοποιήσεων" },
+  "menuLabel_show": { "message": "Εμφάνιση" },
+  "menuLabel_notifs": { "message": "Ειδοποιήσεις" },
   "about_author": { "message": "Συντάκτης" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "συνεισφέροντες" },

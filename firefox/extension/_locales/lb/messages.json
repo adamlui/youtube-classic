@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Modus blockéieren" },
   "menuLabel_perfModes": { "message": "Leeschtungsmodus" },
   "menuLabel_notifSettings": { "message": "Notifikatiounsastellungen" },
+  "menuLabel_show": { "message": "Weis" },
+  "menuLabel_notifs": { "message": "Notifikatiounen" },
   "about_author": { "message": "Auteur" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "contributoren" },

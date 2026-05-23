@@ -7,6 +7,8 @@
   "menuLabel_blockModes": { "message": "区块模式" },
   "menuLabel_perfModes": { "message": "性能模式" },
   "menuLabel_notifSettings": { "message": "通知设置" },
+  "menuLabel_show": { "message": "显示" },
+  "menuLabel_notifs": { "message": "通知" },
   "about_author": { "message": "作者" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "贡献者" },

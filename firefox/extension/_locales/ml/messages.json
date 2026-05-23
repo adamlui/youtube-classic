@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "ബ്ലോക്ക് മോഡുകൾ" },
   "menuLabel_perfModes": { "message": "പ്രകടന മോഡുകൾ" },
   "menuLabel_notifSettings": { "message": "അറിയിപ്പ് ക്രമീകരണങ്ങള്‍" },
+  "menuLabel_show": { "message": "കാണിക്കുക" },
+  "menuLabel_notifs": { "message": "അറിയിപ്പുകൾ" },
   "about_author": { "message": "രചയിതാവ്" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "സംഭാവന ചെയ്യുന്നവർ" },

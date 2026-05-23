@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Ҳолатҳои блок" },
   "menuLabel_perfModes": { "message": "Mga Mga Mga Pagganap" },
   "menuLabel_notifSettings": { "message": "Танзимоти огоҳӣ" },
+  "menuLabel_show": { "message": "Намоиш додан" },
+  "menuLabel_notifs": { "message": "Mga abiso" },
   "about_author": { "message": "Муаллиф" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "саҳмгузорон" },

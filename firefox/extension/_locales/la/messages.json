@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Modes Blockus" },
   "menuLabel_perfModes": { "message": "Modas Performance" },
   "menuLabel_notifSettings": { "message": "Notificatione" },
+  "menuLabel_show": { "message": "Spectare" },
+  "menuLabel_notifs": { "message": "Notificationes" },
   "about_author": { "message": "Author" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "partes" },

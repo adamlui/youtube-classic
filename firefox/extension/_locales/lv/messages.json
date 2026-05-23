@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Bloķēšanas režīmi" },
   "menuLabel_perfModes": { "message": "Veiktspējas režīmi" },
   "menuLabel_notifSettings": { "message": "Paziņojumu iestatījumi" },
+  "menuLabel_show": { "message": "Rādīt" },
+  "menuLabel_notifs": { "message": "Paziņojumi" },
   "about_author": { "message": "Autors" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "līdzautori" },

@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "ब्लक मोडहरू" },
   "menuLabel_perfModes": { "message": "प्रदर्शन मोडहरू" },
   "menuLabel_notifSettings": { "message": "सूचना सेटिङहरू" },
+  "menuLabel_show": { "message": "देखाउनुहोस्" },
+  "menuLabel_notifs": { "message": "सूचनाहरू" },
   "about_author": { "message": "लेखक" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "योगदानकर्ताहरू" },

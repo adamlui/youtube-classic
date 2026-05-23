@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "ಬ್ಲಾಕ್ ಮೋಡ್‌ಗಳು" },
   "menuLabel_perfModes": { "message": "ಕಾರ್ಯಕ್ಷಮತೆ ವಿಧಾನಗಳು" },
   "menuLabel_notifSettings": { "message": "ಅಧಿಸೂಚನೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳು" },
+  "menuLabel_show": { "message": "ತೋರಿಸಿ" },
+  "menuLabel_notifs": { "message": "ಅಧಿಸೂಚನೆಗಳು" },
   "about_author": { "message": "ಲೇಖಕ" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "ಕೊಡುಗೆದಾರರು" },

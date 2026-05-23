@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Módulo di bloki" },
   "menuLabel_perfModes": { "message": "Módulo di Performansa" },
   "menuLabel_notifSettings": { "message": "Instalashon di notifikashon" },
+  "menuLabel_show": { "message": "Show" },
+  "menuLabel_notifs": { "message": "Notifikashon" },
   "about_author": { "message": "Autor" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "kontributornan" },

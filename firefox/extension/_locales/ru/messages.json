@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Режимы блока" },
   "menuLabel_perfModes": { "message": "Режимы производительности" },
   "menuLabel_notifSettings": { "message": "Настройки уведомлений" },
+  "menuLabel_show": { "message": "Показать" },
+  "menuLabel_notifs": { "message": "Уведомления" },
   "about_author": { "message": "Автор" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "участники" },

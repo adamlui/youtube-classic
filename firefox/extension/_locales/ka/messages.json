@@ -9,6 +9,8 @@
   "menuLabel_blockModes": { "message": "Ბლოკის რეჟიმები" },
   "menuLabel_perfModes": { "message": "Შესრულების რეჟიმები" },
   "menuLabel_notifSettings": { "message": "Გაფრთხილების პარამეტრები" },
+  "menuLabel_show": { "message": "Ჩვენება" },
+  "menuLabel_notifs": { "message": "Გაფრთხილებები" },
   "about_author": { "message": "Ავტორი" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "კონტრიბუტორები" },
