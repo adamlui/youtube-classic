@@ -65,7 +65,7 @@ window.styles = {
                 /* Un-segment engagement buttons below vid https://github.com/adamlui/youtube-classic/issues/10 */
                 :where(segmented-like-dislike-button-view-model, yt-button-view-model) button { background: none !important }
 
-                ytd-masthead { background: var(--yt-spec-brand-background-solid) !important }
+                ${app.selectors.yt.masthead} { background: var(--yt-spec-brand-background-solid) !important }
                 ytd-app { background: var(--yt-spec-general-background-a) !important }
                 ytd-browse[page-subtype="channels"] { background: var(--yt-spec-general-background-b) !important }
                 ytd-c4-tabbed-header-renderer {
