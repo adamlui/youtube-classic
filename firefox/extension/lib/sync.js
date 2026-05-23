@@ -23,7 +23,8 @@ window.sync = {
 
     idle: {
         configToUI() {
-            if (app.config.idlePrevention && !this.prevent.id) this.prevent()
+            if (app.config.idlePrevention && !this.prevent.id)
+                this.prevent()
             else if (!app.config.idlePrevention && this.prevent.id) {
                 clearInterval(this.prevent.id) ; this.prevent.id = null
                 delete document.hidden
