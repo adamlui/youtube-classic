@@ -24,10 +24,11 @@ window.settings = {
         for (const [group, prefix] of Object.entries({ categories: 'menuLabel', controls: 'mode' }))
             for (const [key, obj] of Object.entries(window.settings[group]))
                 Object.assign(obj, { label: i18n.getMsg(`${prefix}_${key}`), helptip: i18n.getMsg(`helptip_${key}`) })
+        this.initLabelHelptip.hasRun = true
     },
 
     load(...keys) {
-        if (!this.labelHelptipSet) this.initLabelHelptip()
+        if (!this.initLabelHelptip.hasRun) this.initLabelHelptip()
         keys.flat().forEach(key =>
             app.config[key] = processKey(key, GM_getValue(`${app.configKeyPrefix}_${key}`, undefined)))
         function processKey(key, val) {
