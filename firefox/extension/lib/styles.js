@@ -587,7 +587,7 @@ window.styles = {
                 div#notification-preference-button span.ytIconWrapperHost div { /* color All/None */
                     fill: var(--yt-sys-color-baseline--mono-filled-hover) !important }
                 div.ytSubscribeButtonViewModelContainer svg:has(path[d*="20.104999542236328"]),
-                yt-smartimation div.ytSpecButtonShapeNextIcon { /* search results */
+                div#subscribe-button yt-smartimation div.ytSpecButtonShapeNextIcon { /* search results */
                     filter: invert(100%) } /* whiten Personalized bell on channel */
             `
         }
