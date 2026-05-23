@@ -6,10 +6,10 @@ window.sync = {
         else if (key == 'unroundCorners')
             styles.update({ key: 'unround' })
         else if (key == 'disableShorts') {
-            if (app.config.disableShorts && !this.redir.shorts.id)
-                this.redir.shorts()
-            else if (!app.config.disableShorts && this.redir.shorts.id) {
-                cancelAnimationFrame(this.redir.shorts.id) ; this.redir.shorts.id = null }
+            if (app.config.disableShorts && !this.shorts.redir.id)
+                this.shorts.redir()
+            else if (!app.config.disableShorts && this.shorts.redir.id) {
+                cancelAnimationFrame(this.shorts.redir.id) ; this.shorts.redir.id = null }
         } else if (key.endsWith('Block'))
             styles.update({ key: 'block' })
         else if (key == 'idlePrevention')
@@ -50,11 +50,11 @@ window.sync = {
         }
     },
 
-    redir: {
-        shorts() {
+    shorts: {
+        redir() {
             if (location.pathname.startsWith('/shorts/'))
                 return location.replace(`https://www.youtube.com/watch?v=${location.pathname.split('/')[2]}`)
-            window.sync.redir.shorts.id = requestAnimationFrame(window.sync.redir.shorts)
+            window.sync.shorts.redir.id = requestAnimationFrame(window.sync.shorts.redir)
         }
     }
 };
