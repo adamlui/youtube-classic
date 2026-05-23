@@ -6,19 +6,19 @@ window.sync = {
         window.sync.checkShortsToRedir.id = requestAnimationFrame(window.sync.checkShortsToRedir)
     },
 
-    configToUI({ updatedKey } = {}) {
-        if (updatedKey == 'restoreDislikes')
+    configToUI({ key } = {}) {
+        if (key == 'restoreDislikes')
             styles.update({ key: 'dislikes' })
-        else if (updatedKey == 'unroundCorners')
+        else if (key == 'unroundCorners')
             styles.update({ key: 'unround' })
-        else if (updatedKey == 'disableShorts') {
+        else if (key == 'disableShorts') {
             if (app.config.disableShorts && !this.checkShortsToRedir.id)
                 this.checkShortsToRedir()
             else if (!app.config.disableShorts && this.checkShortsToRedir.id) {
                 cancelAnimationFrame(this.checkShortsToRedir.id) ; this.checkShortsToRedir.id = null }
-        } else if (updatedKey.endsWith('Block'))
+        } else if (key.endsWith('Block'))
             styles.update({ key: 'block' })
-        else if (updatedKey == 'idlePrevention')
+        else if (key == 'idlePrevention')
             this.idle.toUI()
         gmToolbarMenu.refresh() // prefixes/suffixes
     },
