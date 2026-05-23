@@ -532,7 +532,8 @@ window.styles = {
                 /* Subscribe button */
                 :is(ytd-subscribe-button-renderer, /* channel page */
                     yt-subscribe-button-view-model /* video page */
-                ) button {
+                ) button,
+                yt-smartimation div.ytAnimatedActionContentWithBackground { /* search results */
                     background-color: #cc0000 !important ; color: #fff !important ; border-radius: 2px !important ;
                     text-transform: uppercase !important ; font-weight: 500 !important ; letter-spacing: 0.5px !important
                 }
@@ -570,7 +571,8 @@ window.styles = {
                     display: none } /* hide down caret */
                 div#notification-preference-button span.ytIconWrapperHost div { /* color All/None */
                     fill: var(--yt-sys-color-baseline--mono-filled-hover) !important }
-                div.ytSubscribeButtonViewModelContainer svg:has(path[d*="20.104999542236328"]) {
+                div.ytSubscribeButtonViewModelContainer svg:has(path[d*="20.104999542236328"]),
+                yt-smartimation div.ytSpecButtonShapeNextIcon { /* search results */
                     filter: invert(100%) } /* whiten Personalized bell on channel */
             `
         }
