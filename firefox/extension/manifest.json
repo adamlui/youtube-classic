@@ -17,7 +17,7 @@
   "permissions": ["activeTab", "storage"],
   "action": { "default_popup": "popup/index.html" },
   "web_accessible_resources": [{ "resources": ["lib/*.js", "components/*.js"], "matches": ["<all_urls>"] }],
-  "content_scripts": [{ "matches": ["*://*.youtube.com/*"], "js": ["content.js"] }],
+  "content_scripts": [{ "matches": ["*://*.youtube.com/*"], "js": ["content.js"], "run_at": "document_start" }],
   "background": { "scripts": ["background.js"] },
   "browser_specific_settings": { "gecko": { "id": "ff@ytclassic.com" }}
 }
