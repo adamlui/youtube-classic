@@ -1,7 +1,7 @@
 window.settings = {
 
     categories: {
-        restoreModes: { symbol: '🔧', autoExpand: true, color: '1e5919' /* green */ },
+        restoreModes: { symbol: '🔧', color: '1e5919' /* green */ },
         blockModes: { symbol: '⛔', color: 'a80104' /* red */ },
         perfModes: { symbol: '🏁', color: '856cb7' /* purple */ },
         notifSettings: { symbol: '📣', color: '16e4f7' /* teal */ }
