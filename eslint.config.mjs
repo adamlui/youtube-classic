@@ -13,10 +13,10 @@ export default [
         languageOptions: {
             ecmaVersion: 'latest', sourceType: 'script',
             globals: {
-                ...globals.browser, ...globals.greasemonkey, ...globals.node, app: 'writable', browser: 'readonly',
-                browserAPI: 'readonly', chatgpt: 'readonly', chrome: 'readonly', css: 'readonly', dom: 'readonly',
-                env: 'writable', feedback: 'readonly', i18n: 'readonly', JSON5: 'readonly', modals: 'writable',
-                settings: 'writable', styles: 'readonly', sync: 'readonly', gmToolbarMenu: 'readonly', ui: 'readonly',
+                ...globals.browser, ...globals.greasemonkey, ...globals.node, app: 'writable', chatgpt: 'readonly',
+                chrome: 'readonly', css: 'readonly', dom: 'readonly', env: 'writable', feedback: 'readonly',
+                gmToolbarMenu: 'readonly', i18n: 'readonly', icons: 'readonly', JSON5: 'readonly', modals: 'writable',
+                settings: 'writable', string: 'readonly', styles: 'readonly', sync: 'readonly', ui: 'readonly',
                 updateCheck: 'readonly', xhr: 'readonly'
             }
         },
