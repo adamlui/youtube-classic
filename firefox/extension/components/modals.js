@@ -1,4 +1,4 @@
-window.modals = { // requires lib/<chatgpt|css|dom>.js + <app|env>
+window.modals = { // requires lib/<css|dom>.js + <app|env>
 
     stack: [], // of types of undismissed modals
     get class() { return `${app.slug}-modal` },
