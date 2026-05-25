@@ -1,1 +1,0 @@
-window.browserAPI = browser

@@ -48,7 +48,7 @@ window.settings = {
                 app.config[key] = processKey(key, GM_getValue(`${app.configKeyPrefix}_${key}`, undefined)))
         else // asynchronously load from browser extension storage
             return Promise.all(keys.map(async key =>
-                app.config[key] = processKey(key, (await browserAPI.storage.local.get(key))[key])))
+                app.config[key] = processKey(key, (await chrome.storage.local.get(key))[key])))
         function processKey(key, val) {
             const ctrl = settings.controls?.[key]
             if (val != undefined && ( // validate stored val
@@ -64,7 +64,7 @@ window.settings = {
         if (typeof GM_info != 'undefined') // save to userscript manager storage
             GM_setValue(`${app.configKeyPrefix}_${key}`, val)
         else // save to browser extension storage
-            browserAPI.storage.local.set({ [key]: val })
+            chrome.storage.local.set({ [key]: val })
         app.config[key] = val // save to memory
     },
 
