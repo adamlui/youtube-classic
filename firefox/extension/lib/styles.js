@@ -476,6 +476,7 @@ window.styles = {
         get css() {
             return !app.config.unroundCorners ? '' : `
                 yt-thumbnail-view-model, /* homepage thumb */
+                ytd-in-feed-ad-layout-renderer div[class$=Container], /* ad cta thumb https://imgur.com/a/f0NBzgP */
                 yt-image-banner-view-model, /* channel banner */
                 div.ytPageHeaderViewModelBackground, /* playlist sidebar */
                 yt-content-preview-image-view-model, /* playlist sidebar thumb */
