@@ -1,11 +1,11 @@
 {
   "name": "YouTube Classic", "symbol": "📺", "slug": "youtube-classic", "configKeyPrefix": "ytClassic",
-    "authors": [
-      { "name": "Adam Lui", "email": "adam@kudoai.com", "url": "https://github.com/adamlui" },
-      { "name": "Magma_Craft", "url": "https://userstyles.org/user-profile/3460957" }
-    ],
+  "authors": [
+    { "name": "Adam Lui", "email": "adam@kudoai.com", "url": "https://github.com/adamlui" },
+    { "name": "Magma_Craft", "url": "https://userstyles.org/user-profile/3460957" }
+  ],
   "urls": {
-    "app": "https://github.com/adamlui/youtube-classic/#readme",
+    "app": "https://ytclassic.com",
     "assets": {
       "data": "https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@latest/assets/data",
       "images": "https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@latest/assets/images",
