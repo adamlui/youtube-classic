@@ -9,7 +9,10 @@
         ({
             notify: () => feedback.notify(...['msg', 'pos', 'notifDuration', 'shadow'].map(arg => options[arg])),
             alert: () => modals.alert(...['title', 'msg', 'btns', 'checkbox', 'width'].map(arg => options[arg])),
-            showAbout: () => source?.endsWith('background.js') && chatgpt.isLoaded().then(() => modals.open('about')),
+            showAbout: () => {
+                if (source?.endsWith('background.js'))
+                    dom.get.loadedElem('ytd-masthead').then(() => modals.open('about'))
+            },
             syncConfigToUI: () => sync.configToUI(options)
         }[action]())
     })
@@ -100,8 +103,8 @@
         static start() { this.observer.observe(document, { childList: true, subtree: true }) }
         static stop() { this.observer.disconnect() }
         static bruteforce() {
-            if (!window.wrappedJSObject.yt?.config_) return
-            this.mergeDeep(window.wrappedJSObject.yt.config_, this._config)
+            if (!window.yt?.config_) return
+            this.mergeDeep(window.yt.config_, this._config)
         }
         static setExpMulti(exps) {
             if (!('EXPERIMENT_FLAGS' in this._config)) this._config.EXPERIMENT_FLAGS = {}
