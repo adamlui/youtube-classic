@@ -7,7 +7,7 @@ window.sync = {
             styles.update({ key: 'unround' })
         else if (key == 'disableShorts')
             this.shorts.configToUI()
-        else if (key.endsWith('Block'))
+        else if (key?.endsWith('Block'))
             styles.update({ key: 'block' })
         else if (key == 'idlePrevention')
             this.idle.configToUI()
