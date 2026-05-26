@@ -12,12 +12,12 @@
     "32": "icons/icon32.png",
     "48": "icons/icon48.png",
     "64": "icons/icon64.png",
-    "120": "icons/icon128.png"
+    "128": "icons/icon128.png"
   },
   "permissions": ["activeTab", "storage"],
   "action": { "default_popup": "popup/index.html" },
   "web_accessible_resources": [{ "resources": ["lib/*.js", "components/*.js"], "matches": ["<all_urls>"] }],
   "content_scripts": [{ "matches": ["*://*.youtube.com/*"], "js": ["content.js"], "run_at": "document_start" }],
   "background": { "scripts": ["background.js"] },
-  "browser_specific_settings": { "gecko": { "id": "ff@ytclassic.com" }}
+  "browser_specific_settings": { "gecko": { "id": "firefox@ytclassic.com" }}
 }
