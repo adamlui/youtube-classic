@@ -1,0 +1,44 @@
+name: Publish to AMO on FF version bump
+
+on:
+  push:
+    branches: [main]
+    paths: [firefox/extension/manifest.json]
+
+jobs:
+  check-version-to-publish:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+
+    steps:
+
+      - name: Checkout adamlui/youtube-classic
+        uses: actions/checkout@v6.0.2
+        with:
+          sparse-checkout: firefox
+          fetch-depth: 2
+
+      - name: Check FF manifest for version bump
+        run: |
+          current_ver=$(cat firefox/extension/manifest.json | grep '"version"' | sed -E 's/.*"version": "(.*)".*/\1/')
+          prev_ver=$(git show HEAD^:firefox/extension/manifest.json | grep '"version"' | sed -E 's/.*"version": "(.*)".*/\1/')
+          if [ "$current_ver" != "$prev_ver" ] ; then
+               echo "Extension updated from $prev_ver to $current_ver"
+               echo "VERSION_CHANGED=true" >> $GITHUB_ENV
+          else echo "VERSION_CHANGED=false" >> $GITHUB_ENV ; fi
+
+      - name: Create zipball
+        if: env.VERSION_CHANGED == 'true'
+        run: |
+          cd firefox/extension
+          zip -r ../../extension.zip .
+
+      - name: Publish to AMO
+        if: env.VERSION_CHANGED == 'true'
+        uses: cardinalby/webext-buildtools-firefox-addons-action@987e338100095280ec8daf942e5640aeb55d3647 # v1.0.10
+        with:
+          extensionId: 'chatgpt.widescreen@chatgptevo.com'
+          jwtIssuer: ${{ secrets.AMO_ISSUER }}
+          jwtSecret: ${{ secrets.AMO_SECRET }}
+          zipFilePath: extension.zip
