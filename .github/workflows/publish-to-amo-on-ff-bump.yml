@@ -38,7 +38,7 @@ jobs:
         if: env.VERSION_CHANGED == 'true'
         uses: cardinalby/webext-buildtools-firefox-addons-action@987e338100095280ec8daf942e5640aeb55d3647 # v1.0.10
         with:
-          extensionId: 'chatgpt.widescreen@chatgptevo.com'
+          extensionId: 'firefox@ytclassic.com'
           jwtIssuer: ${{ secrets.AMO_ISSUER }}
           jwtSecret: ${{ secrets.AMO_SECRET }}
           zipFilePath: extension.zip
