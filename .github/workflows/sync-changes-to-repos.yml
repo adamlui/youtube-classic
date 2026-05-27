@@ -1,4 +1,4 @@
-name: Sync /greasemonkey to adamlui/userscripts/youtube-classic/
+name: Sync _locales/ between /<chromium|firefox>/extension/, then /greasemonkey to adamlui/userscripts/youtube-classic/
 
 on:
   push:
@@ -29,6 +29,34 @@ jobs:
           token: ${{ secrets.REPO_SYNC_PAT }}
           repository: adamlui/userscripts
           path: adamlui/userscripts
+
+      - name: Sync _locales/ between /<chromium|firefox>/extension/
+        run: |
+          cd ${{ github.workspace }}/adamlui/youtube-classic
+          ff_dir="firefox/extension/_locales"
+          chromium_dir="chromium/extension/_locales"
+          
+          # Loop thru all lang dirs in firefox
+          for locale in $(find "$ff_dir" -mindepth 1 -maxdepth 1 -type d -exec basename {} \;) ; do
+            ff_file="$ff_dir/$locale/messages.json"
+            chromium_file="$chromium_dir/$locale/messages.json"
+            if [[ -f "$ff_file" && -f "$chromium_file" ]] ; then
+
+              # Get the latest commit timestamps for both files
+              ff_timestamp=$(git log -1 --format="%ct" -- "$ff_file" 2>/dev/null || echo 0)
+              chromium_timestamp=$(git log -1 --format="%ct" -- "$chromium_file" 2>/dev/null || echo 0)
+
+              # Sync the most recently updated messages.json to the other dir
+              if [[ $ff_timestamp -ne $chromium_timestamp ]] ; then
+                if (( $ff_timestamp > $chromium_timestamp )) ; then
+                     cp -f "$ff_file" "$chromium_file" ; sync_src="${ff_dir%%/*}"
+                else cp -f "$chromium_file" "$ff_file" ; sync_src="${chromium_dir%%/*}" ; fi
+              fi
+
+            fi
+          done
+
+          echo "SYNC_SRC=$sync_src" >> $GITHUB_ENV
 
       - name: Sync /greasemonkey to adamlui/userscripts/youtube-classic/
         run: |
