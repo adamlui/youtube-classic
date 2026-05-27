@@ -3,7 +3,7 @@
     const app = {
         version: chrome.runtime.getManifest().version,
         commitHashes: {
-            data: 'ea6e2c5', // for app.json + selectors.json
+            data: 'd02e303', // for <app|selectors|yt-exp-flags>.json
             images: 'adb4277' // for header logo
         },
         urls: { jsd: 'https://cdn.jsdelivr.net/gh/adamlui/youtube-classic' }
@@ -15,6 +15,7 @@
     const remoteAppData = await (await fetch(`${app.urls.assets.data}/app.json`)).json()
     Object.assign(app, { ...remoteAppData, urls: { ...app.urls, ...remoteAppData.urls }})
     app.sourceWebStore = 'firefox'
+    app.ui = { expFlags: JSON.parse(await (await fetch(`${app.urls.assets.data}/yt-exp-flags.json`)).text()) }
     chrome.storage.local.set({ app }) // save to browser storage
 })()
 
