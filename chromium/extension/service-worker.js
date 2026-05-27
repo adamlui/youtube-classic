@@ -17,7 +17,7 @@ const ytURL = 'https://www.youtube.com'
     }
     const remoteAppData = await (await fetch(`${app.urls.assets.data}/app.json`)).json()
     Object.assign(app, { ...remoteAppData, urls: { ...app.urls, ...remoteAppData.urls }})
-    app.sourceWebStore = 'firefox'
+    app.sourceWebStore = 'chromium'
     app.selectors = JSON.parse(await (await fetch(`${app.urls.assets.data}/selectors.json`)).text())
     chrome.storage.local.set({ app }) // save to browser storage
 })()
