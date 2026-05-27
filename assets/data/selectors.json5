@@ -1,7 +1,7 @@
 {
   "block": {
     "ad": {
-      "engagementPanel": "#engagement-panel-ads",
+      "engagementPanel": "#engagement-panel-ads", // https://imgur.com/a/K6ByKC8
       "masthead": "div#masthead-ad", // https://imgur.com/a/kOWzh3O
       "renderer": "ytd-ad-slot-renderer, [class*=\"ads-renderer\"]"
     },
