@@ -38,11 +38,10 @@
 
 <h3><b>YouTube 經典</b> 讓 YouTube 重返經典美學的輝煌歲月</h3>
 
-<a href="https://gm.ytclassic.com"><img alt="[安裝此腳本]" style="height: 42px" src="https://assets.ytclassic.com/images/buttons/greasy-fork/install-button.svg"></a><a href="https://greasyfork.org/help/installing-user-scripts"><img style="height: 42px" alt="[如何安裝]" title="如何安裝" src="https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@b524084/assets/images/buttons/greasy-fork/help-button.svg"></a>
-<br>
-[討論](https://github.com/adamlui/youtube-classic/discussions) /
-[獲取支援](https://github.com/adamlui/youtube-classic/issues) /
-[聯絡作者](https://github.com/adamlui)
+<a href="https://addons.mozilla.org/firefox/addon/yt-classic/?utm_source=github&utm_medium=referral&utm_content=yt-classic-readme">
+    <img alt="[取得 Firefox 版]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/firefox/available-for-firefox/raspberry-border-334x128.png"></a>
+<a href="https://gm.ytclassic.com">
+    <img alt="[[取得 Greasemonkey 版]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/greasemonkey/install-userscript/en/badge860x262.png"></a>
 
 </div>
 
@@ -69,15 +68,12 @@
       <img width=535 height="auto" src="https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@1c92f98/assets/images/screenshots/ad-block/after.png"></li><br>
 </ul>
 
-<br>
-
 <div align="center">
 
-<a href="https://gm.ytclassic.com"><img alt="[Install YouTube Classic]" style="height: 45px" src="https://assets.ytclassic.com/images/buttons/greasy-fork/install-button.svg"></a><a href="https://greasyfork.org/help/installing-user-scripts"><img style="height: 45px" alt="[如何安裝]" title="如何安裝" src="https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@b524084/assets/images/buttons/greasy-fork/help-button.svg"></a>
-<br>
-[討論](https://github.com/adamlui/youtube-classic/discussions) /
-[獲取支援](https://github.com/adamlui/youtube-classic/issues) /
-[聯絡作者][userscripts]
+<a href="https://addons.mozilla.org/firefox/addon/yt-classic/?utm_source=github&utm_medium=referral&utm_content=yt-classic-readme">
+    <img alt="[取得 Firefox 版]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/firefox/available-for-firefox/raspberry-border-334x128.png"></a>
+<a href="https://gm.ytclassic.com">
+    <img alt="[[取得 Greasemonkey 版]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/greasemonkey/install-userscript/en/badge860x262.png"></a>
 
 </div>
 

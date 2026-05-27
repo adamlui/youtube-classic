@@ -28,9 +28,10 @@
 
 <h3><b>YouTube Classic</b> restores YouTube back to its glory days of classic aesthetics</h3>
 
-<a href="https://gm.ytclassic.com"><img style="height: 45px" alt="[Install this script]" src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/buttons/greasy-fork/install-button.svg"></a><a href="https://greasyfork.org/help/installing-user-scripts"><img style="height: 45px" alt="[How to install]" title="How to install" src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/buttons/greasy-fork/help-button.svg"></a>
-
-[Discuss][discuss] / [Get support][support] / [Contact author][author]
+<a href="https://addons.mozilla.org/firefox/addon/yt-classic/?utm_source=github&utm_medium=referral&utm_content=yt-classic-readme">
+    <img alt="[Get for Firefox]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/firefox/available-for-firefox/raspberry-border-334x128.png"></a>
+<a href="https://gm.ytclassic.com">
+    <img alt="[Get for Greasemonkey]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/greasemonkey/install-userscript/en/badge860x262.png"></a>
 
 </div>
 
@@ -57,13 +58,12 @@
       <img width=535 height="auto" src="https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@1c92f98/assets/images/screenshots/ad-block/after.png"></li><br>
 </ul>
 
-<br>
-
 <div align="center">
 
-<a href="https://gm.ytclassic.com"><img style="height: 45px" alt="[Install this script]" src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/buttons/greasy-fork/install-button.svg"></a><a href="https://greasyfork.org/help/installing-user-scripts"><img style="height: 45px" alt="[How to install]" title="How to install" src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/buttons/greasy-fork/help-button.svg"></a>
-
-[Discuss][discuss] / [Get support][support] / [Contact author][author]
+<a href="https://addons.mozilla.org/firefox/addon/yt-classic/?utm_source=github&utm_medium=referral&utm_content=yt-classic-readme">
+    <img alt="[Get for Firefox]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/firefox/available-for-firefox/raspberry-border-334x128.png"></a>
+<a href="https://gm.ytclassic.com">
+    <img alt="[Get for Greasemonkey]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/greasemonkey/install-userscript/en/badge860x262.png"></a>
 
 </div>
 
@@ -71,9 +71,4 @@
 
 <img height=10px width="100%" src="https://cdn.jsdelivr.net/gh/adamlui/userscripts@6b4fcd2/assets/images/separators/gradient-aqua.png">
 
-[**More userscripts**][userscripts] / [Back to top ↑](#top)
-
-[author]: https://github.com/adamlui
-[discuss]: https://github.com/adamlui/youtube-classic/discussions
-[support]: https://github.com/adamlui/youtube-classic/issues
-[userscripts]: https://github.com/adamlui/userscripts/#readme
+[**More userscripts**](https://github.com/adamlui/userscripts/#readme) / [Back to top ↑](#top)
