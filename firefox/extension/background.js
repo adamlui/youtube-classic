@@ -6,7 +6,7 @@ const ytURL = 'https://www.youtube.com'
     const app = {
         version: chrome.runtime.getManifest().version,
         commitHashes: {
-            data: 'd02e303', // for <app|selectors|yt-exp-flags>.json
+            data: '89b3437', // for <app|selectors|yt-exp-flags>.json
             images: 'adb4277' // for header logo
         },
         urls: { jsd: 'https://cdn.jsdelivr.net/gh/adamlui/youtube-classic' }
