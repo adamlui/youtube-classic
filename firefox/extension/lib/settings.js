@@ -1,14 +1,14 @@
 window.settings = {
 
     categories: {
-        restoreModes: { symbol: '🔧', color: '1e5919' /* green */ },
+        restoreModes: { symbol: '🔧', color: '1e5919' /* green */, autoExpand: true },
         blockModes: { symbol: '⛔', color: 'a80104' /* red */ },
         perfModes: { symbol: '🏁', color: '856cb7' /* purple */ },
         notifSettings: { symbol: '📣', color: '16e4f7' /* teal */ }
     },
 
     controls: { // displays top-to-bottom in toolbar menu
-        restoreDislikes: { type: 'toggle', defaultVal: true, category: 'restoreModes' },
+        restoreDislikes: { type: 'toggle', defaultVal: true, category: 'restoreModes', excludedEnvs: ['chromium'] },
         unroundCorners: { type: 'toggle', defaultVal: true, category: 'restoreModes' },
         disableShorts: { type: 'toggle', defaultVal: true, category: 'blockModes' },
         shortsBlock: { type: 'toggle', defaultVal: true, category: 'blockModes' },
@@ -23,6 +23,11 @@ window.settings = {
         }},
         notifBottom: { type: 'toggle', defaultVal: false, category: 'notifSettings' },
         toastMode: { type: 'toggle', defaultVal: false, category: 'notifSettings' }
+    },
+
+    depIsEnabled(ctrlKey) {
+        const deps = settings.controls[ctrlKey]?.dependencies
+        return !deps || Object.values(deps).some(depKey => this.typeIsEnabled(depKey))
     },
 
     getMsg(key) {

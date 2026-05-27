@@ -465,7 +465,7 @@ window.styles = {
                 yt-chip-cloud-chip-renderer:has(path[d^="M5 0a5 5"]) { display: none }
 
                 /* Fix Verified badge super big in FF vid pages (even w/o this script) */
-                ${ !env.browser.isFF ? ''
+                ${ !env.browser?.isFF ? ''
                     : 'yt-metadata-badge-renderer span > div { height: 12px !important ; width: 12px !important }' }
             `
         }

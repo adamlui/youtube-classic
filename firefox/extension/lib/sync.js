@@ -1,6 +1,9 @@
 window.sync = {
 
-    configToUI({ key } = {}) {
+    async configToUI({ key } = {}) {
+        await settings.load('extensionDisabled', Object.keys(settings.controls))
+        Object.entries(styles).forEach(([key, style]) =>
+            app.config.extensionDisabled ? style.node?.remove() : styles.update({ key }))
         if (key == 'restoreDislikes')
             styles.update({ key: 'dislikes' })
         else if (key == 'unroundCorners')
@@ -13,7 +16,8 @@ window.sync = {
             this.idle.configToUI()
         else if (/notifBottom|toastMode/.test(key))
             styles.update({ key: 'toast' })
-        gmToolbarMenu.refresh() // prefixes/suffixes
+        if (typeof GM_info != 'undefined')
+            gmToolbarMenu.refresh() // prefixes/suffixes
     },
 
     headerLogo() {

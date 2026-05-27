@@ -486,7 +486,9 @@ window.feedback = {
         if (app.config.notifDisabled && !msg.includes(settings.controls.notifDisabled.label)) return
 
         // Strip state word to append colored one later
-        const foundState = gmToolbarMenu.state.words.find(word => msg.includes(word))
+        const foundState = [
+            i18n.getMsg('state_on').toUpperCase(), i18n.getMsg('state_off').toUpperCase()
+        ].find(word => msg.includes(word))
         if (foundState) msg = msg.replace(foundState, '')
 
         // Show notification
@@ -497,12 +499,20 @@ window.feedback = {
 
         // Tweak styles
         notif.style.fontSize = '385%'
-        if (foundState) { // append styled state word
-            const styledStateSpan = dom.create.elem('span', { style: `color: ${
-                foundState == gmToolbarMenu.state.words[0] ?
-                    '#ef4848 ; text-shadow: rgba(255,169,225,0.44) 2px 1px 5px'
-                  : '#5cef48 ; text-shadow: rgba(255,250,169,0.38) 2px 1px 5px'
-            }`})
+        if (foundState) {
+            const stateStyles = {
+                on: {
+                    light: 'color: #5cef48 ; text-shadow: rgba(255,250,169,0.38) 2px 1px 5px',
+                    dark:  'color: #5cef48 ; text-shadow: rgb(55,255,0) 3px 0 10px'
+                },
+                off: {
+                    light: 'color: #ef4848 ; text-shadow: rgba(255,169,225,0.44) 2px 1px 5px',
+                    dark:  'color: #ef4848 ; text-shadow: rgba(255, 116, 116, 0.87) 3px 0 9px'
+                }
+            }
+            const styledStateSpan = dom.create.elem('span')
+            styledStateSpan.style.cssText = stateStyles[
+                foundState == i18n.getMsg('state_off').toUpperCase() ? 'off' : 'on'][ui.getScheme()]
             styledStateSpan.append(foundState) ; notif.append(styledStateSpan)
         }
     }

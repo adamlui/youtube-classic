@@ -15,9 +15,9 @@
     "128": "icons/icon128.png"
   },
   "permissions": ["activeTab", "storage"],
-  "action": { "default_popup": "popup/index.html" },
-  "web_accessible_resources": [{ "resources": ["lib/*.js", "components/*.js"], "matches": ["<all_urls>"] }],
-  "content_scripts": [{ "matches": ["*://*.youtube.com/*"], "js": ["content.js"], "run_at": "document_start" }],
+  "action": {},
+  "web_accessible_resources": [{ "matches": ["<all_urls>"], "resources": ["components/*", "lib/*"] }],
+  "content_scripts": [{ "matches": ["*://*.youtube.com/*"],  "run_at": "document_start", "js": ["content.js"] }],
   "background": { "scripts": ["background.js"] },
   "browser_specific_settings": { "gecko": { "id": "firefox@ytclassic.com" }}
 }

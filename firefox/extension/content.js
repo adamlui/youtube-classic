@@ -5,21 +5,9 @@
         postMessage({ source: 'youtube-classic/*/extension/content.js' }, location.origin)
     })
 
-    chrome.runtime.onMessage.addListener(({ action, options, source }) => { // from background/popup
-        ({
-            notify: () => feedback.notify(...['msg', 'pos', 'notifDuration', 'shadow'].map(arg => options[arg])),
-            alert: () => modals.alert(...['title', 'msg', 'btns', 'checkbox', 'width'].map(arg => options[arg])),
-            showAbout: () => {
-                if (source?.endsWith('background.js'))
-                    dom.get.loadedElem('ytd-masthead').then(() => modals.open('about'))
-            },
-            syncConfigToUI: () => sync.configToUI(options)
-        }[action]())
-    })
-
     for (const resource of [
         'components/modals.js', 'lib/css.min.js', 'lib/dom.min.js', 'lib/feedback.js', 'lib/i18n.js',
-        'lib/return-youtube-dislike.user.js', 'lib/settings.js', 'lib/styles.js', 'lib/sync.js', 'lib/ui.js'
+        'lib/settings.js', 'lib/styles.js', 'lib/sync.js', 'lib/ui.js'
     ]) await import(chrome.runtime.getURL(resource))
 
     window.xhr = config => {
@@ -33,17 +21,26 @@
     window.env = {
         browser: {
             language: chrome.i18n.getUILanguage(),
+            isFF: navigator.userAgent.includes('Firefox'),
             isMobile: /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
         }
     }
     Object.assign(env.browser, { get isCompact() { return innerWidth <= 480 }})
     env.userLocale = env.browser.language.includes('-') ? env.browser.language.split('-')[1].toLowerCase() : ''
 
+    chrome.runtime.onMessage.addListener(({ action, options, source }) => { // from background/popup
+        ({
+            notify: () => feedback.notify(...['msg', 'pos', 'notifDuration', 'shadow'].map(arg => options[arg])),
+            alert: () => modals.alert(...['title', 'msg', 'btns', 'checkbox', 'width'].map(arg => options[arg])),
+            showAbout: () => {
+                if (source?.endsWith('service-worker.js'))
+                    dom.get.loadedElem('ytd-masthead').then(() => modals.open('about'))
+            },
+            syncConfigToUI: async () => sync.configToUI(options)
+        }[action]())
+    })
+
     ;({ app: window.app } = await chrome.storage.local.get('app'))
-    app.selectors = await new Promise(resolve => xhr({ // used in block modes
-        method: 'GET', onload: ({ responseText }) => resolve(JSON.parse(responseText)),
-        url: `${app.urls.assets.data}/selectors.json`
-    }))
 
     class YTP {
         static observer = new MutationObserver(this.onNewScript)
@@ -74,7 +71,7 @@
 
     // Run MAIN routine
 
-    await settings.load(Object.keys(settings.controls))
+    await settings.load('extensionDisabled', Object.keys(settings.controls))
     if (app.config.disableShorts) sync.shorts.redir()
     styles.update({ keys: Object.keys(styles).filter(key => styles[key].autoAppend) })
     sync.headerLogo()
