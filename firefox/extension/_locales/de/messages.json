@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "Kehrt YouTube zu seinem klassischen Design zurück (vor all den abgerundeten Ecken und versteckten Abneigungen) + leitet YouTube-Shorts um + blockiert Thumbnail-Anzeigen"
+    "message": "Kehrt YouTube zu seinem klassischen Design zurück (vor allen abgerundeten Ecken) + leitet YouTube-Shorts um + blockiert Thumbnail-Anzeigen"
   },
   "menuLabel_about": { "message": "Über" },
   "menuLabel_restoreModes": { "message": "Wiederherstellungsmodi" },

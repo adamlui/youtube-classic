@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "YouTube'u klasik tasarımına geri döndürür (tüm yuvarlatılmış köşelerden ve gizli beğenmediklerinden önce) + YouTube Shorts'u yeniden yönlendirir + küçük resim reklamları engeller"
+    "message": "YouTube'u klasik tasarımına geri döndürür (tüm yuvarlatılmış köşelerden önce) + YouTube Shorts'u yeniden yönlendirir + küçük resim reklamları engeller"
   },
   "menuLabel_about": { "message": "Hakkında" },
   "menuLabel_restoreModes": { "message": "Modları Geri Yükle" },

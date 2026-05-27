@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "YouTube को अपने क्लासिक डिज़ाइन पर वापस लाता है (सभी गोल कोनों और छिपे हुए नापसंद से पहले) + YouTube शॉर्ट्स को रीडायरेक्ट करता है + थंबनेल विज्ञापनों को ब्लॉक करता है"
+    "message": "YouTube को अपने क्लासिक डिज़ाइन (सभी गोल कोनों से पहले) पर वापस लाता है + YouTube शॉर्ट्स + ब्लॉक थंबनेल विज्ञापनों को रीडायरेक्ट करता है"
   },
   "menuLabel_about": { "message": "परिचय" },
   "menuLabel_restoreModes": { "message": "रीस्टोर मोड" },

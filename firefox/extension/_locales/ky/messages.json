@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Классикалык" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "Анын классикалык дизайн YouTube артка (бардык тегерек бурчтары & жашыруун жактырбай чейин) + YouTube Shorts + блоктору эскиз жарнамаларды багыттайт"
+    "message": "Анын классикалык дизайн YouTube кайра (бардык тегерек бурчтарында алдында) + YouTube Shorts + блоктору эскиз жарнамаларды багыттайт"
   },
   "menuLabel_about": { "message": "Жөнүндө" },
   "menuLabel_restoreModes": { "message": "Режимдерди калыбына келтирүү" },

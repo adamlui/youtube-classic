@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "Revine YouTube la designul său clasic (înainte de toate colțurile rotunjite și neplăcerile ascunse) + redirecționează YouTube Shorts + blochează anunțurile în miniatură"
+    "message": "Revine YouTube la designul său clasic (înainte de toate colțurile rotunjite) + redirecționează YouTube Shorts + blochează anunțurile în miniatură"
   },
   "menuLabel_about": { "message": "Despre" },
   "menuLabel_restoreModes": { "message": "Moduri de restaurare" },

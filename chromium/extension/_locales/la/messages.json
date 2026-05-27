@@ -2,7 +2,7 @@
   "appName": { "message": "You Tubeus Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "Reverts YouTube ad facto designam klasika (ante alla rounded corners & hidden dislikes) + redirects ad tabularibus YouTube shorts + blocks thumbnail ad"
+    "message": "Reverts YouTube ad facto designam klasika (ante alla rounded corners) + redirects ad tabularibus YouTube shorts + blocks thumbnail ad"
   },
   "menuLabel_about": { "message": "De Hac Re" },
   "menuLabel_restoreModes": { "message": "Mods Restore" },

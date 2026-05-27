@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "Taastab YouTube 'i klassikalise disaini (enne kõiki ümardatud nurki ja varjatud mittemeeldimisi) + suunab YouTube' i lühikesed püksid + blokeerib pisipildireklaamid"
+    "message": "Taastab YouTube 'i klassikalise disaini (enne kõiki ümardatud nurki) + suunab YouTube' i lühikesed püksid + blokeerib pisipildireklaamid"
   },
   "menuLabel_about": { "message": "Info" },
   "menuLabel_restoreModes": { "message": "Taastamisrežiimid" },

@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "Დააბრუნებს YouTube-ს მის კლასიკურ დიზაინზე (ყველა მომრგვალებული კუთხის წინ და დამალული არ მოსწონს) + გადაამისამართებს YouTube-ის შორტებს + ბლოკავს მინიატურულ რეკლამებს"
+    "message": "Დააბრუნებს YouTube-ს მის კლასიკურ დიზაინზე (ყველა მომრგვალებულ კუთხემდე) + გადაამისამართებს YouTube Shorts + ბლოკავს მინიატურულ რეკლამებს"
   },
   "menuLabel_about": { "message": "Ინფორმაცია" },
   "menuLabel_restoreModes": { "message": "Აღდგენითი რეჟიმები" },

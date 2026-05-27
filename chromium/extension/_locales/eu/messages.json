@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Klasikoa" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "YouTube bere diseinu klasikora leheneratzen du (izkin biribildu eta gustuko ezkutu guztiak baino lehen) + YouTube Shorts birbideratzen ditu + miniaturazko iragarkiak blokeatzen ditu"
+    "message": "YouTube bere diseinu klasikora leheneratzen du (izkin biribilduen aurretik) + YouTube Shorts birbideratzen du + miniaturazko iragarkiak blokeatzen ditu"
   },
   "menuLabel_about": { "message": "Buruz" },
   "menuLabel_restoreModes": { "message": "Leheneratzeko moduak" },

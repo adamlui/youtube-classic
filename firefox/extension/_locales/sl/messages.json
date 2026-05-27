@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "YouTubu povrne klasično obliko (pred vsemi zaobljenimi vogali in skritimi nevšečnostmi) + preusmeri YouTubove kratke hlače + blokira sličice oglasov"
+    "message": "YouTubu povrne klasično obliko (pred vsemi zaobljenimi vogali) + preusmeri YouTubove kratke hlače + blokira sličice oglasov"
   },
   "menuLabel_about": { "message": "O" },
   "menuLabel_restoreModes": { "message": "Obnovi načine" },

@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube ကိုဂန္ထဝင်" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "YouTube ကို ၎ င်း ၏ ဂန္ဒီဇိုင်းကိုပြန်ပြောင်း (အားလုံးပတ်ပတ်လည်ထောင့် & ဝှက်ထားသောမကြိုက်ခင်) + YouTube ကို Shorts + ပိတ်ပင်တားဆီးမှု thumbnail ကိုကြော်ငြာ redirects"
+    "message": "YouTube ကို ၎ င်း ၏ ဂန္ဒီဇိုင်း (အားလုံးပတ်ပတ်လည်ထောင့်မတိုင်မီ) သို့ပြန်သွား + YouTube ကို Shorts + ပိတ်ဆို့ thumbnail ကြော်ငြာ redirects"
   },
   "menuLabel_about": { "message": "အကြောင်း" },
   "menuLabel_restoreModes": { "message": "ပြုပြင်မွမ်းမံမှုပုံစံများ" },

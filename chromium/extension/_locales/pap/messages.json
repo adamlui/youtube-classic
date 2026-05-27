@@ -2,7 +2,7 @@
   "appName": { "message": "Clasico di Youtube" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "Transforma YouTube a su diseño clásico (ante todas las canales redondas y disgustos oculto) + redireccionan YouTube Shorts + block thumbnail ads"
+    "message": "Transforma YouTube a su diseño clásico (ante todas las canales redondas) + redireccionan a YouTube Shorts + block thumbnail ads"
   },
   "menuLabel_about": { "message": "About About" },
   "menuLabel_restoreModes": { "message": "Recuperacion de Módulos" },

@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "Breytir YouTube aftur í sígilda hönnun (fyrir öll rúnnuð horn og faldar mislíkanir) + beinir YouTube stuttbuxum + lokar á smámyndaauglýsingar"
+    "message": "Snýr YouTube aftur í sígilda hönnun (fyrir öll hornin) + beinir YouTube stuttbuxum + lokar á smámyndaauglýsingar"
   },
   "menuLabel_about": { "message": "Um" },
   "menuLabel_restoreModes": { "message": "Endurheimta stillingar" },

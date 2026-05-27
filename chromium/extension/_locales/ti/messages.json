@@ -1,9 +1,7 @@
 {
   "appName": { "message": "ዩቲዩብ ክላሲክ" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
-  "appDesc": {
-    "message": "ንዩቲዩብ ናብ ክላሲካዊ ንድፊኡ (ቅድሚ ኩሉ ዝተኸተለ ኩርናዕ & ዝተሓባበረ ዘይምርድዳእ) + ንዩቲዩብ ሾርትስ + ኣፕልቲካዊ ኣፕልቲካዊ ኣፕልቲካዊ ኣፕልቲካዊ ኣፕልቲካዊ ኣፕልቲካዊ ኣፕልቲካዊ ኣፕልቲካዊ ኣፕልቲካዊ ኣ"
-  },
+  "appDesc": { "message": "ንዩቲዩብ ናብ ክላሲካዊ ዲዛይንኡ (ቅድሚ ኩሉ ዝተኸተለ ኩርናዕ) + ንዩቲዩብ ሾርትስ + ኣፕልቲካዊ ኣፕልቲካዊ ኣፕልታት ይልውጦ" },
   "menuLabel_about": { "message": "ብዛዕባ" },
   "menuLabel_restoreModes": { "message": "ኣገባባት ምምላስ" },
   "menuLabel_blockModes": { "message": "ኣገባባት ዕጽዋ" },

@@ -2,7 +2,7 @@
   "appName": { "message": "يوتيوب كلاسيك" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "يعيد YouTube إلى تصميمه الكلاسيكي (قبل كل الزوايا المستديرة وعدم الإعجاب المخفي) + يعيد توجيه YouTube Shorts + حظر إعلانات الصور المصغرة"
+    "message": "يعيد YouTube إلى تصميمه الكلاسيكي (قبل جميع الزوايا المستديرة) + يعيد توجيه YouTube Shorts + يحظر إعلانات الصور المصغرة"
   },
   "menuLabel_about": { "message": "حول" },
   "menuLabel_restoreModes": { "message": "أوضاع الاستعادة" },

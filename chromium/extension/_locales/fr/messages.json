@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "Rétablit YouTube dans son design classique (avant tous les coins arrondis et les aversions cachées) + redirige les publicités YouTube Shorts + blocs miniatures"
+    "message": "Rétablit le design classique de YouTube (avant tous les coins arrondis) + redirige les publicités YouTube Shorts + blocs miniatures"
   },
   "menuLabel_about": { "message": "À propos" },
   "menuLabel_restoreModes": { "message": "Modes de restauration" },

@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "מחזיר את YouTube לעיצוב הקלאסי שלו (לפני כל הפינות המעוגלות ושנאות נסתרות) + מפנה מחדש מודעות תמונה ממוזערת של YouTube Shorts + Block"
+    "message": "מחזיר את YouTube לעיצוב הקלאסי שלו (לפני כל הפינות המעוגלות) + מפנה מחדש מודעות תמונה ממוזערת של YouTube Shorts + Block"
   },
   "menuLabel_about": { "message": "אודות" },
   "menuLabel_restoreModes": { "message": "שחזר מצבים" },

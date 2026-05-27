@@ -1,7 +1,7 @@
 {
   "appName": { "message": "YouTubeクラシック" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
-  "appDesc": { "message": "YouTubeをクラシックなデザインに戻します（すべての丸みを帯びた角と隠された嫌いの前に） + YouTubeショーツをリダイレクトします+サムネイル広告をブロックします" },
+  "appDesc": { "message": "YouTubeをクラシックなデザインに戻します（すべての角が丸くなる前に） + YouTube Shortsをリダイレクトします+サムネイル広告をブロックします" },
   "menuLabel_about": { "message": "詳細" },
   "menuLabel_restoreModes": { "message": "復元モード" },
   "menuLabel_blockModes": { "message": "ブロックモード" },

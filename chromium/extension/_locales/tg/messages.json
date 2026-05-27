@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "YouTube-ро ба тарроҳии классикии худ бармегардонад (пеш аз ҳама кунҷҳои мудаввар ва нохунакҳои пинҳонӣ) + YouTube Shorts + block ads thumbnail"
+    "message": "YouTube-ро ба тарроҳии классикии худ бармегардонад (пеш аз ҳамаи кунҷҳои мудаввар) + YouTube Shorts + block ads thumbnail"
   },
   "menuLabel_about": { "message": "Дар бораи" },
   "menuLabel_restoreModes": { "message": "Ҳолатҳоро барқарор кунед" },

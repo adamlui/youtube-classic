@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "Palauttaa YouTuben klassiseen muotoiluunsa (ennen kaikkia pyöristettyjä kulmia ja piilotettuja inhoamisia) + ohjaa YouTube-shortsit + estää pikkukuvamainokset"
+    "message": "Palauttaa YouTuben klassiseen muotoiluunsa (ennen kaikkia pyöristettyjä kulmia) + ohjaa YouTube-shortsit + estää pikkukuvamainokset"
   },
   "menuLabel_about": { "message": "Tietoja" },
   "menuLabel_restoreModes": { "message": "Palauta tilat" },

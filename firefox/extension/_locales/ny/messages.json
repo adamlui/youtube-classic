@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "Kubwezeretsa YouTube kapangidwe ake tingachipeze powerenga (pamaso ngodya zonse ozungulira & zobisika sakonda) + redirects YouTube waufupi + midadada thumbnail malonda"
+    "message": "Kubwezeretsanso YouTube pamapangidwe ake akale (pamaso pa ngodya zonse zozungulira) + imabwezeretsanso malonda a YouTube Shorts + midadada"
   },
   "menuLabel_about": { "message": "Zokhudza" },
   "menuLabel_restoreModes": { "message": "Kubwezeretsa Ma Modes" },

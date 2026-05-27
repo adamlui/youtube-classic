@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "Επαναφέρει το YouTube στον κλασικό σχεδιασμό του (πριν από όλες τις στρογγυλεμένες γωνίες και τις κρυφές αντιπάθειες) + ανακατευθύνει το YouTube Shorts + αποκλείει τις διαφημίσεις μικρογραφιών"
+    "message": "Επαναφέρει το YouTube στον κλασικό σχεδιασμό του (πριν από όλες τις στρογγυλεμένες γωνίες) + ανακατευθύνει το YouTube Shorts + αποκλείει τις διαφημίσεις μικρογραφιών"
   },
   "menuLabel_about": { "message": "Πληροφορίες" },
   "menuLabel_restoreModes": { "message": "Επαναφορά λειτουργιών" },

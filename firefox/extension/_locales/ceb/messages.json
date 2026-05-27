@@ -2,7 +2,7 @@
   "appName": { "message": "Klasikong YouTube" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "Gibalik ang YouTube sa klasiko nga laraw niini (sa wala pa ang tanan nga mga bilog nga kanto & gitago nga dili gusto) + pag-redirect sa YouTube Shorts + mga bloke sa mga thumbnail ad"
+    "message": "Gibalik ang YouTube sa klasiko nga laraw niini (sa wala pa ang tanan nga mga bilog nga kanto) + gi-redirect ang YouTube Shorts + mga bloke sa mga thumbnail ad"
   },
   "menuLabel_about": { "message": "Mahitungod" },
   "menuLabel_restoreModes": { "message": "Ibalik ang mga Mode" },

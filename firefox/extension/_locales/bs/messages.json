@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "Vraća YouTube na svoj klasični dizajn (prije svih zaobljenih uglova i skrivenih nesviđanja) + preusmjerava YouTube Shorts + blokira sličice oglasa"
+    "message": "Vraća YouTube na svoj klasični dizajn (prije svih zaobljenih uglova) + preusmjerava YouTube Shorts + blokira sličice oglasa"
   },
   "menuLabel_about": { "message": "Više informacija" },
   "menuLabel_restoreModes": { "message": "Režimi vraćanja" },

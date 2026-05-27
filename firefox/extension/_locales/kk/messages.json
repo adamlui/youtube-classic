@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "YouTube-ті классикалық дизайнға қайтарады (барлық дөңгелек бұрыштар мен жасырын ұнамсыздықтар алдында) + YouTube Shorts + блоктарын нобай жарнамаларына бағыттайды"
+    "message": "YouTube-ті классикалық дизайнына қайтарады (барлық дөңгелек бұрыштар алдында) + YouTube Shorts + блоктарын нобай жарнамаларына бағыттайды"
   },
   "menuLabel_about": { "message": "Туралы" },
   "menuLabel_restoreModes": { "message": "Қалпына келтіру режимдері" },

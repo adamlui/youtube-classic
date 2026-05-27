@@ -1,7 +1,9 @@
 {
   "appName": { "message": "Bisanzwe" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
-  "appDesc": { "message": "Kuri Bisanzwe Ihangagishusho (Mbere Byose i Cyiburungushuye & Birahishe) + +" },
+  "appDesc": {
+    "message": "Ahabanza › › Amakuru › › Amakuru Anyuranye › › YOUTUBE + YOUTUBE + YOUTUBE + YOUTUBE + YOUTUBE"
+  },
   "menuLabel_about": { "message": "Bigyanye" },
   "menuLabel_restoreModes": { "message": "Ubwoko" },
   "menuLabel_blockModes": { "message": "< B B" },

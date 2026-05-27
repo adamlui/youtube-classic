@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "E busetsa YouTube mo sebopegong sa yone sa bogologolo (pele ga dikhutlo tsotlhe tse di dikologileng le dilo tse di sa ratweng tse di fitlhegileng) + e kaela gape YouTube Shorts + diphasalatso tsa thumbnail"
+    "message": "E busetsa YouTube mo sebopegong sa yone sa bogologolo (pele ga dikhutlo tsotlhe tse di dikologileng) + e kaela gape YouTube Shorts + diphasalatso tsa thumbnail"
   },
   "menuLabel_about": { "message": "O ka nna" },
   "menuLabel_restoreModes": { "message": "Restore Modes" },

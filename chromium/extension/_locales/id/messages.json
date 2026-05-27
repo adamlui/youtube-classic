@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "Mengembalikan YouTube ke desain klasiknya (sebelum semua sudut membulat & ketidaksukaan tersembunyi) + mengalihkan YouTube Shorts + memblokir iklan thumbnail"
+    "message": "Mengembalikan YouTube ke desain klasiknya (sebelum semua sudut membulat) + mengalihkan YouTube Shorts + memblokir iklan thumbnail"
   },
   "menuLabel_about": { "message": "Tentang" },
   "menuLabel_restoreModes": { "message": "Pulihkan Mode" },

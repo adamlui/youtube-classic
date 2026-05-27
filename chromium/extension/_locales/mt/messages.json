@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "Tirritorna YouTube għad-disinn klassiku tagħha (qabel il-kantunieri ttundjati kollha u dislike moħbija) + tidderieġi mill-ġdid YouTube Shorts + timblokka r-reklami ta' mini"
+    "message": "Tirritorna YouTube għad-disinn klassiku tagħha (qabel il-kantunieri ttundjati kollha) + tidderieġi mill-ġdid YouTube Shorts + timblokka r-reklami bit-tabelli"
   },
   "menuLabel_about": { "message": "Dwar" },
   "menuLabel_restoreModes": { "message": "Restawr tal-Modalitajiet" },

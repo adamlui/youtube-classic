@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "Reverteix YouTube al seu disseny clàssic (abans de totes les cantonades arrodonides i els disgustos ocults) + redirigeix YouTube Shorts + bloqueja els anuncis en miniatura"
+    "message": "Reverteix YouTube al seu disseny clàssic (abans de totes les cantonades arrodonides) + redirigeix YouTube Shorts + bloqueja els anuncis en miniatura"
   },
   "menuLabel_about": { "message": "Quant a" },
   "menuLabel_restoreModes": { "message": "Restaurar modes" },

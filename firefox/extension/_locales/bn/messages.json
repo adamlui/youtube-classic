@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "ইউটিউবকে তার ক্লাসিক ডিজাইনে ফিরিয়ে দেয় (সমস্ত গোলাকার কোণ এবং লুকানো অপছন্দের আগে) + YouTube শর্টস + থাম্বনেইল বিজ্ঞাপনগুলিকে পুনঃনির্দেশ করে"
+    "message": "ইউটিউবকে তার ক্লাসিক ডিজাইনে ফিরিয়ে দেয় (সমস্ত গোলাকার কোণে আগে) + YouTube শর্টস + থাম্বনেইল বিজ্ঞাপনগুলিকে পুনঃনির্দেশ করে"
   },
   "menuLabel_about": { "message": "সম্পর্কে" },
   "menuLabel_restoreModes": { "message": "মোডগুলি পুনরুদ্ধার করুন" },

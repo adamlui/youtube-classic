@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "Bidh e a 'toirt air ais YouTube chun dealbhadh clasaigeach aige (ro na h - oiseanan cruinn uile & cha toigh le daoine falaichte) + ath - sheòlaidhean YouTube Shorts + blocaichean sanasan mion - dhealbh"
+    "message": "Bidh e a 'toirt air ais YouTube chun dealbhadh clasaigeach aige (ro na h - oiseanan cruinn uile) + ag ath - stiùireadh YouTube Shorts + a' blocadh sanasan mion - dhealbh"
   },
   "menuLabel_about": { "message": "About" },
   "menuLabel_restoreModes": { "message": "Modhan aiseig" },

@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "เปลี่ยน YouTube เป็นดีไซน์คลาสสิก (ก่อนมุมโค้งมนทั้งหมดและไม่ชอบที่ซ่อนอยู่) + เปลี่ยนเส้นทาง YouTube Short + บล็อกโฆษณาขนาดย่อ"
+    "message": "เปลี่ยน YouTube เป็นดีไซน์คลาสสิก (ก่อนมุมโค้งมนทั้งหมด) + เปลี่ยนเส้นทาง YouTube Shorts + บล็อกโฆษณาขนาดย่อ"
   },
   "menuLabel_about": { "message": "เกี่ยวกับ" },
   "menuLabel_restoreModes": { "message": "โหมดการคืนค่า" },

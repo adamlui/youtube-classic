@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "Повертає YouTube до класичного дизайну (перед усіма закругленими кутами та прихованими відхиленнями) + перенаправляє шорти YouTube + блокує мініатюрні оголошення"
+    "message": "Повертає YouTube до класичного дизайну (перед усіма закругленими кутами) + перенаправляє шорти YouTube + блокує мініатюрні оголошення"
   },
   "menuLabel_about": { "message": "Про нас" },
   "menuLabel_restoreModes": { "message": "Режими відновлення" },

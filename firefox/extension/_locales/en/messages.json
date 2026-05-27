@@ -1,7 +1,7 @@
 {
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
-  "appDesc": { "message": "Reverts YouTube to its classic design (before all the rounded corners & hidden dislikes) + redirects YouTube Shorts + blocks thumbnail ads" },
+  "appDesc": { "message": "Reverts YouTube to its classic design (before all the rounded corners) + redirects YouTube Shorts + blocks thumbnail ads" },
   "menuLabel_about": { "message": "About" },
   "menuLabel_restoreModes": { "message": "Restore Modes" },
   "menuLabel_blockModes": { "message": "Block Modes" },

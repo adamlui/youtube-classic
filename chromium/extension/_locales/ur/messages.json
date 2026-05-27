@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "YouTube کو اس کے کلاسک ڈیزائن پر واپس لاتا ہے (تمام گول کونے اور پوشیدہ ناپسندیدگی سے پہلے) + YouTube شارٹس کو ری ڈائریکٹ کرتا ہے + تھمب نیل اشتہارات کو روکتا ہے"
+    "message": "YouTube کو اس کے کلاسک ڈیزائن پر واپس لاتا ہے (تمام گول کونے سے پہلے) + YouTube شارٹس کو ری ڈائریکٹ کرتا ہے + تھمب نیل اشتہارات کو روکتا ہے"
   },
   "menuLabel_about": { "message": "تعارف" },
   "menuLabel_restoreModes": { "message": "موڈز بحال کریں" },

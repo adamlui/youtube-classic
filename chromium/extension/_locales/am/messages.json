@@ -1,9 +1,7 @@
 {
   "appName": { "message": "የዩቲዩብ ክላሲክ" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
-  "appDesc": {
-    "message": "ዩቲዩብን ወደ ክላሲክ ዲዛይን (ከሁሉም ክብ ማዕዘኖች እና የተደበቁ አሻንጉሊቶች በፊት) + የYouTube Shorts + የጣት ማስታወቂያዎችን ያግዳል"
-  },
+  "appDesc": { "message": "ዩቲዩብ ወደ ክላሲክ ዲዛይን (ከሁሉም ክብ ማዕዘኖች በፊት) + የYouTube Shorts + የጣት ማስታወቂያዎችን ያግዳል" },
   "menuLabel_about": { "message": "ስለ" },
   "menuLabel_restoreModes": { "message": "ሁነቶችን ይመልሱ" },
   "menuLabel_blockModes": { "message": "ሁነቶችን አግድ" },

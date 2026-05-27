@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "Grąžina „YouTube“ klasikinį dizainą (prieš visus suapvalintus kampus ir paslėptus nepatinka) + nukreipia „YouTube“ šortus + blokuoja miniatiūrų skelbimus"
+    "message": "Grąžina „YouTube“ klasikinį dizainą (prieš visus suapvalintus kampus) + nukreipia „YouTube“ šortus + blokuoja miniatiūrų skelbimus"
   },
   "menuLabel_about": { "message": "Apie" },
   "menuLabel_restoreModes": { "message": "Atkurti režimus" },

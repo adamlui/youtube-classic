@@ -1,7 +1,7 @@
 {
   "appName": { "message": "YouTube 클래식" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
-  "appDesc": { "message": "YouTube를 클래식 디자인으로 되돌립니다 (모든 둥근 모서리 및 숨겨진 싫어요 전) + YouTube 반바지 리디렉션 + 썸네일 광고 차단" },
+  "appDesc": { "message": "YouTube를 클래식 디자인으로 되돌립니다 (모든 모서리가 둥글기 전에) + YouTube 반바지 리디렉션 + 썸네일 광고 차단" },
   "menuLabel_about": { "message": "소개" },
   "menuLabel_restoreModes": { "message": "모드 복원" },
   "menuLabel_blockModes": { "message": "블록 모드" },

@@ -1,7 +1,7 @@
 {
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "劉展鵬 (Adam Lui) & magma_craft" },
-  "appDesc": { "message": "將YouTube還原為經典設計（在所有圓角和隱藏的不喜歡之前） +重新導向YouTube短片+阻止縮略圖廣告" },
+  "appDesc": { "message": "將YouTube還原為傳統設計（在所有圓角之前） +重新導向YouTube短片+封鎖縮圖廣告" },
   "menuLabel_about": { "message": "關於" },
   "menuLabel_restoreModes": { "message": "還原模式" },
   "menuLabel_blockModes": { "message": "格擋模式" },

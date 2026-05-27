@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube ຄລາສສິກ" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "ຟື້ນຟູ YouTube ກັບການອອກແບບຄລາສສິກຂອງມັນ (ກ່ອນທຸກມຸມມອງຮອບ & ຄວາມບໍ່ມັກທີ່ເຊື່ອງໄວ້) + redirects YouTube Shorts + ບລັອກໂຄສະນາ thumbnail"
+    "message": "ຟື້ນຟູ YouTube ກັບການອອກແບບຄລາສສິກຂອງຕົນ (ກ່ອນທັງຫມົດມຸມມອງຮອບ) + redirects YouTube Shorts + ບລັອກໂຄສະນາ thumbnail"
   },
   "menuLabel_about": { "message": "ກ່ຽວກັບ" },
   "menuLabel_restoreModes": { "message": "ໂໝດການຟື້ນຟູ" },

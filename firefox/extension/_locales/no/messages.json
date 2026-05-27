@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "Tilbakestiller YouTube til det klassiske designet (før alle de avrundede hjørnene og skjulte mislikingene) + omdirigerer YouTube Shorts + blokkerer miniatyrannonser"
+    "message": "Tilbakestiller YouTube til det klassiske designet (før alle de avrundede hjørnene) + omdirigerer YouTube Shorts + blokkerer miniatyrannonser"
   },
   "menuLabel_about": { "message": "Om" },
   "menuLabel_restoreModes": { "message": "Gjenopprettingsmoduser" },

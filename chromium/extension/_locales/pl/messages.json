@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "Przywraca YouTube klasyczny wygląd (przed wszystkimi zaokrąglonymi rogami i ukrytymi niechęciami) + przekierowuje YouTube Shorts + blokuje reklamy miniatur"
+    "message": "Przywraca YouTube klasyczny wygląd (przed wszystkimi zaokrąglonymi rogami) + przekierowuje YouTube Shorts + blokuje reklamy miniaturowe"
   },
   "menuLabel_about": { "message": "Informacje" },
   "menuLabel_restoreModes": { "message": "Tryby przywracania" },

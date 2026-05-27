@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Klassik" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "YouTube’ni klassik dizayniga qaytaradi (barcha yumaloq burchaklar va yashirin yoqtirmasliklardan oldin) + YouTube Shorts’ni yo‘naltiradi + eskiz reklamalarini bloklaydi"
+    "message": "YouTube’ni klassik dizayniga qaytaradi (barcha yumaloq burchaklardan oldin) + YouTube Shorts’ni yo‘naltiradi + eskiz reklamalarini bloklaydi"
   },
   "menuLabel_about": { "message": "Haqida" },
   "menuLabel_restoreModes": { "message": "Qayta tiklash rejimlari" },

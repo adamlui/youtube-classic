@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube ક્લાસિક" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "YouTube ને તેની ક્લાસિક ડિઝાઇન પર ફેરવે છે (બધા ગોળાકાર ખૂણાઓ અને છુપાયેલા નાપસંદ પહેલાં) + YouTube શોર્ટ્સ + બ્લૉક થંબનેલ જાહેરાતોને રીડાયરેક્ટ કરે છે"
+    "message": "YouTube ને તેની ક્લાસિક ડિઝાઇન પર ફેરવે છે (બધા ગોળાકાર ખૂણાઓ પહેલાં) + YouTube શોર્ટ્સ + બ્લોક્સ થંબનેલ જાહેરાતોને રીડાયરેક્ટ કરે છે"
   },
   "menuLabel_about": { "message": "વિશે" },
   "menuLabel_restoreModes": { "message": "રીસ્ટોર મોડ્સ" },

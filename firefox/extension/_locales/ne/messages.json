@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "YouTube लाई यसको क्लासिक डिजाइनमा फर्काउँछ (सबै गोलाकार कुनाहरू र लुकेका मन नपराउनु अघि) + YouTube सर्टहरू + थम्बनेल विज्ञापनहरू रोक्दछ"
+    "message": "YouTube लाई यसको क्लासिक डिजाइनमा फर्काउँछ (सबै गोलाकार कुनाहरू भन्दा पहिले) + YouTube Shorts + थम्बनेल विज्ञापनहरू ब्लक गर्दछ"
   },
   "menuLabel_about": { "message": "बारेमा" },
   "menuLabel_restoreModes": { "message": "मोडहरू पुनर्स्थापना गर्नुहोस्" },

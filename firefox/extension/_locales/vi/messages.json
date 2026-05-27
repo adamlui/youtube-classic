@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "Chuyển YouTube về thiết kế cổ điển của nó (trước tất cả các góc bo tròn và không thích ẩn) + chuyển hướng YouTube Shorts + chặn quảng cáo hình thu nhỏ"
+    "message": "Chuyển YouTube về thiết kế cổ điển (trước tất cả các góc bo tròn) + chuyển hướng YouTube Shorts + chặn quảng cáo hình thu nhỏ"
   },
   "menuLabel_about": { "message": "Giới thiệu" },
   "menuLabel_restoreModes": { "message": "Chế độ khôi phục" },

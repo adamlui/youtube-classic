@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "Visszaállítja a YouTube-ot a klasszikus dizájnra (a lekerekített sarkok és a rejtett ellenszenvek előtt) + átirányítja a YouTube rövidnadrágot + blokkolja a miniatűr hirdetéseket"
+    "message": "Visszaállítja a YouTube-ot a klasszikus dizájnra (az összes lekerekített sarok előtt) + átirányítja a YouTube rövidnadrágot + blokkolja a miniatűr hirdetéseket"
   },
   "menuLabel_about": { "message": "Rólunk" },
   "menuLabel_restoreModes": { "message": "Üzemmódok visszaállítása" },

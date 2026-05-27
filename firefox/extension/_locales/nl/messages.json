@@ -2,7 +2,7 @@
   "appName": { "message": "YouTube Classic" },
   "appAuthor": { "message": "Adam Lui & magma_craft" },
   "appDesc": {
-    "message": "Zet YouTube terug naar zijn klassieke ontwerp (vóór alle afgeronde hoeken en verborgen antipathieën) + stuurt YouTube-shorts om + blokkeert miniatuuradvertenties"
+    "message": "Zet YouTube terug naar zijn klassieke ontwerp (vóór alle afgeronde hoeken) + stuurt YouTube-shorts om + blokkeert miniatuuradvertenties"
   },
   "menuLabel_about": { "message": "Over" },
   "menuLabel_restoreModes": { "message": "Herstelmodi" },
