@@ -19,5 +19,6 @@
   "web_accessible_resources": [{ "matches": ["<all_urls>"], "resources": ["components/*", "lib/*"] }],
   "content_scripts": [{ "matches": ["*://*.youtube.com/*"],  "run_at": "document_start", "js": ["content.js"] }],
   "background": { "scripts": ["background.js"] },
-  "browser_specific_settings": { "gecko": { "id": "firefox@ytclassic.com" }}
+  "browser_specific_settings": {
+    "gecko": { "id": "firefox@ytclassic.com", "data_collection_permissions": { "required": ["none"] }}}
 }
