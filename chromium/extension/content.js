@@ -72,6 +72,7 @@
     // Run MAIN routine
 
     await settings.load('extensionDisabled', Object.keys(settings.controls))
+    if (app.config.extensionDisabled) return
     if (app.config.disableShorts) sync.shorts.redir()
     styles.update({ keys: Object.keys(styles).filter(key => styles[key].autoAppend) })
     sync.headerLogo()
