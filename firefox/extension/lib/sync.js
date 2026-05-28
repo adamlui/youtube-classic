@@ -12,6 +12,8 @@ window.sync = {
             this.shorts.configToUI()
         else if (key?.endsWith('Block'))
             styles.update({ key: 'block' })
+        else if (key == 'reduceAnimations')
+            expFlags.animations[app.config.reduceAnimations ? 'disable' : 'enable']()
         else if (key == 'idlePrevention')
             this.idle.configToUI()
         else if (/notifBottom|toastMode/.test(key))
