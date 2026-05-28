@@ -14,10 +14,10 @@ export default [
             ecmaVersion: 'latest', sourceType: 'script',
             globals: {
                 ...globals.browser, ...globals.greasemonkey, ...globals.node, app: 'writable', chrome: 'readonly',
-                css: 'readonly', dom: 'readonly', env: 'writable', feedback: 'readonly', gmToolbarMenu: 'readonly',
-                i18n: 'readonly', icons: 'readonly', JSON5: 'readonly', modals: 'writable', settings: 'writable',
-                string: 'readonly', styles: 'readonly', sync: 'readonly', ui: 'readonly', updateCheck: 'readonly',
-                xhr: 'readonly'
+                css: 'readonly', dom: 'readonly', env: 'writable', expFlags: 'readonly', feedback: 'readonly',
+                gmToolbarMenu: 'readonly', i18n: 'readonly', icons: 'readonly', JSON5: 'readonly', modals: 'writable',
+                settings: 'writable', string: 'readonly', styles: 'readonly', sync: 'readonly', ui: 'readonly',
+                updateCheck: 'readonly', xhr: 'readonly'
             }
         },
         plugins: { 'import-x': importPlugin, 'js-styles': stylisticJS, regexp },

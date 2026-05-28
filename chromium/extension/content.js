@@ -6,8 +6,8 @@
     })
 
     for (const resource of [
-        'components/modals.js', 'lib/css.min.js', 'lib/dom.min.js', 'lib/feedback.js', 'lib/i18n.js',
-        'lib/settings.js', 'lib/styles.js', 'lib/sync.js', 'lib/ui.js'
+        'components/modals.js', 'lib/css.min.js', 'lib/dom.min.js', 'lib/exp-flags.js', 'lib/feedback.js',
+        'lib/i18n.js', 'lib/settings.js', 'lib/styles.js', 'lib/sync.js', 'lib/ui.js'
     ]) await import(chrome.runtime.getURL(resource))
 
     window.xhr = config => {
@@ -42,33 +42,6 @@
 
     ;({ app: window.app } = await chrome.storage.local.get('app'))
 
-    class YTP {
-        static observer = new MutationObserver(this.onNewScript)
-        static _config = {}
-        static isObject(item) { return (item && typeof item == 'object' && !Array.isArray(item)) }
-        static mergeDeep(target, ...sources) {
-            if (!sources.length) return target
-            const source = sources.shift()
-            if (this.isObject(target) && this.isObject(source)) for (const key in source)
-                if (this.isObject(source[key])) {
-                    if (!target[key]) Object.assign(target, { [key]: {} })
-                    this.mergeDeep(target[key], source[key])
-                } else Object.assign(target, { [key]: source[key] })
-            return this.mergeDeep(target, ...sources)
-        }
-        static onNewScript(mutations) { if (mutations.some(mut => mut.addedNodes.length)) YTP.bruteforce() }
-        static start() { this.observer.observe(document, { childList: true, subtree: true }) }
-        static stop() { this.observer.disconnect() }
-        static bruteforce() {
-            if (!window.yt?.config_) return
-            this.mergeDeep(window.yt.config_, this._config)
-        }
-        static setExpMulti(exps) {
-            if (!('EXPERIMENT_FLAGS' in this._config)) this._config.EXPERIMENT_FLAGS = {}
-            this.mergeDeep(this._config.EXPERIMENT_FLAGS, exps)
-        }
-    }
-
     // Run MAIN routine
 
     await settings.load('extensionDisabled', Object.keys(settings.controls))
@@ -80,15 +53,7 @@
         new MutationObserver(sync.headerLogo).observe(masthead, {
             attributes: true, subtree: true, attributeFilter: ['dark'] })
     })
-
-    // Tweak experimental flags
-    YTP.start()
-    Object.keys(app.ui.expFlags).filter(key => /_animated_/.test(key))
-        .forEach(animationKey => app.ui.expFlags[animationKey] = !app.config.reduceAnimations)
-    YTP.setExpMulti(app.ui.expFlags)
-    addEventListener('yt-page-data-updated', function handleDataUpdated() {
-        YTP.stop() ; removeEventListener('yt-page-data-updated', handleDataUpdated) })
-
+    expFlags.init({ reduceAnimations: app.config.reduceAnimations, presetFlags: app.ui.expFlags })
     if (app.config.idlePrevention) sync.idle.prevent()
 
 })()
