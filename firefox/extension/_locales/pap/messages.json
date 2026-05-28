@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Notifikashon" },
   "menuLabel_buyMeAcoffee": { "message": "Recibí un café" },
   "menuLabel_donate": { "message": "Por fabor haci un donacion" },
+  "menuLabel_extensionActive": { "message": "ekspanshon aktivo" },
   "about_author": { "message": "Autor" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "kontributornan" },

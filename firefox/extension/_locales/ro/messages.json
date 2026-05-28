@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Notificări" },
   "menuLabel_buyMeAcoffee": { "message": "Cumpără-mi o cafea" },
   "menuLabel_donate": { "message": "Te rugăm să trimiți o donație" },
+  "menuLabel_extensionActive": { "message": "extensie activă" },
   "about_author": { "message": "Autor" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "contribuabili" },

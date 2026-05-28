@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Obaveštenja" },
   "menuLabel_buyMeAcoffee": { "message": "Časti me kafom" },
   "menuLabel_donate": { "message": "Pošaljite donaciju" },
+  "menuLabel_extensionActive": { "message": "dodatak je aktivan" },
   "about_author": { "message": "Autor" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "saradnici" },

@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Varsler" },
   "menuLabel_buyMeAcoffee": { "message": "Kjøp meg en kaffe" },
   "menuLabel_donate": { "message": "Send en donasjon" },
+  "menuLabel_extensionActive": { "message": "aktiv utvidelse" },
   "about_author": { "message": "Forfatter" },
   "about_and": { "message": "og" },
   "about_contributors": { "message": "bidragsytere" },

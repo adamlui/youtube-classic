@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Nā Hoʻolaha" },
   "menuLabel_buyMeAcoffee": { "message": "E kūʻai mai iaʻu i kofe" },
   "menuLabel_donate": { "message": "E ʻoluʻolu e hoʻouna mai i kahi makana" },
+  "menuLabel_extensionActive": { "message": "hoʻonui hana" },
   "about_author": { "message": "Mea kākau" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "nā mea hāʻawi" },

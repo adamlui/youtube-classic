@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Imiyalezo" },
   "menuLabel_buyMeAcoffee": { "message": "Ndithengele Ikofu" },
   "menuLabel_donate": { "message": "Nceda uthumele umnikelo" },
+  "menuLabel_extensionActive": { "message": "ukongezwa kuyasebenza" },
   "about_author": { "message": "Umbhali" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "abantu abanikelayo" },

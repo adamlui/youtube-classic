@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Notifications" },
   "menuLabel_buyMeAcoffee": { "message": "Thug n U Thug n Me Coffee" },
   "menuLabel_donate": { "message": "Cuir tabhartas" },
+  "menuLabel_extensionActive": { "message": "tha an leudachan gnìomhach" },
   "about_author": { "message": "Author" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "luchd - tabhartais" },

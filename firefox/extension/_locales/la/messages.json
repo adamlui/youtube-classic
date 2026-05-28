@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Notificationes" },
   "menuLabel_buyMeAcoffee": { "message": "Vide me a cafe" },
   "menuLabel_donate": { "message": "Mandefa fanomezana azafady" },
+  "menuLabel_extensionActive": { "message": "extensionis" },
   "about_author": { "message": "Author" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "partes" },

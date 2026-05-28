@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "အသိပေးချက်များ" },
   "menuLabel_buyMeAcoffee": { "message": "ငါ့ကိုကော်ဖီတစ်ခွက်ဝယ်ပါ" },
   "menuLabel_donate": { "message": "ကျေးဇူးပြု ၍ လှူဒါန်းမှုတစ်ခု ပေးပို့ပါ" },
+  "menuLabel_extensionActive": { "message": "သက်ဝင်နေသော တိုးချဲ့မှု" },
   "about_author": { "message": "ရေးသားသူ" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "ပါဝင်ပံ့ပိုးသူများ" },

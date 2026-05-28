@@ -11,6 +11,7 @@
   "menuLabel_notifs": { "message": "알림" },
   "menuLabel_buyMeAcoffee": { "message": "커피를 사주세요" },
   "menuLabel_donate": { "message": "기부금을 보내주세요" },
+  "menuLabel_extensionActive": { "message": "확장 활성" },
   "about_author": { "message": "작성자" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "기여자" },

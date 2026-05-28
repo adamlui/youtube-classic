@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "الإشعارات" },
   "menuLabel_buyMeAcoffee": { "message": "اشترِ لي قهوة" },
   "menuLabel_donate": { "message": "يرجى إرسال تبرع" },
+  "menuLabel_extensionActive": { "message": "الامتداد نشط" },
   "about_author": { "message": "المؤلف" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "المساهمون" },

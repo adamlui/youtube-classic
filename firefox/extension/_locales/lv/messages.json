@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Paziņojumi" },
   "menuLabel_buyMeAcoffee": { "message": "Nopērciet man kafiju" },
   "menuLabel_donate": { "message": "Lūdzu, nosūtiet ziedojumu" },
+  "menuLabel_extensionActive": { "message": "paplašinājums ir aktīvs" },
   "about_author": { "message": "Autors" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "līdzautori" },

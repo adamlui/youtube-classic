@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "सूचनाहरू" },
   "menuLabel_buyMeAcoffee": { "message": "मेरो लागि कफी किन्नुहोस्" },
   "menuLabel_donate": { "message": "कृपया दान पठाउनुहोस्" },
+  "menuLabel_extensionActive": { "message": "विस्तार सक्रिय" },
   "about_author": { "message": "लेखक" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "योगदानकर्ताहरू" },

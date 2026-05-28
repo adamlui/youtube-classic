@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Bildirişlər" },
   "menuLabel_buyMeAcoffee": { "message": "Mənə Qəhvə Al" },
   "menuLabel_donate": { "message": "İanə göndərin" },
+  "menuLabel_extensionActive": { "message": "uzatma aktivdir" },
   "about_author": { "message": "Müəllif" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "ianəçilər" },

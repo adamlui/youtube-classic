@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Izaziso" },
   "menuLabel_buyMeAcoffee": { "message": "Ngithengele Ikhofi" },
   "menuLabel_donate": { "message": "Sicela uthumele umnikelo" },
+  "menuLabel_extensionActive": { "message": "isandiso siyasebenza" },
   "about_author": { "message": "Umbhali" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "abanikeli" },

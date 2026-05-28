@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "දැනුම්දීම්" },
   "menuLabel_buyMeAcoffee": { "message": "මට කෝපි එකක් මිල දී ගන්න" },
   "menuLabel_donate": { "message": "කරුණාකර පරිත් ‍ යාගයක් යවන්න" },
+  "menuLabel_extensionActive": { "message": "දිගුව සක් ‍ රීයයි" },
   "about_author": { "message": "කර්තෘ" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "දායකයින්" },

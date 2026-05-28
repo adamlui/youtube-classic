@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Kunningar" },
   "menuLabel_buyMeAcoffee": { "message": "Gev mær eina kopp av kaffi" },
   "menuLabel_donate": { "message": "Send okkum eina gávu" },
+  "menuLabel_extensionActive": { "message": "útbygging virkin" },
   "about_author": { "message": "Forritari" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "ískoytisfólk" },

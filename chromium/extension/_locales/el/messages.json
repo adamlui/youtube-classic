@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Ειδοποιήσεις" },
   "menuLabel_buyMeAcoffee": { "message": "Αγόρασέ μου έναν καφέ" },
   "menuLabel_donate": { "message": "Στείλτε μια δωρεά" },
+  "menuLabel_extensionActive": { "message": "επέκταση ενεργή" },
   "about_author": { "message": "Συντάκτης" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "συνεισφέροντες" },

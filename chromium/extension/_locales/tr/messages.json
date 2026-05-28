@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Bildirimler" },
   "menuLabel_buyMeAcoffee": { "message": "Bana bir kahve ısmarla" },
   "menuLabel_donate": { "message": "Lütfen bağış gönderin" },
+  "menuLabel_extensionActive": { "message": "eklenti etkin" },
   "about_author": { "message": "Yazar" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "katkıda bulunanlar" },

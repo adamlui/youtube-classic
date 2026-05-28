@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Meldingen" },
   "menuLabel_buyMeAcoffee": { "message": "Koop een koffie voor me" },
   "menuLabel_donate": { "message": "Stuur een donatie" },
+  "menuLabel_extensionActive": { "message": "extensie actief" },
   "about_author": { "message": "Auteur" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "bijdragers" },

@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Ilmoitukset" },
   "menuLabel_buyMeAcoffee": { "message": "Osta minulle kahvi" },
   "menuLabel_donate": { "message": "Lähetä lahjoitus" },
+  "menuLabel_extensionActive": { "message": "laajennus aktiivinen" },
   "about_author": { "message": "Kirjoittaja" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "avustajat" },

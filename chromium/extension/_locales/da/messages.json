@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Notifikationer" },
   "menuLabel_buyMeAcoffee": { "message": "Køb en kop kaffe til mig" },
   "menuLabel_donate": { "message": "Send venligst en donation" },
+  "menuLabel_extensionActive": { "message": "udvidelse aktiv" },
   "about_author": { "message": "Forfatter" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "bidragydere" },

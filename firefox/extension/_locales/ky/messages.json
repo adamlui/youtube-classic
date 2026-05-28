@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Билдирүүлөр" },
   "menuLabel_buyMeAcoffee": { "message": "Мага Coffee сатып алуу" },
   "menuLabel_donate": { "message": "Сураныч, кайрымдуулук жөнөтүңүз" },
+  "menuLabel_extensionActive": { "message": "кеңейтүү активдүү" },
   "about_author": { "message": "Автор" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "салымчылар" },

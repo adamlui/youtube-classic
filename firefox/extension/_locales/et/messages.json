@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Teated" },
   "menuLabel_buyMeAcoffee": { "message": "Osta mulle kohv" },
   "menuLabel_donate": { "message": "Saada annetus" },
+  "menuLabel_extensionActive": { "message": "laiendus aktiivne" },
   "about_author": { "message": "Autor" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "kaastöötajad" },

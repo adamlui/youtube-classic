@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "A yeke wara tënë ti fango tënë" },
   "menuLabel_buyMeAcoffee": { "message": "Wake Me Café" },
   "menuLabel_donate": { "message": "Sara mbeni ye ti mû maboko na zo" },
+  "menuLabel_extensionActive": { "message": "a yeke sara kua na ni" },
   "about_author": { "message": "Author sara" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "azo so amû mbage ti ala" },

@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "གསལ་བསྒྲགས །" },
   "menuLabel_buyMeAcoffee": { "message": "ང་ལ་ཀོ་ཕི་ཞིག་གནང་རོགས་གནང་།" },
   "menuLabel_donate": { "message": "ཁྱོད་ཀྱིས་སྦྱིན་པ་གཏོང་འདོད་དམ །" },
+  "menuLabel_extensionActive": { "message": "ལས་བྱེད་པའི་རིང་ཐུང་།" },
   "about_author": { "message": "རྩོམ་པ་པོ །" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "གྲོགས་རམ །" },

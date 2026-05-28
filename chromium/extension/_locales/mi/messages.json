@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Ngā kōrero" },
   "menuLabel_buyMeAcoffee": { "message": "Hokona mai he kawhe ki ahau" },
   "menuLabel_donate": { "message": "Tukua mai he takoha" },
+  "menuLabel_extensionActive": { "message": "te whakawhānui i te mahi" },
   "about_author": { "message": "Kaituhi" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "ngā kaihauturu" },

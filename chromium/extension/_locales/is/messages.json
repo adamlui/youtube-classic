@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Tilkynningar" },
   "menuLabel_buyMeAcoffee": { "message": "Kauptu kaffi fyrir mig" },
   "menuLabel_donate": { "message": "Vinsamlegast sendu styrk" },
+  "menuLabel_extensionActive": { "message": "viðbót virk" },
   "about_author": { "message": "Höfundur" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "meðhöfundar" },

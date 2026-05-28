@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Notificacións" },
   "menuLabel_buyMeAcoffee": { "message": "Cómprame un café" },
   "menuLabel_donate": { "message": "Por favor, envíe unha doazón" },
+  "menuLabel_extensionActive": { "message": "extensión activa" },
   "about_author": { "message": "Autor" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "colaboradores" },

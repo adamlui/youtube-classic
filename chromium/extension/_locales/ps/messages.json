@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "خبرتیاوې" },
   "menuLabel_buyMeAcoffee": { "message": "ماته یوه کافي وپیرئ" },
   "menuLabel_donate": { "message": "مهرباني وکړئ یوه بسپنه ولیږئ" },
+  "menuLabel_extensionActive": { "message": "شاتاړي فعال ده" },
   "about_author": { "message": "ليکوال:" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "ګډونوالان" },

@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Хабарландырулар" },
   "menuLabel_buyMeAcoffee": { "message": "Маған кофе сатып алыңыз" },
   "menuLabel_donate": { "message": "Қайырымдылық жасауыңызды сұраймыз" },
+  "menuLabel_extensionActive": { "message": "белсенді кеңейтім" },
   "about_author": { "message": "Автор" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "салымшылар" },

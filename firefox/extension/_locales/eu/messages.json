@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Jakinarazpenak" },
   "menuLabel_buyMeAcoffee": { "message": "Erosi kafe bat" },
   "menuLabel_donate": { "message": "Mesedez, bidali dohaintza bat" },
+  "menuLabel_extensionActive": { "message": "luzapena aktibo" },
   "about_author": { "message": "Egilea" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "kolaboratzaileak" },

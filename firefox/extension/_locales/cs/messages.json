@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Upozornění" },
   "menuLabel_buyMeAcoffee": { "message": "Kupte mi kávu" },
   "menuLabel_donate": { "message": "Prosíme o zaslání daru" },
+  "menuLabel_extensionActive": { "message": "rozšíření aktivní" },
   "about_author": { "message": "Autor" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "přispěvatelé" },

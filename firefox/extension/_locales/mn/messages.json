@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Мэдэгдэл" },
   "menuLabel_buyMeAcoffee": { "message": "Надад кофе худалдаж аваарай" },
   "menuLabel_donate": { "message": "Хандив илгээнэ үү" },
+  "menuLabel_extensionActive": { "message": "өргөтгөл идэвхтэй" },
   "about_author": { "message": "Зохиолч" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "хувь нэмэр оруулагчид" },

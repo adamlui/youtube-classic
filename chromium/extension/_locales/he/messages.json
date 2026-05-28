@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "התראות" },
   "menuLabel_buyMeAcoffee": { "message": "קנו לי קפה" },
   "menuLabel_donate": { "message": "יש לשלוח תרומה" },
+  "menuLabel_extensionActive": { "message": "תוסף פעיל" },
   "about_author": { "message": "מחבר" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "תורמים" },

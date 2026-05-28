@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Notifikatiounen" },
   "menuLabel_buyMeAcoffee": { "message": "Ik ben heel benieuwd naar jouw mening laat het me weten in de comments" },
   "menuLabel_donate": { "message": "Schéckt w.e.g. eng Donatioun" },
+  "menuLabel_extensionActive": { "message": "verlängerung aktiv" },
   "about_author": { "message": "Auteur" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "contributoren" },

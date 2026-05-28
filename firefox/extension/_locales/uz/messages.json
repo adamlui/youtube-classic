@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Bildirishnomalar" },
   "menuLabel_buyMeAcoffee": { "message": "Menga kofe sotib oling" },
   "menuLabel_donate": { "message": "Iltimos, xayriya qiling" },
+  "menuLabel_extensionActive": { "message": "kengaytma faol" },
   "about_author": { "message": "Muallif" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "hissa qo'shuvchilar" },

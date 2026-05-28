@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Aviseringar" },
   "menuLabel_buyMeAcoffee": { "message": "Köp en kaffe till mig" },
   "menuLabel_donate": { "message": "Vänligen skicka en donation" },
+  "menuLabel_extensionActive": { "message": "tillägg aktivt" },
   "about_author": { "message": "Författare" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "bidragsgivare" },

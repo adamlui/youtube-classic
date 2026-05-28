@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Zviziviso" },
   "menuLabel_buyMeAcoffee": { "message": "Nditengere Kofi" },
   "menuLabel_donate": { "message": "Ndapota tumira mupiro" },
+  "menuLabel_extensionActive": { "message": "chiwedzerwa chinoshanda" },
   "about_author": { "message": "Munyori" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "zVINOKOSHA" },

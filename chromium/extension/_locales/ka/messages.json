@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Გაფრთხილებები" },
   "menuLabel_buyMeAcoffee": { "message": "Ყავის ყიდვა" },
   "menuLabel_donate": { "message": "Გაიღეთ შემოწირულობა" },
+  "menuLabel_extensionActive": { "message": "გახანგრძლივება აქტიურია" },
   "about_author": { "message": "Ავტორი" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "კონტრიბუტორები" },

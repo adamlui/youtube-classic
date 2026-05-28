@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Сповіщення" },
   "menuLabel_buyMeAcoffee": { "message": "Купити мені каву" },
   "menuLabel_donate": { "message": "Будь ласка, надішліть пожертву" },
+  "menuLabel_extensionActive": { "message": "розширення активне" },
   "about_author": { "message": "Автор" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "співавтори" },

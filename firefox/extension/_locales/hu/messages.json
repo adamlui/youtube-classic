@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Értesítések" },
   "menuLabel_buyMeAcoffee": { "message": "Vegyél nekem egy kávét" },
   "menuLabel_donate": { "message": "Kérjük, küldjön adományt" },
+  "menuLabel_extensionActive": { "message": "kiterjesztés aktív" },
   "about_author": { "message": "Szerző" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "közreműködők" },

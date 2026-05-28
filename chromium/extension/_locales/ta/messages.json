@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "அறிவிப்புகள்" },
   "menuLabel_buyMeAcoffee": { "message": "எனக்கு ஒரு காபி வாங்குங்கள்" },
   "menuLabel_donate": { "message": "நன்கொடை அனுப்பவும்" },
+  "menuLabel_extensionActive": { "message": "நீட்டிப்பு செயலில் உள்ளது" },
   "about_author": { "message": "ஆசிரியர்" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "பங்களிப்பாளர்கள்" },

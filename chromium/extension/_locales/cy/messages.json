@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Hysbysiadau" },
   "menuLabel_buyMeAcoffee": { "message": "Prynu Coffi i Mi" },
   "menuLabel_donate": { "message": "Anfonwch rodd os gwelwch yn dda" },
+  "menuLabel_extensionActive": { "message": "estyniad ar waith" },
   "about_author": { "message": "Awdur" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "cyfranwyr" },

@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "ਨੋਟੀਫਿਕੇਸ਼ਨ" },
   "menuLabel_buyMeAcoffee": { "message": "ਮੇਰੇ ਲਈ ਇੱਕ ਕੌਫੀ ਖਰੀਦੋ" },
   "menuLabel_donate": { "message": "ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਦਾਨ ਭੇਜੋ" },
+  "menuLabel_extensionActive": { "message": "ਐਕਸਟੈਂਸ਼ਨ ਐਕਟਿਵ" },
   "about_author": { "message": "ਲੇਖਕ" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "ਯੋਗਦਾਨੀ" },

@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "การแจ้งเตือน" },
   "menuLabel_buyMeAcoffee": { "message": "ซื้อกาแฟให้ฉัน" },
   "menuLabel_donate": { "message": "โปรดส่งเงินบริจาค" },
+  "menuLabel_extensionActive": { "message": "ส่วนขยายใช้งานอยู่" },
   "about_author": { "message": "ผู้เขียน" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "ผู้ร่วมให้ข้อมูล" },

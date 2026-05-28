@@ -13,6 +13,7 @@
   "menuLabel_notifs": { "message": "Pemberitahuan" },
   "menuLabel_buyMeAcoffee": { "message": "Belikan Saya Kopi" },
   "menuLabel_donate": { "message": "Sila hantar derma" },
+  "menuLabel_extensionActive": { "message": "sambungan aktif" },
   "about_author": { "message": "Pengarang" },
   "about_and": { "message": "&" },
   "about_contributors": { "message": "penyumbang" },
