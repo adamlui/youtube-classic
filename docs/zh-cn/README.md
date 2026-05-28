@@ -38,7 +38,7 @@
 
 <h3><b>YouTube 经典</b> 让 YouTube 重返经典美学的辉煌岁月</h3>
 
-<a href="https://addons.mozilla.org/firefox/addon/yt-classic/?utm_source=github&utm_medium=referral&utm_content=yt-classic-readme">
+<a href="#">
     <img alt="[获取 Firefox 版]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/firefox/available-for-firefox/raspberry-border-334x128.png"></a>
 <a href="https://gm.ytclassic.com">
     <img alt="[获取 Greasemonkey 版]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/greasemonkey/install-userscript/zh-cn/badge729x262.png"></a>
@@ -70,7 +70,7 @@
 
 <div align="center">
 
-<a href="https://addons.mozilla.org/firefox/addon/yt-classic/?utm_source=github&utm_medium=referral&utm_content=yt-classic-readme">
+<a href="#">
     <img alt="[获取 Firefox 版]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/firefox/available-for-firefox/raspberry-border-334x128.png"></a>
 <a href="https://gm.ytclassic.com">
     <img alt="[获取 Greasemonkey 版]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/greasemonkey/install-userscript/zh-cn/badge729x262.png"></a>
