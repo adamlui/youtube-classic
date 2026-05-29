@@ -487,6 +487,7 @@ window.styles = {
                 [class*=CollectionsStackCollectionStack], /* https://imgur.com/a/b221rzJ */
                 [class*=ViewModelHost], /* https://imgur.com/a/2hVbjRd */
                 [class*=Rounded], div#player-container, /* Shorts thumb, player */
+                a[class*=ytSpecButtonShapeNextHost], /* sidebar ad buttons https://imgur.com/a/ynZyRgL */
                 div.${app.slug}-modal,
                 yt-video-metadata-carousel-view-model,
                 ytd-player,
