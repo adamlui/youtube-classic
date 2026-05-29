@@ -1,6 +1,7 @@
 {
   "block": {
     "ad": {
+      "banner": "ytd-rich-section-renderer:has([href^=\"/premium/family\"])",
       "engagementPanel": "ytd-engagement-panel-section-list-renderer, #engagement-panel-ads",
       "masthead": "div#masthead-ad",
       "renderer": "ytd-ad-slot-renderer, [class*=\"ads-renderer\"]"
