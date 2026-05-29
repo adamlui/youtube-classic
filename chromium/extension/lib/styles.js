@@ -477,7 +477,7 @@ window.styles = {
             return !app.config.unroundCorners ? '' : `
                 yt-thumbnail-view-model, /* homepage thumb */
                 ytd-in-feed-ad-layout-renderer div[class$=Container], /* ad cta thumb https://imgur.com/a/f0NBzgP */
-                ${css.selectors.extract(app.selectors.block.ad).join(', ')},
+                ${css.selectors.extract(app.selectors.block.ad).join(',')},
                 yt-image-banner-view-model, /* channel banner */
                 div.ytPageHeaderViewModelBackground, /* playlist sidebar */
                 yt-content-preview-image-view-model, /* playlist sidebar thumb */
@@ -485,6 +485,8 @@ window.styles = {
                 :where(div#buttons.ytd-masthead, div#action-buttons, yt-flexible-actions-view-model) :is(
                     button, a[class*=Button]),
                 [class*=CollectionsStackCollectionStack], /* https://imgur.com/a/b221rzJ */
+                [class*=ViewModelHost], /* https://imgur.com/a/2hVbjRd */
+                [class*=Rounded], div#player-container, /* Shorts thumb, player */
                 div.${app.slug}-modal,
                 yt-video-metadata-carousel-view-model,
                 ytd-player,
