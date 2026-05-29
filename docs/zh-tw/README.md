@@ -38,8 +38,6 @@
 
 <h3><b>YouTube 經典</b> 讓 YouTube 重返經典美學的輝煌歲月</h3>
 
-<a href="#">
-    <img alt="[取得 Firefox 版]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/firefox/available-for-firefox/raspberry-border-334x128.png"></a>
 <a href="https://gm.ytclassic.com">
     <img alt="[[取得 Greasemonkey 版]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/greasemonkey/install-userscript/en/badge860x262.png"></a>
 
@@ -70,8 +68,6 @@
 
 <div align="center">
 
-<a href="#">
-    <img alt="[取得 Firefox 版]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/firefox/available-for-firefox/raspberry-border-334x128.png"></a>
 <a href="https://gm.ytclassic.com">
     <img alt="[[取得 Greasemonkey 版]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/greasemonkey/install-userscript/en/badge860x262.png"></a>
 
