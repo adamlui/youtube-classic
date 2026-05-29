@@ -38,7 +38,7 @@
 
 <h3><b>YouTube 经典</b> 让 YouTube 重返经典美学的辉煌岁月</h3>
 
-<a href="https://gm.ytclassic.com">
+<a href="https://scriptcat.org/script-show-page/6345">
     <img alt="[获取 Greasemonkey 版]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/greasemonkey/install-userscript/zh-cn/badge729x262.png"></a>
 
 </div>
@@ -70,7 +70,7 @@
 
 <a href="https://chromewebstore.google.com/detail/youtube-classic/keehjmmhefapnbammgjhdppfeekdiepk">
     <img alt="[Get for Chromium]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/chrome-web-store/available-in-the-chrome-web-store-green-square-border-light-498x152.png"></a>
-<a href="https://gm.ytclassic.com">
+<a href="https://scriptcat.org/script-show-page/6345">
     <img alt="[获取 Greasemonkey 版]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/greasemonkey/install-userscript/zh-cn/badge729x262.png"></a>
 
 </div>
