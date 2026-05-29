@@ -588,13 +588,15 @@ window.styles = {
                 div.ytSmartImationsContent:has(#notification-preference-toggle-button) { /* sub/bell container */
                     display: flex } /* display bell right of sub btn */
                 div#notification-preference-button button { background: none !important }
-                div#notification-preference-button div.ytSpecButtonShapeNextSecondaryIcon{ /* down caret */
-                    filter: invert(1) }
+                ${ env.browser.isFF ? '' : `
+                    div#notification-preference-button div.ytSpecButtonShapeNextSecondaryIcon{ /* down caret */
+                        filter: invert(1) }
+                `}
                 div#notification-preference-button span.ytIconWrapperHost div { /* color All/None */
                     fill: var(--yt-sys-color-baseline--mono-filled-hover) !important }
                 div.ytSubscribeButtonViewModelContainer svg:has(path[d*="20.104999542236328"]),
                 div#subscribe-button yt-smartimation div.ytSpecButtonShapeNextIcon { /* search results */
-                    filter: invert(100%) } /* whiten Personalized bell on channel */
+                    filter: invert(1) } /* whiten Personalized bell on channel */
             `
         }
     }
