@@ -5,9 +5,11 @@
 <h1><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@1c92f98/assets/images/logos/youtube-classic/darkmode/logo535x75.png"><img src="https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@1c92f98/assets/images/logos/youtube-classic/lightmode/logo535x75.png"></picture></h1>
 
 <a href="https://github.com/adamlui/youtube-classic/blob/main/chromium/docs/LICENSE.md">
-    <img alt="[License: MIT]" src="https://img.shields.io/badge/License-MIT-orange.svg?logo=internetarchive&logoColor=white&style=for-the-badge"></a>
+    <img alt="[License: MIT]" src="https://img.shields.io/badge/License-MIT-f99b27.svg?logo=internetarchive&logoColor=white&style=for-the-badge"></a>
+<a href="https://chromewebstore.google.com/detail/youtube-classic/keehjmmhefapnbammgjhdppfeekdiepk">
+    <img src="https://img.shields.io/chrome-web-store/v/keehjmmhefapnbammgjhdppfeekdiepk?label=Latest+Release&logo=googlechrome&logoColor=white&labelColor=464646&color=58E886&style=for-the-badge"></a>
 <a href="https://www.codefactor.io/repository/github/adamlui/youtube-classic">
-    <img alt="[CodeFactor grade]" src="https://img.shields.io/codefactor/grade/github/adamlui/youtube-classic?logo=codefactor&logoColor=white&label=Code%20Quality&style=for-the-badge"></a>
+    <img alt="[CodeFactor grade]" src="https://img.shields.io/codefactor/grade/github/adamlui/youtube-classic?logo=codefactor&logoColor=white&label=Code%20Quality&color=b3ff68&style=for-the-badge"></a>
 <a href="https://sonarcloud.io/component_measures?metric=vulnerabilities&id=adamlui_youtube-classic">
     <img alt="[SonarCloud vulnerabilities]" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fsonarcloud.io%2Fapi%2Fmeasures%2Fcomponent%3Fcomponent%3Dadamlui_youtube-classic%26metricKeys%3Dvulnerabilities&query=%24.component.measures.0.value&style=for-the-badge&logo=sonar&logoColor=white&labelColor=464646&label=Vulnerabilities&color=ffef00"></a>
 <br><br>
