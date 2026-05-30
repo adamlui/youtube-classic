@@ -5,7 +5,7 @@
 <h1><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@1c92f98/assets/images/logos/youtube-classic/darkmode/logo535x75.png"><img src="https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@1c92f98/assets/images/logos/youtube-classic/lightmode/logo535x75.png"></picture></h1>
 
 <a href="https://github.com/adamlui/youtube-classic/blob/main/firefox/docs/LICENSE.md">
-    <img alt="[License: MIT]" src="https://img.shields.io/badge/License-MIT-orange.svg?logo=internetarchive&logoColor=white&style=for-the-badge"></a>
+    <img alt="[License: MIT]" src="https://img.shields.io/badge/License-MIT-f99b27.svg?logo=internetarchive&logoColor=white&style=for-the-badge"></a>
 <a href="https://www.codefactor.io/repository/github/adamlui/youtube-classic">
     <img alt="[CodeFactor grade]" src="https://img.shields.io/codefactor/grade/github/adamlui/youtube-classic?logo=codefactor&logoColor=white&label=Code%20Quality&style=for-the-badge"></a>
 <a href="https://sonarcloud.io/component_measures?metric=vulnerabilities&id=adamlui_youtube-classic">
