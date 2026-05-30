@@ -2,6 +2,7 @@
   "block": {
     "ad": {
       "banner": "ytd-rich-section-renderer:has([href^=\"/premium/family\"])",
+      "chromeBanner": "ytd-statement-banner-renderer:has(a[href^=\"https://www.google.com/chrome/\"])",
       "engagementPanel": "ytd-engagement-panel-section-list-renderer, #engagement-panel-ads",
       "masthead": "div#masthead-ad",
       "renderer": "ytd-ad-slot-renderer, [class*=\"ads-renderer\"]"
