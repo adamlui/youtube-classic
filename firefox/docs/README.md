@@ -39,6 +39,14 @@
       <img width=535 height="auto" src="https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@1c92f98/assets/images/screenshots/ad-block/after.png"></li><br>
 </ul>
 
+## 🚀 Installation
+
+1. Install [YouTube Classic](https://addons.mozilla.org/firefox/addon/yt-classic/) Firefox add-on
+
+2. Visit [youtube.com](https://youtube.com) & UI is transformed!
+
+<br>
+
 <div align="center">
 
 <a href="https://addons.mozilla.org/firefox/addon/yt-classic/">

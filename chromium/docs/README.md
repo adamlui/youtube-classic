@@ -41,6 +41,23 @@
       <img width=535 height="auto" src="https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@1c92f98/assets/images/screenshots/ad-block/after.png"></li><br>
 </ul>
 
+## 🚀 Installation
+
+1. Install **YouTube Classic** from the [Chrome Web Store](https://chromewebstore.google.com/detail/youtube-classic/keehjmmhefapnbammgjhdppfeekdiepk?utm_source=github&utm_medium=referral&utm_content=youtube-classic-readme)
+
+2. Visit [youtube.com](https://youtube.com) & UI is transformed!
+
+*Pro tip: For easier access to extension toggles, (1) click <img height=12 width=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/icons/toolbar/chrome-puzzle-piece/gray.png"> in the browser's toolbar, (2) then <img height=12 width=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/icons/toolbar/push-pin/blue.png"> next to extension name.*
+
+<div align="center">
+
+<img width=268 src="https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@c83b32f/assets/images/screenshots/chrome/pin-instructions/en.png">
+<img width=295 src="https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@c83b32f/assets/images/screenshots/chrome/toolbar-menu/en.png">
+
+</div>
+
+<br><br>
+
 <div align="center">
 
 <a href="https://chromewebstore.google.com/detail/youtube-classic/keehjmmhefapnbammgjhdppfeekdiepk">

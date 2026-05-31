@@ -70,6 +70,40 @@
       <img width=535 height="auto" src="https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@1c92f98/assets/images/screenshots/ad-block/after.png"></li><br>
 </ul>
 
+## 🚀 安装
+
+### <a href="#" title="Chrome"><img height=16 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@d11d2ee/assets/images/icons/browsers/chrome/icon16.png"></a><a href="#" title="Edge"><img height=16 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@d11d2ee/assets/images/icons/browsers/edge/icon16.png"></a><a href="#" title="Firefox"><img height=17 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@d11d2ee/assets/images/icons/browsers/firefox/icon16.png"></a> 浏览器扩展：
+
+1. 安装 YouTube Classic 扩展程序 ([Chrome](https://chromewebstore.google.com/detail/youtube-classic/keehjmmhefapnbammgjhdppfeekdiepk?utm_source=github&utm_medium=referral&utm_content=youtube-classic-readme), [Firefox](https://addons.mozilla.org/firefox/addon/yt-classic/?utm_source=github&utm_medium=referral&utm_content=youtube-classic-readme))
+
+2. 访问 [youtube.com](https://youtube.com)，界面焕然一新！
+
+*专业提示：为了更便捷地访问扩展开关，(1) 点击 <img height=12 width=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/icons/toolbar/chrome-puzzle-piece/gray.png"> 在浏览器工具栏中，（2）然后 <img height=12 width=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/icons/toolbar/push-pin/blue.png"> 位于扩展名称旁。*
+
+<div align="center">
+
+<img width=268 src="https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@c83b32f/assets/images/screenshots/chrome/pin-instructions/en.png">
+<img width=295 src="https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@c83b32f/assets/images/screenshots/chrome/toolbar-menu/en.png">
+
+</div>
+
+#
+
+### <a href="#" title="Tampermonkey"><img height=17 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@d11d2ee/assets/images/icons/userscript-managers/tampermonkey/icon28.png"></a><a href="#" title="Violentmonkey"><img height=17.5 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@d11d2ee/assets/images/icons/userscript-managers/violentmonkey/icon25.png"></a><a href="#" title="ScriptCat"><img height=16 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@d11d2ee/assets/images/icons/userscript-managers/scriptcat/icon16.png"></a><a href="#" title="OrangeMonkey"><img height=16 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@d11d2ee/assets/images/icons/userscript-managers/orangemonkey/icon16.png"></a><a href="#" title="Stay"><img height=18 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@d11d2ee/assets/images/icons/userscript-managers/stay/icon32.png"></a><a href="#" title="Userscripts"><img height=17 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@d11d2ee/assets/images/icons/userscript-managers/userscripts/icon32.png"></a> Greasemonkey 用户脚本：
+
+1. 安装一个用户脚本管理器，例如：
+    - ScriptCat 为了 [Chrome](https://chromewebstore.google.com/detail/scriptcat/ndcooeababalnlpkfedmmbbbgkljhpjf), [Firefox](https://addons.mozilla.org/firefox/addon/scriptcat/) 或者 [Edge](https://microsoftedge.microsoft.com/addons/detail/scriptcat/liilgpjgabokdklappibcjfablkpcekh)
+    - Violentmonkey 为了 [Firefox](https://addons.mozilla.org/firefox/addon/violentmonkey/) 或者 [Edge](https://microsoftedge.microsoft.com/addons/detail/eeagobfjdenkkddmbclomhiblgggliao)
+    - OrangeMonkey 为了 [Chrome](https://chromewebstore.google.com/detail/orangemonkey/ekmeppjgajofkpiofbebgcbohbmfldaf)
+    - Tampermonkey 为了 [Chrome](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo), [Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/) 或者 [Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd)
+    - [Stay](https://apps.apple.com/app/stay-for-safari/id1591620171) 或者 [Userscripts](https://apps.apple.com/app/userscripts/id1463298887) 为了 Safari
+
+2. 安装 [YouTube Classic](https://scriptcat.org/zh-CN/script-show-page/6345) 用户脚本（将加载至上方已安装的管理器中）
+
+3. 访问 [youtube.com](https://youtube.com)，界面焕然一新！
+
+<br>
+
 <div align="center">
 
 <a href="https://chromewebstore.google.com/detail/youtube-classic/keehjmmhefapnbammgjhdppfeekdiepk">
