@@ -38,6 +38,10 @@
 
 <h3><b>YouTube 經典</b> 讓 YouTube 重返經典美學的輝煌歲月</h3>
 
+<a href="https://chromewebstore.google.com/detail/youtube-classic/keehjmmhefapnbammgjhdppfeekdiepk">
+    <img alt="[Get for Chromium]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/chrome-web-store/available-in-the-chrome-web-store-green-square-border-light-498x152.png"></a>
+<a href="https://addons.mozilla.org/zh-TW/firefox/addon/yt-classic/">
+    <img alt="[取得 Firefox 版]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/firefox/available-for-firefox/raspberry-border-334x128.png"></a>
 <a href="https://scriptcat.org/script-show-page/6345">
     <img alt="[[取得 Greasemonkey 版]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/greasemonkey/install-userscript/en/badge860x262.png"></a>
 
@@ -70,6 +74,8 @@
 
 <a href="https://chromewebstore.google.com/detail/youtube-classic/keehjmmhefapnbammgjhdppfeekdiepk">
     <img alt="[Get for Chromium]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/chrome-web-store/available-in-the-chrome-web-store-green-square-border-light-498x152.png"></a>
+<a href="https://addons.mozilla.org/zh-TW/firefox/addon/yt-classic/">
+    <img alt="[取得 Firefox 版]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/firefox/available-for-firefox/raspberry-border-334x128.png"></a>
 <a href="https://scriptcat.org/script-show-page/6345">
     <img alt="[[取得 Greasemonkey 版]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/greasemonkey/install-userscript/en/badge860x262.png"></a>
 

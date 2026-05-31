@@ -28,6 +28,8 @@
 
 <h3><b>YouTube Classic</b> restores YouTube back to its glory days of classic aesthetics</h3>
 
+<a href="https://addons.mozilla.org/firefox/addon/yt-classic/">
+    <img alt="[Get for Firefox]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/firefox/available-for-firefox/raspberry-border-334x128.png"></a>
 <a href="https://chromewebstore.google.com/detail/youtube-classic/keehjmmhefapnbammgjhdppfeekdiepk">
     <img alt="[Get for Chromium]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/chrome-web-store/available-in-the-chrome-web-store-green-square-border-light-498x152.png"></a>
 <a href="https://scriptcat.org/script-show-page/6345">
@@ -60,10 +62,12 @@
 
 <div align="center">
 
+<a href="https://addons.mozilla.org/firefox/addon/yt-classic/">
+    <img alt="[Get for Firefox]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/firefox/available-for-firefox/raspberry-border-334x128.png"></a>
 <a href="https://chromewebstore.google.com/detail/youtube-classic/keehjmmhefapnbammgjhdppfeekdiepk">
     <img alt="[Get for Chromium]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/chrome-web-store/available-in-the-chrome-web-store-green-square-border-light-498x152.png"></a>
 <a href="https://scriptcat.org/script-show-page/6345">
-    <img alt="[Get for Greasemonkey]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/greasemonkey/install-userscript/en/badge860x262.png"></a>
+    <img alt="[Get for Greasemonkey]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/greasemonkey/install-userscript/zh-cn/badge729x262.png"></a>
 
 </div>
 
