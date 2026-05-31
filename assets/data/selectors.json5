@@ -4,8 +4,8 @@
       "banner": "ytd-rich-section-renderer:has([href^=\"/premium/family\"])", // https://imgur.com/a/5OfJkZh
       "chromeBanner": // https://imgur.com/a/Z13553Z
         "ytd-statement-banner-renderer:has(a[href^=\"https://www.google.com/chrome/\"])",
-      "engagementPanel": // https://imgur.com/a/zdLkBNW, https://imgur.com/a/K6ByKC8
-        "ytd-engagement-panel-section-list-renderer, #engagement-panel-ads",
+      "engagementPanel": // https://imgur.com/a/K6ByKC8
+        "#engagement-panel-ads",
       "masthead": "div#masthead-ad", // https://imgur.com/a/kOWzh3O
       "renderer": "ytd-ad-slot-renderer, [class*=\"ads-renderer\"]"
     },
