@@ -74,7 +74,7 @@
 
 ### <a href="#" title="Chrome"><img height=16 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@d11d2ee/assets/images/icons/browsers/chrome/icon16.png"></a><a href="#" title="Edge"><img height=16 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@d11d2ee/assets/images/icons/browsers/edge/icon16.png"></a><a href="#" title="Firefox"><img height=17 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@d11d2ee/assets/images/icons/browsers/firefox/icon16.png"></a> 浏览器扩展：
 
-1. 安装 YouTube Classic 扩展程序 ([Chrome](https://chromewebstore.google.com/detail/youtube-classic/keehjmmhefapnbammgjhdppfeekdiepk?utm_source=github&utm_medium=referral&utm_content=youtube-classic-readme), [Firefox](https://addons.mozilla.org/firefox/addon/yt-classic/?utm_source=github&utm_medium=referral&utm_content=youtube-classic-readme))
+1. 安装 YouTube Classic 扩展程序 ([Chrome](https://chromewebstore.google.com/detail/youtube-classic/keehjmmhefapnbammgjhdppfeekdiepk?utm_source=github&utm_medium=referral&utm_content=youtube-classic-readme), [Firefox](https://addons.mozilla.org/firefox/addon/yt-classic/?utm_source=github eadme))
 
 2. 访问 [youtube.com](https://youtube.com)，界面焕然一新！
 
@@ -82,8 +82,8 @@
 
 <div align="center">
 
-<img width=268 src="https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@c83b32f/assets/images/screenshots/chrome/pin-instructions/en.png">
-<img width=295 src="https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@c83b32f/assets/images/screenshots/chrome/toolbar-menu/en.png">
+<img width=268 src="https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@c83b32f/assets/images/screenshots/chrome/pin-instructions/zh-cn.png">
+<img width=295 src="https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@c83b32f/assets/images/screenshots/chrome/toolbar-menu/zh-cn.png">
 
 </div>
 

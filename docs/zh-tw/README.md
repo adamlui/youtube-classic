@@ -82,8 +82,8 @@
 
 <div align="center">
 
-<img width=268 src="https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@c83b32f/assets/images/screenshots/chrome/pin-instructions/en.png">
-<img width=295 src="https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@c83b32f/assets/images/screenshots/chrome/toolbar-menu/en.png">
+<img width=268 src="https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@c83b32f/assets/images/screenshots/chrome/pin-instructions/zh-tw.png">
+<img width=295 src="https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@c83b32f/assets/images/screenshots/chrome/toolbar-menu/zh-tw.png">
 
 </div>
 
