@@ -589,10 +589,8 @@ window.styles = {
                 div.ytSmartImationsContent:has(#notification-preference-toggle-button) { /* sub/bell container */
                     display: flex } /* display bell right of sub btn */
                 div#notification-preference-button button { background: none !important }
-                ${ env.browser.isFF ? '' : `
-                    div#notification-preference-button div.ytSpecButtonShapeNextSecondaryIcon{ /* down caret */
-                        filter: invert(1) }
-                `}
+                div#notification-preference-button div.ytSpecButtonShapeNextSecondaryIcon{ /* down caret */
+                    filter: invert(1) }
                 div#notification-preference-button span.ytIconWrapperHost div { /* color All/None */
                     fill: var(--yt-sys-color-baseline--mono-filled-hover) !important }
                 div.ytSubscribeButtonViewModelContainer svg:has(path[d*="20.104999542236328"]),
