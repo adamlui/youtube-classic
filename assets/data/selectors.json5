@@ -7,6 +7,7 @@
       "engagementPanel": // https://imgur.com/a/K6ByKC8
         "#engagement-panel-ads",
       "masthead": "div#masthead-ad", // https://imgur.com/a/kOWzh3O
+      "merch": "ytd-merch-shelf-renderer", // https://imgur.com/a/27XVJDO
       "renderer": "ytd-ad-slot-renderer, [class*=\"ads-renderer\"]"
     },
     "ai": {
