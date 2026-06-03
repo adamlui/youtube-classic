@@ -40,6 +40,8 @@
 
 <a href="https://chromewebstore.google.com/detail/youtube-classic/keehjmmhefapnbammgjhdppfeekdiepk">
     <img alt="[Get for Chromium]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/chrome-web-store/available-in-the-chrome-web-store-green-square-border-light-498x152.png"></a>
+<a href="https://microsoftedge.microsoft.com/addons/detail/youtube-classic/gbdiffmdamghkpgfljpmoflcleedkdeg">
+    <img alt="[取得 Edge 版]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/microsoft-store/get-it-from-microsoft-blue-square-border-light-457x157.png"></a>
 <a href="https://addons.mozilla.org/zh-TW/firefox/addon/yt-classic/">
     <img alt="[取得 Firefox 版]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/firefox/available-for-firefox/raspberry-border-334x128.png"></a>
 <a href="https://scriptcat.org/script-show-page/6345">
@@ -108,6 +110,8 @@
 
 <a href="https://chromewebstore.google.com/detail/youtube-classic/keehjmmhefapnbammgjhdppfeekdiepk">
     <img alt="[Get for Chromium]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/chrome-web-store/available-in-the-chrome-web-store-green-square-border-light-498x152.png"></a>
+<a href="https://microsoftedge.microsoft.com/addons/detail/youtube-classic/gbdiffmdamghkpgfljpmoflcleedkdeg">
+    <img alt="[取得 Edge 版]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/microsoft-store/get-it-from-microsoft-blue-square-border-light-457x157.png"></a>
 <a href="https://addons.mozilla.org/zh-TW/firefox/addon/yt-classic/">
     <img alt="[取得 Firefox 版]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/firefox/available-for-firefox/raspberry-border-334x128.png"></a>
 <a href="https://scriptcat.org/script-show-page/6345">
