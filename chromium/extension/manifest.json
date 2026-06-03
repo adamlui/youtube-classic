@@ -3,7 +3,7 @@
   "name": "__MSG_appName__",
   "short_name": "YT Classic",
   "description": "__MSG_appDesc__",
-  "version": "2026.6.2",
+  "version": "2026.6.3",
   "homepage_url": "https://ytclassic.com",
   "default_locale": "en",
   "icons": {
