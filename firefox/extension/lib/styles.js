@@ -552,7 +552,8 @@ window.styles = {
                 :is(ytd-subscribe-button-renderer, /* channel page */
                     yt-subscribe-button-view-model /* video page */
                 ) button,
-                yt-smartimation div.ytAnimatedActionContentWithBackground { /* search results */
+                :where(div#subscribe-button, yt-flexible-actions-view-model) :is(a, button).ytSpecButtonShapeNextHost {
+                    /* search results page, channel page */
                     background-color: #cc0000 !important ; color: #fff !important ; border-radius: 2px !important ;
                     text-transform: uppercase !important ; font-weight: 500 !important ; letter-spacing: 0.5px !important
                 }
