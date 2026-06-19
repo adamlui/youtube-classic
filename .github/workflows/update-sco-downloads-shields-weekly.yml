@@ -15,13 +15,13 @@ jobs:
 
     steps:
       - name: Checkout adamlui/youtube-classic
-        uses: actions/checkout@v6.0.3
+        uses: actions/checkout@v7.0.0
         with:
           token: ${{ secrets.REPO_SYNC_PAT }}
           path: adamlui/youtube-classic
 
       - name: Checkout adamlui/userscripts
-        uses: actions/checkout@v6.0.3
+        uses: actions/checkout@v7.0.0
         with:
           token: ${{ secrets.REPO_SYNC_PAT }}
           repository: adamlui/userscripts
