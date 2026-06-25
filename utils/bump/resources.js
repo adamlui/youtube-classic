@@ -22,7 +22,7 @@
         }
     }
     script.cache.paths.bumpmjs = path.join(__dirname, `${script.cache.paths.root}/bump.min.mjs`)
-    script.cache.paths.userJSpaths = path.join(__dirname, `${script.cache.paths.root}/userscript-paths.json`)
+    script.cache.paths.userJS = path.join(__dirname, `${script.cache.paths.root}/userscript-paths.json`)
 
     // Import bump.mjs
     fs.mkdirSync(path.dirname(script.cache.paths.bumpmjs), { recursive: true })
@@ -35,15 +35,15 @@
     const userJSname = 'youtube-classic.user.js' ; let userJSfiles
     if (script.modes.cache) {
         try { // create missing cache file
-            fs.mkdirSync(path.dirname(script.cache.paths.userJSpaths), { recursive: true })
-            const fd = fs.openSync(script.cache.paths.userJSpaths,
+            fs.mkdirSync(path.dirname(script.cache.paths.userJS), { recursive: true })
+            const fd = fs.openSync(script.cache.paths.userJS,
                 fs.constants.O_CREAT | fs.constants.O_EXCL | fs.constants.O_RDWR)
-            bump.log.info(`Cache file missing. Generating ${script.cache.paths.userJSpaths}...\n`)
+            bump.log.info(`Cache file missing. Generating ${script.cache.paths.userJS}...\n`)
             userJSfiles = await bump.findFileBySuffix({ suffix: userJSname }) ; console.log('')
             fs.writeFileSync(fd, JSON.stringify(userJSfiles, undefined, 2), 'utf-8')
-            bump.log.success(`\nCache file created @ ${script.cache.paths.userJSpaths}`)
+            bump.log.success(`\nCache file created @ ${script.cache.paths.userJS}`)
         } catch (err) { // use existing cache file
-            userJSfiles = JSON.parse(fs.readFileSync(script.cache.paths.userJSpaths, 'utf-8'))
+            userJSfiles = JSON.parse(fs.readFileSync(script.cache.paths.userJS, 'utf-8'))
             console.log(userJSfiles) ; console.log('')
         }
     } else { // use bump.findFileBySuffix()
