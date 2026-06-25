@@ -29,38 +29,14 @@ jobs:
 
       - name: Fetch/sum downloads count
         run: |
-          format_total() {
-            local num=$1 ; first_digit="${num:0:1}" second_digit="${num:1:1}"
-            second_digit_rounded=$(( second_digit < 5 ? 0 : 5 ))
-            if (( num >= 1000000000 )) ; then # 1B+ w/ one decimal place
-              formatted_num="$(( num / 1000000000 ))"
-              remainder=$(( (num % 1000000000) / 100000000 ))
-              if (( remainder != 0 )) ; then formatted_num+=".$remainder" ; fi
-              formatted_num+="B+"
-            elif (( num >= 10000000 )) ; then # abbr 10,000,000+ to 999,000,000+
-              formatted_num=$(printf "%'.f+" $((( num / 1000000 ) * 1000000 )))
-            elif (( num >= 1000000 )) ; then # abbr 1,000,000+ to 9,500,000+
-              formatted_num="${first_digit},${second_digit}00,000+"
-            elif (( num >= 100000 )) ; then # abbr 100,000+ to 950,000+
-              formatted_num="${first_digit}${second_digit_rounded}0,000+"
-            elif (( num >= 10000 )) ; then # abbr 10,000+ to 90,000+
-              formatted_num="${first_digit}0,000+"
-            elif (( num >= 1000 )) ; then # abbr 1K to 9.9K
-              formatted_num="$(( num / 1000 ))"
-              remainder=$(( (num % 1000) / 100 ))
-              if (( remainder != 0 )) ; then formatted_num+=".$remainder" ; fi
-              formatted_num+="K"
-            else formatted_num="$num" ; fi # preserve <1K as is
-            echo "$formatted_num"
-          }
-
-          raw_sco_dls=$(curl -s https://scriptcat.org/en/script-show-page/6345 |
-            grep -oP '<span class="ant-statistic-content-value-int">\K[0-9,]+' | head -1 | tr -d ',')
-          echo "Raw SCO downloads: $raw_sco_dls"
-
-          formatted_sco_dls=$(format_total "$raw_sco_dls")
-          echo "Formatted SCO downloads: $formatted_sco_dls"
-          echo "TOTAL_SCO_DLS=$formatted_sco_dls" >> $GITHUB_ENV
+          raw_sco_dls=$(curl -s https://scriptcat.org/en/script-show-page/6345 | \
+            grep -oP 'Total Installs.*?<span class="ant-statistic-content-value">\K[^<]+' | head -1)
+          echo "Total SCO downloads (formatted): $raw_sco_dls"
+          if [ -z "$raw_sco_dls" ] || [ "$raw_sco_dls" = "0" ] ; then
+            echo "Error: couldn't get install count"
+            exit 1
+          fi
+          echo "TOTAL_SCO_DLS=$raw_sco_dls" >> $GITHUB_ENV
 
       - name: Update README shields
         run: |
