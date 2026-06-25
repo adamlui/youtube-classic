@@ -21,15 +21,15 @@
             verTag: /^v\d+\.\d+\.\d+$/
         }
     }
-    script.cachePaths.bumpUtils = path.join(__dirname, `${script.cachePaths.root}/bump.min.mjs`)
+    script.cachePaths.bumpmjs = path.join(__dirname, `${script.cachePaths.root}/bump.min.mjs`)
     script.cachePaths.userJSpaths = path.join(__dirname, `${script.cachePaths.root}/userscript-paths.json`)
 
     // Import bump.mjs
-    fs.mkdirSync(path.dirname(script.cachePaths.bumpUtils), { recursive: true })
-    fs.writeFileSync(script.cachePaths.bumpUtils, (await (await fetch(
+    fs.mkdirSync(path.dirname(script.cachePaths.bumpmjs), { recursive: true })
+    fs.writeFileSync(script.cachePaths.bumpmjs, (await (await fetch(
         'https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@latest/utils/bump/lib/bump.min.mjs')).text()))
-    const bump = await import(`file://${script.cachePaths.bumpUtils}`)
-    fs.unlinkSync(script.cachePaths.bumpUtils)
+    const bump = await import(`file://${script.cachePaths.bumpmjs}`)
+    fs.unlinkSync(script.cachePaths.bumpmjs)
 
     bump.log.working(`\n${ script.modes.cache ? 'Collecting' : 'Searching for' } userscripts...\n`)
     const userJSname = 'youtube-classic.user.js' ; let userJSfiles
