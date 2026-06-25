@@ -13,8 +13,8 @@
           config = { cacheMode: args.some(arg => arg.startsWith('--cache')) }
 
     // Import LIBS
-    const fs = require('fs'), // to read/write files
-          path = require('path') // to manipulate paths
+    const fs = require('fs'),
+          path = require('path')
 
     // Init CACHE paths
     const cachePaths = { root: '.cache' }
