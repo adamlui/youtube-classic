@@ -71,7 +71,7 @@
             if (!await bump.isValidResource({ resURL, verbose: false })) continue // to next resource
             const resName = re.resName.exec(resURL)?.[0] || 'resource' // dir/filename for logs
 
-            // Compare/update commit hash
+            // Compare/update ref
             const repoMatch = resURL.match(/gh\/([^@]+)@/)
             if (!repoMatch) {
                 console.log(`Could not parse repo from ${resName}, skipping.`) ; bump.log.endedWithLineBreak = false
