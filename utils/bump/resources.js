@@ -28,10 +28,11 @@
     const bump = await import(`file://${cachePaths.bumpUtils}`) ; fs.unlinkSync(cachePaths.bumpUtils)
 
     // Init REGEX
-    const regEx = {
+    const regex = {
         hash: { commit: /(@|\?v=)([^/#]+)/, sri: /[^#]+$/ },
+        jsURL: /^\/\/ @require\s+(https:\/\/cdn\.jsdelivr\.net\/gh\/.+)$/,
         resName: /[^/]+\/(?:dist)?\/?[^/]+\.js(?=[?#]|$)/,
-        jsURL: /^\/\/ @require\s+(https:\/\/cdn\.jsdelivr\.net\/gh\/.+)$/
+        verTag: /^v\d+\.\d+\.\d+$/
     }
 
     // Collect userscripts
@@ -58,7 +59,7 @@
     const urlMap = {} ; let resCnt = 0
     userJSfiles.forEach(userJSfilePath => {
         const userJScontent = fs.readFileSync(userJSfilePath, 'utf-8'),
-              resURLs = [...userJScontent.matchAll(new RegExp(regEx.jsURL.source, 'gm'))].map(match => match[1])
+              resURLs = [...userJScontent.matchAll(new RegExp(regex.jsURL.source, 'gm'))].map(match => match[1])
         if (resURLs?.length) { urlMap[userJSfilePath] = resURLs ; resCnt += resURLs.length }
     })
     bump.log.success(`${resCnt} potentially bumpable resource(s) found.`)
@@ -74,7 +75,7 @@
         let fileUpdated = false
         for (const resURL of urlMap[userJSfilePath]) {
             if (!await bump.isValidResource({ resURL, verbose: false })) continue // to next resource
-            const resName = regEx.resName.exec(resURL)?.[0] || 'resource' // dir/filename for logs
+            const resName = regex.resName.exec(resURL)?.[0] || 'resource' // dir/filename for logs
 
             // Compare/update commit hash
             const repoMatch = resURL.match(/gh\/([^@]+)@/)
@@ -83,9 +84,9 @@
                 continue
             }
             const targetRepo = repoMatch[1],
-                  currentCommit = regEx.hash.commit.exec(resURL)?.[2] || ''
+                  currentCommit = regex.hash.commit.exec(resURL)?.[2] || ''
             let resLatestVer
-            if (/^v\d+\.\d+\.\d+$/.test(currentCommit)) { // version tag → fetch latest release
+            if (regex.verTag.test(currentCommit)) { // version tag → fetch latest release
                 const apiURL = `https://api.github.com/repos/${targetRepo}/releases/latest`
                 resLatestVer = verCache[targetRepo] = (await (await fetch(apiURL, {
                     headers: { 'User-Agent': 'bump-script' }})).json()).tag_name
@@ -103,17 +104,17 @@
                 continue // skip resource
             }
             resLatestVer = resLatestVer.substring(0, 7) // abbr it
-            let updatedURL = resURL.replace(regEx.hash.commit, `$1${resLatestVer}`) // update ref
+            let updatedURL = resURL.replace(regex.hash.commit, `$1${resLatestVer}`) // update ref
             if (!await bump.isValidResource({ resURL: updatedURL, verbose: false })) continue // to next resource
 
             // Generate/compare/update SRI hash
             console.log(`${ !bump.log.endedWithLineBreak ? '\n' : '' }Generating SRI (SHA-256) hash for ${resName}...`)
             const newSRIhash = await bump.generateSRIhash({ resURL: updatedURL })
-            if (regEx.hash.sri.exec(resURL)?.[0] == newSRIhash && !/^v\d+\.\d+\.\d+$/.test(currentCommit)) {
+            if (regex.hash.sri.exec(resURL)?.[0] == newSRIhash && !regex.verTag.test(currentCommit)) {
                 console.log(`${resName} already up-to-date!`) ; bump.log.endedWithLineBreak = false
                 continue // skip resource
             }
-            updatedURL = updatedURL.replace(regEx.hash.sri, newSRIhash) // update hash
+            updatedURL = updatedURL.replace(regex.hash.sri, newSRIhash) // update hash
             if (!await bump.isValidResource({ resURL: updatedURL, verbose: false })) continue // to next resource
 
             // Write updated URL to userscript
