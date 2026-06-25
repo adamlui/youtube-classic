@@ -86,7 +86,7 @@
                     headers: { 'User-Agent': 'bump-script' }})).json()).tag_name
             } else if (targetRepo == `adamlui/${repoName}` && resURL.includes('firefox/extension/')) {
                 if (!script.cache.latestCommitHashes.firefox) {
-                    console.log('Fetching latest commit hash for Firefox extension...')
+                    console.log('Fetching latest commit hash for firefox/extension...')
                     script.cache.latestCommitHashes.firefox = await bump.getLatestCommitHash({
                         repo: targetRepo, path: 'firefox/extension' })
                 }
