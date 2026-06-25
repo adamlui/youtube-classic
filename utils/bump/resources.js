@@ -123,7 +123,7 @@
 
     bump.log[urlsUpdatedCnt ? 'success' : 'info'](
         `\n${ urlsUpdatedCnt ? 'Success! ' : '' }${
-              urlsUpdatedCnt} resource(s) bumped across ${filesUpdatedCnt} file(s).`
+              urlsUpdatedCnt } resource(s) bumped across ${filesUpdatedCnt} file(s).`
     )
 
 })()
