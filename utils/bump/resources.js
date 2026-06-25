@@ -86,7 +86,7 @@
             const targetRepo = repoMatch[1],
                   currentCommit = re.hash.commit.exec(resURL)?.[2] || ''
             let resLatestVer
-            if (re.verTag.test(currentCommit)) { // version tag → fetch latest release
+            if (re.verTag.test(currentCommit)) { // fetch latest release
                 const apiURL = `https://api.github.com/repos/${targetRepo}/releases/latest`
                 resLatestVer = verCache[targetRepo] = (await (await fetch(apiURL, {
                     headers: { 'User-Agent': 'bump-script' }})).json()).tag_name
