@@ -3,7 +3,7 @@
 // Bumps @require'd JS in userscript
 
 // NOTE: Doesn't git commit to allow script editing from breaking changes
-// NOTE: Pass --cache to use script.cachePaths.userJSpath for faster init
+// NOTE: Pass --cache to use script.cache.paths.userJSpath for faster init
 
 (async () => {
     'use strict'
@@ -12,7 +12,7 @@
           path = require('path')
 
     const script = {
-        cachePaths: { root: '.cache' },
+        cache: { latestCommitHashes: {}, paths: { root: '.cache' }, refs: {} },
         modes: { cache: process.argv.slice(2).some(arg => arg.startsWith('--cache')) },
         regex: {
             hash: { commit: /(@|\?v=)([^/#]+)/, sri: /[^#]+$/ },
@@ -21,29 +21,29 @@
             verTag: /^v\d+\.\d+\.\d+$/
         }
     }
-    script.cachePaths.bumpmjs = path.join(__dirname, `${script.cachePaths.root}/bump.min.mjs`)
-    script.cachePaths.userJSpaths = path.join(__dirname, `${script.cachePaths.root}/userscript-paths.json`)
+    script.cache.paths.bumpmjs = path.join(__dirname, `${script.cache.paths.root}/bump.min.mjs`)
+    script.cache.paths.userJSpaths = path.join(__dirname, `${script.cache.paths.root}/userscript-paths.json`)
 
     // Import bump.mjs
-    fs.mkdirSync(path.dirname(script.cachePaths.bumpmjs), { recursive: true })
-    fs.writeFileSync(script.cachePaths.bumpmjs, (await (await fetch(
+    fs.mkdirSync(path.dirname(script.cache.paths.bumpmjs), { recursive: true })
+    fs.writeFileSync(script.cache.paths.bumpmjs, (await (await fetch(
         'https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@latest/utils/bump/lib/bump.min.mjs')).text()))
-    const bump = await import(`file://${script.cachePaths.bumpmjs}`)
-    fs.unlinkSync(script.cachePaths.bumpmjs)
+    const bump = await import(`file://${script.cache.paths.bumpmjs}`)
+    fs.unlinkSync(script.cache.paths.bumpmjs)
 
     bump.log.working(`\n${ script.modes.cache ? 'Collecting' : 'Searching for' } userscripts...\n`)
     const userJSname = 'youtube-classic.user.js' ; let userJSfiles
     if (script.modes.cache) {
         try { // create missing cache file
-            fs.mkdirSync(path.dirname(script.cachePaths.userJSpaths), { recursive: true })
-            const fd = fs.openSync(script.cachePaths.userJSpaths,
+            fs.mkdirSync(path.dirname(script.cache.paths.userJSpaths), { recursive: true })
+            const fd = fs.openSync(script.cache.paths.userJSpaths,
                 fs.constants.O_CREAT | fs.constants.O_EXCL | fs.constants.O_RDWR)
-            bump.log.info(`Cache file missing. Generating ${script.cachePaths.userJSpaths}...\n`)
+            bump.log.info(`Cache file missing. Generating ${script.cache.paths.userJSpaths}...\n`)
             userJSfiles = await bump.findFileBySuffix({ suffix: userJSname }) ; console.log('')
             fs.writeFileSync(fd, JSON.stringify(userJSfiles, undefined, 2), 'utf-8')
-            bump.log.success(`\nCache file created @ ${script.cachePaths.userJSpaths}`)
+            bump.log.success(`\nCache file created @ ${script.cache.paths.userJSpaths}`)
         } catch (err) { // use existing cache file
-            userJSfiles = JSON.parse(fs.readFileSync(script.cachePaths.userJSpaths, 'utf-8'))
+            userJSfiles = JSON.parse(fs.readFileSync(script.cache.paths.userJSpaths, 'utf-8'))
             console.log(userJSfiles) ; console.log('')
         }
     } else { // use bump.findFileBySuffix()
@@ -59,7 +59,6 @@
     bump.log.success(`${resCnt} potentially bumpable resource(s) found.`)
 
     // Process each userscript
-    const verCache = {}, latestCommitHashes = {}
     let urlsUpdatedCnt = 0, filesUpdatedCnt = 0
     for (const userJSfilePath of Object.keys(urlMap)) {
         const repoName = userJSfilePath.split('\\').pop().replace('.user.js', '')
@@ -82,17 +81,17 @@
             let resLatestVer
             if (script.regex.verTag.test(currentCommit)) { // fetch latest release
                 const apiURL = `https://api.github.com/repos/${targetRepo}/releases/latest`
-                resLatestVer = verCache[targetRepo] = (await (await fetch(apiURL, {
+                resLatestVer = script.cache.refs[targetRepo] = (await (await fetch(apiURL, {
                     headers: { 'User-Agent': 'bump-script' }})).json()).tag_name
             } else if (targetRepo == `adamlui/${repoName}` && resURL.includes('firefox/extension/')) {
-                if (!latestCommitHashes.firefox) {
+                if (!script.cache.latestCommitHashes.firefox) {
                     console.log('Fetching latest commit hash for Firefox extension...')
-                    latestCommitHashes.firefox = await bump.getLatestCommitHash({
+                    script.cache.latestCommitHashes.firefox = await bump.getLatestCommitHash({
                         repo: targetRepo, path: 'firefox/extension' })
                 }
-                resLatestVer = latestCommitHashes.firefox
+                resLatestVer = script.cache.latestCommitHashes.firefox
             } else
-                resLatestVer = verCache[targetRepo] ??= await bump.getLatestCommitHash({ repo: targetRepo })
+                resLatestVer = script.cache.refs[targetRepo] ??= await bump.getLatestCommitHash({ repo: targetRepo })
             if (resLatestVer.startsWith(currentCommit)) {
                 console.log(`${resName} already up-to-date!`) ; bump.log.endedWithLineBreak = false
                 continue
