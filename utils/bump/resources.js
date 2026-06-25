@@ -22,7 +22,7 @@
         }
     }
     script.cache.paths.bumpmjs = path.join(__dirname, `${script.cache.paths.root}/bump.min.mjs`)
-    script.cache.paths.userJS = path.join(__dirname, `${script.cache.paths.root}/userscript-paths.json`)
+    script.cache.paths.userJS  = path.join(__dirname, `${script.cache.paths.root}/userscript-paths.json`)
 
     // Import bump.mjs
     fs.mkdirSync(path.dirname(script.cache.paths.bumpmjs), { recursive: true })
