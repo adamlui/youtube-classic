@@ -82,7 +82,7 @@ jobs:
         if: env.SHIELDS_UPDATED == 'true'
         run: |
           cd ${{ github.workspace }}/adamlui/youtube-classic
-          git add . && git commit -n -m "Updated downloads shield counters in readmes" || true
+          git add . && git commit -n -m "Updated downloads shield counters in Greasemonkey readmes" || true
           git pull --rebase 
           git push
 
@@ -91,7 +91,7 @@ jobs:
         run: |
           cd ${{ github.workspace }}/adamlui/userscripts
           git add . && git commit -n -m \
-            "Updated downloads shield counters in readmes \
+            "Updated downloads shield counters in Greasemonkey readmes \
               ↞ [auto-sync from https://github.com/adamlui/youtube-classic]" || true
           git pull --rebase 
           git push
