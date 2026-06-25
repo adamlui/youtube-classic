@@ -3,7 +3,7 @@
 // Bumps @require'd JS in userscript
 
 // NOTE: Doesn't git commit to allow script editing from breaking changes
-// NOTE: Pass --cache to use cachePaths.userJSpath for faster init
+// NOTE: Pass --cache to use script.cachePaths.userJSpath for faster init
 
 (async () => {
     'use strict'
