@@ -93,8 +93,8 @@
             } else if (targetRepo == `adamlui/${repoName}` && resURL.includes('firefox/extension/')) {
                 if (!latestCommitHashes.firefox) {
                     console.log('Fetching latest commit hash for Firefox extension...')
-                    latestCommitHashes.firefox = await bump.getLatestCommitHash(
-                        { repo: targetRepo, path: 'firefox/extension' })
+                    latestCommitHashes.firefox = await bump.getLatestCommitHash({
+                        repo: targetRepo, path: 'firefox/extension' })
                 }
                 resLatestVer = latestCommitHashes.firefox
             } else
