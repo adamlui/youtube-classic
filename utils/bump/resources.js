@@ -16,7 +16,7 @@
         modes: { cache: process.argv.slice(2).some(arg => arg.startsWith('--cache')) },
         regex: {
             hash: { commit: /(@|\?v=)([^/#]+)/, sri: /[^#]+$/ },
-            jsURL: /^\/\/ @require\s+(https:\/\/cdn\.jsdelivr\.net\/gh\/.+)$/,
+            jsdURL: /^\/\/ @require\s+(https:\/\/cdn\.jsdelivr\.net\/gh\/.+)$/,
             resName: /[^/]+\/(?:dist)?\/?[^/]+\.js(?=[?#]|$)/,
             verTag: /^v\d+\.\d+\.\d+$/
         }
@@ -54,7 +54,7 @@
     const urlMap = {} ; let resCnt = 0
     userJSfiles.forEach(userJSfilePath => {
         const userJScontent = fs.readFileSync(userJSfilePath, 'utf-8'),
-              resURLs = [...userJScontent.matchAll(new RegExp(re.jsURL.source, 'gm'))].map(match => match[1])
+              resURLs = [...userJScontent.matchAll(new RegExp(re.jsdURL.source, 'gm'))].map(match => match[1])
         if (resURLs?.length) { urlMap[userJSfilePath] = resURLs ; resCnt += resURLs.length }
     })
     bump.log.success(`${resCnt} potentially bumpable resource(s) found.`)
