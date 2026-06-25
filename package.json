@@ -27,7 +27,7 @@
     "lint:fix": "eslint . --fix --cache",
     "lint:fix-all": "eslint . --fix",
     "translate": "translate-messages",
-    "bump:res": "node utils/bump/resources --cache",
+    "bump:res": "node utils/bump/userscript-resources --cache",
     "bump:ext": "node utils/bump/extension-manifests --cache",
     "bump:ext-nc": "npm run bump:ext -- --no-commit",
     "bump:ext-np": "npm run bump:ext -- --no-push",
