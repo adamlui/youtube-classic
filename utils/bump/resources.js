@@ -69,6 +69,7 @@
         userscripts: await bump.getLatestCommitHash({ repo: 'adamlui/userscripts' }),
         ytclassic: await bump.getLatestCommitHash({ repo: 'adamlui/youtube-classic' })
     }
+    const verCache = {} // for dynamically fetched repo hashes
 
     // Process each userscript
     let urlsUpdatedCnt = 0 ; let filesUpdatedCnt = 0
@@ -90,18 +91,35 @@
             const resName = regEx.resName.exec(resURL)?.[0] || 'resource' // dir/filename for logs
 
             // Compare/update commit hash
-            let resLatestCommitHash = latestCommitHashes[
-                resURL.includes('/userscripts@') ? 'userscripts'
-              : resURL.includes('/youtube-classic@') ? 'ytclassic'
-              : 'firefox'
-            ]
-            if (resLatestCommitHash.startsWith( // compare hashes
+            let resLatestVer
+            if (resURL.includes('/userscripts@'))
+                resLatestVer = latestCommitHashes.userscripts
+            else if (resURL.includes('/youtube-classic@'))
+                resLatestVer = latestCommitHashes.ytclassic
+            else { // extract target repo from jsDelivr URL
+                const repoMatch = resURL.match(/gh\/([^@]+)@/)
+                if (!repoMatch) {
+                    console.log(`Could not parse repo from ${resName}, skipping.`) ; bump.log.endedWithLineBreak = false
+                    continue
+                }
+                const targetRepo = repoMatch[1],
+                      currentCommit = regEx.hash.commit.exec(resURL)?.[2] || ''
+                if (/^v\d+\.\d+\.\d+$/.test(currentCommit)) { // version tag, fetch latest release
+                    const apiURL = `https://api.github.com/repos/${targetRepo}/releases/latest`
+                    resLatestVer = verCache[targetRepo] = (await (await fetch(apiURL, {
+                        headers: { 'User-Agent': 'bump-script' }})).json()).tag_name
+                } else if (latestCommitHashes.firefox && targetRepo === `adamlui/${repoName}`)
+                    resLatestVer = latestCommitHashes.firefox
+                else
+                    resLatestVer = verCache[targetRepo] ??= await bump.getLatestCommitHash({ repo: targetRepo })
+            }
+            if (resLatestVer.startsWith( // compare hashes
                 regEx.hash.commit.exec(resURL)?.[2] || '')) { // commit hash didn't change...
                     console.log(`${resName} already up-to-date!`) ; bump.log.endedWithLineBreak = false
                     continue // ...so skip resource
                 }
-            resLatestCommitHash = resLatestCommitHash.substring(0, 7) // abbr it
-            let updatedURL = resURL.replace(regEx.hash.commit, `$1${resLatestCommitHash}`) // update hash
+            resLatestVer = resLatestVer.substring(0, 7) // abbr it
+            let updatedURL = resURL.replace(regEx.hash.commit, `$1${resLatestVer}`) // update hash
             if (!await bump.isValidResource({ resURL: updatedURL, verbose: false })) continue // to next resource
 
             // Generate/compare/update SRI hash
