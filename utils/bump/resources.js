@@ -13,7 +13,7 @@
 
     const script = {
         cachePaths: { root: '.cache' },
-        config: { cacheMode: process.argv.slice(2).some(arg => arg.startsWith('--cache')) },
+        modes: { cache: process.argv.slice(2).some(arg => arg.startsWith('--cache')) },
         regex: {
             hash: { commit: /(@|\?v=)([^/#]+)/, sri: /[^#]+$/ },
             jsURL: /^\/\/ @require\s+(https:\/\/cdn\.jsdelivr\.net\/gh\/.+)$/,
@@ -31,9 +31,9 @@
     const bump = await import(`file://${script.cachePaths.bumpUtils}`)
     fs.unlinkSync(script.cachePaths.bumpUtils)
 
-    bump.log.working(`\n${ script.config.cacheMode ? 'Collecting' : 'Searching for' } userscripts...\n`)
+    bump.log.working(`\n${ script.modes.cache ? 'Collecting' : 'Searching for' } userscripts...\n`)
     const userJSname = 'youtube-classic.user.js' ; let userJSfiles
-    if (script.config.cacheMode) {
+    if (script.modes.cache) {
         try { // create missing cache file
             fs.mkdirSync(path.dirname(script.cachePaths.userJSpaths), { recursive: true })
             const fd = fs.openSync(script.cachePaths.userJSpaths,
