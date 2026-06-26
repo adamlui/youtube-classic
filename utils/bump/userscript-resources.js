@@ -23,28 +23,28 @@
     }
     script.cache.paths.bumpmjs = path.join(__dirname, `${script.cache.paths.root}/bump.min.mjs`)
     script.cache.paths.userJS  = path.join(__dirname, `${script.cache.paths.root}/userscript-paths.json`)
-    const { regex: re } = script
+    const { cache: { paths: cachePaths }, regex: re } = script
 
     // Import bump.mjs
-    fs.mkdirSync(path.dirname(script.cache.paths.bumpmjs), { recursive: true })
-    fs.writeFileSync(script.cache.paths.bumpmjs, (await (await fetch(
+    fs.mkdirSync(path.dirname(cachePaths.bumpmjs), { recursive: true })
+    fs.writeFileSync(cachePaths.bumpmjs, (await (await fetch(
         'https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@latest/utils/bump/lib/bump.min.mjs')).text()))
-    const bump = await import(`file://${script.cache.paths.bumpmjs}`)
-    fs.unlinkSync(script.cache.paths.bumpmjs)
+    const bump = await import(`file://${cachePaths.bumpmjs}`)
+    fs.unlinkSync(cachePaths.bumpmjs)
 
     bump.log.working(`\n${ script.modes.cache ? 'Collecting' : 'Searching for' } userscripts...\n`)
     const userJSname = 'youtube-classic.user.js' ; let userJSfiles
     if (script.modes.cache) {
         try { // create missing cache file
-            fs.mkdirSync(path.dirname(script.cache.paths.userJS), { recursive: true })
-            const fd = fs.openSync(script.cache.paths.userJS,
+            fs.mkdirSync(path.dirname(cachePaths.userJS), { recursive: true })
+            const fd = fs.openSync(cachePaths.userJS,
                 fs.constants.O_CREAT | fs.constants.O_EXCL | fs.constants.O_RDWR)
-            bump.log.info(`Cache file missing. Generating ${script.cache.paths.userJS}...\n`)
+            bump.log.info(`Cache file missing. Generating ${cachePaths.userJS}...\n`)
             userJSfiles = await bump.findFileBySuffix({ suffix: userJSname }) ; console.log('')
             fs.writeFileSync(fd, JSON.stringify(userJSfiles, undefined, 2), 'utf-8')
-            bump.log.success(`\nCache file created @ ${script.cache.paths.userJS}`)
+            bump.log.success(`\nCache file created @ ${cachePaths.userJS}`)
         } catch (err) { // use existing cache file
-            userJSfiles = JSON.parse(fs.readFileSync(script.cache.paths.userJS, 'utf-8'))
+            userJSfiles = JSON.parse(fs.readFileSync(cachePaths.userJS, 'utf-8'))
             console.log(userJSfiles) ; console.log('')
         }
     } else { // use bump.findFileBySuffix()
