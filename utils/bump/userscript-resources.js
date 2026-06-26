@@ -82,7 +82,7 @@
             let resLatestVer
             if (re.verTag.test(currentCommit)) { // fetch latest release
                 const apiURL = `https://api.github.com/repos/${targetRepo}/releases/latest`
-                resLatestVer = script.cache.refs[targetRepo] = (await (await fetch(apiURL, {
+                resLatestVer = script.cache.refs[targetRepo] ??= (await (await fetch(apiURL, {
                     headers: { 'User-Agent': 'bump-script' }})).json()).tag_name
             } else if (targetRepo == `adamlui/${repoName}` && resURL.includes('firefox/extension/')) {
                 if (!script.cache.latestCommitHashes.firefox) {
