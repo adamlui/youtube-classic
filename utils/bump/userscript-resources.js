@@ -79,10 +79,10 @@
             }
             const targetRepo = repoMatch[1],
                   currentCommit = re.hash.commit.exec(resURL)?.[2] || ''
-            let resLatestVer
+            let resLatestRef
             if (re.verTag.test(currentCommit)) { // fetch latest release
                 const apiURL = `https://api.github.com/repos/${targetRepo}/releases/latest`
-                resLatestVer = script.cache.refs[targetRepo] ??= (await (await fetch(apiURL, {
+                resLatestRef = script.cache.refs[targetRepo] ??= (await (await fetch(apiURL, {
                     headers: { 'User-Agent': 'bump-script' }})).json()).tag_name
             } else if (targetRepo == `adamlui/${repoName}` && resURL.includes('firefox/extension/')) {
                 if (!script.cache.latestCommitHashes.firefox) {
@@ -90,15 +90,15 @@
                     script.cache.latestCommitHashes.firefox = await bump.getLatestCommitHash({
                         repo: targetRepo, path: 'firefox/extension' })
                 }
-                resLatestVer = script.cache.latestCommitHashes.firefox
+                resLatestRef = script.cache.latestCommitHashes.firefox
             } else
-                resLatestVer = script.cache.refs[targetRepo] ??= await bump.getLatestCommitHash({ repo: targetRepo })
-            if (resLatestVer.startsWith(currentCommit)) {
+                resLatestRef = script.cache.refs[targetRepo] ??= await bump.getLatestCommitHash({ repo: targetRepo })
+            if (resLatestRef.startsWith(currentCommit)) {
                 console.log(`${resName} already up-to-date!`) ; bump.log.endedWithLineBreak = false
                 continue
             }
-            resLatestVer = resLatestVer.substring(0, 7) // abbr it
-            let updatedURL = resURL.replace(re.hash.commit, `$1${resLatestVer}`) // update ref
+            resLatestRef = resLatestRef.substring(0, 7) // abbr it
+            let updatedURL = resURL.replace(re.hash.commit, `$1${resLatestRef}`) // update ref
             if (!await bump.isValidResource({ resURL: updatedURL, verbose: false })) continue // to next resource
 
             // Generate/compare/update SRI hash
