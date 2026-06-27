@@ -5,8 +5,9 @@
 // NOTE: Doesn't git commit to allow script editing from breaking changes
 // NOTE: Pass --cache to use script.cache.paths.userscripts for faster init
 
-(async () => {
-    'use strict'
+'use strict'
+
+async function run() {
 
     const fs = require('fs'),
           path = require('path')
@@ -131,4 +132,8 @@
               urlsUpdatedCnt } resource(s) bumped across ${filesUpdatedCnt} file(s).`
     )
 
-})()
+}
+
+if (require.main == module) run()
+
+module.exports = { run }

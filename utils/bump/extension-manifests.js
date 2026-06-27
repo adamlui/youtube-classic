@@ -7,8 +7,9 @@
 // NOTE: Pass --<ff|firefox> to forcibly bump Firefox manifests only
 // NOTE: Pass --<no-<commit|push>|nc|np> to skip git commit/push
 
-(async () => {
-    'use strict'
+'use strict'
+
+async function run() {
 
     // Parse ARGS
     const args = process.argv.slice(2)
@@ -139,4 +140,8 @@
             bump.colors.bw}v${oldVer}${bump.colors.nc} → ${bump.colors.bg}v${newVer}${bump.colors.nc}`)
     })
 
-})()
+}
+
+if (require.main == module) run()
+
+module.exports = { run }
