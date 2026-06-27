@@ -12,7 +12,7 @@
           path = require('path')
 
     const script = {
-        cache: { latestCommitHashes: {}, paths: { root: '.cache' }, refs: {} },
+        cache: { paths: { root: '.cache' }, refs: {} },
         modes: { cache: process.argv.slice(2).some(arg => arg.startsWith('--cache')) },
         regex: {
             hash: { commit: { full: /^[a-f\d]{40}$/i, inline: /(@|\?v=)([^/#]+)/ }, sri: /[^#]+$/ },
@@ -85,12 +85,12 @@
                 resLatestRef = script.cache.refs[targetRepo] ??= (await (await fetch(apiURL, {
                     headers: { 'User-Agent': 'bump-script' }})).json()).tag_name
             } else if (targetRepo == `adamlui/${repoName}` && resURL.includes('firefox/extension/')) {
-                if (!script.cache.latestCommitHashes.firefox) {
+                if (!script.cache.refs.ff) {
                     console.log('Fetching latest commit hash for firefox/extension...')
-                    script.cache.latestCommitHashes.firefox = await bump.getLatestCommitHash({
+                    script.cache.refs.ff = await bump.getLatestCommitHash({
                         repo: targetRepo, path: 'firefox/extension' })
                 }
-                resLatestRef = script.cache.latestCommitHashes.firefox
+                resLatestRef = script.cache.refs.ff
             } else // get latest commit hash
                 resLatestRef = script.cache.refs[targetRepo] ??= await bump.getLatestCommitHash({ repo: targetRepo })
             if (resLatestRef.startsWith(currentCommit)) {
