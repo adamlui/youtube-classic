@@ -20,6 +20,10 @@
             resName: /[^/]+\/(?:dist)?\/?[^/]+\.js(?=[?#]|$)/,
             verTag: /^v\d+\.\d+\.\d+$/
         },
+        urls: {
+            bumpmjs: 'https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@latest/utils/bump/lib/bump.min.mjs',
+            githubAPI: { repos: 'https://api.github.com/repos' }
+        },
         userscriptName: 'youtube-classic.user.js'
     }
     script.cache.paths.bumpmjs = path.join(__dirname, `${script.cache.paths.root}/bump.min.mjs`)
@@ -28,8 +32,7 @@
 
     // Import bump.mjs
     fs.mkdirSync(path.dirname(cachePaths.bumpmjs), { recursive: true })
-    fs.writeFileSync(cachePaths.bumpmjs, (await (await fetch(
-        'https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@latest/utils/bump/lib/bump.min.mjs')).text()))
+    fs.writeFileSync(cachePaths.bumpmjs, (await (await fetch(script.urls.bumpmjs)).text()))
     const bump = await import(`file://${cachePaths.bumpmjs}`)
     fs.unlinkSync(cachePaths.bumpmjs)
 
@@ -82,7 +85,7 @@
                   currentCommit = re.hash.commit.inline.exec(resURL)?.[2] || ''
             let resLatestRef
             if (re.verTag.test(currentCommit)) { // get latest release tag
-                const apiURL = `https://api.github.com/repos/${targetRepo}/releases/latest`
+                const apiURL = `${script.urls.githubAPI.repos}/${targetRepo}/releases/latest`
                 resLatestRef = script.cache.refs[targetRepo] ??= (await (await fetch(apiURL, {
                     headers: { 'User-Agent': 'bump-script' }})).json()).tag_name
             } else if (targetRepo == `adamlui/${repoName}` && resURL.includes('firefox/extension/')) {
