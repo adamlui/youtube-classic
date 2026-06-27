@@ -68,7 +68,7 @@
         // Process each resource
         let fileUpdated = false
         for (const resURL of urlMap[userJSfilePath]) {
-            if (!await bump.isValidResource({ resURL, verbose: false })) continue // to next resource
+            if (!await bump.isValidResource({ resURL, verbose: false })) continue
             const resName = re.resName.exec(resURL)?.[0] || 'resource' // dir/filename for logs
 
             // Compare/update ref
@@ -98,8 +98,8 @@
                 continue
             }
             resLatestRef = resLatestRef.substring(0, 7) // abbr it
-            let updatedURL = resURL.replace(re.hash.commit, `$1${resLatestRef}`) // update ref
-            if (!await bump.isValidResource({ resURL: updatedURL, verbose: false })) continue // to next resource
+            let updatedURL = resURL.replace(re.hash.commit, `$1${resLatestRef}`)
+            if (!await bump.isValidResource({ resURL: updatedURL, verbose: false })) continue
 
             // Generate/compare/update SRI hash
             console.log(`${ !bump.log.endedWithLineBreak ? '\n' : '' }Generating SRI (SHA-256) hash for ${resName}...`)
@@ -108,8 +108,8 @@
                 console.log(`${resName} already up-to-date!`) ; bump.log.endedWithLineBreak = false
                 continue
             }
-            updatedURL = updatedURL.replace(re.hash.sri, newSRIhash) // update hash
-            if (!await bump.isValidResource({ resURL: updatedURL, verbose: false })) continue // to next resource
+            updatedURL = updatedURL.replace(re.hash.sri, newSRIhash)
+            if (!await bump.isValidResource({ resURL: updatedURL, verbose: false })) continue
 
             console.log(`Writing updated URL for ${resName}...`)
             const userJScontent = fs.readFileSync(userJSfilePath, 'utf-8')
