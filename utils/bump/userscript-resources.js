@@ -15,7 +15,7 @@
         cache: { latestCommitHashes: {}, paths: { root: '.cache' }, refs: {} },
         modes: { cache: process.argv.slice(2).some(arg => arg.startsWith('--cache')) },
         regex: {
-            hash: { commit: /(@|\?v=)([^/#]+)/, sri: /[^#]+$/ },
+            hash: { commit: { inline: /(@|\?v=)([^/#]+)/, full: /^[a-f\d]{40}$/i }, sri: /[^#]+$/ },
             jsdURL: /^\/\/ @require\s+(https:\/\/cdn\.jsdelivr\.net\/gh\/.+)$/,
             resName: /[^/]+\/(?:dist)?\/?[^/]+\.js(?=[?#]|$)/,
             verTag: /^v\d+\.\d+\.\d+$/
@@ -78,9 +78,9 @@
                 continue
             }
             const targetRepo = repoMatch[1],
-                  currentCommit = re.hash.commit.exec(resURL)?.[2] || ''
+                  currentCommit = re.hash.commit.inline.exec(resURL)?.[2] || ''
             let resLatestRef
-            if (re.verTag.test(currentCommit)) { // fetch latest release
+            if (re.verTag.test(currentCommit)) { // get latest release tag
                 const apiURL = `https://api.github.com/repos/${targetRepo}/releases/latest`
                 resLatestRef = script.cache.refs[targetRepo] ??= (await (await fetch(apiURL, {
                     headers: { 'User-Agent': 'bump-script' }})).json()).tag_name
@@ -91,14 +91,14 @@
                         repo: targetRepo, path: 'firefox/extension' })
                 }
                 resLatestRef = script.cache.latestCommitHashes.firefox
-            } else
+            } else // get latest commit hash
                 resLatestRef = script.cache.refs[targetRepo] ??= await bump.getLatestCommitHash({ repo: targetRepo })
             if (resLatestRef.startsWith(currentCommit)) {
                 console.log(`${resName} already up-to-date!`) ; bump.log.endedWithLineBreak = false
                 continue
-            }
-            resLatestRef = resLatestRef.substring(0, 7) // abbr it
-            let updatedURL = resURL.replace(re.hash.commit, `$1${resLatestRef}`)
+            } else if (re.hash.commit.full.test(resLatestRef))
+                resLatestRef = resLatestRef.substring(0, 7) // truncate it
+            let updatedURL = resURL.replace(re.hash.commit.inline, `$1${resLatestRef}`)
             if (!await bump.isValidResource({ resURL: updatedURL, verbose: false })) continue
 
             // Generate/compare/update SRI hash
