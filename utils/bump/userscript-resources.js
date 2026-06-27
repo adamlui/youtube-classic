@@ -3,7 +3,7 @@
 // Bumps @require'd jsDelivr URLs in userscript
 
 // NOTE: Doesn't git commit to allow script editing from breaking changes
-// NOTE: Pass --cache to use script.cache.paths.userJS for faster init
+// NOTE: Pass --cache to use script.cache.paths.userscripts for faster init
 
 (async () => {
     'use strict'
@@ -15,14 +15,14 @@
         cache: { latestCommitHashes: {}, paths: { root: '.cache' }, refs: {} },
         modes: { cache: process.argv.slice(2).some(arg => arg.startsWith('--cache')) },
         regex: {
-            hash: { commit: { inline: /(@|\?v=)([^/#]+)/, full: /^[a-f\d]{40}$/i }, sri: /[^#]+$/ },
+            hash: { commit: { full: /^[a-f\d]{40}$/i, inline: /(@|\?v=)([^/#]+)/ }, sri: /[^#]+$/ },
             jsdURL: /^\/\/ @require\s+(https:\/\/cdn\.jsdelivr\.net\/gh\/.+)$/,
             resName: /[^/]+\/(?:dist)?\/?[^/]+\.js(?=[?#]|$)/,
             verTag: /^v\d+\.\d+\.\d+$/
         }
     }
     script.cache.paths.bumpmjs = path.join(__dirname, `${script.cache.paths.root}/bump.min.mjs`)
-    script.cache.paths.userJS  = path.join(__dirname, `${script.cache.paths.root}/userscript-paths.json`)
+    script.cache.paths.userscripts  = path.join(__dirname, `${script.cache.paths.root}/userscripts.json`)
     const { cache: { paths: cachePaths }, regex: re } = script
 
     // Import bump.mjs
@@ -33,41 +33,41 @@
     fs.unlinkSync(cachePaths.bumpmjs)
 
     bump.log.working(`\n${ script.modes.cache ? 'Collecting' : 'Searching for' } userscripts...\n`)
-    const userJSname = 'youtube-classic.user.js' ; let userJSfiles
+    const userJSname = 'youtube-classic.user.js' ; let userscripts
     if (script.modes.cache) {
         try { // create missing cache file
-            fs.mkdirSync(path.dirname(cachePaths.userJS), { recursive: true })
-            const fd = fs.openSync(cachePaths.userJS,
+            fs.mkdirSync(path.dirname(cachePaths.userscripts), { recursive: true })
+            const fd = fs.openSync(cachePaths.userscripts,
                 fs.constants.O_CREAT | fs.constants.O_EXCL | fs.constants.O_RDWR)
-            bump.log.info(`Cache file missing. Generating ${cachePaths.userJS}...\n`)
-            userJSfiles = await bump.findFileBySuffix({ suffix: userJSname }) ; console.log('')
-            fs.writeFileSync(fd, JSON.stringify(userJSfiles, undefined, 2), 'utf-8')
-            bump.log.success(`\nCache file created @ ${cachePaths.userJS}`)
+            bump.log.info(`Cache file missing. Generating ${cachePaths.userscripts}...\n`)
+            userscripts = await bump.findFileBySuffix({ suffix: userJSname }) ; console.log('')
+            fs.writeFileSync(fd, JSON.stringify(userscripts, undefined, 2), 'utf-8')
+            bump.log.success(`\nCache file created @ ${cachePaths.userscripts}`)
         } catch (err) { // use existing cache file
-            userJSfiles = JSON.parse(fs.readFileSync(cachePaths.userJS, 'utf-8'))
-            console.log(userJSfiles) ; console.log('')
+            userscripts = JSON.parse(fs.readFileSync(cachePaths.userscripts, 'utf-8'))
+            console.log(userscripts) ; console.log('')
         }
     } else { // use bump.findFileBySuffix()
-        userJSfiles = await bump.findFileBySuffix({ suffix: userJSname }) ; console.log('') }
+        userscripts = await bump.findFileBySuffix({ suffix: userJSname }) ; console.log('') }
 
     bump.log.working('\nCollecting resources...\n')
     const urlMap = {} ; let resCnt = 0
-    userJSfiles.forEach(userJSfilePath => {
-        const userJScontent = fs.readFileSync(userJSfilePath, 'utf-8'),
-              resURLs = [...userJScontent.matchAll(new RegExp(re.jsdURL.source, 'gm'))].map(match => match[1])
-        if (resURLs?.length) { urlMap[userJSfilePath] = resURLs ; resCnt += resURLs.length }
+    userscripts.forEach(userscript => {
+        const scriptContent = fs.readFileSync(userscript, 'utf-8'),
+              resURLs = [...scriptContent.matchAll(new RegExp(re.jsdURL.source, 'gm'))].map(match => match[1])
+        if (resURLs?.length) { urlMap[userscript] = resURLs ; resCnt += resURLs.length }
     })
     bump.log.success(`${resCnt} potentially bumpable resource(s) found.`)
 
     // Process each userscript
     let urlsUpdatedCnt = 0, filesUpdatedCnt = 0
-    for (const userJSfilePath of Object.keys(urlMap)) {
-        const repoName = userJSfilePath.split('\\').pop().replace('.user.js', '')
+    for (const scriptPath of Object.keys(urlMap)) {
+        const repoName = scriptPath.split('\\').pop().replace('.user.js', '')
         bump.log.working(`\nProcessing ${repoName}...\n`)
 
         // Process each resource
         let fileUpdated = false
-        for (const resURL of urlMap[userJSfilePath]) {
+        for (const resURL of urlMap[scriptPath]) {
             if (!await bump.isValidResource({ resURL, verbose: false })) continue
             const resName = re.resName.exec(resURL)?.[0] || 'resource' // dir/filename for logs
 
@@ -112,13 +112,13 @@
             if (!await bump.isValidResource({ resURL: updatedURL, verbose: false })) continue
 
             console.log(`Writing updated URL for ${resName}...`)
-            const userJScontent = fs.readFileSync(userJSfilePath, 'utf-8')
-            fs.writeFileSync(userJSfilePath, userJScontent.replace(resURL, updatedURL), 'utf-8')
+            const scriptContent = fs.readFileSync(scriptPath, 'utf-8')
+            fs.writeFileSync(scriptPath, scriptContent.replace(resURL, updatedURL), 'utf-8')
             bump.log.success(`${resName} bumped!\n`) ; urlsUpdatedCnt++ ; fileUpdated = true
         }
         if (fileUpdated) {
             console.log(`${ !bump.log.endedWithLineBreak ? '\n' : '' }Bumping userscript version...`)
-            bump.bumpVersion({ format: 'dateVer', filePath: userJSfilePath }) ; filesUpdatedCnt++
+            bump.bumpVersion({ format: 'dateVer', filePath: scriptPath }) ; filesUpdatedCnt++
         }
     }
 
