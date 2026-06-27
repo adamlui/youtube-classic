@@ -3,7 +3,7 @@
 // Bumps @require'd jsDelivr URLs in userscript
 
 // NOTE: Doesn't git commit to allow script editing from breaking changes
-// NOTE: Pass --cache to use script.cache.paths.userJSpath for faster init
+// NOTE: Pass --cache to use script.cache.paths.userJS for faster init
 
 (async () => {
     'use strict'
