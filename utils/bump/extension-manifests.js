@@ -139,7 +139,6 @@ async function run() {
         console.log(`  ± ${manifest} ${
             bump.colors.bw}v${oldVer}${bump.colors.nc} → ${bump.colors.bg}v${newVer}${bump.colors.nc}`)
     })
-
 }
 
 if (require.main == module) run()

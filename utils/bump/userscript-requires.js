@@ -131,7 +131,6 @@ async function run() {
         `\n${ urlsUpdatedCnt ? 'Success! ' : '' }${
               urlsUpdatedCnt } resource(s) bumped across ${filesUpdatedCnt} file(s).`
     )
-
 }
 
 if (require.main == module) run()
