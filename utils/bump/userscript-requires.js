@@ -4,6 +4,7 @@
 
 // NOTE: Doesn't git commit to allow script editing from breaking changes
 // NOTE: Pass --cache to use script.cache.paths.userscripts for faster init
+// NOTE: Pass --suffix to override file suffix (default: .user.js)
 
 'use strict'
 
@@ -12,20 +13,28 @@ async function run() {
     const fs = require('fs'),
           path = require('path')
 
+    const args = process.argv.slice(2)
+
     const script = {
         cache: { paths: { root: '.cache' }, refs: {} },
-        modes: { cache: process.argv.slice(2).some(arg => arg.startsWith('--cache')) },
+        modes: { cache: args.some(arg => arg.startsWith('--cache')) },
         regex: {
             hash: { commit: { full: /^[a-f\d]{40}$/i, inline: /(@|\?v=)([^/#]+)/ }, sri: /[^#]+$/ },
-            jsdURL: /^\/\/ @require\s+(https:\/\/cdn\.jsdelivr\.net\/gh\/.+)$/,
             resName: /[^/]+\/(?:dist)?\/?[^/]+\.js(?=[?#]|$)/,
+            urls: {
+                chatgptjs: /(https:\/\/cdn\.jsdelivr\.net\/npm\/@kudoai\/chatgpt\.js@)([\d.]+)(\/dist\/chatgpt\.min\.js)(#sha256-\S+)?/g,
+                jsdelivr: /^\/\/ @require\s+(https:\/\/cdn\.jsdelivr\.net\/gh\/.+)$/
+            },
             verTag: /^v\d+\.\d+\.\d+$/
         },
         urls: {
-            bumpmjs: 'https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/utils/bump/lib/bump.min.mjs',
-            githubAPI: { repos: 'https://api.github.com/repos' }
+            apis: {
+                npm: { chatgptjs: 'https://registry.npmjs.org/@kudoai/chatgpt.js' },
+                github: { repos: 'https://api.github.com/repos' }
+            },
+            bumpmjs: 'https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/utils/bump/lib/bump.min.mjs'
         },
-        userscriptName: 'youtube-classic.user.js'
+        userscriptName: args.find(arg => arg.startsWith('--suffix='))?.split('=')[1] || '.user.js'
     }
     script.cache.paths.bumpmjs = path.join(process.cwd(), `${script.cache.paths.root}/bump.min.mjs`)
     script.cache.paths.userscripts = path.join(process.cwd(), `${script.cache.paths.root}/userscripts.json`)
@@ -45,21 +54,25 @@ async function run() {
             const fd = fs.openSync(cachePaths.userscripts,
                 fs.constants.O_CREAT | fs.constants.O_EXCL | fs.constants.O_RDWR)
             bump.log.info(`Cache file missing. Generating ${cachePaths.userscripts}...\n`)
-            userscripts = await bump.findFileBySuffix({ suffix: script.userscriptName }) ; console.log('')
+            userscripts = await bump.findFileBySuffix({ suffix: script.userscriptName })
+            console.log('')
             fs.writeFileSync(fd, JSON.stringify(userscripts, undefined, 2), 'utf-8')
             bump.log.success(`\nCache file created @ ${cachePaths.userscripts}`)
-        } catch (err) { // use existing cache file
+        } catch (err) {
             userscripts = JSON.parse(fs.readFileSync(cachePaths.userscripts, 'utf-8'))
-            console.log(userscripts) ; console.log('')
+            console.log(userscripts)
+            console.log('')
         }
-    } else { // use bump.findFileBySuffix()
-        userscripts = await bump.findFileBySuffix({ suffix: script.userscriptName }) ; console.log('') }
+    } else {
+        userscripts = await bump.findFileBySuffix({ suffix: script.userscriptName })
+        console.log('')
+    }
 
     bump.log.working('\nCollecting resources...\n')
     const urlMap = {} ; let resCnt = 0
     userscripts.forEach(userscript => {
         const scriptContent = fs.readFileSync(userscript, 'utf-8'),
-              resURLs = [...scriptContent.matchAll(new RegExp(re.jsdURL.source, 'gm'))].map(match => match[1])
+              resURLs = [...scriptContent.matchAll(new RegExp(re.urls.jsdelivr.source, 'gm'))].map(match => match[1])
         if (resURLs?.length) { urlMap[userscript] = resURLs ; resCnt += resURLs.length }
     })
     bump.log.success(`${resCnt} potentially bumpable resource(s) found.`)
@@ -67,7 +80,7 @@ async function run() {
     // Process each userscript
     let urlsUpdatedCnt = 0, filesUpdatedCnt = 0
     for (const scriptPath of Object.keys(urlMap)) {
-        const repoName = scriptPath.split('\\').pop().replace('.user.js', '')
+        const repoName = path.basename(scriptPath).replace(/\.[^.]+$/, '')
         bump.log.working(`\nProcessing ${repoName}...\n`)
 
         // Process each resource
@@ -86,16 +99,23 @@ async function run() {
                   currentCommit = re.hash.commit.inline.exec(resURL)?.[2] || ''
             let resLatestRef
             if (re.verTag.test(currentCommit)) { // get latest release tag
-                const apiURL = `${script.urls.githubAPI.repos}/${targetRepo}/releases/latest`
+                const apiURL = `${script.urls.apis.github.repos}/${targetRepo}/releases/latest`
                 resLatestRef = script.cache.refs[targetRepo] ??= (await (await fetch(apiURL, {
                     headers: { 'User-Agent': 'bump-script' }})).json()).tag_name
-            } else if (targetRepo == `adamlui/${repoName}` && resURL.includes('firefox/extension/')) {
+            } else if (targetRepo.endsWith(repoName) && resURL.includes('firefox/extension/')) {
                 if (!script.cache.refs.ff) {
                     console.log('Fetching latest commit hash for firefox/extension...')
                     script.cache.refs.ff = await bump.getLatestCommitHash({
                         repo: targetRepo, path: 'firefox/extension' })
                 }
                 resLatestRef = script.cache.refs.ff
+            } else if (targetRepo.endsWith(repoName) && resURL.includes('chromium/extension/')) {
+                if (!script.cache.refs.chromium) {
+                    console.log('Fetching latest commit hash for chromium/extension...')
+                    script.cache.refs.chromium = await bump.getLatestCommitHash({
+                        repo: targetRepo, path: 'chromium/extension' })
+                }
+                resLatestRef = script.cache.refs.chromium
             } else // get latest commit hash
                 resLatestRef = script.cache.refs[targetRepo] ??= await bump.getLatestCommitHash({ repo: targetRepo })
             if (resLatestRef.startsWith(currentCommit)) {
@@ -119,11 +139,41 @@ async function run() {
             console.log(`Writing updated URL for ${resName}...`)
             const scriptContent = fs.readFileSync(scriptPath, 'utf-8')
             fs.writeFileSync(scriptPath, scriptContent.replace(resURL, updatedURL), 'utf-8')
-            bump.log.success(`${resName} bumped!\n`) ; urlsUpdatedCnt++ ; fileUpdated = true
+            bump.log.success(`${resName} bumped!\n`)
+            urlsUpdatedCnt++ ; fileUpdated = true
         }
         if (fileUpdated) {
             console.log(`${ !bump.log.endedWithLineBreak ? '\n' : '' }Bumping userscript version...`)
-            bump.bumpVersion({ format: 'dateVer', filePath: scriptPath }) ; filesUpdatedCnt++
+            bump.bumpVersion({ format: 'dateVer', filePath: scriptPath })
+            filesUpdatedCnt++
+        }
+    }
+
+    bump.log.working('\nProcessing @kudoai/chatgpt.js @require URLs...\n')
+    const latestCJSver = (await (await fetch(`${script.urls.apis.npm.chatgptjs}/latest`)).json()).version
+    bump.log.info(`Latest @kudoai/chatgpt.js version: ${latestCJSver}\n`)
+    for (const userJSfilePath of userscripts) {
+        let fileChanged = false
+        const content = fs.readFileSync(userJSfilePath, 'utf-8')
+        for (const match of [...content.matchAll(re.urls.chatgptjs)]) {
+            const oldFullURL = match[0], oldVer = match[2]
+            if (oldVer == latestCJSver) {
+                console.log(`${path.basename(userJSfilePath)} already at v${latestCJSver}`)
+                continue
+            }
+            const baseNewURL = `${match[1]}${latestCJSver}${match[3]}`
+            bump.log.working(`\nGenerating SRI for v${latestCJSver}...\n`)
+            const sriHash = await bump.generateSRIhash({ resURL: baseNewURL, verbose: false }),
+                  newFullURL = `${baseNewURL}#${sriHash}`,
+                  freshContent = fs.readFileSync(userJSfilePath, 'utf-8')
+            fs.writeFileSync(userJSfilePath, freshContent.replace(oldFullURL, newFullURL), 'utf-8')
+            bump.log.success(`Updated @require in ${path.basename(userJSfilePath)}`)
+            fileChanged = true ; urlsUpdatedCnt++
+        }
+        if (fileChanged) {
+            bump.log.working('Bumping userscript version...\n')
+            bump.bumpVersion({ format: 'dateVer', filePath: userJSfilePath })
+            filesUpdatedCnt++
         }
     }
 
