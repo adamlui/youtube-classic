@@ -21,7 +21,7 @@
             verTag: /^v\d+\.\d+\.\d+$/
         },
         urls: {
-            bumpmjs: 'https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@latest/utils/bump/lib/bump.min.mjs',
+            bumpmjs: 'https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/utils/bump/lib/bump.min.mjs',
             githubAPI: { repos: 'https://api.github.com/repos' }
         },
         userscriptName: 'youtube-classic.user.js'
