@@ -33,14 +33,14 @@
     fs.unlinkSync(cachePaths.bumpmjs)
 
     bump.log.working(`\n${ script.modes.cache ? 'Collecting' : 'Searching for' } userscripts...\n`)
-    const userJSname = 'youtube-classic.user.js' ; let userscripts
+    const userscriptName = 'youtube-classic.user.js' ; let userscripts
     if (script.modes.cache) {
         try { // create missing cache file
             fs.mkdirSync(path.dirname(cachePaths.userscripts), { recursive: true })
             const fd = fs.openSync(cachePaths.userscripts,
                 fs.constants.O_CREAT | fs.constants.O_EXCL | fs.constants.O_RDWR)
             bump.log.info(`Cache file missing. Generating ${cachePaths.userscripts}...\n`)
-            userscripts = await bump.findFileBySuffix({ suffix: userJSname }) ; console.log('')
+            userscripts = await bump.findFileBySuffix({ suffix: userscriptName }) ; console.log('')
             fs.writeFileSync(fd, JSON.stringify(userscripts, undefined, 2), 'utf-8')
             bump.log.success(`\nCache file created @ ${cachePaths.userscripts}`)
         } catch (err) { // use existing cache file
@@ -48,7 +48,7 @@
             console.log(userscripts) ; console.log('')
         }
     } else { // use bump.findFileBySuffix()
-        userscripts = await bump.findFileBySuffix({ suffix: userJSname }) ; console.log('') }
+        userscripts = await bump.findFileBySuffix({ suffix: userscriptName }) ; console.log('') }
 
     bump.log.working('\nCollecting resources...\n')
     const urlMap = {} ; let resCnt = 0
