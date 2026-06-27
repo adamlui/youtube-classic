@@ -28,8 +28,8 @@ async function run() {
 
     // Init CACHE paths
     const cachePaths = { root: '.cache' }
-    cachePaths.bumpUtils = path.join(__dirname, `${cachePaths.root}/bump.min.mjs`)
-    cachePaths.manifestPaths = path.join(__dirname, `${cachePaths.root}/manifest-paths.json`)
+    cachePaths.bumpUtils = path.join(process.cwd(), `${cachePaths.root}/bump.min.mjs`)
+    cachePaths.manifestPaths = path.join(process.cwd(), `${cachePaths.root}/manifest-paths.json`)
 
     // Import BUMP UTILS
     fs.mkdirSync(path.dirname(cachePaths.bumpUtils), { recursive: true })

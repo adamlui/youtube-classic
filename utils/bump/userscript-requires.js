@@ -27,8 +27,8 @@ async function run() {
         },
         userscriptName: 'youtube-classic.user.js'
     }
-    script.cache.paths.bumpmjs = path.join(__dirname, `${script.cache.paths.root}/bump.min.mjs`)
-    script.cache.paths.userscripts = path.join(__dirname, `${script.cache.paths.root}/userscripts.json`)
+    script.cache.paths.bumpmjs = path.join(process.cwd(), `${script.cache.paths.root}/bump.min.mjs`)
+    script.cache.paths.userscripts = path.join(process.cwd(), `${script.cache.paths.root}/userscripts.json`)
     const { cache: { paths: cachePaths }, regex: re } = script
 
     // Import bump.mjs
