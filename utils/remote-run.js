@@ -4,14 +4,14 @@
 
 const { execFileSync } = require('child_process'),
         fs = require('fs'),
-        os = require('os'),
-        path = require('path')
+        path = require('path'),
+      { tmpdir } = require('os')
 
 fetch(process.argv[2])
     .then(resp => resp.text())
     .then(code => {
         code = code.replace(/^#!.*\r?\n/m, '') // strip shebangs
-        const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'remote-run-')),
+        const tmpDir = fs.mkdtempSync(path.join(tmpdir(), 'remote-run-')),
               tmpFile = path.join(tmpDir, 'script.js')
         try {
             fs.writeFileSync(tmpFile, code, { encoding: 'utf8', mode: 0o600 })
