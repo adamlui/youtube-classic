@@ -44,7 +44,7 @@
     <img alt="[取得 Edge 版]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/microsoft-store/get-it-from-microsoft-blue-square-border-light-457x157.png"></a>
 <a href="https://addons.mozilla.org/zh-TW/firefox/addon/yt-classic/">
     <img alt="[取得 Firefox 版]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/firefox/available-for-firefox/raspberry-border-334x128.png"></a>
-<a href="https://scriptcat.org/script-show-page/6345">
+<a href="https://scriptcat.org/scripts/code/6345/youtube-classic.user.js">
     <img alt="[[取得 Greasemonkey 版]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/greasemonkey/install-userscript/en/badge860x262.png"></a>
 
 </div>
@@ -100,7 +100,7 @@
     - Tampermonkey 為了 [Chrome](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo), [Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/) 或者 [Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd)
     - [Stay](https://apps.apple.com/app/stay-for-safari/id1591620171) 或者 [Userscripts](https://apps.apple.com/app/userscripts/id1463298887) 為了 Safari
 
-2. 安裝 [YouTube Classic](https://scriptcat.org/zh-TW/script-show-page/6345) 使用者腳本（將在上面安裝的管理器中載入）
+2. 安裝 [YouTube Classic](https://scriptcat.org/scripts/code/6345/youtube-classic.user.js) 使用者腳本（將在上面安裝的管理器中載入）
 
 3. 造訪 [youtube.com](https://youtube.com)，介面煥然一新！
 
@@ -114,7 +114,7 @@
     <img alt="[取得 Edge 版]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/microsoft-store/get-it-from-microsoft-blue-square-border-light-457x157.png"></a>
 <a href="https://addons.mozilla.org/zh-TW/firefox/addon/yt-classic/">
     <img alt="[取得 Firefox 版]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/firefox/available-for-firefox/raspberry-border-334x128.png"></a>
-<a href="https://scriptcat.org/script-show-page/6345">
+<a href="https://scriptcat.org/scripts/code/6345/youtube-classic.user.js">
     <img alt="[[取得 Greasemonkey 版]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/greasemonkey/install-userscript/en/badge860x262.png"></a>
 
 </div>

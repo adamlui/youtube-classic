@@ -34,7 +34,7 @@
     <img alt="[Get for Edge]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/microsoft-store/get-it-from-microsoft-blue-square-border-light-457x157.png"></a>
 <a href="https://addons.mozilla.org/firefox/addon/yt-classic/">
     <img alt="[Get for Firefox]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/firefox/available-for-firefox/raspberry-border-334x128.png"></a>
-<a href="https://scriptcat.org/script-show-page/6345">
+<a href="https://scriptcat.org/scripts/code/6345/youtube-classic.user.js">
     <img alt="[Get for Greasemonkey]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/greasemonkey/install-userscript/en/badge860x262.png"></a>
 
 </div>
@@ -90,7 +90,7 @@
     - Tampermonkey for [Chrome](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo), [Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/) or [Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd)
     - [Stay](https://apps.apple.com/app/stay-for-safari/id1591620171) or [Userscripts](https://apps.apple.com/app/userscripts/id1463298887) for Safari
 
-2. Install [YouTube Classic](https://scriptcat.org/script-show-page/6345) userscript (will load in manager installed above)
+2. Install [YouTube Classic](https://scriptcat.org/scripts/code/6345/youtube-classic.user.js) userscript (will load in manager installed above)
 
 3. Visit [youtube.com](https://youtube.com) & UI is transformed!
 
@@ -104,7 +104,7 @@
     <img alt="[Get for Edge]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/microsoft-store/get-it-from-microsoft-blue-square-border-light-457x157.png"></a>
 <a href="https://addons.mozilla.org/firefox/addon/yt-classic/">
     <img alt="[Get for Firefox]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/firefox/available-for-firefox/raspberry-border-334x128.png"></a>
-<a href="https://scriptcat.org/script-show-page/6345">
+<a href="https://scriptcat.org/scripts/code/6345/youtube-classic.user.js">
     <img alt="[Get for Greasemonkey]" height=60 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions@8841371/assets/images/badges/greasemonkey/install-userscript/zh-cn/badge729x262.png"></a>
 
 </div>
