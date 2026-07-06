@@ -51,13 +51,13 @@
 <ul>
   <li><b>恢復“踩”數顯示</b>，助你在觀看前判斷內容品質<br>
     （使用 Anarios 的 <a href="https://github.com/Anarios/return-youtube-dislike">Return YouTube Dislike</a>）
-    <p><img width=400px src="https://assets.ytclassic.com/images/screenshots/dislike-counter.png"></li><br>
+    <p><img width=400px src="https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@e8fc12f/assets/images/screenshots/dislike-counter.png"></li><br>
   <li><b>移除那些</b>看似純粹為了“圓”而無處不在的圓角。<br>
     （基於 magma_craft 的 <a href="https://userstyles.world/style/7243/css-adjustments-fixes-for-non-rounded-youtube-design">非圓角 YouTube 設計</a> 演變而來）
     <p><i>&nbsp;前：</i><br>
-      <img src="https://assets.ytclassic.com/images/screenshots/youtube-modern-ui.png">
+      <img src="https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@e8fc12f/assets/images/screenshots/youtube-modern-ui.png">
     <p><i>&nbsp;後：</i><br>
-      <img src="https://assets.ytclassic.com/images/screenshots/youtube-classic-ui.png"></li><br>
+      <img src="https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@e8fc12f/assets/images/screenshots/youtube-classic-ui.png"></li><br>
   <li><b>將 YouTube Shorts 重新導向</b>至經典播放器，以提升使用體驗
     <p><img width=555 height="auto" src="https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@19ab985/assets/images/screenshots/shorts-redir.png"></li><br>
   <li><b>遮蔽搜尋結果中的隱匿推薦</b>，從而呈現更精準的搜尋結果</li><br>

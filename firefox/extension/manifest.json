@@ -5,7 +5,7 @@
   "description": "__MSG_appDesc__",
   "version": "2026.6.25",
   "author": "Adam Lui",
-  "homepage_url": "https://ytclassic.com",
+  "homepage_url": "https://github.com/adamlui/youtube-classic/#readme",
   "default_locale": "en",
   "icons": {
     "16": "icons/icon16.png",
