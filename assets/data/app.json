@@ -6,18 +6,18 @@
   ],
   "urls": {
     "aiweb": "https://github.com/adamlui/ai-web-extensions/#readme",
-    "app": "https://ytclassic.com",
+    "app": "https://github.com/adamlui/youtube-classic/#readme",
     "discuss": "https://github.com/adamlui/youtube-classic/discussions",
     "donate": {
       "github": "https://github.com/sponsors/adamlui",
       "ko-fi": "https://ko-fi.com/adamlui",
       "paypal": "https://paypal.me/adamlui"
     },
-    "download": { "gm": "https://gm.ytclassic.com" },
+    "download": { "gm": "https://scriptcat.org/scripts/code/6345/youtube-classic.user.js" },
     "github": "https://github.com/adamlui/youtube-classic",
     "review": { "scriptcat": "https://scriptcat.org/script-show-page/6345/comment" },
-    "support": "https://support.ytclassic.com",
-    "update": { "gm": "https://update-gm.ytclassic.com" },
-    "userscripts": "https://github.com/adamlui/userscripts"
+    "support": "https://github.com/adamlui/youtube-classic/issues",
+    "update": { "gm": "https://scriptcat.org/scripts/code/6345/youtube-classic.meta.js" },
+    "userscripts": "https://github.com/adamlui/userscripts/#readme"
   }
 }
