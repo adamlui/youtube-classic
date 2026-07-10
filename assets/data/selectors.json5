@@ -16,7 +16,7 @@
         "homepage": "ytd-rich-section-renderer:has(yt-talk-to-recs-view-model)",
         "videoPage": "yt-video-description-youchat-section-view-model"
       },
-      "summary": "div#header:has([style*=\"youtube_outline/spark\"])"
+      "summary": "div#header:has(path[d^=\"M480-80q0-83-31.5\"])"
     },
     "playables": {
       "shelf": "ytd-rich-section-renderer:has(a[href*=\"/playables/\"])"
