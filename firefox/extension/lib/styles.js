@@ -552,7 +552,7 @@ window.styles = {
                 :is(ytd-subscribe-button-renderer, /* channel page */
                     yt-subscribe-button-view-model /* video page */
                 ) button,
-                :where(div#subscribe-button, yt-flexible-actions-view-model) :is(a, button).ytSpecButtonShapeNextHost:not([href$="/community"]) {
+                :where(div#subscribe-button, yt-flexible-actions-view-model) :is(a, button).ytSpecButtonShapeNextHost:not(:has(path[d^="M12 23c6.075"])) {
                     /* search results page, channel page */
                     background-color: #cc0000 !important ; color: #fff !important ; border-radius: 2px !important ;
                     text-transform: uppercase !important ; font-weight: 500 !important ; letter-spacing: 0.5px !important
