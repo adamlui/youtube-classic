@@ -549,10 +549,14 @@ window.styles = {
                 }
 
                 /* Subscribe button */
-                :is(ytd-subscribe-button-renderer, /* channel page */
+                html:not(:has(div.ytd-two-column-search-results-renderer)) :is(
+                    ytd-subscribe-button-renderer, /* channel page */
                     yt-subscribe-button-view-model /* video page */
                 ) button,
-                :where(div#subscribe-button, yt-flexible-actions-view-model) :is(a, button).ytSpecButtonShapeNextHost:not(:has(path[d^="M12 23c6.075"])) {
+                :where(div#subscribe-button, yt-flexible-actions-view-model)
+                    :is(a, .ytSubscribeButtonViewModelContainer > button).ytSpecButtonShapeNextHost:not(:has(
+                        path[d^="M12 23c6.075"]))
+                {
                     /* search results page, channel page */
                     background-color: #cc0000 !important ; color: #fff !important ; border-radius: 2px !important ;
                     text-transform: uppercase !important ; font-weight: 500 !important ; letter-spacing: 0.5px !important
@@ -590,13 +594,14 @@ window.styles = {
                 div.ytSmartImationsContent:has(#notification-preference-toggle-button) { /* sub/bell container */
                     display: flex } /* display bell right of sub btn */
                 div#notification-preference-button button { background: none !important }
-                div#notification-preference-button div.ytSpecButtonShapeNextSecondaryIcon{ /* down caret */
+                div#page-header div#notification-preference-button div.ytSpecButtonShapeNextSecondaryIcon{ /* down caret */
                     filter: invert(1) }
                 div#notification-preference-button span.ytIconWrapperHost div { /* color All/None */
                     fill: var(--yt-sys-color-baseline--mono-filled-hover) !important }
-                div.ytSubscribeButtonViewModelContainer svg:has(path[d*="20.104999542236328"]),
-                div#subscribe-button yt-smartimation div.ytSpecButtonShapeNextIcon { /* search results */
-                    filter: invert(1) } /* whiten Personalized bell on channel */
+                div#page-header :where(
+                    div.ytSubscribeButtonViewModelContainer svg:has(path[d*="20.104999542236328"]),
+                    div#subscribe-button yt-smartimation div.ytSpecButtonShapeNextIcon
+                ) { filter: invert(1) } /* whiten Personalized bell on channel */
             `
         }
     }
