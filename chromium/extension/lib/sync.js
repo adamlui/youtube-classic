@@ -22,8 +22,7 @@ window.sync = {
             gmToolbarMenu.refresh() // prefixes/suffixes
     },
 
-    headerLogo(ytLogo) {
-        ytLogo ??= document.querySelector(app.selectors.yt.logo)
+    headerLogo(ytLogo = document.querySelector(app.selectors.yt.logo)) {
         if (!ytLogo || app.logo?.isConnected) return
         app.logo ??= dom.create.elem('img', { style: 'margin-left: 5px', height: 65 })
         app.logo.src = `${app.urls.assets.images}/logos/youtube/${ui.getScheme()}mode.png`
