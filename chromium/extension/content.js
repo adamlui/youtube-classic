@@ -47,7 +47,7 @@
     if (app.config.extensionDisabled) return
     if (app.config.disableShorts) sync.shorts.redir()
     styles.update({ keys: Object.keys(styles).filter(key => styles[key].autoAppend) })
-    dom.get.loadedElem('#logo-icon').then(() => sync.headerLogo())
+    dom.get.loadedElem(app.selectors.yt.logo).then(() => sync.headerLogo())
     dom.get.loadedElem(app.selectors.yt.masthead).then(masthead =>
         new MutationObserver(sync.headerLogo).observe(masthead, {
             attributes: true, subtree: true, attributeFilter: ['dark'] })
