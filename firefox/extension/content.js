@@ -10,13 +10,12 @@
         'lib/i18n.js', 'lib/settings.js', 'lib/styles.js', 'lib/sync.js', 'lib/ui.js'
     ]) await import(chrome.runtime.getURL(resource))
 
-    window.xhr = config => {
+    window.xhr = config =>
         fetch(config.url, { method: config.method || 'GET', headers: config.headers, body: config.data })
             .then(async resp =>
                 config.onload?.({ responseText: await resp.text(), status: resp.status, statusText: resp.statusText }))
             .catch(err =>
                 config.onerror?.(err))
-    }
 
     window.env = {
         browser: {
