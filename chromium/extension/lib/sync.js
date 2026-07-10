@@ -23,7 +23,7 @@ window.sync = {
     },
 
     headerLogo() {
-        const ytLogo = document.getElementById('logo-icon') ; if (!ytLogo) return
+        const ytLogo = document.querySelector(app.selectors.yt.logo) ; if (!ytLogo) return
         app.logo ??= dom.create.elem('img', { style: 'margin-left: 5px', height: 65 })
         app.logo.src = `${app.urls.assets.images}/logos/youtube/${ui.getScheme()}mode.png`
         ytLogo.textContent = '' ; ytLogo.append(app.logo)
