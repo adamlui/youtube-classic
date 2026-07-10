@@ -9,7 +9,12 @@
 
 <div align="center">
 
-<h1><img src="https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@1c92f98/assets/images/logos/youtube-classic/lightmode/logo535x75.png"></h1>
+<h1>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@1c92f98/assets/images/logos/youtube-classic/darkmode/logo535x75.png">
+    <img src="https://cdn.jsdelivr.net/gh/adamlui/youtube-classic@1c92f98/assets/images/logos/youtube-classic/lightmode/logo535x75.png">
+  </picture>
+</h1>
 
 <a href="https://github.com/adamlui/youtube-classic/blob/main/docs/LICENSE.md">
     <img alt="[License: MIT]" src="https://img.shields.io/badge/License-MIT-f99b27.svg?logo=internetarchive&logoColor=white&style=for-the-badge"></a>
