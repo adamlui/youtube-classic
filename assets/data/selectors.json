@@ -28,6 +28,7 @@
     }
   },
   "yt": {
+    "logo": "#logo-icon",
     "masthead": "ytd-masthead"
   }
 }
