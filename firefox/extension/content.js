@@ -49,10 +49,10 @@
     if (app.config.disableShorts) sync.shorts.redir()
     styles.update({ keys: Object.keys(styles).filter(key => styles[key].autoAppend) })
     sync.headerLogo()
-    dom.get.loadedElem(app.selectors.yt.masthead).then(masthead => {
+    dom.get.loadedElem(app.selectors.yt.masthead).then(masthead =>
         new MutationObserver(sync.headerLogo).observe(masthead, {
             attributes: true, subtree: true, attributeFilter: ['dark'] })
-    })
+    )
     expFlags.init({ reduceAnimations: app.config.reduceAnimations, presetFlags: app.ui.expFlags })
     if (app.config.idlePrevention) sync.idle.prevent()
 
