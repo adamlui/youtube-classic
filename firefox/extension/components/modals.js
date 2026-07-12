@@ -15,7 +15,7 @@ window.modals = { // requires lib/<css|dom>.js + <app|env>
         // Init buttons
         const modalBtns = [
             function getSupport(){},
-            function rateUs(){},
+            function rateUs() { modals.open('feedback') },
             function moreUserscripts(){}
         ]
         if (this.runtime == 'greasemonkey') // add Check for Updates
@@ -53,11 +53,10 @@ window.modals = { // requires lib/<css|dom>.js + <app|env>
                 `min-width: 136px ; text-align: center ; height: ${ this.runtime == 'greasemonkey' ? 58 : 55 }px`
 
             // Replace link buttons w/ clones that don't dismiss modal
-            if (/support|rateus|userscripts/i.test(btn.textContent)) {
+            if (/support|userscripts/i.test(btn.textContent)) {
                 btn.replaceWith(btn = btn.cloneNode(true))
                 btn.onclick = () => this.safeWinOpen(
                     btn.textContent.includes(i18n.getMsg('btnLabel_getSupport')) ? app.urls.support
-                  : btn.textContent.includes(i18n.getMsg('btnLabel_rateUs')) ? app.urls.review.scriptcat
                   : app.urls.userscripts
                 )
             }
@@ -67,7 +66,7 @@ window.modals = { // requires lib/<css|dom>.js + <app|env>
                 btn.textContent = `🚀 ${i18n.getMsg('btnLabel_checkForUpdates')}`
             else if (/support/i.test(btn.textContent))
                 btn.textContent = `🧠 ${i18n.getMsg('btnLabel_getSupport')}`
-            else if (/rateus/i.test(btn.textContent))
+            else if (/rate/i.test(btn.textContent))
                 btn.textContent = `⭐ ${i18n.getMsg('btnLabel_rateUs')}`
             else if (/userscripts/i.test(btn.textContent))
                 btn.textContent = `🤖 ${i18n.getMsg('btnLabel_moreUserscripts')}`
@@ -84,6 +83,39 @@ window.modals = { // requires lib/<css|dom>.js + <app|env>
               alert = document.getElementById(alertID).firstChild
         this.init(alert) // add classes
         return alert
+    },
+
+    feedback() { // requires lib/i18n.js + app.sourceWebStore
+
+        // Init buttons
+        const modalBtns = [function saashub(){}]
+        modalBtns.unshift( // append extension store button
+            this.runtime == 'greasemonkey' ? function scriptcat(){}
+          : this.runtime == 'firefox' ? function firefoxAddons(){}
+          : app.sourceWebStore == 'chrome' ? function chromeWebStore(){}
+          : function edgeAddons(){}
+        )
+
+        // Show modal
+        const feedbackModal = modals.alert(`${i18n.getMsg('alert_choosePlatform')}:`, '', modalBtns)
+        feedbackModal.style.display = 'inline-table' // allow many buttons to fit
+
+        // Hack buttons
+        feedbackModal.querySelectorAll('button').forEach((btn, idx) => {
+            if (idx == 0) btn.style.display = 'none' // hide Dismiss button
+
+            // Replace buttons w/ clones that don't dismiss modal
+            btn.replaceWith(btn = btn.cloneNode(true))
+            btn.onclick = () => this.safeWinOpen(app.urls.review[
+                btn.textContent == 'Saashub' ? 'saashub'
+              : btn.textContent == 'Chrome Web Store' ? 'chrome'
+              : btn.textContent == 'Edge Addons' ? 'edge'
+              : btn.textContent == 'Firefox Addons' ? 'firefox'
+              : 'ScriptCat'
+            ])
+        })
+
+        return feedbackModal
     },
 
     init(modal) { // requires lib/<css|dom>.js
