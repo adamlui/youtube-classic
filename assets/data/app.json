@@ -16,6 +16,9 @@
     "download": { "gm": "https://scriptcat.org/scripts/code/6345/youtube-classic.user.js" },
     "github": "https://github.com/adamlui/youtube-classic",
     "review": {
+      "chrome": "https://chromewebstore.google.com/detail/youtube-classic/keehjmmhefapnbammgjhdppfeekdiepk/reviews",
+      "edge": "https://microsoftedge.microsoft.com/addons/detail/youtube-classic/gbdiffmdamghkpgfljpmoflcleedkdeg",
+      "firefox": "https://addons.mozilla.org/firefox/addon/yt-classic/",
       "saashub": "https://www.saashub.com/youtube-classic-reviews/new",
       "scriptcat": "https://scriptcat.org/script-show-page/6345/comment"
     },
