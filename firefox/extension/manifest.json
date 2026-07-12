@@ -3,7 +3,7 @@
   "name": "__MSG_appName__",
   "short_name": "YT Classic",
   "description": "__MSG_appDesc__",
-  "version": "2026.7.12",
+  "version": "2026.7.12.1",
   "author": "Adam Lui",
   "homepage_url": "https://github.com/adamlui/youtube-classic/#readme",
   "default_locale": "en",
