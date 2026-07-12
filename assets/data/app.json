@@ -15,7 +15,10 @@
     },
     "download": { "gm": "https://scriptcat.org/scripts/code/6345/youtube-classic.user.js" },
     "github": "https://github.com/adamlui/youtube-classic",
-    "review": { "scriptcat": "https://scriptcat.org/script-show-page/6345/comment" },
+    "review": {
+      "saashub": "https://www.saashub.com/youtube-classic-reviews/new",
+      "scriptcat": "https://scriptcat.org/script-show-page/6345/comment"
+    },
     "support": "https://github.com/adamlui/youtube-classic/issues",
     "update": { "gm": "https://scriptcat.org/scripts/code/6345/youtube-classic.meta.js" },
     "userscripts": "https://github.com/adamlui/userscripts/#readme"
