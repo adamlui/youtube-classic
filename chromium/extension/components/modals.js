@@ -111,7 +111,7 @@ window.modals = { // requires lib/<css|dom>.js + <app|env>
               : btn.textContent == 'Chrome Web Store' ? 'chrome'
               : btn.textContent == 'Edge Addons' ? 'edge'
               : btn.textContent == 'Firefox Addons' ? 'firefox'
-              : 'ScriptCat'
+              : 'scriptcat'
             ])
         })
 
