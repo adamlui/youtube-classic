@@ -549,21 +549,18 @@ window.styles = {
                 }
 
                 /* Subscribe button */
-                html:not(:has(div.ytd-two-column-search-results-renderer)) :is(
-                    ytd-subscribe-button-renderer, /* channel page */
-                    yt-subscribe-button-view-model /* video page */
-                ) button,
-                :where(div#subscribe-button, yt-flexible-actions-view-model)
-                    :is(a, .ytSubscribeButtonViewModelContainer > button).ytSpecButtonShapeNextHost:not(:has(
-                        path[d^="M12 23c6.075"]))
-                {
-                    /* search results page, channel page */
+                div#subscribe-button button, /* search results */
+                :is(div.ytSubscribeButtonViewModelContainer, /* channel */
+                    #subscribe-button-shape /* video */
+                ) > button {
                     background-color: #cc0000 !important ; color: #fff !important ; border-radius: 2px !important ;
-                    text-transform: uppercase !important ; font-weight: 500 !important ; letter-spacing: 0.5px !important
+                    text-transform: uppercase !important ; font-weight: 500 !important ;
+                    letter-spacing: 0.5px !important
                 }
                 #subscribe-button ytd-subscribe-button-renderer button.yt-spec-button-shape-next--tonal {
-                    background-color: #f2f2f2 !important ; color: #606060 !important ; border-radius: 2px !important ;
-                    text-transform: uppercase !important ; font-weight: 500 !important ; letter-spacing: 0.5px !important
+                    background-color: #f2f2f2 !important ; color: #606060 !important ;
+                    border-radius: 2px !important ; text-transform: uppercase !important ; font-weight: 500 !important ;
+                    letter-spacing: 0.5px !important
                 }
                 #subscribe-button ytd-subscribe-button-renderer button.yt-spec-button-shape-next--tonal:hover {
                     background-color: #e5e5e5 !important }
@@ -593,7 +590,7 @@ window.styles = {
                 /* Notif bell */
                 div.ytSmartImationsContent:has(#notification-preference-toggle-button) { /* sub/bell container */
                     display: flex } /* display bell right of sub btn */
-                div#notification-preference-button button { background: none !important }
+                div#notification-preference-button button { color: initial !important ; background: none !important }
                 div#page-header div#notification-preference-button div.ytSpecButtonShapeNextSecondaryIcon{ /* down caret */
                     filter: invert(1) }
                 div#notification-preference-button span.ytIconWrapperHost div { /* color All/None */
