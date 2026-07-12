@@ -48,6 +48,7 @@
   "helptip_notifDisabled": { "message": "Afficher les notifications lors du basculement du mode/des paramètres" },
   "helptip_notifBottom": { "message": "Notifications d'ancrage au bas de l'écran" },
   "helptip_toastMode": { "message": "Réduire/centrer les notifications dans les bulles de pain grillé" },
+  "alert_choosePlatform": { "message": "Choisir une plateforme" },
   "alert_updateAvail": { "message": "Mise à jour disponible" },
   "alert_newerVer": { "message": "Une mise à jour de" },
   "alert_isAvail": { "message": "est disponible" },

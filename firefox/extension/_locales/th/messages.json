@@ -48,6 +48,7 @@
   "helptip_notifDisabled": { "message": "แสดงการแจ้งเตือนเมื่อสลับโหมด/การตั้งค่า" },
   "helptip_notifBottom": { "message": "การแจ้งเตือนจุดยึดที่ด้านล่างของหน้าจอ" },
   "helptip_toastMode": { "message": "การแจ้งเตือนการหด/ตรงกลางลงในฟองขนมปังปิ้ง" },
+  "alert_choosePlatform": { "message": "เลือกแพลตฟอร์ม" },
   "alert_updateAvail": { "message": "มีอัปเดตพร้อมใช้งาน" },
   "alert_newerVer": { "message": "อัพเดทเป็น" },
   "alert_isAvail": { "message": "ว่าง" },

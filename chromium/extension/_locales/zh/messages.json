@@ -46,6 +46,7 @@
   "helptip_notifDisabled": { "message": "切换模式/设置时显示通知" },
   "helptip_notifBottom": { "message": "将通知定位到屏幕底部" },
   "helptip_toastMode": { "message": "将通知缩小/居中为吐司气泡" },
+  "alert_choosePlatform": { "message": "选择平台" },
   "alert_updateAvail": { "message": "有可用更新" },
   "alert_newerVer": { "message": "以下内容的更新：" },
   "alert_isAvail": { "message": "可用" },

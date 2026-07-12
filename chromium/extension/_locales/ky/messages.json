@@ -50,6 +50,7 @@
   "helptip_notifDisabled": { "message": "Режимди/параметрлерди күйгүзүүдө эскертүүлөрдү көрсөтүү" },
   "helptip_notifBottom": { "message": "Экрандын ылдый жагындагы анкердик эскертүүлөр" },
   "helptip_toastMode": { "message": "Тост көбүкчөлөрүнө эскертүүлөрдү кыскартуу/борборлоштуруу" },
+  "alert_choosePlatform": { "message": "Платформаны тандоо" },
   "alert_updateAvail": { "message": "Жаңыртуу жеткиликтүү" },
   "alert_newerVer": { "message": "Жаңыртуу" },
   "alert_isAvail": { "message": "жеткиликтүү" },

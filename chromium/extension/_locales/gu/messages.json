@@ -48,6 +48,7 @@
   "helptip_notifDisabled": { "message": "જ્યારે ટોગલિંગ મોડ/સેટિંગ્સ હોય ત્યારે સૂચનાઓ બતાવો" },
   "helptip_notifBottom": { "message": "સ્ક્રીનના તળિયે એન્કર સૂચનાઓ" },
   "helptip_toastMode": { "message": "ટોસ્ટ પરપોટામાં સૂચનાઓને સંકોચો/કેન્દ્ર કરો" },
+  "alert_choosePlatform": { "message": "એક પ્લેટફોર્મ પસંદ કરો" },
   "alert_updateAvail": { "message": "અપડેટ ઉપલબ્ધ છે" },
   "alert_newerVer": { "message": "આ માટે એક અપડેટ" },
   "alert_isAvail": { "message": "ઉપલબ્ધ છે" },

@@ -48,6 +48,7 @@
   "helptip_notifDisabled": { "message": "Toggling Mode/Settings" },
   "helptip_notifBottom": { "message": "སྐར་ཁུང་རྩོམ་སྒྲིག་པ །_སྐར་ཁུང་རྩོམ་སྒྲིག་པ །_11/06/2013 - 10:15 am" },
   "helptip_toastMode": { "message": "སྦྲང་ཆར །/སྦྲང་ཆར །" },
+  "alert_choosePlatform": { "message": "སྒྲིག་འཇུག་བྱས་ཚད ། ཐེངས་10 ལས་ཉུང་བ ། ཐོན་རིམ་" },
   "alert_updateAvail": { "message": "ད་ལྟའི་དུས་ཚོད །" },
   "alert_newerVer": { "message": "ད་ལྟའི་གནས་ཚུལ་གསར་འགྱུར །" },
   "alert_isAvail": { "message": "ལག་ལེན་བྱེད་ཐུབ །" },

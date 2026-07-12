@@ -48,6 +48,7 @@
   "helptip_notifDisabled": { "message": "Dema ku mod/mîhengan vediguherîne, agahdariyan nîşan bide" },
   "helptip_notifBottom": { "message": "Agahdariyên lengerê li binê ekranê" },
   "helptip_toastMode": { "message": "Agahdariyan biçûk bike/navenda nav bilbilên toastê bike" },
+  "alert_choosePlatform": { "message": "Platformek hilbijêre" },
   "alert_updateAvail": { "message": "Nûvekirin heye" },
   "alert_newerVer": { "message": "Nûvekirinek ji bo" },
   "alert_isAvail": { "message": "berdest e" },

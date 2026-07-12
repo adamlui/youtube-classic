@@ -48,6 +48,7 @@
   "helptip_notifDisabled": { "message": "टगल मोड/सेटिङहरू गर्दा सूचनाहरू देखाउनुहोस्" },
   "helptip_notifBottom": { "message": "स्क्रिनको तल एङ्कर सूचनाहरू" },
   "helptip_toastMode": { "message": "टोस्ट बुलबुलेमा सूचनाहरू खुम्च्याउनुहोस्/केन्द्रमा राख्नुहोस्" },
+  "alert_choosePlatform": { "message": "प्लेटफर्म छान्नुहोस्" },
   "alert_updateAvail": { "message": "अद्यावधिक उपलब्ध छ" },
   "alert_newerVer": { "message": "यसमा अद्यावधिक गर्नुहोस्" },
   "alert_isAvail": { "message": "उपलब्ध छ" },

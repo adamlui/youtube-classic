@@ -50,6 +50,7 @@
   "helptip_notifDisabled": { "message": "Erakutsi jakinarazpenak modua/ezarpenak txandakatzean" },
   "helptip_notifBottom": { "message": "Ainguratu jakinarazpenak pantailaren behealdean" },
   "helptip_toastMode": { "message": "Txikitu/zentratu jakinarazpenak burbuila txikietan" },
+  "alert_choosePlatform": { "message": "Aukeratu plataforma bat" },
   "alert_updateAvail": { "message": "Eguneratzea eskuragarri" },
   "alert_newerVer": { "message": "Eguneratze bat" },
   "alert_isAvail": { "message": "eskuragarri dago" },

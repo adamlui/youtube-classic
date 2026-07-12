@@ -48,6 +48,7 @@
   "helptip_notifDisabled": { "message": "Meldingen weergeven bij schakelen tussen modus/instellingen" },
   "helptip_notifBottom": { "message": "Meldingen aan de onderkant van het scherm verankeren" },
   "helptip_toastMode": { "message": "Krimp/centreer meldingen in toastbellen" },
+  "alert_choosePlatform": { "message": "Kies een platform" },
   "alert_updateAvail": { "message": "Update beschikbaar" },
   "alert_newerVer": { "message": "Een update van" },
   "alert_isAvail": { "message": "is beschikbaar" },

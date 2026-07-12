@@ -50,6 +50,7 @@
   "helptip_notifDisabled": { "message": "Hiển thị thông báo khi chuyển đổi chế độ/cài đặt" },
   "helptip_notifBottom": { "message": "Thông báo neo ở cuối màn hình" },
   "helptip_toastMode": { "message": "Thu nhỏ/căn giữa thông báo thành bong bóng bánh mì nướng" },
+  "alert_choosePlatform": { "message": "Chọn một nền tảng" },
   "alert_updateAvail": { "message": "Đã có bản cập nhật" },
   "alert_newerVer": { "message": "Cập nhật cho" },
   "alert_isAvail": { "message": "có sẵn" },

@@ -48,6 +48,7 @@
   "helptip_notifDisabled": { "message": "Rodyti pranešimus perjungiant režimą/nustatymus" },
   "helptip_notifBottom": { "message": "Inkaro pranešimai ekrano apačioje" },
   "helptip_toastMode": { "message": "Sumažinti/sucentruoti pranešimus į skrudinimo burbuliukus" },
+  "alert_choosePlatform": { "message": "Pasirinkti platformą" },
   "alert_updateAvail": { "message": "Galimas atnaujinimas" },
   "alert_newerVer": { "message": "Atnaujinta į" },
   "alert_isAvail": { "message": "yra" },

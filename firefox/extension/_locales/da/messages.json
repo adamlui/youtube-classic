@@ -48,6 +48,7 @@
   "helptip_notifDisabled": { "message": "Vis meddelelser, når du skifter tilstand/indstillinger" },
   "helptip_notifBottom": { "message": "Ankermeddelelser nederst på skærmen" },
   "helptip_toastMode": { "message": "Skrumpe-/centermeddelelser til toastbobler" },
+  "alert_choosePlatform": { "message": "Vælg en platform" },
   "alert_updateAvail": { "message": "Opdatering tilgængelig" },
   "alert_newerVer": { "message": "En opdatering til" },
   "alert_isAvail": { "message": "er tilgængelig" },

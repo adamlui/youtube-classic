@@ -48,6 +48,7 @@
   "helptip_notifDisabled": { "message": "Mod/ayarlar arasında geçiş yaparken bildirimleri göster" },
   "helptip_notifBottom": { "message": "Bildirimleri ekranın altına sabitleyin" },
   "helptip_toastMode": { "message": "Bildirimleri tost baloncuklarına küçült/ortala" },
+  "alert_choosePlatform": { "message": "Bir platform seçin" },
   "alert_updateAvail": { "message": "Güncelleme mevcut" },
   "alert_newerVer": { "message": "Şunun için güncelleme:" },
   "alert_isAvail": { "message": "mevcut" },

@@ -52,6 +52,7 @@
   "helptip_notifDisabled": { "message": "Bontsha dikitsiso fa o toggling mode/settings" },
   "helptip_notifBottom": { "message": "Dikitsiso tsa lt; spangt; anchorlt;/spangt; go ya kwa tlase mo sekerining" },
   "helptip_toastMode": { "message": "DITSHAGISO TSE DI KGOTLHISIWANG/TSE DI KGOTLHISIWANG" },
+  "alert_choosePlatform": { "message": "Tlhopha polateforomo ya thelebišene" },
   "alert_updateAvail": { "message": "Diphetogo tse di leng teng" },
   "alert_newerVer": { "message": "Tlhabololo ya go" },
   "alert_isAvail": { "message": "e teng" },

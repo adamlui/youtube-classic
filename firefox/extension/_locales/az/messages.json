@@ -50,6 +50,7 @@
   "helptip_notifDisabled": { "message": "Bildirişləri keçid rejimi/parametrləri göstərdikdə göstər" },
   "helptip_notifBottom": { "message": "Anker bildirişləri ekranın aşağısına" },
   "helptip_toastMode": { "message": "Tost köpüklərinə/mərkəz bildirişlərini bağlayın" },
+  "alert_choosePlatform": { "message": "Platforma seçin" },
   "alert_updateAvail": { "message": "Mövcud yeniləmə" },
   "alert_newerVer": { "message": "Yeniləmə" },
   "alert_isAvail": { "message": "mövcuddur" },

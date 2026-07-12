@@ -50,6 +50,7 @@
   "helptip_notifDisabled": { "message": "Asehoy ny fampahafantarana rehefa miova fomba/fandrindrana" },
   "helptip_notifBottom": { "message": "Fampandrenesana vatofantsika mankany amin'ny faran'ny efijery" },
   "helptip_toastMode": { "message": "Alefaso any amin'ny toast bubbles/center ny fampandrenesana" },
+  "alert_choosePlatform": { "message": "Misafidiana sehatra iray" },
   "alert_updateAvail": { "message": "Ny fanavaozana azo alaina" },
   "alert_newerVer": { "message": "Vaovao farany ho" },
   "alert_isAvail": { "message": "tsy mety ampiasaina" },

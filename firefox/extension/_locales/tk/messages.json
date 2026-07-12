@@ -48,6 +48,7 @@
   "helptip_notifDisabled": { "message": "Mod/Settings toggling wagty habarlamalary görkez" },
   "helptip_notifBottom": { "message": "Ekranyň aşagynda anker bildirişleri" },
   "helptip_toastMode": { "message": "Toast Bubbles içindäki habarlary azaltmak/azaltmak" },
+  "alert_choosePlatform": { "message": "Bir platforma girmek" },
   "alert_updateAvail": { "message": "Täzeleşdir" },
   "alert_newerVer": { "message": "Täzeleşdirmek" },
   "alert_isAvail": { "message": "häzir bar" },

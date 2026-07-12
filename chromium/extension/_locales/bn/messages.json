@@ -48,6 +48,7 @@
   "helptip_notifDisabled": { "message": "মোড/সেটিংস টগল করার সময় বিজ্ঞপ্তিগুলি দেখান" },
   "helptip_notifBottom": { "message": "স্ক্রিনের নিচে নোঙ্গর বিজ্ঞপ্তি" },
   "helptip_toastMode": { "message": "টোস্ট বুদবুদে সঙ্কুচিত/কেন্দ্র বিজ্ঞপ্তি" },
+  "alert_choosePlatform": { "message": "একটি প্ল্যাটফর্ম বেছে নিন" },
   "alert_updateAvail": { "message": "আপডেট উপলভ্য" },
   "alert_newerVer": { "message": "-এ একটি আপডেট" },
   "alert_isAvail": { "message": "উপলভ্য" },

@@ -50,6 +50,7 @@
   "helptip_notifDisabled": { "message": "Hōʻike i nā leka hoʻomaopopo i ka wā e hoʻololi ai i ke ʻano/nā hoʻonohonoho" },
   "helptip_notifBottom": { "message": "Hoʻopaʻa i nā leka hoʻomaopopo ma lalo o ka pale" },
   "helptip_toastMode": { "message": "Hoʻemi/waena i nā leka hoʻomaopopo i loko o nā pehu toast" },
+  "alert_choosePlatform": { "message": "E koho i kahi kahua" },
   "alert_updateAvail": { "message": "Loaʻa ka hōʻano hou" },
   "alert_newerVer": { "message": "He mea hou i" },
   "alert_isAvail": { "message": "loaʻa" },

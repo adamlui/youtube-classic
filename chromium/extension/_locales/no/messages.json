@@ -48,6 +48,7 @@
   "helptip_notifDisabled": { "message": "Vis varsler når du veksler mellom modus/innstillinger" },
   "helptip_notifBottom": { "message": "Ankre varsler nederst på skjermen" },
   "helptip_toastMode": { "message": "Krymp/sentrer varsler til toastbobler" },
+  "alert_choosePlatform": { "message": "Velg en plattform" },
   "alert_updateAvail": { "message": "Oppdatering tilgjengelig" },
   "alert_newerVer": { "message": "En oppdatering til" },
   "alert_isAvail": { "message": "er tilgjengelig" },

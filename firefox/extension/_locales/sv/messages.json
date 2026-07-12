@@ -48,6 +48,7 @@
   "helptip_notifDisabled": { "message": "Visa aviseringar när du växlar läge/inställningar" },
   "helptip_notifBottom": { "message": "Förankra meddelanden längst ner på skärmen" },
   "helptip_toastMode": { "message": "Krymp/centrera meddelanden till rostat brödbubblor" },
+  "alert_choosePlatform": { "message": "Välj en plattform" },
   "alert_updateAvail": { "message": "Uppdatering tillgänglig" },
   "alert_newerVer": { "message": "En uppdatering av" },
   "alert_isAvail": { "message": "är tillgänglig" },

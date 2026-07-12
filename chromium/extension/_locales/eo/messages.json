@@ -48,6 +48,7 @@
   "helptip_notifDisabled": { "message": "Montri sciigojn kiam oni ŝanĝas moduson/agordon" },
   "helptip_notifBottom": { "message": "Ankrosciigoj al la fundo de la ekrano" },
   "helptip_toastMode": { "message": "Ŝrumpu/centrosciigojn en toastvezikojn" },
+  "alert_choosePlatform": { "message": "Elekti platformon" },
   "alert_updateAvail": { "message": "Ĝisdatigo disponebla" },
   "alert_newerVer": { "message": "Ĝisdatigo al" },
   "alert_isAvail": { "message": "estas disponebla" },

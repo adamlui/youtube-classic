@@ -48,6 +48,7 @@
   "helptip_notifDisabled": { "message": "Ratidza zviziviso kana toggling muoti/marongero" },
   "helptip_notifBottom": { "message": "Anchor zviziviso pasi chidzitiro" },
   "helptip_toastMode": { "message": "Shrink/pakati zviziviso kupinda toast bubbles" },
+  "alert_choosePlatform": { "message": "Sarudza chikuva" },
   "alert_updateAvail": { "message": "Zadzisa zviripo" },
   "alert_newerVer": { "message": "An update kuti" },
   "alert_isAvail": { "message": "inowanika" },

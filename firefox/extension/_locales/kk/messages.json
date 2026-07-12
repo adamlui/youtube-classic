@@ -48,6 +48,7 @@
   "helptip_notifDisabled": { "message": "Режімді/параметрлерді ауыстыру кезінде хабарландыруларды көрсету" },
   "helptip_notifBottom": { "message": "Экранның төменгі жағындағы анкерлік хабарландырулар" },
   "helptip_toastMode": { "message": "Тост көпіршіктеріне хабарландыруларды/орталықты кесіңіз" },
+  "alert_choosePlatform": { "message": "Платформаны таңдау" },
   "alert_updateAvail": { "message": "Жаңарту қол жетімді" },
   "alert_newerVer": { "message": "Жаңарту" },
   "alert_isAvail": { "message": "қол жетімді" },

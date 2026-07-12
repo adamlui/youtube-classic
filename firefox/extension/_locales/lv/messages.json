@@ -48,6 +48,7 @@
   "helptip_notifDisabled": { "message": "Rādīt paziņojumus, pārslēdzot režīmu/iestatījumus" },
   "helptip_notifBottom": { "message": "Enkura paziņojumi ekrāna apakšdaļā" },
   "helptip_toastMode": { "message": "Samaziniet/centrējiet paziņojumus grauzdiņu burbuļos" },
+  "alert_choosePlatform": { "message": "Izvēlieties platformu" },
   "alert_updateAvail": { "message": "Pieejams atjauninājums" },
   "alert_newerVer": { "message": "Atjauninājums uz" },
   "alert_isAvail": { "message": "ir pieejams" },

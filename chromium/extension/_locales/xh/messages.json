@@ -50,6 +50,7 @@
   "helptip_notifDisabled": { "message": "Bonisa imiyalezo xa uguqula imowudi/iisetingi" },
   "helptip_notifBottom": { "message": "Imiyalezo ye-ankile ukuya ezantsi kwesikrini" },
   "helptip_toastMode": { "message": "Nciphisa imiyalezo ibe ziibhubhu ze-toast" },
+  "alert_choosePlatform": { "message": "Khetha iwebhusayithi" },
   "alert_updateAvail": { "message": "Uhlaziyo luyafumaneka" },
   "alert_newerVer": { "message": "Inkcazelo ehlaziyiweyo kwi" },
   "alert_isAvail": { "message": "iyafumaneka" },

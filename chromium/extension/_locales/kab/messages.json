@@ -48,6 +48,7 @@
   "helptip_notifDisabled": { "message": "Sken isallen melmi ara d-sbedden isenfaren/isenfaren" },
   "helptip_notifBottom": { "message": "Iγewwaṛen n usenker ar uqerru n usenker" },
   "helptip_toastMode": { "message": "Tags relatifs à \"toast bubbles\"" },
+  "alert_choosePlatform": { "message": "Fren asebter" },
   "alert_updateAvail": { "message": "Aneggaru i d-yellan" },
   "alert_newerVer": { "message": "Aneggaru ɣer" },
   "alert_isAvail": { "message": "yella" },

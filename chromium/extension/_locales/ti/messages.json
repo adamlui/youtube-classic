@@ -46,6 +46,7 @@
   "helptip_notifDisabled": { "message": "ናይ ቶግሊንግ ሞድ/ኣቀማምጣ ምስ እትገብር ኣፍልጦታት ኣርኢ" },
   "helptip_notifBottom": { "message": "ናይ ምስሊ መግለጺ ኣብ ታሕቲ ናይ ምስሊ መግለጺ" },
   "helptip_toastMode": { "message": "ኣብ ኣፍንጫን ኣፍንጫን ዘሎ ኣፍልጦታት" },
+  "alert_choosePlatform": { "message": "መድረኽ ምረጽ" },
   "alert_updateAvail": { "message": "ዝዘመነ" },
   "alert_newerVer": { "message": "ዝዘመነ" },
   "alert_isAvail": { "message": "ተዳልዩ ኣሎ" },

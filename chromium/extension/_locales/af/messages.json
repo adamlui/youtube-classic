@@ -50,6 +50,7 @@
   "helptip_notifDisabled": { "message": "Vertoon kennisgewings wanneer wisselmodus/instellings" },
   "helptip_notifBottom": { "message": "Anker kennisgewings aan die onderkant van die skerm" },
   "helptip_toastMode": { "message": "Krimp/sentrum kennisgewings in roosterbroodborrels" },
+  "alert_choosePlatform": { "message": "Kies 'n platform" },
   "alert_updateAvail": { "message": "Opdateer beskikbaar" },
   "alert_newerVer": { "message": "'n Opdatering na" },
   "alert_isAvail": { "message": "is beskikbaar" },

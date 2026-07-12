@@ -50,6 +50,7 @@
   "helptip_notifDisabled": { "message": "Bonisa izaziso lapho uguqula imodi/amasethingi" },
   "helptip_notifBottom": { "message": "Izaziso zehange ezansi kwesikrini" },
   "helptip_toastMode": { "message": "Nciphisa izaziso zibe ama-bubble e-toast" },
+  "alert_choosePlatform": { "message": "Khetha inkundla" },
   "alert_updateAvail": { "message": "Isibuyekezo siyatholakala" },
   "alert_newerVer": { "message": "Izilungiso eziya ku-" },
   "alert_isAvail": { "message": "iyatholakala" },

@@ -48,6 +48,7 @@
   "helptip_notifDisabled": { "message": "Toksave taim yu senisim mode/sait" },
   "helptip_notifBottom": { "message": "Anka notis long daunbilo bilong skrin" },
   "helptip_toastMode": { "message": "Skim/centre notifications long toast bubbles" },
+  "alert_choosePlatform": { "message": "Piksaim wanpela platform" },
   "alert_updateAvail": { "message": "Ol nupela samting i stap" },
   "alert_newerVer": { "message": "Ol nupela tok" },
   "alert_isAvail": { "message": "em i stap" },

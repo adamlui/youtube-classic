@@ -48,6 +48,7 @@
   "helptip_notifDisabled": { "message": "نمایش اعلان‌ها هنگام تغییر حالت/تنظیمات" },
   "helptip_notifBottom": { "message": "اعلان‌ها را به پایین صفحه نمایش دهید" },
   "helptip_toastMode": { "message": "کوچک/مرکز کردن اعلان‌ها در حباب‌های کوچک" },
+  "alert_choosePlatform": { "message": "یک پلتفرم انتخاب کنید" },
   "alert_updateAvail": { "message": "به‌روزرسانی موجود است" },
   "alert_newerVer": { "message": "یک به‌روزرسانی برای" },
   "alert_isAvail": { "message": "موجود است" },

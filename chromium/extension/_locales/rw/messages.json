@@ -50,6 +50,7 @@
   "helptip_notifDisabled": { "message": "Ibimenyetso Ryari: Ubwoko Amagenamiterere" },
   "helptip_notifBottom": { "message": "Ibimenyetso Kuri Hasi: Bya Mugaragaza" },
   "helptip_toastMode": { "message": "Hagati Ibimenyetso" },
+  "alert_choosePlatform": { "message": "A" },
   "alert_updateAvail": { "message": "Bihari" },
   "alert_newerVer": { "message": "Kuri" },
   "alert_isAvail": { "message": "bihari" },

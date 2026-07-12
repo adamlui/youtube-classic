@@ -50,6 +50,7 @@
   "helptip_notifDisabled": { "message": "பயன்முறை/அமைப்புகளை மாற்றும்போது அறிவிப்புகளைக் காட்டவும்" },
   "helptip_notifBottom": { "message": "திரையின் அடிப்பகுதிக்கு ஆங்கர் அறிவிப்புகள்" },
   "helptip_toastMode": { "message": "டோஸ்ட் குமிழிகளாக/சென்டர் அறிவிப்புகளைச் சுருக்கவும்" },
+  "alert_choosePlatform": { "message": "ஒரு தளத்தைத் தேர்வுசெய்க" },
   "alert_updateAvail": { "message": "புதுப்பிப்பு கிடைக்கிறது" },
   "alert_newerVer": { "message": "இதற்கான ஒரு புதுப்பிப்பு" },
   "alert_isAvail": { "message": "கிடைக்கிறது" },

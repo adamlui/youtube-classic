@@ -50,6 +50,7 @@
   "helptip_notifDisabled": { "message": "Prikaži obavijesti prilikom prebacivanja načina rada/postavki" },
   "helptip_notifBottom": { "message": "Usidri obavijesti na dno zaslona" },
   "helptip_toastMode": { "message": "Smanjite/centrirajte obavijesti u mjehuriće tosta" },
+  "alert_choosePlatform": { "message": "Odaberite platformu" },
   "alert_updateAvail": { "message": "Dostupno je ažuriranje" },
   "alert_newerVer": { "message": "Ažuriranje za" },
   "alert_isAvail": { "message": "je dostupno" },

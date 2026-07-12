@@ -50,6 +50,7 @@
   "helptip_notifDisabled": { "message": "ٹوگلنگ موڈ/سیٹنگز کے دوران اطلاعات دکھائیں" },
   "helptip_notifBottom": { "message": "اسکرین کے نچلے حصے میں لنگر کی اطلاعات" },
   "helptip_toastMode": { "message": "ٹوسٹ بلبلوں میں اطلاعات کو سکڑیں/مرکز میں رکھیں" },
+  "alert_choosePlatform": { "message": "ایک پلیٹ فارم منتخب کریں" },
   "alert_updateAvail": { "message": "اپ ڈیٹ دستیاب ہے" },
   "alert_newerVer": { "message": "پر ایک اپ ڈیٹ" },
   "alert_isAvail": { "message": "دستیاب ہے" },

@@ -50,6 +50,7 @@
   "helptip_notifDisabled": { "message": "Faaali atu faasilasilaga pe a toggling faiga/faatulagaga" },
   "helptip_notifBottom": { "message": "Faasilasilaga Anchor i le pito i lalo o le lau" },
   "helptip_toastMode": { "message": "Shrink/nofoaga autu faʻasilasilaga i toast bubbles" },
+  "alert_choosePlatform": { "message": "Filifili se tulaga" },
   "alert_updateAvail": { "message": "Faʻafouga o loʻo avanoa" },
   "alert_newerVer": { "message": "Faʻafouga" },
   "alert_isAvail": { "message": "o loo maua" },

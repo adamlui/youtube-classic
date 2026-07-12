@@ -48,6 +48,7 @@
   "helptip_notifDisabled": { "message": "Zobraziť upozornenia pri prepínaní režimu/nastavení" },
   "helptip_notifBottom": { "message": "Upozornenia na ukotvenie v dolnej časti obrazovky" },
   "helptip_toastMode": { "message": "Zmenšiť/vycentrovať upozornenia na toastové bubliny" },
+  "alert_choosePlatform": { "message": "Vyberte platformu" },
   "alert_updateAvail": { "message": "Aktualizácia je k dispozícii" },
   "alert_newerVer": { "message": "Aktualizácia na" },
   "alert_isAvail": { "message": "je k dispozícii" },

@@ -50,6 +50,7 @@
   "helptip_notifDisabled": { "message": "Εμφάνιση ειδοποιήσεων κατά την εναλλαγή λειτουργίας/ρυθμίσεων" },
   "helptip_notifBottom": { "message": "Ειδοποιήσεις αγκύρωσης στο κάτω μέρος της οθόνης" },
   "helptip_toastMode": { "message": "Συρρίκνωση/κέντρο ειδοποιήσεων σε φυσαλίδες τοστ" },
+  "alert_choosePlatform": { "message": "Επιλέξτε μια πλατφόρμα" },
   "alert_updateAvail": { "message": "Διαθέσιμη ενημέρωση" },
   "alert_newerVer": { "message": "Ενημέρωση σε" },
   "alert_isAvail": { "message": "είναι διαθέσιμο" },

@@ -50,6 +50,7 @@
   "helptip_notifDisabled": { "message": "Გაფრთხილებების ჩვენება რეჟიმის/პარამეტრების გადართვისას" },
   "helptip_notifBottom": { "message": "Ანკერული შეტყობინებები ეკრანის ბოლოში" },
   "helptip_toastMode": { "message": "Შეამცირეთ/ცენტრის შეტყობინებები ტოსტის ბუშტებად" },
+  "alert_choosePlatform": { "message": "Აირჩიეთ პლატფორმა" },
   "alert_updateAvail": { "message": "Ხელმისაწვდომია განახლება" },
   "alert_newerVer": { "message": "Განახლება:" },
   "alert_isAvail": { "message": "თავისუფალია" },

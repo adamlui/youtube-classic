@@ -48,6 +48,7 @@
   "helptip_notifDisabled": { "message": "Näytä ilmoitukset vaihdettaessa tilaa/asetuksia" },
   "helptip_notifBottom": { "message": "Ankkuroi ilmoitukset näytön alareunaan" },
   "helptip_toastMode": { "message": "Kutista/keskitä ilmoitukset paahtoleipäkupliin" },
+  "alert_choosePlatform": { "message": "Valitse alusta" },
   "alert_updateAvail": { "message": "Päivitys saatavilla" },
   "alert_newerVer": { "message": "Päivitys seuraavaan:" },
   "alert_isAvail": { "message": "on käytettävissä" },
