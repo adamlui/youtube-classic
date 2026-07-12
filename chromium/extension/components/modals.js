@@ -103,6 +103,7 @@ window.modals = { // requires lib/<css|dom>.js + <app|env>
         // Hack buttons
         feedbackModal.querySelectorAll('button').forEach((btn, idx) => {
             if (idx == 0) btn.style.display = 'none' // hide Dismiss button
+            if (idx == btns.length -1) btn.classList.remove('primary-modal-btn') // de-emphasize last link
 
             // Replace buttons w/ clones that don't dismiss modal
             btn.replaceWith(btn = btn.cloneNode(true))
