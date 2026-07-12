@@ -101,10 +101,8 @@ window.modals = { // requires lib/<css|dom>.js + <app|env>
         feedbackModal.style.display = 'inline-table' // allow many buttons to fit
 
         // Hack buttons
-        const btns = feedbackModal.querySelector('.modal-buttons').querySelectorAll('button')
-        btns.forEach((btn, idx) => {
+        feedbackModal.querySelectorAll('.modal-buttons button').forEach((btn, idx) => {
             if (idx == 0) btn.style.display = 'none' // hide Dismiss button
-            if (idx == btns.length -1) btn.classList.remove('primary-modal-btn') // de-emphasize last link
 
             // Replace buttons w/ clones that don't dismiss modal
             btn.replaceWith(btn = btn.cloneNode(true))
